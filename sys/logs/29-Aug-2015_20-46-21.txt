@@ -1,0 +1,137 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 29 Aug 2015, 20:46:21
+
+[20:46:21] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[20:46:21] ERROR: U.S.G.N. password file seems to be corrupted!
+[20:46:21] UDP socket initialized using port 65040
+[20:46:22] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[20:46:24] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[20:46:24] ERROR: U.S.G.N. password file seems to be corrupted!
+[20:46:31] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[20:46:31] ERROR: U.S.G.N. password file seems to be corrupted!
+[20:46:34] starting server...
+[20:46:34] UDP socket initialized using port 36963
+[20:46:34] load map 'de_dust'
+[20:46:34] ----- Server started -----
+[20:46:34] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:46:34] LUA ERROR: cannot open sys/lua/pcs_mixmatch/controler/main.lua: No such file or directory
+[20:46:34]  -> [C]: in function 'dofile'
+[20:46:34]  -> sys/lua/server.lua:1: in main chunk
+[20:46:34] U.S.G.N.: Sending serverlist ADD-request...
+[20:46:36] Player joins the Terrorist Forces
+[20:46:44] U.S.G.N.: Sending serverlist ADD-request...
+[20:46:46] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[20:46:46] ERROR: U.S.G.N. password file seems to be corrupted!
+[20:46:54] U.S.G.N.: Sending serverlist ADD-request...
+[20:46:57] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[20:46:57] ERROR: U.S.G.N. password file seems to be corrupted!
+[20:47:04] U.S.G.N.: Sending serverlist ADD-request...
+[20:47:14] "  (1x)
+[20:47:24] "  (1x)
+[20:47:34] "  (1x)
+[20:47:44] "  (1x)
+[20:47:54] "  (1x)
+[20:48:04] "  (1x)
+[20:48:15] "  (1x)
+[20:48:25] "  (1x)
+[20:48:35] "  (1x)
+[20:48:45] "  (1x)
+[20:48:55] "  (1x)
+[20:49:05] "  (1x)
+[20:49:15] "  (1x)
+[20:49:25] "  (1x)
+[20:49:36] "  (1x)
+[20:49:46] "  (1x)
+[20:49:55] Server Shutdown
+[20:49:55] ----- Disconnected -----
+[20:49:57] starting server...
+[20:49:57] load map 'de_dust'
+[20:49:58] ----- Server started -----
+[20:49:58] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:49:58] LUA ERROR: cannot open onJoin.lua: No such file or directory
+[20:49:58]  -> [C]: in function 'dofile'
+[20:49:58]  -> sys/lua/pcs_mixmatch/controler/main.lua:1: in main chunk
+[20:49:58]  -> [C]: in function 'dofile'
+[20:49:58]  -> sys/lua/server.lua:1: in main chunk
+[20:49:58] U.S.G.N.: Sending serverlist ADD-request...
+[20:50:08] "  (1x)
+[20:50:18] "  (1x)
+[20:50:28] "  (1x)
+[20:50:38] "  (1x)
+[20:50:48] "  (1x)
+[20:50:58] "  (1x)
+[20:51:03] Server Shutdown
+[20:51:03] ----- Disconnected -----
+[20:51:05] starting server...
+[20:51:05] load map 'de_dust'
+[20:51:05] ----- Server started -----
+[20:51:05] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:51:05] LUA ERROR: cannot open onJoin.lua: No such file or directory
+[20:51:05]  -> [C]: in function 'dofile'
+[20:51:05]  -> sys/lua/pcs_mixmatch/controler/main.lua:1: in main chunk
+[20:51:05]  -> [C]: in function 'dofile'
+[20:51:05]  -> sys/lua/server.lua:1: in main chunk
+[20:51:05] U.S.G.N.: Sending serverlist ADD-request...
+[20:51:10] generating stats...
+[20:51:10] stats generated in 1 ms!
+[20:51:15] U.S.G.N.: Sending serverlist ADD-request...
+[20:51:18] Server Shutdown
+[20:51:18] ----- Disconnected -----
+[20:51:33] starting server...
+[20:51:33] load map 'de_dust'
+[20:51:33] ----- Server started -----
+[20:51:33] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:51:33] LUA ERROR: sys/lua/pcs_mixmatch/model/player.lua:1: module 'ObjectModel' not found:
+[20:51:33]  -> no field package.preload['ObjectModel']
+[20:51:33]  -> no file '.\ObjectModel.lua'
+[20:51:33]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\lua\ObjectModel.lua'
+[20:51:33]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\lua\ObjectModel\init.lua'
+[20:51:33]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\ObjectModel.lua'
+[20:51:33]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\ObjectModel\init.lua'
+[20:51:33]  -> no file 'C:\Program Files (x86)\Lua\5.1\lua\ObjectModel.luac'
+[20:51:33]  -> no file '.\ObjectModel.dll'
+[20:51:33]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\ObjectModel.dll'
+[20:51:33]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\loadall.dll'
+[20:51:33]  -> [C]: in function 'require'
+[20:51:33]  -> sys/lua/pcs_mixmatch/model/player.lua:1: in main chunk
+[20:51:33]  -> [C]: in function 'dofile'
+[20:51:33]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:1: in main chunk
+[20:51:33]  -> [C]: in function 'dofile'
+[20:51:33]  -> sys/lua/pcs_mixmatch/controler/main.lua:1: in main chunk
+[20:51:33]  -> [C]: in function 'dofile'
+[20:51:33]  -> sys/lua/server.lua:1: in main chunk
+[20:51:33] U.S.G.N.: Sending serverlist ADD-request...
+[20:51:34] Player joins the Terrorist Forces
+[20:51:43] U.S.G.N.: Sending serverlist ADD-request...
+[20:51:53] "  (1x)
+[20:52:03] "  (1x)
+[20:52:13] "  (1x)
+[20:52:24] "  (1x)
+[20:52:34] "  (1x)
+[20:52:38] Server Shutdown
+[20:52:38] ----- Disconnected -----
+[20:52:56] starting server...
+[20:52:56] load map 'de_dust'
+[20:52:56] ----- Server started -----
+[20:52:56] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:52:56] LUA ERROR: sys/lua/pcs_mixmatch/model/player.lua:1: module 'ObjectModel' not found:
+[20:52:56]  -> no field package.preload['ObjectModel']
+[20:52:56]  -> no file '.\ObjectModel.lua'
+[20:52:56]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\lua\ObjectModel.lua'
+[20:52:56]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\lua\ObjectModel\init.lua'
+[20:52:56]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\ObjectModel.lua'
+[20:52:56]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\ObjectModel\init.lua'
+[20:52:56]  -> no file 'C:\Program Files (x86)\Lua\5.1\lua\ObjectModel.luac'
+[20:52:56]  -> no file '.\ObjectModel.dll'
+[20:52:56]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\ObjectModel.dll'
+[20:52:56]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\loadall.dll'
+[20:52:56]  -> [C]: in function 'require'
+[20:52:56]  -> sys/lua/pcs_mixmatch/model/player.lua:1: in main chunk
+[20:52:56]  -> [C]: in function 'dofile'
+[20:52:56]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:1: in main chunk
+[20:52:56]  -> [C]: in function 'dofile'
+[20:52:56]  -> sys/lua/pcs_mixmatch/controler/main.lua:1: in main chunk
+[20:52:56]  -> [C]: in function 'dofile'
+[20:52:56]  -> sys/lua/server.lua:1: in main chunk
+[20:52:56] U.S.G.N.: Sending serverlist ADD-request...
+[20:53:03] Server Shutdown
+[20:53:03] ----- Disconnected -----

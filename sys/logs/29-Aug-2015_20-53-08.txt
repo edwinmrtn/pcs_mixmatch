@@ -1,0 +1,39 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 29 Aug 2015, 20:53:08
+
+[20:53:08] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[20:53:08] ERROR: U.S.G.N. password file seems to be corrupted!
+[20:53:08] UDP socket initialized using port 49961
+[20:53:08] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[20:53:11] starting server...
+[20:53:11] UDP socket initialized using port 36963
+[20:53:11] load map 'de_dust'
+[20:53:11] ----- Server started -----
+[20:53:11] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:53:11] LUA ERROR: sys/lua/pcs_mixmatch/model/player.lua:1: module 'ObjectModel' not found:
+[20:53:11]  -> no field package.preload['ObjectModel']
+[20:53:11]  -> no file '.\ObjectModel.lua'
+[20:53:11]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\lua\ObjectModel.lua'
+[20:53:11]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\lua\ObjectModel\init.lua'
+[20:53:11]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\ObjectModel.lua'
+[20:53:11]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\ObjectModel\init.lua'
+[20:53:11]  -> no file 'C:\Program Files (x86)\Lua\5.1\lua\ObjectModel.luac'
+[20:53:11]  -> no file '.\ObjectModel.dll'
+[20:53:11]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\ObjectModel.dll'
+[20:53:11]  -> no file 'C:\Users\paco\Desktop\pcs_mixmatch\loadall.dll'
+[20:53:11]  -> [C]: in function 'require'
+[20:53:11]  -> sys/lua/pcs_mixmatch/model/player.lua:1: in main chunk
+[20:53:11]  -> [C]: in function 'dofile'
+[20:53:11]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:1: in main chunk
+[20:53:11]  -> [C]: in function 'dofile'
+[20:53:11]  -> sys/lua/pcs_mixmatch/controler/main.lua:1: in main chunk
+[20:53:11]  -> [C]: in function 'dofile'
+[20:53:11]  -> sys/lua/server.lua:1: in main chunk
+[20:53:11] U.S.G.N.: Sending serverlist ADD-request...
+[20:53:12] Player joins the Terrorist Forces
+[20:53:21] U.S.G.N.: Sending serverlist ADD-request...
+[20:53:36] "  (1x)
+[20:53:46] "  (1x)
+[20:53:56] "  (1x)
+[20:54:06] "  (1x)
+[20:54:13] Server Shutdown
+[20:54:13] ----- Disconnected -----

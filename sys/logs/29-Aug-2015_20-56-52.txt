@@ -1,0 +1,25 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 29 Aug 2015, 20:56:52
+
+[20:56:52] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[20:56:52] ERROR: U.S.G.N. password file seems to be corrupted!
+[20:56:54] UDP socket initialized using port 49622
+[20:56:55] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[20:56:57] starting server...
+[20:56:57] UDP socket initialized using port 36963
+[20:56:57] load map 'de_dust'
+[20:56:58] ----- Server started -----
+[20:56:58] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:56:58] Lua: Adding function 'onJoin' to hook 'join'
+[20:56:58] dfsdf
+[20:56:58] U.S.G.N.: Sending serverlist ADD-request...
+[20:56:59] Player joins the Terrorist Forces
+[20:57:08] U.S.G.N.: Sending serverlist ADD-request...
+[20:57:16] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[20:57:16] ERROR: U.S.G.N. password file seems to be corrupted!
+[20:57:18] U.S.G.N.: Sending serverlist ADD-request...
+[20:57:23] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[20:57:23] ERROR: U.S.G.N. password file seems to be corrupted!
+[20:57:28] U.S.G.N.: Sending serverlist ADD-request...
+[20:57:30] ERROR: Can't reconnect. No server joined yet.
+[20:57:32] Server Shutdown
+[20:57:32] ----- Disconnected -----

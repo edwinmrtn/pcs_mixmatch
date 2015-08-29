@@ -1,0 +1,54 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 29 Aug 2015, 23:52:32
+
+[23:52:32] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[23:52:32] ERROR: U.S.G.N. password file seems to be corrupted!
+[23:52:36] UDP socket initialized using port 56373
+[23:52:36] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[23:52:38] U.S.G.N.: Requesting serverlist...
+[23:52:43] "  (1x)
+[23:52:48] "  (1x)
+[23:52:51] Connecting to 127.0.0.1:36963...
+[23:52:51] load map 'de_dust'
+[23:52:51] receiving server data (53 b)
+[23:52:51] receiving player data (100 b, 2)
+[23:52:51] receiving player data (0 b, 0)
+[23:52:51] receiving hostage data (0 b, 0)
+[23:52:51] receiving item data (0 b, 0)
+[23:52:51] receiving entity states (0 b, 0)
+[23:52:51] receiving dynamic object data (0 b, 0)
+[23:52:51] receiving projectile data (0 b, 0)
+[23:52:51] receiving dynamic object image data (0 b, 0)
+[23:52:51] receiving tween data (0 b, 0)
+[23:52:51] receiving custom tile data (0 b, 0)
+[23:52:51] receiving final ACK (7 b)
+[23:52:51] switching to ingame mode...
+[23:52:51] ----- Server joined -----
+[23:52:51] 0
+[23:52:51] table: 08A2F718
+[23:52:51] KNIFE ROUND
+[23:53:01] Player 2 joins the Counter-Terrorist Forces
+[23:53:45] Player 2 has left the game
+[23:53:45] ----- Disconnected -----
+[23:53:57] U.S.G.N.: Requesting serverlist...
+[23:53:58] Connecting to 127.0.0.1:36963...
+[23:53:59] load map 'de_dust'
+[23:53:59] receiving server data (53 b)
+[23:53:59] receiving player data (100 b, 2)
+[23:53:59] receiving player data (0 b, 0)
+[23:53:59] receiving hostage data (0 b, 0)
+[23:53:59] receiving item data (0 b, 0)
+[23:53:59] receiving entity states (0 b, 0)
+[23:53:59] receiving dynamic object data (0 b, 0)
+[23:53:59] receiving projectile data (0 b, 0)
+[23:53:59] receiving dynamic object image data (0 b, 0)
+[23:53:59] receiving tween data (0 b, 0)
+[23:53:59] receiving custom tile data (0 b, 0)
+[23:53:59] receiving final ACK (7 b)
+[23:53:59] switching to ingame mode...
+[23:53:59] ----- Server joined -----
+[23:53:59] 0
+[23:53:59] 1
+[23:53:59] KNIFE ROUND
+[23:54:02] Player 2 joins the Counter-Terrorist Forces
+[23:54:17] Server Shutdown
+[23:54:17] ----- Disconnected -----

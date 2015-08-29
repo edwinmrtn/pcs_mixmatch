@@ -1,0 +1,18 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 29 Aug 2015, 23:11:49
+
+[23:11:49] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[23:11:49] ERROR: U.S.G.N. password file seems to be corrupted!
+[23:11:49] UDP socket initialized using port 55084
+[23:11:49] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[23:11:51] starting server...
+[23:11:51] UDP socket initialized using port 36963
+[23:11:51] load map 'de_dust'
+[23:11:51] ----- Server started -----
+[23:11:51] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:11:51] Lua: Adding function 'onJoin' to hook 'join'
+[23:11:51] 0
+[23:11:51] false
+[23:11:51] KNIFE ROUND
+[23:11:52] U.S.G.N.: Sending serverlist ADD-request...
+[23:11:54] Server Shutdown
+[23:11:54] ----- Disconnected -----
