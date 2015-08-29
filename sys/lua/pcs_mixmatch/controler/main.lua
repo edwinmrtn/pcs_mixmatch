@@ -1,0 +1,1 @@
+dofile("sys/lua/pcs_mixmatch/controler/onJoin.lua")
