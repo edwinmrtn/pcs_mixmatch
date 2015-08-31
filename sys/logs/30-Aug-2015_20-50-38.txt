@@ -1,0 +1,41 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 30 Aug 2015, 20:50:38
+
+[20:50:38] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[20:50:38] ERROR: U.S.G.N. password file seems to be corrupted!
+[20:50:39] UDP socket initialized using port 53511
+[20:50:39] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[20:50:41] starting server...
+[20:50:41] UDP socket initialized using port 36963
+[20:50:41] load map 'de_dust'
+[20:50:41] ----- Server started -----
+[20:50:41] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[20:50:41] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:50:41] Lua: Adding function 'onJoin' to hook 'join'
+[20:50:41] 0
+[20:50:41] 2
+[20:50:41] KNIFE ROUND
+[20:50:41] LUA ERROR: sys/lua/pcs_mixmatch/model/kniferound.lua:17: attempt to concatenate a table value
+[20:50:41]  -> sys/lua/pcs_mixmatch/model/kniferound.lua:17: in function 'startStatic'
+[20:50:41]  -> sys/lua/pcs_mixmatch/model/mix.lua:80: in function 'start'
+[20:50:41]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:25: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[20:50:41]  -> in Lua hook 'join', params: 1
+[20:50:43] Player joins the Terrorist Forces
+[20:50:48] Server Shutdown
+[20:50:48] ----- Disconnected -----
+[20:52:33] starting server...
+[20:52:33] load map 'de_dust'
+[20:52:33] ----- Server started -----
+[20:52:33] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[20:52:33] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:52:33] Lua: Adding function 'onJoin' to hook 'join'
+[20:52:33] 0
+[20:52:33] 2
+[20:52:33] KNIFE ROUND
+[20:52:33] LUA ERROR: sys/lua/pcs_mixmatch/model/kniferound.lua:17: attempt to call method 'Get' (a nil value)
+[20:52:33]  -> sys/lua/pcs_mixmatch/model/kniferound.lua:17: in function 'startStatic'
+[20:52:33]  -> sys/lua/pcs_mixmatch/model/mix.lua:80: in function 'start'
+[20:52:33]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:25: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[20:52:33]  -> in Lua hook 'join', params: 1
+[20:52:35] Player joins the Terrorist Forces
+[20:52:39] Server Shutdown
+[20:52:39] ----- Disconnected -----

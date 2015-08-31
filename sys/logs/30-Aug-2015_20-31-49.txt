@@ -1,0 +1,24 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 30 Aug 2015, 20:31:49
+
+[20:31:49] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[20:31:49] ERROR: U.S.G.N. password file seems to be corrupted!
+[20:31:49] UDP socket initialized using port 60022
+[20:31:49] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[20:31:51] starting server...
+[20:31:51] UDP socket initialized using port 36963
+[20:31:51] load map 'de_dust'
+[20:31:51] ----- Server started -----
+[20:31:51] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[20:31:51] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:31:51] Lua: Adding function 'onJoin' to hook 'join'
+[20:31:51] 0
+[20:31:51] 1
+[20:31:51] KNIFE ROUND
+[20:31:51] LUA ERROR: sys/lua/pcs_mixmatch/model/kniferound.lua:18: attempt to call method 'Iam' (a nil value)
+[20:31:51]  -> sys/lua/pcs_mixmatch/model/kniferound.lua:18: in function 'startStatic'
+[20:31:51]  -> sys/lua/pcs_mixmatch/model/mix.lua:80: in function 'start'
+[20:31:51]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:20: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[20:31:51]  -> in Lua hook 'join', params: 1
+[20:31:53] Player joins the Terrorist Forces
+[20:32:02] Server Shutdown
+[20:32:02] ----- Disconnected -----

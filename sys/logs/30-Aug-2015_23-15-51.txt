@@ -1,0 +1,294 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 30 Aug 2015, 23:15:51
+
+[23:15:51] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[23:15:51] ERROR: U.S.G.N. password file seems to be corrupted!
+[23:15:52] UDP socket initialized using port 50180
+[23:15:52] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[23:15:55] starting server...
+[23:15:55] UDP socket initialized using port 36963
+[23:15:55] load map 'de_dust'
+[23:15:55] ----- Server started -----
+[23:15:55] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:15:55] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:15:57] Lua: Adding function 'onJoin' to hook 'join'
+[23:15:57] LUA ERROR: sys/lua/pcs_mixmatch/controler/onJoin.lua:10: attempt to index global 'Player2' (a nil value)
+[23:15:57]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:10: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[23:15:57]  -> in Lua hook 'join', params: 1
+[23:16:01] Server Shutdown
+[23:16:01] ----- Disconnected -----
+[23:16:30] starting server...
+[23:16:30] load map 'de_dust'
+[23:16:30] ----- Server started -----
+[23:16:30] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:16:30] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:16:30] Lua: Adding function 'onJoin' to hook 'join'
+[23:16:30] LUA ERROR: sys/lua/pcs_mixmatch/controler/onJoin.lua:11: attempt to concatenate local 'Player2' (a table value)
+[23:16:30]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:11: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[23:16:30]  -> in Lua hook 'join', params: 1
+[23:16:32] Player joins the Terrorist Forces
+[23:16:42] Server Shutdown
+[23:16:42] ----- Disconnected -----
+[23:17:07] starting server...
+[23:17:07] load map 'de_dust'
+[23:17:07] ----- Server started -----
+[23:17:07] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:17:07] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:17:08] Lua: Adding function 'onJoin' to hook 'join'
+[23:17:08] LUA ERROR: sys/lua/pcs_mixmatch/controler/onJoin.lua:11: attempt to concatenate field '?' (a nil value)
+[23:17:08]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:11: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[23:17:08]  -> in Lua hook 'join', params: 1
+[23:17:09] Player joins the Counter-Terrorist Forces
+[23:17:19] Server Shutdown
+[23:17:19] ----- Disconnected -----
+[23:18:19] starting server...
+[23:18:19] load map 'de_dust'
+[23:18:19] ----- Server started -----
+[23:18:19] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:18:19] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:18:19] Lua: Adding function 'onJoin' to hook 'join'
+[23:18:19] LUA ERROR: sys/lua/pcs_mixmatch/controler/onJoin.lua:11: attempt to call method 'GetCheckType' (a nil value)
+[23:18:19]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:11: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[23:18:19]  -> in Lua hook 'join', params: 1
+[23:21:15] Server Shutdown
+[23:21:15] ----- Disconnected -----
+[23:21:17] starting server...
+[23:21:17] load map 'de_dust'
+[23:21:17] ----- Server started -----
+[23:21:17] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:21:17] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:21:17] Lua: Adding function 'onJoin' to hook 'join'
+[23:21:17] 25
+[23:21:17] 12
+[23:21:17] 2
+[23:21:17] LUA ERROR: sys/lua/pcs_mixmatch/model/mix.lua:80: attempt to index global 'msgKniferound' (a nil value)
+[23:21:17]  -> sys/lua/pcs_mixmatch/model/mix.lua:80: in function 'start'
+[23:21:17]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:27: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[23:21:17]  -> in Lua hook 'join', params: 1
+[23:21:19] Player joins the Terrorist Forces
+[23:22:41] Server Shutdown
+[23:22:41] ----- Disconnected -----
+[23:22:43] starting server...
+[23:22:43] load map 'de_dust'
+[23:22:44] ----- Server started -----
+[23:22:44] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:22:44] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:22:44] Lua: Adding function 'onJoin' to hook 'join'
+[23:22:44] 12
+[23:22:44] 25
+[23:22:44] 2
+[23:22:44] LUA ERROR: sys/lua/pcs_mixmatch/model/mix.lua:80: attempt to index global 'msgKniferound' (a nil value)
+[23:22:44]  -> sys/lua/pcs_mixmatch/model/mix.lua:80: in function 'start'
+[23:22:44]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:31: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[23:22:44]  -> in Lua hook 'join', params: 1
+[23:22:45] Player joins the Terrorist Forces
+[23:22:50] generating stats...
+[23:22:50] stats generated in 185 ms!
+[23:23:10] Server Shutdown
+[23:23:10] ----- Disconnected -----
+[23:23:12] starting server...
+[23:23:12] load map 'de_dust'
+[23:23:12] ----- Server started -----
+[23:23:12] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:23:12] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:23:12] Lua: Adding function 'onJoin' to hook 'join'
+[23:23:12] 12
+[23:23:12] 25
+[23:23:12] 2
+[23:23:13] Player joins the Terrorist Forces
+[23:24:11] Server Shutdown
+[23:24:11] ----- Disconnected -----
+[23:24:14] starting server...
+[23:24:14] load map 'de_dust'
+[23:24:14] ----- Server started -----
+[23:24:14] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:24:14] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:24:14] Lua: Adding function 'onJoin' to hook 'join'
+[23:24:14] 12
+[23:24:14] 25
+[23:24:14] 2132
+[23:24:14] 2
+[23:25:09] Server Shutdown
+[23:25:09] ----- Disconnected -----
+[23:25:11] starting server...
+[23:25:11] load map 'de_dust'
+[23:25:11] ----- Server started -----
+[23:25:11] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:25:11] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:25:11] Lua: Adding function 'onJoin' to hook 'join'
+[23:25:11] 12
+[23:25:11] 25
+[23:25:11] 2132
+[23:25:11] LUA ERROR: sys/lua/pcs_mixmatch/model/team.lua:41: attempt to call method 'Add' (a nil value)
+[23:25:11]  -> sys/lua/pcs_mixmatch/model/team.lua:41: in function 'addPlayer'
+[23:25:11]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:23: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[23:25:11]  -> in Lua hook 'join', params: 1
+[23:25:13] Player joins the Terrorist Forces
+[23:26:12] Server Shutdown
+[23:26:12] ----- Disconnected -----
+[23:26:14] U.S.G.N.: Requesting serverlist...
+[23:26:18] starting server...
+[23:26:18] load map 'de_dust'
+[23:26:18] ----- Server started -----
+[23:26:18] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:26:18] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:26:18] Lua: Adding function 'onJoin' to hook 'join'
+[23:26:18] 12
+[23:26:18] 25
+[23:26:18] 2132
+[23:26:18] 2
+[23:26:19] Player joins the Terrorist Forces
+[23:27:50] generating stats...
+[23:27:50] stats generated in 1 ms!
+[23:28:20] Server Shutdown
+[23:28:20] ----- Disconnected -----
+[23:28:22] starting server...
+[23:28:22] load map 'de_dust'
+[23:28:23] ----- Server started -----
+[23:28:23] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:28:23] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:28:23] Lua: Adding function 'onJoin' to hook 'join'
+[23:28:23] 12
+[23:28:23] 25
+[23:28:23] tt
+[23:28:23] 2132tt
+[23:28:23] 2
+[23:28:26] Player joins the Terrorist Forces
+[23:29:37] Server Shutdown
+[23:29:37] ----- Disconnected -----
+[23:29:40] starting server...
+[23:29:40] load map 'de_dust'
+[23:29:40] ----- Server started -----
+[23:29:40] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:29:40] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:29:40] Lua: Adding function 'onJoin' to hook 'join'
+[23:29:40] 12
+[23:29:40] 25
+[23:29:40] ct
+[23:29:40] 2
+[23:29:41] Player joins the Terrorist Forces
+[23:31:02] Server Shutdown
+[23:31:02] ----- Disconnected -----
+[23:31:04] starting server...
+[23:31:04] load map 'de_dust'
+[23:31:04] ----- Server started -----
+[23:31:04] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:31:04] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:31:05] Lua: Adding function 'onJoin' to hook 'join'
+[23:31:05] 12
+[23:31:05] 25
+[23:31:05] caaaat
+[23:31:05] LUA ERROR: sys/lua/pcs_mixmatch/controler/onJoin.lua:29: attempt to index global 'Teamct' (a nil value)
+[23:31:05]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:29: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[23:31:05]  -> in Lua hook 'join', params: 1
+[23:31:06] Player joins the Terrorist Forces
+[23:32:28] Server Shutdown
+[23:32:28] ----- Disconnected -----
+[23:32:30] starting server...
+[23:32:30] load map 'de_dust'
+[23:32:30] ----- Server started -----
+[23:32:30] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:32:30] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:32:30] Lua: Adding function 'onJoin' to hook 'join'
+[23:32:30] 12
+[23:32:30] 25
+[23:32:30] caaaat
+[23:32:30] LUA ERROR: sys/lua/pcs_mixmatch/controler/onJoin.lua:29: attempt to index global 'Teamct' (a nil value)
+[23:32:30]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:29: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[23:32:30]  -> in Lua hook 'join', params: 1
+[23:32:39] Server Shutdown
+[23:32:39] ----- Disconnected -----
+[23:32:42] starting server...
+[23:32:42] load map 'de_dust'
+[23:32:42] ----- Server started -----
+[23:32:42] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:32:42] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:32:42] Lua: Adding function 'onJoin' to hook 'join'
+[23:32:42] 12
+[23:32:42] 25
+[23:32:42] 3
+[23:32:42] LUA ERROR: sys/lua/pcs_mixmatch/controler/onJoin.lua:27: attempt to index global 'Teamct' (a nil value)
+[23:32:42]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:27: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[23:32:42]  -> in Lua hook 'join', params: 1
+[23:32:44] Player joins the Terrorist Forces
+[23:32:50] generating stats...
+[23:32:50] stats generated in 1 ms!
+[23:33:17] Server Shutdown
+[23:33:17] ----- Disconnected -----
+[23:33:19] starting server...
+[23:33:19] load map 'de_dust'
+[23:33:19] ----- Server started -----
+[23:33:19] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:33:19] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:33:19] Lua: Adding function 'onJoin' to hook 'join'
+[23:33:19] 12
+[23:33:19] 25
+[23:33:19] 3
+[23:33:19] LUA ERROR: sys/lua/pcs_mixmatch/controler/onJoin.lua:27: attempt to index global 'Teamct' (a nil value)
+[23:33:19]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:27: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[23:33:19]  -> in Lua hook 'join', params: 1
+[23:33:21] Server Shutdown
+[23:33:21] ----- Disconnected -----
+[23:33:41] starting server...
+[23:33:41] load map 'de_dust'
+[23:33:41] ----- Server started -----
+[23:33:41] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:33:41] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:33:41] Lua: Adding function 'onJoin' to hook 'join'
+[23:33:41] 12
+[23:33:41] 25
+[23:33:41] 3
+[23:33:41] LUA ERROR: sys/lua/pcs_mixmatch/controler/onJoin.lua:27: attempt to index global 'Teamct' (a nil value)
+[23:33:41]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:27: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[23:33:41]  -> in Lua hook 'join', params: 1
+[23:33:43] Server Shutdown
+[23:33:43] ----- Disconnected -----
+[23:34:48] starting server...
+[23:34:48] load map 'de_dust'
+[23:34:48] ----- Server started -----
+[23:34:48] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:34:48] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:34:48] Lua: Adding function 'onJoin' to hook 'join'
+[23:34:48] 12
+[23:34:48] 25
+[23:34:48] 2
+[23:34:48] 1
+[23:34:48] 3
+[23:34:48] LUA ERROR: sys/lua/pcs_mixmatch/controler/onJoin.lua:27: attempt to index global 'Teamct' (a nil value)
+[23:34:48]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:27: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[23:34:48]  -> in Lua hook 'join', params: 1
+[23:36:09] Server Shutdown
+[23:36:09] ----- Disconnected -----
+[23:36:11] starting server...
+[23:36:11] load map 'de_dust'
+[23:36:12] ----- Server started -----
+[23:36:12] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:36:12] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:36:12] Lua: Adding function 'onJoin' to hook 'join'
+[23:36:12] 12
+[23:36:12] 25
+[23:36:12] 2
+[23:36:12] 1
+[23:36:12] 3
+[23:36:12] LUA ERROR: sys/lua/pcs_mixmatch/controler/onJoin.lua:27: attempt to index global 'Teamct' (a nil value)
+[23:36:12]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:27: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[23:36:12]  -> in Lua hook 'join', params: 1
+[23:36:14] Server Shutdown
+[23:36:14] ----- Disconnected -----
+[23:36:50] starting server...
+[23:36:50] load map 'de_dust'
+[23:36:50] ----- Server started -----
+[23:36:50] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:36:50] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:36:50] Lua: Adding function 'onJoin' to hook 'join'
+[23:36:50] 12
+[23:36:50] 25
+[23:36:50] ct
+[23:36:50] tt
+[23:36:50] LUA ERROR: sys/lua/pcs_mixmatch/model/team.lua:31: attempt to index local 'self' (a nil value)
+[23:36:50]  -> sys/lua/pcs_mixmatch/model/team.lua:31: in function 'getPlayers'
+[23:36:50]  -> sys/lua/pcs_mixmatch/model/team.lua:41: in function 'addPlayer'
+[23:36:50]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:25: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[23:36:50]  -> in Lua hook 'join', params: 1
+[23:36:52] Player joins the Terrorist Forces
+[23:36:53] Server Shutdown
+[23:36:53] ----- Disconnected -----

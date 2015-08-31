@@ -1,0 +1,135 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 31 Aug 2015, 00:10:06
+
+[00:10:06] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[00:10:06] ERROR: U.S.G.N. password file seems to be corrupted!
+[00:10:06] UDP socket initialized using port 58490
+[00:10:06] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[00:10:09] starting server...
+[00:10:09] UDP socket initialized using port 36963
+[00:10:09] load map 'de_dust'
+[00:10:09] ----- Server started -----
+[00:10:09] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:10:09] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:10:09] Lua: Adding function 'onJoin' to hook 'join'
+[00:10:09] 12
+[00:10:09] 25
+[00:10:09] coucu
+[00:10:09] I am a team
+[00:11:04] Server Shutdown
+[00:11:04] ----- Disconnected -----
+[00:11:06] starting server...
+[00:11:06] load map 'de_dust'
+[00:11:06] ----- Server started -----
+[00:11:06] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:11:06] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:11:06] Lua: Adding function 'onJoin' to hook 'join'
+[00:11:06] 12
+[00:11:06] 25
+[00:11:06] coucu
+[00:11:06] I am a team
+[00:11:14] Server Shutdown
+[00:11:14] ----- Disconnected -----
+[00:11:17] starting server...
+[00:11:17] load map 'de_dust'
+[00:11:17] ----- Server started -----
+[00:11:17] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:11:17] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:11:17] Lua: Adding function 'onJoin' to hook 'join'
+[00:11:17] 12
+[00:11:17] 25
+[00:11:17] tt
+[00:11:17] ct
+[00:11:17] I am a team
+[00:14:01] Server Shutdown
+[00:14:01] ----- Disconnected -----
+[00:14:03] starting server...
+[00:14:03] load map 'de_dust'
+[00:14:03] ----- Server started -----
+[00:14:03] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:14:03] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:14:03] Lua: Adding function 'onJoin' to hook 'join'
+[00:14:03] 12
+[00:14:03] 25
+[00:14:03] tt
+[00:14:03] ct
+[00:14:03] I am a team
+[00:14:09] Server Shutdown
+[00:14:09] ----- Disconnected -----
+[00:14:43] starting server...
+[00:14:43] load map 'de_dust'
+[00:14:43] ----- Server started -----
+[00:14:43] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:14:43] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:14:43] Lua: Adding function 'onJoin' to hook 'join'
+[00:14:43] 12
+[00:14:43] 25
+[00:14:43] tt
+[00:14:43] ct
+[00:14:43] I am a team
+[00:14:47] Server Shutdown
+[00:14:47] ----- Disconnected -----
+[00:14:56] starting server...
+[00:14:56] load map 'de_dust'
+[00:14:56] ----- Server started -----
+[00:14:56] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:14:56] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:14:56] Lua: Adding function 'onJoin' to hook 'join'
+[00:14:56] 12
+[00:14:56] 25
+[00:14:56] tt
+[00:14:56] ct
+[00:14:56] I am a team
+[00:14:56] LUA ERROR: sys/lua/pcs_mixmatch/model/team.lua:31: attempt to index local 'self' (a nil value)
+[00:14:56]  -> sys/lua/pcs_mixmatch/model/team.lua:31: in function 'getPlayers'
+[00:14:56]  -> sys/lua/pcs_mixmatch/model/team.lua:41: in function 'addPlayer'
+[00:14:56]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:27: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[00:14:56]  -> in Lua hook 'join', params: 1
+[00:16:05] generating stats...
+[00:16:05] stats generated in 1 ms!
+[00:16:15] Server Shutdown
+[00:16:15] ----- Disconnected -----
+[00:16:17] starting server...
+[00:16:17] load map 'de_dust'
+[00:16:17] ----- Server started -----
+[00:16:17] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:16:17] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:16:17] Lua: Adding function 'onJoin' to hook 'join'
+[00:16:17] 12
+[00:16:17] 25
+[00:16:17] tt
+[00:16:17] ct
+[00:16:17] I am a team
+[00:16:17] LUA ERROR: sys/lua/pcs_mixmatch/model/team.lua:31: attempt to index local 'self' (a nil value)
+[00:16:17]  -> sys/lua/pcs_mixmatch/model/team.lua:31: in function 'getPlayers'
+[00:16:17]  -> sys/lua/pcs_mixmatch/model/team.lua:41: in function 'addPlayer'
+[00:16:17]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:27: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[00:16:17]  -> in Lua hook 'join', params: 1
+[00:17:26] Server Shutdown
+[00:17:26] ----- Disconnected -----
+[00:17:28] starting server...
+[00:17:28] load map 'de_dust'
+[00:17:28] ----- Server started -----
+[00:17:28] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:17:28] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:17:28] Lua: Adding function 'onJoin' to hook 'join'
+[00:17:28] 12
+[00:17:28] 25
+[00:17:28] tt
+[00:17:28] ct
+[00:17:28] I am a team
+[00:17:28] LUA ERROR: sys/lua/pcs_mixmatch/model/team.lua:41: attempt to call method 'Add' (a nil value)
+[00:17:28]  -> sys/lua/pcs_mixmatch/model/team.lua:41: in function 'addPlayer'
+[00:17:28]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:27: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:6>
+[00:17:28]  -> in Lua hook 'join', params: 1
+[00:21:05] generating stats...
+[00:21:05] stats generated in 2 ms!
+[00:26:05] generating stats...
+[00:26:05] stats generated in 2 ms!
+[00:31:05] generating stats...
+[00:31:05] stats generated in 1 ms!
+[00:36:05] generating stats...
+[00:36:05] stats generated in 1 ms!
+[00:41:05] generating stats...
+[00:41:05] stats generated in 5 ms!
+[00:43:39] Server Shutdown
+[00:43:39] ----- Disconnected -----

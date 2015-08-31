@@ -1,50 +1,53 @@
-local o = dofile("sys/lua/pcs_mixmatch/model/ObjectModel.lua")
+dofile("sys/lua/pcs_mixmatch/model/object.lua")
 dofile("sys/lua/pcs_mixmatch/model/arrayList.lua")
-dofile("sys/lua/pcs_mixmatch/model/Player.lua")
+dofile("sys/lua/pcs_mixmatch/model/player.lua")
 
 --Public class Team
-Team = o.class()
+Team = newclass("Team")
 
 --Attributs
 Team.Name    = ''
-Team.Players = ArrayList.Create()
+
 
 --Constructors
-function Team:constructor(Name,Players)
-	Team.Name    = Name
-	Team.Players = Players
+
+function Team:init(Name)
+	self.Name    = Name
+	self.Players = ArrayList.Create()
 end
 
-function Team:constructor(Name)
-	Team.Name    = Name
-	Team.Players = ArrayList.Create()
-end
+
 
 
 --Methods
 
 function Team:getName()
-    return Team.Name
+    return self.Name
 end
 
 function Team:getPlayers()
-    return Team.Players
+    return self.Players
 end
 function Team:setName(Name)
-	Team.Name    = Name
+		  self.Name = Name
 end
 function Team:setPlayers(Player)
-	Team.Players = Player
+		  self.Players = Player
 end 
 
 function Team:addPlayer(Player)
-	Team:getPlayers():Add(Player)
+	self.getPlayers():Add(Player)
 end 
 
-function Team:Contains(Player)
-	return Team:getPlayers():Contains(Player)
-end
-function Team:String()
-	return Team:getPlayers():string()
+--function Team:Contains(Player)
+--	return Team.getPlayers():Contains(Player)
+--end
+
+--function Team:NumbersPlayers()
+--	return Team.getPlayers():Size()
+--end
+
+function Team:__tostring()
+    return "I am a team"
 end
 

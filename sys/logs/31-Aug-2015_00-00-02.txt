@@ -1,0 +1,40 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 31 Aug 2015, 00:00:02
+
+[00:00:02] Server Shutdown
+[00:00:02] ----- Disconnected -----
+[00:00:14] starting server...
+[00:00:14] load map 'de_dust'
+[00:00:14] ----- Server started -----
+[00:00:14] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:00:14] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:00:14] Lua: Adding function 'onJoin' to hook 'join'
+[00:00:14] 12
+[00:00:14] 25
+[00:00:14] table: 090E6D88
+[00:00:14] I am a team
+[00:01:29] Server Shutdown
+[00:01:29] ----- Disconnected -----
+[00:01:31] starting server...
+[00:01:31] load map 'de_dust'
+[00:01:32] ----- Server started -----
+[00:01:32] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:01:32] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:01:32] Lua: Adding function 'onJoin' to hook 'join'
+[00:01:32] 12
+[00:01:32] 25
+[00:01:32] table: 0903DCF0
+[00:01:32] I am a team
+[00:02:17] Server Shutdown
+[00:02:17] ----- Disconnected -----
+[00:02:19] starting server...
+[00:02:19] load map 'de_dust'
+[00:02:19] ----- Server started -----
+[00:02:19] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:02:19] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:02:19] Lua: Adding function 'onJoin' to hook 'join'
+[00:02:19] 12
+[00:02:19] 25
+[00:02:19] table: 08DA7D50
+[00:02:19] I am a team
+[00:02:27] Server Shutdown
+[00:02:27] ----- Disconnected -----
