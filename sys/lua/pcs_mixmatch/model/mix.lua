@@ -5,14 +5,6 @@ dofile("sys/lua/pcs_mixmatch/model/arrayList.lua")
 --Public class Mix
 Mix = newclass("Mix")
 
---Attributs
-Mix.Id            = ''
-Mix.Rounds        = ''
-Mix.NomberPlayers = ''
-Mix.Map           = ''
-Mix.TillEnd       = false
-Mix.KnifeRound    = true
-Mix.Teams         = ArrayList.Create()
 
 --Constructors
 function Mix:init(Id,Rounds,NomberPlayers,Map,TillEnd,KnifeRound,Teams)
@@ -47,35 +39,35 @@ end
 
 --Methods
 function Mix:getId()
-    return Mix.Id
+    return self.Id
 end
 
 function Mix:getRounds()
-    return Mix.Rank
+    return self.Rank
 end
 
 function Mix:getNomberPlayers()
-    return Mix.NomberPlayers
+    return self.NomberPlayers
 end
 
 function Mix:getMap()
-    return Mix.Map
+    return self.Map
 end
 
 function Mix:getTillEnd()
-    return Mix.TillEnd
+    return self.TillEnd
 end
 function Mix:getKnifeRound()
-    return Mix.KnifeRound
+    return self.KnifeRound
 end
 function Mix:getTeams()
-    return Mix.Teams
+    return self.Teams
 end 
 function Mix:addTeam(Team)
-    Mix.getTeams():Add(Team)
+    self:getTeams():Add(Team)
 end 
 function Mix:start()
-	if(Mix:getKnifeRound()) then
+	if(self:getKnifeRound()) then
 		--new knifeRound
 		--msgKniferound:startStatic(Mix:getTeams())
 	end

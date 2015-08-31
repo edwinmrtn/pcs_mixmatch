@@ -29,13 +29,18 @@ parse("msg "..tostring(Teamtt:getPlayers()));
 
 parse("msg "..tostring(Teamct))
 
+parse("msg "..Teamct:NumbersPlayers());
+
 Teamct:addPlayer(Player1)
 Teamtt:addPlayer(Player2)
+
+
 
 --new mix
 local aMix = Mix(0,2,4,de_dust,false,true);
 aMix:addTeam(Teamct)
 aMix:addTeam(Teamtt)
+parse("msg "..Teamct:NumbersPlayers());
 aMix:start()
 
 

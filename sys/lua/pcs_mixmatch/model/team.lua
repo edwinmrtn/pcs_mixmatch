@@ -5,9 +5,6 @@ dofile("sys/lua/pcs_mixmatch/model/player.lua")
 --Public class Team
 Team = newclass("Team")
 
---Attributs
-Team.Name    = ''
-
 
 --Constructors
 
@@ -36,16 +33,16 @@ function Team:setPlayers(Player)
 end 
 
 function Team:addPlayer(Player)
-	self.getPlayers():Add(Player)
+	self:getPlayers():Add(Player)
 end 
 
 --function Team:Contains(Player)
 --	return Team.getPlayers():Contains(Player)
 --end
 
---function Team:NumbersPlayers()
---	return Team.getPlayers():Size()
---end
+function Team:NumbersPlayers()
+	return self:getPlayers():Size()
+end
 
 function Team:__tostring()
     return "I am a team"
