@@ -4,25 +4,19 @@ dofile("sys/lua/pcs_mixmatch/model/object.lua")
 Player = newclass("Player")
 
 --Constructors
-function Player:init(USGN,Rank,Name,Team,IP)
+function Player:init(Id,USGN,Rank,Name,IP)
+	self.Id   = Id
 	self.USGN = USGN
 	self.Rank = Rank
 	self.Name = Name
-	self.Team = Team
 	self.IP   = IP
 end
 
 
-function Player:init(USGN,Rank)
-	self.USGN = USGN
-	self.Rank = Rank
-	self.Name = ''
-	self.Team = ''
-	self.IP   = ''
-end
-
-
 --Methods
+function Player:getId()
+    return self.Id
+end
 function Player:getUSGN()
     return self.USGN
 end
@@ -37,6 +31,10 @@ end
 
 function Player:getTeam()
     return self.Team
+end
+
+function Player:stripWeapon(weaponid)
+	 parse(" strip "..self:getId()..' '..weaponid)
 end
 
 function Player:getIP()

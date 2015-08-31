@@ -13,13 +13,13 @@ function Team:init(Name)
 	self.Players = ArrayList.Create()
 end
 
-
-
-
 --Methods
 
 function Team:getName()
     return self.Name
+end
+function Team:ClearTeam()
+	self:getPlayers():Clear()
 end
 
 function Team:getPlayers()
@@ -36,13 +36,11 @@ function Team:addPlayer(Player)
 	self:getPlayers():Add(Player)
 end 
 
---function Team:Contains(Player)
---	return Team.getPlayers():Contains(Player)
---end
 
 function Team:NumbersPlayers()
 	return self:getPlayers():Size()
 end
+
 
 function Team:__tostring()
     return "I am a team"

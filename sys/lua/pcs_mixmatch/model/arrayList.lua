@@ -359,13 +359,4 @@ function Create( thetype, isfunc )
 	return tmp
 end
 
---[[---------------------------------------------------------
-
------------------------------------------------------------]]
-function list:string()
-	local conc
-	for k, v in pairs(self.table) do
-		return k
-	end
-end
 
