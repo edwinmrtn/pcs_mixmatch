@@ -1,7 +1,7 @@
-local o = dofile("sys/lua/pcs_mixmatch/model/ObjectModel.lua")
+dofile("sys/lua/pcs_mixmatch/model/object.lua")
 
 --Public class Player
-Player = o.class()
+Player = newclass("Player")
 
 --Attributs
 Player.USGN = ''
@@ -11,41 +11,45 @@ Player.Team = ''
 Player.IP   = ''
 
 --Constructors
-function Player:constructor(USGN,Rank,Name,Team,IP)
-	Player.USGN = USGN
-	Player.Rank = Rank
-	Player.Name = Name
-	Player.Team = Team
-	Player.IP   = IP
+function Player:init(USGN,Rank,Name,Team,IP)
+	self.USGN = USGN
+	self.Rank = Rank
+	self.Name = Name
+	self.Team = Team
+	self.IP   = IP
 end
 
-function Player:constructor(USGN)
-	Player.USGN = USGN
-	Player.Rank = ''
-	Player.Name = ''
-	Player.Team = ''
-	Player.IP   = ''
+
+function Player:init(USGN,Rank)
+	self.USGN = USGN
+	self.Rank = Rank
+	self.Name = ''
+	self.Team = ''
+	self.IP   = ''
 end
 
 
 --Methods
 function Player:getUSGN()
-    return Player.USGN
+    return self.USGN
 end
 
 function Player:getRank()
-    return Player.Rank
+    return self.Rank
 end
 
 function Player:getName()
-    return Player.Name
+    return self.Name
 end
 
 function Player:getTeam()
-    return Player.Team
+    return self.Team
 end
 
 function Player:getIP()
-    return Player.IP
+    return self.IP
+end
+function Player:__tostring()
+    return "I am a Player"
 end
 

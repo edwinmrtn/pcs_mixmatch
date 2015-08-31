@@ -244,7 +244,7 @@ function list:IndexOf( item )
 	if not self:IsEmpty() then
 		for k, v in pairs(self.table) do
 			if v == item then
-				return k
+				return v
 			end
 		end
 	end

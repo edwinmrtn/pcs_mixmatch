@@ -1,8 +1,9 @@
-local o = dofile("sys/lua/pcs_mixmatch/model/ObjectModel.lua")
-dofile("sys/lua/pcs_mixmatch/model/Kniferound.lua")
+dofile("sys/lua/pcs_mixmatch/model/object.lua")
+dofile("sys/lua/pcs_mixmatch/model/kniferound.lua")
+dofile("sys/lua/pcs_mixmatch/model/arrayList.lua")
 
 --Public class Mix
-Mix = o.class()
+Mix = newclass("Mix")
 
 --Attributs
 Mix.Id            = ''
@@ -11,24 +12,36 @@ Mix.NomberPlayers = ''
 Mix.Map           = ''
 Mix.TillEnd       = false
 Mix.KnifeRound    = true
+Mix.Teams         = ArrayList.Create()
 
 --Constructors
-function Mix:constructor(Id,Rounds,NomberPlayers,Map,TillEnd,KnifeRound)
-Mix.Id            = Id
-Mix.Rounds        = Rounds
-Mix.NomberPlayers = NomberPlayers
-Mix.Map           = Map
-Mix.TillEnd       = TillEnd
-Mix.KnifeRound    = KnifeRound
+function Mix:init(Id,Rounds,NomberPlayers,Map,TillEnd,KnifeRound,Teams)
+self.Id            = Id
+self.Rounds        = Rounds
+self.NomberPlayers = NomberPlayers
+self.Map           = Map
+self.TillEnd       = TillEnd
+self.KnifeRound    = KnifeRound
+self.Teams         = Teams
+end
+function Mix:init(Id,Rounds,NomberPlayers,Map,TillEnd,KnifeRound)
+self.Id            = Id
+self.Rounds        = Rounds
+self.NomberPlayers = NomberPlayers
+self.Map           = Map
+self.TillEnd       = TillEnd
+self.KnifeRound    = KnifeRound
+self.Teams         = ArrayList.Create()
 end
 
-function Mix:constructor(Id)
-Mix.Id            = Id
-Mix.Rounds        = ''
-Mix.NomberPlayers = ''
-Mix.Map           = ''
-Mix.TillEnd       = false
-Mix.KnifeRound    = true
+function Mix:init(Id)
+self.Id            = Id
+self.Rounds        = ''
+self.NomberPlayers = ''
+self.Map           = ''
+self.TillEnd       = false
+self.KnifeRound    = true
+self.Teams         = ArrayList.Create()
 end
 
 
@@ -55,9 +68,18 @@ end
 function Mix:getKnifeRound()
     return Mix.KnifeRound
 end
+function Mix:getTeams()
+    return Mix.Teams
+end 
+function Mix:addTeam(Team)
+    Mix.getTeams():Add(Team)
+end 
 function Mix:start()
 	if(Mix:getKnifeRound()) then
 		--new knifeRound
-		Kniferound:startStatic()
+		--msgKniferound:startStatic(Mix:getTeams())
 	end
+end
+function Mix:__tostring()
+    return "I am a Mix"
 end
