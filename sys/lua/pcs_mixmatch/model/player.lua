@@ -3,13 +3,6 @@ dofile("sys/lua/pcs_mixmatch/model/object.lua")
 --Public class Player
 Player = newclass("Player")
 
---Attributs
-Player.USGN = ''
-Player.Rank = ''
-Player.Name = ''
-Player.Team = ''
-Player.IP   = ''
-
 --Constructors
 function Player:init(USGN,Rank,Name,Team,IP)
 	self.USGN = USGN
