@@ -1,0 +1,70 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 31 Aug 2015, 13:46:23
+
+[13:46:23] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[13:46:23] ERROR: U.S.G.N. password file seems to be corrupted!
+[13:46:24] UDP socket initialized using port 52119
+[13:46:24] U.S.G.N.: Your game version is up to date!
+[13:46:26] starting server...
+[13:46:26] UDP socket initialized using port 36963
+[13:46:26] load map 'de_dust'
+[13:46:27] ----- Server started -----
+[13:46:27] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[13:46:27] parsing Lua server script (mp_luaserver = 'server.lua')
+[13:46:27] Lua: Adding function 'onJoin' to hook 'join'
+[13:46:27] 12
+[13:46:27] 25
+[13:46:27] tt
+[13:46:27] ct
+[13:46:27] table: 0C760588
+[13:46:27] table: 0C760178
+[13:46:27] I am a team
+[13:46:27] 0
+[13:46:27] 2
+[13:46:27] LUA ERROR: sys/lua/pcs_mixmatch/model/mix.lua:58: attempt to call method 'start' (a nil value)
+[13:46:27]  -> sys/lua/pcs_mixmatch/model/mix.lua:58: in function 'start'
+[13:46:27]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:44: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:7>
+[13:46:27]  -> in Lua hook 'join', params: 1
+[13:51:22] generating stats...
+[13:51:22] stats generated in 1 ms!
+[13:54:09] Server Shutdown
+[13:54:09] ----- Disconnected -----
+[13:54:12] starting server...
+[13:54:12] load map 'de_dust'
+[13:54:12] ----- Server started -----
+[13:54:12] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[13:54:12] parsing Lua server script (mp_luaserver = 'server.lua')
+[13:54:12] Lua: Adding function 'onJoin' to hook 'join'
+[13:54:12] 12
+[13:54:12] 25
+[13:54:12] tt
+[13:54:12] ct
+[13:54:12] table: 0883AF70
+[13:54:12] table: 0883A930
+[13:54:12] I am a team
+[13:54:12] 0
+[13:54:12] 2
+[13:54:12] LUA ERROR: sys/lua/pcs_mixmatch/model/mix.lua:59: attempt to call method 'start' (a nil value)
+[13:54:12]  -> sys/lua/pcs_mixmatch/model/mix.lua:59: in function 'start'
+[13:54:12]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:44: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:7>
+[13:54:12]  -> in Lua hook 'join', params: 1
+[13:54:29] Server Shutdown
+[13:54:29] ----- Disconnected -----
+[13:54:31] starting server...
+[13:54:31] load map 'de_dust'
+[13:54:31] ----- Server started -----
+[13:54:31] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[13:54:31] parsing Lua server script (mp_luaserver = 'server.lua')
+[13:54:31] Lua: Adding function 'onJoin' to hook 'join'
+[13:54:31] 12
+[13:54:31] 25
+[13:54:31] tt
+[13:54:31] ct
+[13:54:31] table: 087D4A10
+[13:54:31] table: 087D4380
+[13:54:31] I am a team
+[13:54:31] 0
+[13:54:31] 2
+[13:54:31] KNIFE ROUND
+[13:54:42] Player joins the Terrorist Forces
+[13:54:46] Server Shutdown
+[13:54:46] ----- Disconnected -----

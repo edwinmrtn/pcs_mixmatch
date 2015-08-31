@@ -1,0 +1,116 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 31 Aug 2015, 23:35:47
+
+[23:35:47] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[23:35:47] ERROR: U.S.G.N. password file seems to be corrupted!
+[23:35:47] UDP socket initialized using port 65428
+[23:35:47] U.S.G.N.: Your game version is up to date!
+[23:35:50] starting server...
+[23:35:50] UDP socket initialized using port 36963
+[23:35:50] load map 'de_dust'
+[23:35:50] ----- Server started -----
+[23:35:50] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:35:50] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:35:50] Lua: Adding function 'onJoin' to hook 'join'
+[23:35:50] Lua: Adding function 'onMenu' to hook 'menu'
+[23:35:50] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[23:35:50] Lua: Adding function 'onSpawn' to hook 'spawn'
+[23:35:50] Lua: Adding function 'onStartround' to hook 'startround'
+[23:35:50] Lua: Adding function 'onEndround' to hook 'endround'
+[23:35:52] Player joins the Terrorist Forces
+[23:35:54] [b]Blowball connected
+[23:35:54] [b]Blowball joins the Counter-Terrorist Forces
+[23:35:54] [b]Adon-is-gay connected
+[23:35:54] [b]Adon-is-gay joins the Counter-Terrorist Forces
+[23:36:01] 12
+[23:36:01] 25
+[23:36:01] tt
+[23:36:01] ct
+[23:36:01] table: 08B2C120
+[23:36:01] table: 08B2C300
+[23:36:01] 123table: 08D49170
+[23:36:01] KNIFE ROUND
+[23:36:01] state kniferound
+[23:36:01] cptrounds 0
+[23:36:01] remain 0
+[23:36:28] Player died
+[23:36:33] state side1
+[23:36:33] cptrounds 0
+[23:36:33] remain 1
+[23:36:35] Player died
+[23:36:40] state side1
+[23:36:40] cptrounds 1
+[23:36:40] remain 0
+[23:36:40] Player died
+[23:36:40] Player joins the Terrorist Forces
+[23:36:40] Player joins the Counter-Terrorist Forces
+[23:36:45] * Auto Teambalance *
+[23:36:45] [b]Adon-is-gay joins the Terrorist Forces
+[23:36:45] state side2
+[23:36:45] cptrounds 0
+[23:36:45] remain 1
+[23:37:08] [b]Adon-is-gay killed Player with UMP45
+[23:37:33] [b]Blowball killed [b]Adon-is-gay with HE
+[23:37:48] state side2
+[23:37:48] cptrounds 1
+[23:37:48] remain 0
+[23:38:05] [b]Blowball killed [b]Adon-is-gay with Famas
+[23:38:10] state side2
+[23:38:10] cptrounds 2
+[23:38:10] remain -1
+[23:38:22] [b]Blowball killed [b]Adon-is-gay with Famas
+[23:38:27] state side2
+[23:38:27] cptrounds 3
+[23:38:27] remain -2
+[23:38:42] [b]Adon-is-gay killed [b]Blowball with AK-47
+[23:38:42] [b]Blowball killed [b]Adon-is-gay with HE
+[23:38:47] state side2
+[23:38:47] cptrounds 4
+[23:38:47] remain -3
+[23:39:17] [b]Adon-is-gay killed Player with AK-47
+[23:39:18] Server Shutdown
+[23:39:18] ----- Disconnected -----
+[23:39:20] starting server...
+[23:39:20] load map 'de_dust'
+[23:39:20] ----- Server started -----
+[23:39:20] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:39:20] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:39:20] Lua: Adding function 'onJoin' to hook 'join'
+[23:39:20] Lua: Adding function 'onMenu' to hook 'menu'
+[23:39:20] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[23:39:20] Lua: Adding function 'onSpawn' to hook 'spawn'
+[23:39:20] Lua: Adding function 'onStartround' to hook 'startround'
+[23:39:20] Lua: Adding function 'onEndround' to hook 'endround'
+[23:39:22] Player joins the Terrorist Forces
+[23:39:24] [b]l0rl connected
+[23:39:24] [b]l0rl joins the Counter-Terrorist Forces
+[23:39:24] [b]Pete connected
+[23:39:24] [b]Pete joins the Counter-Terrorist Forces
+[23:39:29] 12
+[23:39:29] 25
+[23:39:29] tt
+[23:39:29] ct
+[23:39:29] table: 08D23CF0
+[23:39:29] table: 08D24010
+[23:39:29] 123table: 08D491C0
+[23:39:29] KNIFE ROUND
+[23:39:29] state kniferound
+[23:39:29] cptrounds 0
+[23:39:29] remain 0
+[23:39:31] Player died
+[23:39:36] state side1
+[23:39:36] cptrounds 0
+[23:39:36] remain 1
+[23:39:39] Player died
+[23:39:44] state side1
+[23:39:44] cptrounds 1
+[23:39:44] remain 0
+[23:39:44] Player died
+[23:39:44] Player joins the Terrorist Forces
+[23:39:44] Player joins the Counter-Terrorist Forces
+[23:39:49] * Auto Teambalance *
+[23:39:49] [b]Pete joins the Terrorist Forces
+[23:39:49] state side2
+[23:39:49] cptrounds 0
+[23:39:49] remain 1
+[23:39:58] Server Shutdown
+[23:39:58] ----- Disconnected -----

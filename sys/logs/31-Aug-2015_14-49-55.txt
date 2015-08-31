@@ -1,0 +1,194 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 31 Aug 2015, 14:49:55
+
+[14:49:55] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[14:49:55] ERROR: U.S.G.N. password file seems to be corrupted!
+[14:49:57] UDP socket initialized using port 62952
+[14:49:57] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[14:50:02] U.S.G.N.: Requesting serverlist...
+[14:50:05] Connecting to 127.0.0.1:36963...
+[14:50:05] load map 'de_dust'
+[14:50:06] receiving server data (53 b)
+[14:50:06] receiving player data (100 b, 2)
+[14:50:06] receiving player data (0 b, 0)
+[14:50:06] receiving hostage data (0 b, 0)
+[14:50:06] receiving item data (0 b, 0)
+[14:50:06] receiving entity states (0 b, 0)
+[14:50:06] receiving dynamic object data (0 b, 0)
+[14:50:06] receiving projectile data (0 b, 0)
+[14:50:06] receiving dynamic object image data (0 b, 0)
+[14:50:06] receiving tween data (0 b, 0)
+[14:50:06] receiving custom tile data (0 b, 0)
+[14:50:06] receiving final ACK (7 b)
+[14:50:06] switching to ingame mode...
+[14:50:06] ----- Server joined -----
+[14:50:06] 12
+[14:50:06] 25
+[14:50:06] tt
+[14:50:06] ct
+[14:50:06] table: 0C858088
+[14:50:06] table: 0C8584E8
+[14:50:06] KNIFE ROUND
+[14:50:06] 12
+[14:50:06] 2 1
+[14:50:06] 25
+[14:50:06] 2 2
+[14:50:06] 26
+[14:50:06] 2 2
+[14:50:09] Player 2 joins the Counter-Terrorist Forces
+[14:50:58] Player 2 has left the game
+[14:50:58] ----- Disconnected -----
+[14:51:01] U.S.G.N.: Requesting serverlist...
+[14:51:02] Connecting to 127.0.0.1:36963...
+[14:51:02] load map 'de_dust'
+[14:51:02] receiving server data (53 b)
+[14:51:02] receiving player data (100 b, 2)
+[14:51:02] receiving player data (0 b, 0)
+[14:51:02] receiving hostage data (0 b, 0)
+[14:51:02] receiving item data (0 b, 0)
+[14:51:02] receiving entity states (0 b, 0)
+[14:51:02] receiving dynamic object data (0 b, 0)
+[14:51:02] receiving projectile data (0 b, 0)
+[14:51:02] receiving dynamic object image data (0 b, 0)
+[14:51:02] receiving tween data (0 b, 0)
+[14:51:02] receiving custom tile data (0 b, 0)
+[14:51:02] receiving final ACK (7 b)
+[14:51:02] switching to ingame mode...
+[14:51:02] ----- Server joined -----
+[14:51:02] 12
+[14:51:02] 25
+[14:51:02] tt
+[14:51:02] ct
+[14:51:02] table: 08079DF0
+[14:51:02] table: 08686A38
+[14:51:02] KNIFE ROUND
+[14:51:02] 12
+[14:51:02] 2 1
+[14:51:02] 25
+[14:51:10] Player 2 has left the game
+[14:51:10] ----- Disconnected -----
+[14:52:06] starting server...
+[14:52:06] load map 'de_dust'
+[14:52:06] ----- Server started -----
+[14:52:06] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[14:52:06] parsing Lua server script (mp_luaserver = 'server.lua')
+[14:52:06] Lua: Adding function 'onJoin' to hook 'join'
+[14:52:06] 12
+[14:52:06] 25
+[14:52:06] tt
+[14:52:06] ct
+[14:52:06] table: 0CC52110
+[14:52:06] table: 0CC526B0
+[14:52:06] KNIFE ROUND
+[14:52:06] 12
+[14:52:06] strip 1 1
+[14:52:06] 25
+[14:52:06] strip 1 2
+[14:52:06] 26
+[14:52:06] strip 1 2
+[14:52:08] Player joins the Terrorist Forces
+[14:53:39] Server Shutdown
+[14:53:39] ----- Disconnected -----
+[14:53:44] starting server...
+[14:53:44] UDP socket initialized using port 36963
+[14:53:44] load map 'de_dust'
+[14:53:44] ----- Server started -----
+[14:53:44] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[14:53:44] parsing Lua server script (mp_luaserver = 'server.lua')
+[14:53:44] Lua: Adding function 'onJoin' to hook 'join'
+[14:53:44] 12
+[14:53:44] 25
+[14:53:44] tt
+[14:53:44] ct
+[14:53:44] table: 0CDF3698
+[14:53:44] table: 0CDF3A58
+[14:53:44] KNIFE ROUND
+[14:53:44] 12
+[14:53:44] strip 1 1
+[14:53:44] 25
+[14:53:44] strip 1 2
+[14:53:44] 26
+[14:53:44] strip 1 2
+[14:53:46] Player joins the Terrorist Forces
+[14:54:01] recv join attempt... (127.0.0.1:61589)
+[14:54:01] Player clientdata: WIN {28cefe3ac30ab30ab5268978955263db2910208}
+[14:54:01] Player 2 connected
+[14:54:01] Player 2 is using IP 127.0.0.1:61589 and no U.S.G.N. ID
+[14:54:01] 12
+[14:54:01] 25
+[14:54:01] tt
+[14:54:01] ct
+[14:54:01] table: 0D07A408
+[14:54:01] table: 0D07A6B0
+[14:54:01] KNIFE ROUND
+[14:54:01] 12
+[14:54:01] strip 1 1
+[14:54:01] 25
+[14:54:01] strip 1 2
+[14:54:01] 26
+[14:54:01] strip 1 2
+[14:54:04] Player 2 joins the Counter-Terrorist Forces
+[14:54:44] Player 2 has left the game
+[14:54:47] recv join attempt... (127.0.0.1:61589)
+[14:54:47] Player clientdata: WIN {28cefe3ac30ab30ab5268978955263db2910208}
+[14:54:47] Player 2 connected
+[14:54:47] Player 2 is using IP 127.0.0.1:61589 and no U.S.G.N. ID
+[14:54:47] 12
+[14:54:47] 25
+[14:54:47] tt
+[14:54:47] ct
+[14:54:47] table: 08A32E60
+[14:54:47] table: 08235148
+[14:54:47] KNIFE ROUND
+[14:54:47] 12
+[14:54:47] strip 1 1
+[14:54:47] 25
+[14:54:47] strip 1 2
+[14:54:47] 26
+[14:54:47] strip 1 2
+[14:55:18] Player 2 has left the game
+[14:55:20] Server Shutdown
+[14:55:20] ----- Disconnected -----
+[14:55:22] starting server...
+[14:55:22] load map 'de_dust'
+[14:55:22] ----- Server started -----
+[14:55:22] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[14:55:22] parsing Lua server script (mp_luaserver = 'server.lua')
+[14:55:22] Lua: Adding function 'onJoin' to hook 'join'
+[14:55:22] 12
+[14:55:22] 25
+[14:55:22] tt
+[14:55:22] ct
+[14:55:22] table: 0D007550
+[14:55:22] table: 0D007988
+[14:55:22] KNIFE ROUND
+[14:55:22] 12
+[14:55:22] strip 1 1
+[14:55:22] 25
+[14:55:22] strip 1 2
+[14:55:22] 26
+[14:55:22] strip 1 2
+[14:55:26] Player joins the Counter-Terrorist Forces
+[14:55:32] recv join attempt... (127.0.0.1:61589)
+[14:55:32] Player clientdata: WIN {28cefe3ac30ab30ab5268978955263db2910208}
+[14:55:32] Player 2 connected
+[14:55:32] Player 2 is using IP 127.0.0.1:61589 and no U.S.G.N. ID
+[14:55:32] 12
+[14:55:32] 25
+[14:55:32] tt
+[14:55:32] ct
+[14:55:32] table: 08ACA058
+[14:55:32] table: 08ACA0D0
+[14:55:32] KNIFE ROUND
+[14:55:32] 12
+[14:55:32] strip 1 1
+[14:55:32] 25
+[14:55:32] strip 1 2
+[14:55:32] 26
+[14:55:32] strip 1 2
+[14:55:43] Player 2 joins the Terrorist Forces
+[14:56:54] generating stats...
+[14:56:54] stats generated in 1 ms!
+[14:57:22] Player 2 has been kicked for being idle
+[14:57:22] Player 2 has left the game (idle kick)
+[15:01:30] Server Shutdown
+[15:01:30] ----- Disconnected -----

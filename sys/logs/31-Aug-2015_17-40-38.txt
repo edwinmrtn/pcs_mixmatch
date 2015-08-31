@@ -1,0 +1,47 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 31 Aug 2015, 17:40:38
+
+[17:40:38] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[17:40:38] ERROR: U.S.G.N. password file seems to be corrupted!
+[17:40:39] UDP socket initialized using port 63423
+[17:40:39] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[17:40:42] starting server...
+[17:40:42] UDP socket initialized using port 36963
+[17:40:42] load map 'de_dust'
+[17:40:42] ----- Server started -----
+[17:40:42] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[17:40:42] parsing Lua server script (mp_luaserver = 'server.lua')
+[17:40:42] Lua: Adding function 'vl.read' to hook 'clientdata'
+[17:40:42] Lua: Adding function 'vl.send' to hook 'ms100'
+[17:40:42] Lua: Adding function 'vl.click' to hook 'attack'
+[17:40:42] Lua: Adding function 'onJoin' to hook 'join'
+[17:40:42] LUA ERROR: image - can't load image at 'gfx/ui/cs2d_close.png'
+[17:40:42] LUA ERROR: sys/lua/pcs_mixmatch/model/VisualLua.lua:260: attempt to concatenate local 'b' (a nil value)
+[17:40:42]  -> sys/lua/pcs_mixmatch/model/VisualLua.lua:260: in function 'colorcode'
+[17:40:42]  -> sys/lua/pcs_mixmatch/model/VisualLua.lua:239: in function 'createButton'
+[17:40:42]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:13: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:8>
+[17:40:42]  -> in Lua hook 'join', params: 1
+[17:40:43] Player joins the Terrorist Forces
+[17:40:46] Server Shutdown
+[17:40:46] ----- Disconnected -----
+[17:41:09] starting server...
+[17:41:09] load map 'de_dust'
+[17:41:09] ----- Server started -----
+[17:41:09] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[17:41:09] parsing Lua server script (mp_luaserver = 'server.lua')
+[17:41:09] Lua: Adding function 'vl.read' to hook 'clientdata'
+[17:41:09] Lua: Adding function 'vl.send' to hook 'ms100'
+[17:41:09] Lua: Adding function 'vl.click' to hook 'attack'
+[17:41:09] Lua: Adding function 'onJoin' to hook 'join'
+[17:41:09] LUA ERROR: image - can't load image at 'gfx/ui/cs2d_close.png'
+[17:41:09] LUA ERROR: sys/lua/pcs_mixmatch/model/VisualLua.lua:260: attempt to concatenate local 'b' (a nil value)
+[17:41:09]  -> sys/lua/pcs_mixmatch/model/VisualLua.lua:260: in function 'colorcode'
+[17:41:09]  -> sys/lua/pcs_mixmatch/model/VisualLua.lua:239: in function 'createButton'
+[17:41:09]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:13: in function <sys/lua/pcs_mixmatch/controler/onJoin.lua:8>
+[17:41:09]  -> in Lua hook 'join', params: 1
+[17:41:16] Player joins the Terrorist Forces
+[17:45:37] generating stats...
+[17:45:37] stats generated in 1 ms!
+[17:50:37] generating stats...
+[17:50:37] stats generated in 1 ms!
+[17:55:14] Server Shutdown
+[17:55:14] ----- Disconnected -----

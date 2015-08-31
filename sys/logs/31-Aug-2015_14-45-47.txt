@@ -1,0 +1,90 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 31 Aug 2015, 14:45:47
+
+[14:45:47] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[14:45:47] ERROR: U.S.G.N. password file seems to be corrupted!
+[14:45:48] UDP socket initialized using port 61449
+[14:45:48] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[14:45:51] starting server...
+[14:45:51] UDP socket initialized using port 36963
+[14:45:51] load map 'de_dust'
+[14:45:51] ----- Server started -----
+[14:45:51] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[14:45:51] parsing Lua server script (mp_luaserver = 'server.lua')
+[14:45:51] Lua: Adding function 'onJoin' to hook 'join'
+[14:45:51] 12
+[14:45:51] 25
+[14:45:51] tt
+[14:45:51] ct
+[14:45:51] table: 0833ED88
+[14:45:51] table: 088CF390
+[14:45:51] KNIFE ROUND
+[14:45:51] 12
+[14:45:51] 25
+[14:45:51] 26
+[14:45:53] Player joins the Terrorist Forces
+[14:46:11] recv join attempt... (127.0.0.1:61450)
+[14:46:11] Player clientdata: WIN {28cefe3ac30ab30ab5268978955263db2910208}
+[14:46:11] Player 2 connected
+[14:46:11] Player 2 is using IP 127.0.0.1:61450 and no U.S.G.N. ID
+[14:46:11] 12
+[14:46:11] 25
+[14:46:11] tt
+[14:46:11] ct
+[14:46:11] table: 0C4CA4C0
+[14:46:11] table: 0C4C9F48
+[14:46:11] KNIFE ROUND
+[14:46:11] 12
+[14:46:11] 25
+[14:46:11] 26
+[14:46:15] Player 2 joins the Counter-Terrorist Forces
+[14:46:31] Server Shutdown
+[14:46:31] ----- Disconnected -----
+[14:47:05] starting server...
+[14:47:05] load map 'de_dust'
+[14:47:05] ----- Server started -----
+[14:47:05] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[14:47:05] parsing Lua server script (mp_luaserver = 'server.lua')
+[14:47:05] Lua: Adding function 'onJoin' to hook 'join'
+[14:47:05] 12
+[14:47:05] 25
+[14:47:05] tt
+[14:47:05] ct
+[14:47:05] table: 0818D4C0
+[14:47:05] table: 08AC4500
+[14:47:05] KNIFE ROUND
+[14:47:05] 12
+[14:47:05] 1 1
+[14:47:05] 25
+[14:47:05] 1 2
+[14:47:05] 26
+[14:47:05] 1 2
+[14:47:25] Player joins the Terrorist Forces
+[14:48:14] Server Shutdown
+[14:48:14] ----- Disconnected -----
+[14:48:16] starting server...
+[14:48:16] load map 'de_dust'
+[14:48:16] ----- Server started -----
+[14:48:16] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[14:48:16] parsing Lua server script (mp_luaserver = 'server.lua')
+[14:48:16] LUA ERROR: sys/lua/pcs_mixmatch/model/player.lua:37: malformed number near '1..'
+[14:48:16]  -> [C]: in function 'dofile'
+[14:48:16]  -> sys/lua/pcs_mixmatch/controler/onJoin.lua:1: in main chunk
+[14:48:16]  -> [C]: in function 'dofile'
+[14:48:16]  -> sys/lua/pcs_mixmatch/controler/main.lua:1: in main chunk
+[14:48:16]  -> [C]: in function 'dofile'
+[14:48:16]  -> sys/lua/server.lua:1: in main chunk
+[14:48:21] Player joins the Terrorist Forces
+[14:48:35] recv join attempt... (127.0.0.1:62950)
+[14:48:35] Player clientdata: WIN {28cefe3ac30ab30ab5268978955263db2910208}
+[14:48:35] Player 2 connected
+[14:48:35] Player 2 is using IP 127.0.0.1:62950 and no U.S.G.N. ID
+[14:48:38] Player 2 joins the Counter-Terrorist Forces
+[14:48:46] Server Shutdown
+[14:48:46] ----- Disconnected -----
+[14:49:27] U.S.G.N.: Requesting serverlist...
+[14:49:31] Connecting to 127.0.0.1:36963...
+[14:49:31] NET: received incomplete precon. authcode (127.0.0.1:36963)
+[14:49:32] U.S.G.N.: Requesting serverlist...
+[14:49:32] WARNING: Failed to load online serverlist within 5 sec! Trying to load cached list...
+[14:49:32] WARNING: Using cached list (servers: 72) instead of online list
+[14:49:32] this means that CS2D failed to retrieve the current list from the U.S.G.N. masterserver

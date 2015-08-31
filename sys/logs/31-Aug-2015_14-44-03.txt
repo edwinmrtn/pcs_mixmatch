@@ -1,0 +1,57 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 31 Aug 2015, 14:44:03
+
+[14:44:03] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[14:44:03] ERROR: U.S.G.N. password file seems to be corrupted!
+[14:44:07] UDP socket initialized using port 51593
+[14:44:07] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[14:44:09] U.S.G.N.: Requesting serverlist...
+[14:44:14] "  (1x)
+[14:44:14] WARNING: Failed to load online serverlist within 5 sec! Trying to load cached list...
+[14:44:14] WARNING: Using cached list (servers: 72) instead of online list
+[14:44:14] this means that CS2D failed to retrieve the current list from the U.S.G.N. masterserver
+[14:44:17] Connecting to 127.0.0.1:36963...
+[14:44:17] load map 'de_dust'
+[14:44:17] receiving server data (53 b)
+[14:44:17] receiving player data (100 b, 2)
+[14:44:17] receiving player data (0 b, 0)
+[14:44:17] receiving hostage data (0 b, 0)
+[14:44:17] receiving item data (0 b, 0)
+[14:44:17] receiving entity states (0 b, 0)
+[14:44:17] receiving dynamic object data (0 b, 0)
+[14:44:17] receiving projectile data (0 b, 0)
+[14:44:17] receiving dynamic object image data (0 b, 0)
+[14:44:17] receiving tween data (0 b, 0)
+[14:44:17] receiving custom tile data (0 b, 0)
+[14:44:17] receiving final ACK (7 b)
+[14:44:17] switching to ingame mode...
+[14:44:17] ----- Server joined -----
+[14:44:17] 12
+[14:44:17] 25
+[14:44:17] tt
+[14:44:17] ct
+[14:44:17] table: 0E559990
+[14:44:17] table: 086551B0
+[14:44:17] KNIFE ROUND
+[14:44:17] 12
+[14:44:19] Player 2 joins the Counter-Terrorist Forces
+[14:44:39] Player 2 has left the game
+[14:44:39] ----- Disconnected -----
+[14:44:58] starting server...
+[14:44:58] load map 'de_dust'
+[14:44:58] ----- Server started -----
+[14:44:58] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[14:44:58] parsing Lua server script (mp_luaserver = 'server.lua')
+[14:44:58] Lua: Adding function 'onJoin' to hook 'join'
+[14:44:58] 12
+[14:44:58] 25
+[14:44:58] tt
+[14:44:58] ct
+[14:44:58] table: 0C9B51C0
+[14:44:58] table: 0C9B55A8
+[14:44:58] KNIFE ROUND
+[14:44:58] 12
+[14:44:58] 25
+[14:44:58] 26
+[14:45:01] Player joins the Terrorist Forces
+[14:45:37] Server Shutdown
+[14:45:37] ----- Disconnected -----

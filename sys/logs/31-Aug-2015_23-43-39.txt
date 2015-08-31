@@ -1,0 +1,58 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 31 Aug 2015, 23:43:39
+
+[23:43:39] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[23:43:39] ERROR: U.S.G.N. password file seems to be corrupted!
+[23:43:39] UDP socket initialized using port 58692
+[23:43:39] U.S.G.N.: Your game version is up to date!
+[23:43:41] starting server...
+[23:43:41] UDP socket initialized using port 36963
+[23:43:41] load map 'de_dust'
+[23:43:41] ----- Server started -----
+[23:43:41] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:43:41] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:43:42] Lua: Adding function 'onJoin' to hook 'join'
+[23:43:42] Lua: Adding function 'onMenu' to hook 'menu'
+[23:43:42] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[23:43:42] Lua: Adding function 'onSpawn' to hook 'spawn'
+[23:43:42] Lua: Adding function 'onStartround' to hook 'startround'
+[23:43:42] Lua: Adding function 'onEndround' to hook 'endround'
+[23:43:43] Player joins the Terrorist Forces
+[23:43:45] [b]PlayWithWheel connected
+[23:43:45] [b]PlayWithWheel joins the Counter-Terrorist Forces
+[23:43:45] [b]Bloodlord connected
+[23:43:45] [b]Bloodlord joins the Counter-Terrorist Forces
+[23:43:49] 12
+[23:43:49] 25
+[23:43:49] tt
+[23:43:49] ct
+[23:43:49] table: 08C48668
+[23:43:49] table: 08C48618
+[23:43:49] 123table: 08A64DD8
+[23:43:49] KNIFE ROUND
+[23:43:49] state kniferound
+[23:43:49] cptrounds 0
+[23:43:49] remain 0
+[23:43:51] Player died
+[23:43:56] state side1
+[23:43:56] cptrounds 0
+[23:43:56] remain 1
+[23:43:57] Player died
+[23:44:02] "  (1x)
+[23:44:02] Player joins the Terrorist Forces
+[23:44:02] Player joins the Counter-Terrorist Forces
+[23:44:02] state side2
+[23:44:02] cptrounds 0
+[23:44:02] remain 1
+[23:44:07] * Auto Teambalance *
+[23:44:07] [b]Bloodlord joins the Terrorist Forces
+[23:44:07] state side2
+[23:44:07] cptrounds 0
+[23:44:07] remain 1
+[23:45:03] Player died
+[23:45:06] [b]PlayWithWheel died
+[23:45:11] state side2
+[23:45:11] cptrounds 1
+[23:45:11] remain 0
+[23:45:11] gg well played
+[23:45:39] Server Shutdown
+[23:45:39] ----- Disconnected -----
