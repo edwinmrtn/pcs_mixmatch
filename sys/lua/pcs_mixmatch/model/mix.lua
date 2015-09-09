@@ -10,14 +10,14 @@ dofile("sys/lua/pcs_mixmatch/model/team.lua")
 Mix = newclass("Mix")
 
 --Constructors
-function Mix:init(Id,Rounds,NomberPlayers,Map,TillEnd,KnifeRound,State,cptRounds)
+function Mix:init(Id,Rounds,NomberPlayers,Map,TillEnd,KnifeRound)
 self.Id            = Id
 self.Rounds        = Rounds
 self.NomberPlayers = NomberPlayers
 self.Map           = Map
 self.TillEnd       = TillEnd
 self.KnifeRound    = KnifeRound
-self.State         = State
+self.State         = "preparation"
 self.Teams         = ArrayList.Create()
 self.cptRounds     = 0
 end
