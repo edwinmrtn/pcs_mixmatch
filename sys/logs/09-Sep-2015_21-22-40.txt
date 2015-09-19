@@ -1,0 +1,73 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 09 Sep 2015, 21:22:40
+
+[21:22:40] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[21:22:40] ERROR: U.S.G.N. password file seems to be corrupted!
+[21:22:40] UDP socket initialized using port 63853
+[21:22:40] U.S.G.N.: Your game version is up to date!
+[21:22:42] starting server...
+[21:22:42] UDP socket initialized using port 36963
+[21:22:42] load map 'de_dust'
+[21:22:43] ----- Server started -----
+[21:22:43] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[21:22:43] parsing Lua server script (mp_luaserver = 'server.lua')
+[21:22:43] Lua: Adding function 'onJoin' to hook 'join'
+[21:22:43] Lua: Adding function 'onSpawn' to hook 'spawn'
+[21:22:43] Lua: Adding function 'onStartround' to hook 'startround'
+[21:22:43] Lua: Adding function 'onEndround' to hook 'endround'
+[21:22:43] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[21:22:43] Lua: Adding function 'onMenu' to hook 'menu'
+[21:22:44] Player joins the Terrorist Forces
+[21:22:47] [b]fucktard connected
+[21:22:47] [b]fucktard joins the Counter-Terrorist Forces
+[21:22:47] [b]Circuit connected
+[21:22:47] [b]Circuit joins the Terrorist Forces
+[21:22:52] tt
+[21:22:52] ct
+[21:22:52] table: 04EEEF50
+[21:22:52] table: 04EEEC58
+[21:22:52] 123table: 0CC2E820
+[21:22:52] KNIFE ROUND
+[21:22:58] [b]fucktard died
+[21:23:03] CHOOSE SIDE
+[21:23:03] okok123
+[21:23:03] LUA ERROR: sys/lua/pcs_mixmatch/model/player.lua:54: attempt to index global 'menu_action1' (a nil value)
+[21:23:03]  -> sys/lua/pcs_mixmatch/model/player.lua:54: in function 'chooseteam'
+[21:23:03]  -> sys/lua/pcs_mixmatch/model/chooseside.lua:28: in function 'start'
+[21:23:03]  -> sys/lua/pcs_mixmatch/controler/onStartround.lua:10: in function <sys/lua/pcs_mixmatch/controler/onStartround.lua:4>
+[21:23:03]  -> in Lua hook 'startround', params: 1
+[21:23:19] [b]Circuit killed [b]fucktard with UMP45
+[21:23:24] CHOOSE SIDE
+[21:23:24] okok123
+[21:23:24] LUA ERROR: sys/lua/pcs_mixmatch/model/player.lua:54: attempt to index global 'menu_action1' (a nil value)
+[21:23:24]  -> sys/lua/pcs_mixmatch/model/player.lua:54: in function 'chooseteam'
+[21:23:24]  -> sys/lua/pcs_mixmatch/model/chooseside.lua:28: in function 'start'
+[21:23:24]  -> sys/lua/pcs_mixmatch/controler/onStartround.lua:10: in function <sys/lua/pcs_mixmatch/controler/onStartround.lua:4>
+[21:23:24]  -> in Lua hook 'startround', params: 1
+[21:24:01] Server Shutdown
+[21:24:01] ----- Disconnected -----
+[21:24:03] starting server...
+[21:24:03] load map 'de_dust'
+[21:24:03] ----- Server started -----
+[21:24:03] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[21:24:03] parsing Lua server script (mp_luaserver = 'server.lua')
+[21:24:03] Lua: Adding function 'onJoin' to hook 'join'
+[21:24:03] Lua: Adding function 'onSpawn' to hook 'spawn'
+[21:24:03] Lua: Adding function 'onStartround' to hook 'startround'
+[21:24:03] Lua: Adding function 'onEndround' to hook 'endround'
+[21:24:03] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[21:24:03] Lua: Adding function 'onMenu' to hook 'menu'
+[21:24:04] Player joins the Terrorist Forces
+[21:24:06] [b]-_- connected
+[21:24:06] [b]-_- joins the Counter-Terrorist Forces
+[21:24:10] tt
+[21:24:10] ct
+[21:24:10] table: 084E4560
+[21:24:10] table: 084E4EE8
+[21:24:10] 123table: 08810D68
+[21:24:10] KNIFE ROUND
+[21:24:17] [b]-_- died
+[21:24:22] CHOOSE SIDE
+[21:24:22] okok123
+[21:24:25] 1 a vote tt
+[21:24:30] Server Shutdown
+[21:24:30] ----- Disconnected -----

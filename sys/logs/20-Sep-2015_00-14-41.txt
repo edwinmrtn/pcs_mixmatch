@@ -1,0 +1,105 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 20 Sep 2015, 00:14:41
+
+[00:14:41] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[00:14:41] ERROR: U.S.G.N. password file seems to be corrupted!
+[00:14:42] UDP socket initialized using port 58192
+[00:14:42] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[00:14:44] starting server...
+[00:14:44] UDP socket initialized using port 36963
+[00:14:44] load map 'de_dust'
+[00:14:44] ----- Server started -----
+[00:14:44] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:14:44] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:14:44] Lua: Adding function 'onJoin' to hook 'join'
+[00:14:44] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:14:44] Lua: Adding function 'onStartround' to hook 'startround'
+[00:14:44] Lua: Adding function 'onEndround' to hook 'endround'
+[00:14:44] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:14:45] Lua: Adding function 'onMenu' to hook 'menu'
+[00:14:46] Player joins the Terrorist Forces
+[00:14:48] tt
+[00:14:48] ct
+[00:14:48] table: 086B0B98
+[00:14:48] table: 086B07B0
+[00:14:48] 123table: 086A6C08
+[00:14:48] KNIFE ROUND
+[00:14:51] [b]CS2D.com connected
+[00:14:51] [b]CS2D.com joins the Counter-Terrorist Forces
+[00:14:51] [b]Gun connected
+[00:14:51] [b]Gun joins the Counter-Terrorist Forces
+[00:14:53] tt
+[00:14:53] ct
+[00:14:53] table: 07EC42C8
+[00:14:53] table: 07EC44D0
+[00:14:53] 123table: 086A6C08
+[00:14:53] KNIFE ROUND
+[00:14:53] tt
+[00:14:53] ct
+[00:14:53] table: 07EC9C58
+[00:14:53] table: 07EC9C80
+[00:14:53] 123table: 086A6C08
+[00:14:53] KNIFE ROUND
+[00:14:57] Player died
+[00:15:02] CHOOSE SIDE
+[00:15:02] 2
+[00:15:02] CHOOSE SIDE
+[00:15:02] 2
+[00:15:02] CHOOSE SIDE
+[00:15:02] 2
+[00:15:21] Server Shutdown
+[00:15:21] ----- Disconnected -----
+[00:17:33] starting server...
+[00:17:33] load map 'de_dust'
+[00:17:33] ----- Server started -----
+[00:17:33] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:17:33] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:17:33] Lua: Adding function 'onJoin' to hook 'join'
+[00:17:33] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:17:33] Lua: Adding function 'onStartround' to hook 'startround'
+[00:17:33] Lua: Adding function 'onEndround' to hook 'endround'
+[00:17:33] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:17:33] Lua: Adding function 'onMenu' to hook 'menu'
+[00:17:35] Player joins the Terrorist Forces
+[00:17:37] [b]Ping of Death connected
+[00:17:37] [b]Ping of Death joins the Counter-Terrorist Forces
+[00:17:37] [b]WTF connected
+[00:17:37] [b]WTF joins the Counter-Terrorist Forces
+[00:17:40] tt
+[00:17:40] ct
+[00:17:40] table: 0D8B9670
+[00:17:40] table: 0D860518
+[00:17:40] 123table: 0D860298
+[00:17:40] KNIFE ROUND
+[00:17:43] Player died
+[00:17:48] CHOOSE SIDE
+[00:17:48] 1
+[00:17:48] 2
+[00:17:56] Server Shutdown
+[00:17:56] ----- Disconnected -----
+[00:19:05] starting server...
+[00:19:06] load map 'de_dust'
+[00:19:06] ----- Server started -----
+[00:19:06] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:19:06] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:19:06] Lua: Adding function 'onJoin' to hook 'join'
+[00:19:06] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:19:06] Lua: Adding function 'onStartround' to hook 'startround'
+[00:19:06] Lua: Adding function 'onEndround' to hook 'endround'
+[00:19:06] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:19:06] Lua: Adding function 'onMenu' to hook 'menu'
+[00:19:07] Player joins the Terrorist Forces
+[00:19:10] [b]0_o connected
+[00:19:10] [b]0_o joins the Counter-Terrorist Forces
+[00:19:10] [b]AgainstCheaters connected
+[00:19:10] [b]AgainstCheaters joins the Counter-Terrorist Forces
+[00:19:12] tt
+[00:19:12] ct
+[00:19:12] table: 07F547F0
+[00:19:12] table: 07F54048
+[00:19:12] 123table: 0861EAA0
+[00:19:12] KNIFE ROUND
+[00:19:16] Player died
+[00:19:21] CHOOSE SIDE
+[00:19:21] koko
+[00:19:29] Server Shutdown
+[00:19:29] ----- Disconnected -----

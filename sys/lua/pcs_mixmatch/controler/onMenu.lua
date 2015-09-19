@@ -1,4 +1,5 @@
 dofile("sys/lua/pcs_mixmatch/controler/onStartMixBouton.lua")
+dofile("sys/lua/pcs_mixmatch/model/chooseside.lua")
 dofile("sys/lua/pcs_mixmatch/model/menuList.lua")
 addhook("menu","onMenu")
 function onMenu(id,title,button)

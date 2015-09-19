@@ -16,6 +16,7 @@ function onServeraction(id, action)
 
     	    --new Bouton	
     	  local bouton_startmix = Bouton(1,"Start mix","onStartMixBouton")
+         
 
 
     	  menu_action1:addBouton(bouton_startmix)

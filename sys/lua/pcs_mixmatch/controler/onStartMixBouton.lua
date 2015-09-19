@@ -6,9 +6,9 @@ dofile("sys/lua/pcs_mixmatch/model/arrayList.lua")
 function onStartMixBouton(id)
 
 --new player 
-local Player1 = Player(id,player(id,"usgn"),12,"koko",'127.0.0.1');
-local Player2 = Player(id,player(id,"usgn"),25,"koko",'127.0.0.1');
-local Player3 = Player(id,player(id,"usgn"),26,"koko",'127.0.0.1');
+local Player1 = Player(id,player(id,"usgn"),12,player(id,"name"),'127.0.0.1');
+local Player2 = Player(id,player(id,"usgn"),25,player(id,"name"),'127.0.0.1');
+local Player3 = Player(id,player(id,"usgn"),26,player(id,"name"),'127.0.0.1');
 
 
 --new team

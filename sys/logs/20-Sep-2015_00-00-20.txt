@@ -1,0 +1,5 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 20 Sep 2015, 00:00:20
+
+[00:00:20] Player killed [b]Pete with Glock
+[00:00:24] Server Shutdown
+[00:00:24] ----- Disconnected -----

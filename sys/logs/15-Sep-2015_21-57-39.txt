@@ -1,0 +1,21 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 15 Sep 2015, 21:57:39
+
+[21:57:39] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[21:57:39] ERROR: U.S.G.N. password file seems to be corrupted!
+[21:57:40] UDP socket initialized using port 64121
+[21:57:40] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[21:57:44] starting server...
+[21:57:44] UDP socket initialized using port 36963
+[21:57:44] load map 'de_dust'
+[21:57:45] ----- Server started -----
+[21:57:45] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[21:57:45] parsing Lua server script (mp_luaserver = 'server.lua')
+[21:57:45] Lua: Adding function 'onJoin' to hook 'join'
+[21:57:45] Lua: Adding function 'onSpawn' to hook 'spawn'
+[21:57:45] Lua: Adding function 'onStartround' to hook 'startround'
+[21:57:45] Lua: Adding function 'onEndround' to hook 'endround'
+[21:57:45] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[21:57:45] Lua: Adding function 'onMenu' to hook 'menu'
+[21:57:47] Player joins the Counter-Terrorist Forces
+[21:58:17] Server Shutdown
+[21:58:17] ----- Disconnected -----

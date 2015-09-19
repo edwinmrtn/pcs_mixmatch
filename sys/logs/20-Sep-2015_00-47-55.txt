@@ -1,0 +1,40 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 20 Sep 2015, 00:47:55
+
+[00:47:55] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[00:47:55] ERROR: U.S.G.N. password file seems to be corrupted!
+[00:47:55] UDP socket initialized using port 58253
+[00:47:55] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[00:47:57] starting server...
+[00:47:57] UDP socket initialized using port 36963
+[00:47:57] load map 'de_dust'
+[00:47:57] ----- Server started -----
+[00:47:57] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:47:57] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:47:57] Lua: Adding function 'onJoin' to hook 'join'
+[00:47:57] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:47:57] Lua: Adding function 'onStartround' to hook 'startround'
+[00:47:57] Lua: Adding function 'onEndround' to hook 'endround'
+[00:47:57] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:47:58] Lua: Adding function 'onMenu' to hook 'menu'
+[00:47:59] Player joins the Terrorist Forces
+[00:48:05] Player died
+[00:48:05] Player joins the Counter-Terrorist Forces
+[00:48:09] [b]Mr Mafia connected
+[00:48:09] [b]Mr Mafia joins the Terrorist Forces
+[00:48:09] [b]Rob connected
+[00:48:09] [b]Rob joins the Terrorist Forces
+[00:48:14] tt
+[00:48:14] ct
+[00:48:14] table: 0DB9DF18
+[00:48:14] table: 0DB9E328
+[00:48:14] 123table: 0D7A1A00
+[00:48:14] KNIFE ROUND
+[00:48:24] Player died
+[00:48:29] CHOOSE SIDE
+[00:48:30] 1 a vote tt
+[00:48:30] LUA ERROR: sys/lua/pcs_mixmatch/model/chooseside.lua:70: attempt to index global 'self' (a nil value)
+[00:48:30]  -> sys/lua/pcs_mixmatch/model/chooseside.lua:70: in function '?'
+[00:48:30]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:13: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[00:48:30]  -> in Lua hook 'menu', params: 1, 'Choose your team', 1
+[00:48:31] Server Shutdown
+[00:48:31] ----- Disconnected -----

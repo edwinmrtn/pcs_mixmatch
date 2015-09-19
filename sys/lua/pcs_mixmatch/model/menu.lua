@@ -45,7 +45,7 @@ end
 function Menu:Show()
 	local command = "" 
 	for i=1,self:NumbersBoutons() do
-           command = ','..self:getBoutons():Get(i):getNom()
+           command = command..','..self:getBoutons():Get(i):getNom()
     end
     	command = self:getTitre()..command
     	return command
