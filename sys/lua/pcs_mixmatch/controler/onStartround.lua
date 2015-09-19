@@ -5,7 +5,9 @@ function onStartround(mode)
 
    local aMixList = MixList(0);
 	for i=1,aMixList:NumbersMixs() do
-		 
+		    if (aMixList:getMixList():Get(i):getState() == "chooseside") then
+		    		aMixList:getMixList():Get(i):getObjectChooseside():start(mode)
+		    end
 			if (aMixList:getMixList():Get(i):getState() == "side1") then
 					if(aMixList:getMixList():Get(i):getRoundsRemain() == 0)then
 						 aMixList:getMixList():Get(i):setState("side2")
@@ -14,9 +16,9 @@ function onStartround(mode)
 
 					end 
 			end
-			parse("msg state "..aMixList:getMixList():Get(i):getState())
-			parse("msg cptrounds "..aMixList:getMixList():Get(i):getcptRounds())
-			parse("msg remain "..aMixList:getMixList():Get(i):getRoundsRemain())
+			--parse("msg state "..aMixList:getMixList():Get(i):getState())
+			--parse("msg cptrounds "..aMixList:getMixList():Get(i):getcptRounds())
+			--parse("msg remain "..aMixList:getMixList():Get(i):getRoundsRemain())
 
 			if (aMixList:getMixList():Get(i):getState() == "side2") then
 					if(aMixList:getMixList():Get(i):getRoundsRemain() == 0)then

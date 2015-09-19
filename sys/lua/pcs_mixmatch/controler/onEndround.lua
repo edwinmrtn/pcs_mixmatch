@@ -1,13 +1,14 @@
 dofile("sys/lua/pcs_mixmatch/Model/mixList.lua")
+dofile("sys/lua/pcs_mixmatch/Model/chooseside.lua")
 addhook("endround", "onEndround")
 function onEndround(mode)
    local aMixList = MixList(0);
 	for i=1,aMixList:NumbersMixs() do
 			if (aMixList:getMixList():Get(i):getState() == "kniferound") then
 				if(mode == 1) then --terrorist win
-					aMixList:getMixList():Get(i):setState("side1")
+					aMixList:getMixList():Get(i):setState("chooseside")
 				elseif(mode == 2) then  --counter win
-					aMixList:getMixList():Get(i):setState("side1")
+					aMixList:getMixList():Get(i):setState("chooseside")
 				end 		
 			
 			elseif (aMixList:getMixList():Get(i):getState() == "side1") then

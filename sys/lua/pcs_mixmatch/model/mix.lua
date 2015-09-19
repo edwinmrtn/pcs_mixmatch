@@ -19,6 +19,8 @@ self.TillEnd       = TillEnd
 self.KnifeRound    = KnifeRound
 self.State         = "preparation"
 self.Teams         = ArrayList.Create()
+self.ObKniferound  = Kniferound("Kniferound");
+self.Obchooseside  = Chooseside(0,0)
 self.cptRounds     = 0
 end
 
@@ -29,6 +31,12 @@ function Mix:getId()
 end
 function Mix:getState()
     return self.State
+end
+function Mix:getObjectKniferound()
+    return self.ObKniferound
+end
+function Mix:getObjectChooseside()
+    return self.Obchooseside
 end
 function Mix:setState(state)
      self.State = state 
@@ -111,8 +119,7 @@ function Mix:start()
 	if(self:getKnifeRound()) then
 		--new knifeRound
         self:setState("kniferound")
-        local Kniferound = Kniferound("Kniferound");
-		Kniferound:start(self:getTeams())
+        self:getObjectKniferound():start();
 	end
 end
 function Mix:__tostring()
