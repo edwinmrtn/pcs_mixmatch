@@ -28,7 +28,7 @@ end
 --Static Method start
 function Chooseside:start(mode) --1 == terro win // 2== ct win
 				parse("mp_startmoney 0")
-				parse("mp_roundtime 100")
+				parse("mp_roundtime 1")
 				parse("mp_freezetime 0")
 				msg("\169100255100CHOOSE SIDE@C")
  	local aMixList = MixList(0);

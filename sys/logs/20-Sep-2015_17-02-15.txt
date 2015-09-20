@@ -1,0 +1,31 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 20 Sep 2015, 17:02:15
+
+[17:02:15] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[17:02:15] ERROR: U.S.G.N. password file seems to be corrupted!
+[17:02:15] UDP socket initialized using port 49251
+[17:02:15] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[17:02:18] starting server...
+[17:02:18] UDP socket initialized using port 36963
+[17:02:18] load map 'de_dust'
+[17:02:18] ----- Server started -----
+[17:02:18] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[17:02:18] parsing Lua server script (mp_luaserver = 'server.lua')
+[17:02:18] Lua: Adding function 'onJoin' to hook 'join'
+[17:02:18] Lua: Adding function 'onSpawn' to hook 'spawn'
+[17:02:18] Lua: Adding function 'onStartround' to hook 'startround'
+[17:02:18] Lua: Adding function 'onEndround' to hook 'endround'
+[17:02:18] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[17:02:18] Lua: Adding function 'onMenu' to hook 'menu'
+[17:02:20] Player joins the Terrorist Forces
+[17:02:24] [b]Executor connected
+[17:02:24] [b]Executor joins the Counter-Terrorist Forces
+[17:02:26] tt
+[17:02:26] ct
+[17:02:26] table: 085D0DF0
+[17:02:26] table: 085D1160
+[17:02:26] 123table: 08649B80
+[17:02:26] KNIFE ROUND
+[17:02:46] Player died
+[17:02:51] CHOOSE SIDE
+[17:03:09] Server Shutdown
+[17:03:09] ----- Disconnected -----

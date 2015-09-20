@@ -1,0 +1,57 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 20 Sep 2015, 16:53:55
+
+[16:53:55] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[16:53:55] ERROR: U.S.G.N. password file seems to be corrupted!
+[16:54:04] UDP socket initialized using port 62728
+[16:54:10] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[16:54:13] starting server...
+[16:54:13] UDP socket initialized using port 36963
+[16:54:13] load map 'de_dust'
+[16:54:13] ----- Server started -----
+[16:54:13] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[16:54:13] parsing Lua server script (mp_luaserver = 'server.lua')
+[16:54:13] Lua: Adding function 'onJoin' to hook 'join'
+[16:54:13] Lua: Adding function 'onSpawn' to hook 'spawn'
+[16:54:13] Lua: Adding function 'onStartround' to hook 'startround'
+[16:54:13] Lua: Adding function 'onEndround' to hook 'endround'
+[16:54:13] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[16:54:13] Lua: Adding function 'onMenu' to hook 'menu'
+[16:54:18] Player joins the Terrorist Forces
+[16:54:24] tt
+[16:54:24] ct
+[16:54:24] table: 0870BAF8
+[16:54:24] table: 0870BCD8
+[16:54:24] 123table: 08712980
+[16:54:24] KNIFE ROUND
+[16:56:26] tt
+[16:56:26] ct
+[16:56:26] table: 08702B98
+[16:56:26] table: 08702170
+[16:56:26] 123table: 08712980
+[16:56:26] KNIFE ROUND
+[16:56:26] tt
+[16:56:26] ct
+[16:56:26] table: 08495AE8
+[16:56:26] table: 08495868
+[16:56:26] 123table: 08712980
+[16:56:26] KNIFE ROUND
+[16:56:29] tt
+[16:56:29] ct
+[16:56:29] table: 0D9DCEF0
+[16:56:29] table: 0D9DCD10
+[16:56:29] 123table: 08712980
+[16:56:29] KNIFE ROUND
+[16:56:29] tt
+[16:56:29] ct
+[16:56:29] table: 0DA72E28
+[16:56:29] table: 0DA72720
+[16:56:29] 123table: 08712980
+[16:56:29] KNIFE ROUND
+[16:56:29] tt
+[16:56:29] ct
+[16:56:29] table: 0D9DA978
+[16:56:29] table: 0D9DAD88
+[16:56:29] 123table: 08712980
+[16:56:29] KNIFE ROUND
+[16:56:31] Server Shutdown
+[16:56:31] ----- Disconnected -----

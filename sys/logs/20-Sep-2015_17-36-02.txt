@@ -1,0 +1,174 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 20 Sep 2015, 17:36:02
+
+[17:36:02] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[17:36:02] ERROR: U.S.G.N. password file seems to be corrupted!
+[17:36:02] UDP socket initialized using port 59935
+[17:36:02] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[17:36:05] starting server...
+[17:36:05] UDP socket initialized using port 36963
+[17:36:05] load map 'de_dust'
+[17:36:05] ----- Server started -----
+[17:36:05] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[17:36:05] parsing Lua server script (mp_luaserver = 'server.lua')
+[17:36:05] Lua: Adding function 'onJoin' to hook 'join'
+[17:36:05] Lua: Adding function 'onSpawn' to hook 'spawn'
+[17:36:05] Lua: Adding function 'onStartround' to hook 'startround'
+[17:36:06] Lua: Adding function 'onEndround' to hook 'endround'
+[17:36:06] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[17:36:06] Lua: Adding function 'onMenu' to hook 'menu'
+[17:36:07] Player joins the Terrorist Forces
+[17:38:51] Server Shutdown
+[17:38:51] ----- Disconnected -----
+[17:38:54] starting server...
+[17:38:54] load map 'de_dust'
+[17:38:54] ----- Server started -----
+[17:38:54] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[17:38:54] parsing Lua server script (mp_luaserver = 'server.lua')
+[17:38:54] Lua: Adding function 'onJoin' to hook 'join'
+[17:38:54] Lua: Adding function 'onSpawn' to hook 'spawn'
+[17:38:54] Lua: Adding function 'onStartround' to hook 'startround'
+[17:38:54] Lua: Adding function 'onEndround' to hook 'endround'
+[17:38:54] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[17:38:55] Lua: Adding function 'onMenu' to hook 'menu'
+[17:38:58] Player joins the Terrorist Forces
+[17:39:00] [b]Cutthroat connected
+[17:39:00] [b]Cutthroat joins the Terrorist Forces
+[17:39:01] [b]HE Overkill connected
+[17:39:01] [b]HE Overkill joins the Counter-Terrorist Forces
+[17:39:02] [b]Cutthroat has left the game (kicked)
+[17:39:05] tt
+[17:39:05] ct
+[17:39:05] table: 0889EA98
+[17:39:05] table: 0889EC00
+[17:39:05] 123table: 0899D880
+[17:39:05] KNIFE ROUND
+[17:39:05] nkok
+[17:39:07] Player died
+[17:39:12] CHOOSE SIDE
+[17:39:14] okok
+[17:39:51] ERROR: Unknown command 'menu(1,"okok")' (menu(1,"okok"))
+[17:39:51] Use quotation marks for parameters with blanks. e.g.: mp_unbuyable "Tactical Shield"
+[17:39:51] Visit CS2D.com/help for a command reference
+[17:40:24] [b]Blowball connected
+[17:40:24] [b]Blowball joins the Counter-Terrorist Forces
+[17:40:25] [b]Pete connected
+[17:40:25] [b]Pete joins the Counter-Terrorist Forces
+[17:40:28] tt
+[17:40:28] ct
+[17:40:28] table: 048CB660
+[17:40:28] table: 048CBB60
+[17:40:28] 123table: 0899D880
+[17:40:28] KNIFE ROUND
+[17:40:28] nkok
+[17:40:28] tt
+[17:40:28] ct
+[17:40:28] table: 0E3D9E80
+[17:40:28] table: 0E3D9318
+[17:40:28] 123table: 0899D880
+[17:40:28] KNIFE ROUND
+[17:40:28] nkok
+[17:40:28] Player died
+[17:40:28] Player joins the Terrorist Forces
+[17:40:28] Player joins the Counter-Terrorist Forces
+[17:40:28] gg well played
+[17:40:28] CHOOSE SIDE
+[17:40:28] LUA ERROR: sys/lua/pcs_mixmatch/model/chooseside.lua:37: attempt to index a nil value
+[17:40:28]  -> sys/lua/pcs_mixmatch/model/chooseside.lua:37: in function 'start'
+[17:40:28]  -> sys/lua/pcs_mixmatch/controler/onStartround.lua:9: in function <sys/lua/pcs_mixmatch/controler/onStartround.lua:4>
+[17:40:28]  -> in Lua hook 'startround', params: 2
+[17:40:33] gg well played
+[17:40:33] CHOOSE SIDE
+[17:40:35] 1 a vote tt
+[17:40:35] Player died
+[17:40:35] Player joins the Terrorist Forces
+[17:40:35] Player joins the Counter-Terrorist Forces
+[17:40:35] nkok
+[17:40:38] Player died
+[17:40:38] Player joins the Terrorist Forces
+[17:40:38] Player joins the Counter-Terrorist Forces
+[17:40:38] gg well played
+[17:40:38] Player joins the Terrorist Forces
+[17:40:38] Player joins the Counter-Terrorist Forces
+[17:40:41] gg well played
+[17:40:44] Player died
+[17:40:44] Player joins the Terrorist Forces
+[17:40:48] tt
+[17:40:48] ct
+[17:40:48] table: 0899E488
+[17:40:48] table: 0899DAB0
+[17:40:48] 123table: 0899D880
+[17:40:48] KNIFE ROUND
+[17:40:48] nkok
+[17:40:48] tt
+[17:40:48] ct
+[17:40:48] table: 0E1B7968
+[17:40:48] table: 0E2106E0
+[17:40:48] 123table: 0899D880
+[17:40:48] KNIFE ROUND
+[17:40:48] nkok
+[17:40:48] tt
+[17:40:48] ct
+[17:40:48] table: 0E377A40
+[17:40:48] table: 048CB598
+[17:40:48] 123table: 0899D880
+[17:40:48] KNIFE ROUND
+[17:40:48] nkok
+[17:40:51] Player died
+[17:40:56] CHOOSE SIDE
+[17:41:01] generating stats...
+[17:41:01] stats generated in 0 ms!
+[17:41:02] okok
+[17:41:12] Server Shutdown
+[17:41:12] ----- Disconnected -----
+[17:41:49] starting server...
+[17:41:49] load map 'de_dust'
+[17:41:49] ----- Server started -----
+[17:41:49] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[17:41:49] parsing Lua server script (mp_luaserver = 'server.lua')
+[17:41:49] Lua: Adding function 'onJoin' to hook 'join'
+[17:41:49] Lua: Adding function 'onSpawn' to hook 'spawn'
+[17:41:49] Lua: Adding function 'onStartround' to hook 'startround'
+[17:41:49] Lua: Adding function 'onEndround' to hook 'endround'
+[17:41:49] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[17:41:49] Lua: Adding function 'onMenu' to hook 'menu'
+[17:41:54] Player joins the Terrorist Forces
+[17:41:56] [b]0_o connected
+[17:41:56] [b]0_o joins the Counter-Terrorist Forces
+[17:42:03] tt
+[17:42:03] ct
+[17:42:03] table: 0899D1F0
+[17:42:03] table: 0899CEA8
+[17:42:03] 123table: 0E212120
+[17:42:03] KNIFE ROUND
+[17:42:03] nkok
+[17:42:06] Player died
+[17:42:11] CHOOSE SIDE
+[17:42:13] okok
+[17:42:23] Server Shutdown
+[17:42:23] ----- Disconnected -----
+[17:42:59] starting server...
+[17:42:59] load map 'de_dust'
+[17:42:59] ----- Server started -----
+[17:42:59] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[17:42:59] parsing Lua server script (mp_luaserver = 'server.lua')
+[17:42:59] Lua: Adding function 'onJoin' to hook 'join'
+[17:42:59] Lua: Adding function 'onSpawn' to hook 'spawn'
+[17:42:59] Lua: Adding function 'onStartround' to hook 'startround'
+[17:42:59] Lua: Adding function 'onEndround' to hook 'endround'
+[17:43:00] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[17:43:00] Lua: Adding function 'onMenu' to hook 'menu'
+[17:43:02] Player joins the Terrorist Forces
+[17:43:03] [b]Drone connected
+[17:43:03] [b]Drone joins the Counter-Terrorist Forces
+[17:43:09] tt
+[17:43:09] ct
+[17:43:09] table: 0EB34920
+[17:43:09] table: 0EB335E8
+[17:43:09] 123table: 0899D448
+[17:43:09] KNIFE ROUND
+[17:43:09] nkok
+[17:43:13] Player died
+[17:43:18] CHOOSE SIDE
+[17:43:20] okok
+[17:43:27] Server Shutdown
+[17:43:27] ----- Disconnected -----

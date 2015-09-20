@@ -1,0 +1,32 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 20 Sep 2015, 01:30:44
+
+[01:30:44] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[01:30:44] ERROR: U.S.G.N. password file seems to be corrupted!
+[01:30:44] UDP socket initialized using port 53267
+[01:30:44] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[01:30:46] starting server...
+[01:30:46] UDP socket initialized using port 36963
+[01:30:46] load map 'de_dust'
+[01:30:46] ----- Server started -----
+[01:30:46] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[01:30:46] parsing Lua server script (mp_luaserver = 'server.lua')
+[01:30:46] Lua: Adding function 'onJoin' to hook 'join'
+[01:30:46] Lua: Adding function 'onSpawn' to hook 'spawn'
+[01:30:46] Lua: Adding function 'onStartround' to hook 'startround'
+[01:30:46] Lua: Adding function 'onEndround' to hook 'endround'
+[01:30:46] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[01:30:46] Lua: Adding function 'onMenu' to hook 'menu'
+[01:30:48] Player joins the Terrorist Forces
+[01:30:50] [b]fucktard connected
+[01:30:50] [b]fucktard joins the Counter-Terrorist Forces
+[01:30:50] [b]Deagle Master connected
+[01:30:50] [b]Deagle Master joins the Counter-Terrorist Forces
+[01:31:05] [b]Deagle Master killed Player with USP
+[01:31:46] [b]Deagle Master killed Player with MP5
+[01:32:05] Player killed [b]Deagle Master with Deagle
+[01:32:11] [b]fucktard killed Player with Famas
+[01:32:48] Player killed [b]fucktard with Deagle
+[01:33:15] [b]Deagle Master killed Player with M3
+[01:33:32] [b]Deagle Master killed Player with M4A1
+[01:33:34] Server Shutdown
+[01:33:34] ----- Disconnected -----

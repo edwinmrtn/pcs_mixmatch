@@ -1,0 +1,44 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 20 Sep 2015, 17:10:53
+
+[17:10:53] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[17:10:53] ERROR: U.S.G.N. password file seems to be corrupted!
+[17:10:54] UDP socket initialized using port 61187
+[17:10:54] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[17:10:56] starting server...
+[17:10:56] UDP socket initialized using port 36963
+[17:10:56] load map 'de_dust'
+[17:10:56] ----- Server started -----
+[17:10:56] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[17:10:56] parsing Lua server script (mp_luaserver = 'server.lua')
+[17:10:56] Lua: Adding function 'onJoin' to hook 'join'
+[17:10:57] Lua: Adding function 'onSpawn' to hook 'spawn'
+[17:10:57] Lua: Adding function 'onStartround' to hook 'startround'
+[17:10:57] Lua: Adding function 'onEndround' to hook 'endround'
+[17:10:57] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[17:10:57] Lua: Adding function 'onMenu' to hook 'menu'
+[17:10:58] Player joins the Terrorist Forces
+[17:11:04] [b]HE Overkill connected
+[17:11:04] [b]HE Overkill joins the Terrorist Forces
+[17:11:05] [b]Pete connected
+[17:11:05] [b]Pete joins the Counter-Terrorist Forces
+[17:11:08] tt
+[17:11:08] ct
+[17:11:08] table: 05540910
+[17:11:08] table: 055406E0
+[17:11:08] 123table: 0D3B5060
+[17:11:08] KNIFE ROUND
+[17:11:08] tt
+[17:11:08] ct
+[17:11:08] table: 0522B500
+[17:11:08] table: 054010D0
+[17:11:08] 123table: 0D3B5060
+[17:11:08] KNIFE ROUND
+[17:11:14] [b]HE Overkill has left the game (kicked)
+[17:11:19] Player died
+[17:11:24] CHOOSE SIDE
+[17:11:30] 1 a vote tt
+[17:11:30] Player died
+[17:11:30] Player joins the Terrorist Forces
+[17:11:30] Player joins the Counter-Terrorist Forces
+[17:11:33] Server Shutdown
+[17:11:33] ----- Disconnected -----

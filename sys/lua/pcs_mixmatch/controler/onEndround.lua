@@ -10,7 +10,8 @@ function onEndround(mode)
 				elseif(mode == 2) then  --counter win
 					aMixList:getMixList():Get(i):setState("chooseside")
 				end 		
-			
+			elseif (aMixList:getMixList():Get(i):getState() == "chooseside") then
+				aMixList:getMixList():Get(i):setState("side1")
 			elseif (aMixList:getMixList():Get(i):getState() == "side1") then
 					aMixList:getMixList():Get(i):setcptRounds(aMixList:getMixList():Get(i):getcptRounds()+1)		
 			
