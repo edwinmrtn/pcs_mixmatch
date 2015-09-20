@@ -50,9 +50,13 @@ function Player:chooseteam()
           local bouton_voteterro = Bouton(1,"Terrorists","voteforterro")
           local bouton_votecounter = Bouton(2,"Counter-Terrorists","voteforcounter")
 
+          local bouton_cancel = Bouton(0,"","")
 
           menu_chooseteam:addBouton(bouton_voteterro)
           menu_chooseteam:addBouton(bouton_votecounter)
+
+          menu_chooseteam:addBouton(bouton_cancel)
+
           menu(self:getId(),menu_chooseteam:Show())
 end
 
