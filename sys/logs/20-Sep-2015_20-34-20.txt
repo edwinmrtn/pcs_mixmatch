@@ -1,0 +1,143 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 20 Sep 2015, 20:34:20
+
+[20:34:20] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[20:34:20] ERROR: U.S.G.N. password file seems to be corrupted!
+[20:34:20] UDP socket initialized using port 65376
+[20:34:20] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[20:34:22] U.S.G.N.: Requesting serverlist...
+[20:34:26] starting server...
+[20:34:26] UDP socket initialized using port 36963
+[20:34:26] load map 'de_dust'
+[20:34:26] ----- Server started -----
+[20:34:26] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[20:34:26] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:34:26] Lua: Adding function 'onJoin' to hook 'join'
+[20:34:26] Lua: Adding function 'onSpawn' to hook 'spawn'
+[20:34:26] Lua: Adding function 'onStartround' to hook 'startround'
+[20:34:26] Lua: Adding function 'onEndround' to hook 'endround'
+[20:34:26] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[20:34:26] Lua: Adding function 'onMenu' to hook 'menu'
+[20:34:28] Player joins the Terrorist Forces
+[20:34:29] [b]Slayer connected
+[20:34:29] [b]Slayer joins the Counter-Terrorist Forces
+[20:34:39] 1
+[20:34:39] tt
+[20:34:39] ct
+[20:34:39] table: 0E741A70
+[20:34:39] table: 0E111100
+[20:34:39] 123table: 0E758F78
+[20:34:39] KNIFE ROUND
+[20:34:39] nkok
+[20:34:57] [b]Slayer killed Player with Knife
+[20:34:58] Server Shutdown
+[20:34:58] ----- Disconnected -----
+[20:45:44] starting server...
+[20:45:44] load map 'de_dust'
+[20:45:44] ----- Server started -----
+[20:45:44] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[20:45:44] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:45:44] Lua: Adding function 'onJoin' to hook 'join'
+[20:45:44] Lua: Adding function 'onSpawn' to hook 'spawn'
+[20:45:44] Lua: Adding function 'onStartround' to hook 'startround'
+[20:45:44] Lua: Adding function 'onEndround' to hook 'endround'
+[20:45:45] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[20:45:45] Lua: Adding function 'onMenu' to hook 'menu'
+[20:45:46] Player joins the Terrorist Forces
+[20:45:48] [b]Linux Lover connected
+[20:45:48] [b]Linux Lover joins the Counter-Terrorist Forces
+[20:45:50] 1
+[20:45:50] tt
+[20:45:50] ct
+[20:45:50] table: 0E110928
+[20:45:50] table: 0E110810
+[20:45:50] 123table: 088B97A8
+[20:45:50] KNIFE ROUND
+[20:45:50] nkok
+[20:45:55] ERROR: Unknown command 'kil' (kil)
+[20:45:55] Use quotation marks for parameters with blanks. e.g.: mp_unbuyable "Tactical Shield"
+[20:45:55] Visit CS2D.com/help for a command reference
+[20:45:57] Player died
+[20:46:02] CHOOSE SIDE
+[20:46:04] 0
+[20:46:04] LUA ERROR: sys/lua/pcs_mixmatch/controler/onMenu.lua:28: bad argument #1 to 'menu' (number expected, got nil)
+[20:47:14] Server Shutdown
+[20:47:14] ----- Disconnected -----
+[20:47:16] starting server...
+[20:47:16] load map 'de_dust'
+[20:47:16] ----- Server started -----
+[20:47:16] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[20:47:16] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:47:16] Lua: Adding function 'onJoin' to hook 'join'
+[20:47:16] Lua: Adding function 'onSpawn' to hook 'spawn'
+[20:47:16] Lua: Adding function 'onStartround' to hook 'startround'
+[20:47:16] Lua: Adding function 'onEndround' to hook 'endround'
+[20:47:17] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[20:47:17] Lua: Adding function 'onMenu' to hook 'menu'
+[20:47:20] Player joins the Counter-Terrorist Forces
+[20:47:21] [b]PlayWithPentablet connected
+[20:47:21] [b]PlayWithPentablet joins the Terrorist Forces
+[20:47:30] 1
+[20:47:30] tt
+[20:47:30] ct
+[20:47:30] table: 088B96E0
+[20:47:30] table: 088B9AC8
+[20:47:30] 123table: 0E053468
+[20:47:30] KNIFE ROUND
+[20:47:30] nkok
+[20:47:32] Player died
+[20:47:37] CHOOSE SIDE
+[20:47:39] 0
+[20:47:39] id
+[20:47:39] LUA ERROR: sys/lua/pcs_mixmatch/controler/onMenu.lua:29: bad argument #1 to 'menu' (number expected, got nil)
+[20:47:55] Server Shutdown
+[20:47:55] ----- Disconnected -----
+[20:47:57] starting server...
+[20:47:57] load map 'de_dust'
+[20:47:57] ----- Server started -----
+[20:47:57] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[20:47:57] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:47:57] Lua: Adding function 'onJoin' to hook 'join'
+[20:47:57] Lua: Adding function 'onSpawn' to hook 'spawn'
+[20:47:57] Lua: Adding function 'onStartround' to hook 'startround'
+[20:47:57] Lua: Adding function 'onEndround' to hook 'endround'
+[20:47:57] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[20:47:57] Lua: Adding function 'onMenu' to hook 'menu'
+[20:47:58] Player joins the Terrorist Forces
+[20:48:05] [b]Keksmeister connected
+[20:48:05] [b]Keksmeister joins the Counter-Terrorist Forces
+[20:48:08] 1
+[20:48:08] tt
+[20:48:08] ct
+[20:48:08] table: 0E72FD08
+[20:48:08] table: 0E730460
+[20:48:08] 123table: 0E733940
+[20:48:08] KNIFE ROUND
+[20:48:08] nkok
+[20:48:10] Player died
+[20:48:15] CHOOSE SIDE
+[20:48:16] 0
+[20:48:16] 1
+[20:48:18] 0
+[20:48:18] 1
+[20:48:19] 0
+[20:48:19] 1
+[20:48:20] 0
+[20:48:20] 1
+[20:48:20] 0
+[20:48:20] 1
+[20:48:21] 0
+[20:48:21] 1
+[20:48:21] 0
+[20:48:21] 1
+[20:48:22] 0
+[20:48:22] 1
+[20:48:25] 0
+[20:48:25] 1
+[20:48:25] 0
+[20:48:25] 1
+[20:48:26] 0
+[20:48:26] 1
+[20:48:26] 0
+[20:48:26] 1
+[20:48:30] Server Shutdown
+[20:48:30] ----- Disconnected -----
