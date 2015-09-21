@@ -7,9 +7,10 @@ Bouton = newclass("Bouton")
 
 --Constructors
 
-function Bouton:init(Id,Nom,Fonction)
+function Bouton:init(Id,Nom,Value,Fonction)
 	self.Id       = Id 
 	self.Nom      = Nom
+	self.Value    = Value
 	self.Fonction = Fonction
 end
 
@@ -19,6 +20,9 @@ function Bouton:getId()
 end
 function Bouton:getNom()
     return self.Nom
+end
+function Bouton:getValue()
+    return self.Value
 end
 function Bouton:getFonction()
     return self.Fonction

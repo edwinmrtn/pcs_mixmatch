@@ -122,6 +122,10 @@ function Mix:start()
         self:getObjectKniferound():start();
 	end
 end
+function Mix:showString()
+    local string = tostring(self:getId()).." "..tostring(self:getRounds()).." "..tostring(self:getNomberPlayers()).." "..tostring(self:getMap()).." "..tostring(self:getTillEnd()).." "..tostring(self:getKnifeRound())
+    return string 
+end 
 function Mix:__tostring()
     return "I am a Mix"
 end

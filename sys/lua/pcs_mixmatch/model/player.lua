@@ -8,13 +8,20 @@ Player = newclass("Player")
 
 --Constructors
 function Player:init(Id,USGN,Rank,Name,IP)
-	self.Id   = Id
-	self.USGN = USGN
-	self.Rank = Rank
-	self.Name = Name
-	self.IP   = IP
+	self.Id             = Id
+	self.USGN           = USGN
+	self.Rank           = Rank
+	self.Name           = Name
+	self.IP             = IP
+  self.CreateMixArray = {}
 end
 
+
+--createMixArray.rounds
+--createMixArray.nombersplayers
+--createMixArray.map
+--createMixArray.tillend
+--createMixArray.kniferound
 
 --Methods
 function Player:getId()
@@ -22,6 +29,9 @@ function Player:getId()
 end
 function Player:getUSGN()
     return self.USGN
+end
+function Player:getCreateMixArray()
+  return self.CreateMixArray
 end
 
 function Player:getRank()
