@@ -4,7 +4,7 @@ dofile("sys/lua/pcs_mixmatch/model/menuList.lua")
 addhook("menu","onMenu")
 function onMenu(id,title,button)
 	local theMenuList = MenuList(0)
-	parse("msg "..button)
+	parse("msg okok "..theMenuList:NumbersMenus())
 	for i=1,theMenuList:NumbersMenus() do
 			 if(title == theMenuList:getMenuList():Get(i):getTitre())then 
 			 	for j=1,theMenuList:getMenuList():Get(i):NumbersBoutons() do
@@ -12,8 +12,7 @@ function onMenu(id,title,button)
 			 			timer(0,"atimer",id)
 			 		elseif(button == theMenuList:getMenuList():Get(i):getBoutons():Get(j):getId()) then
 			 			local fonctionName = theMenuList:getMenuList():Get(i):getBoutons():Get(j):getFonction()
-			 			_G[fonctionName](id) --thanks http://stackoverflow.com/questions/1791234/lua-call-function-from-a-string-with-function-name 
-			 			parse("msg nkok")
+			 			_G[fonctionName](id,button,theMenuList:getMenuList():Get(i)) --thanks http://stackoverflow.com/questions/1791234/lua-call-function-from-a-string-with-function-name 
 			 		end
 			 	end
 			 end

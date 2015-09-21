@@ -1,0 +1,154 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 21 Sep 2015, 20:12:39
+
+[20:12:39] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[20:12:39] ERROR: U.S.G.N. password file seems to be corrupted!
+[20:12:39] UDP socket initialized using port 64371
+[20:12:39] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[20:12:41] starting server...
+[20:12:41] UDP socket initialized using port 36963
+[20:12:41] load map 'de_dust'
+[20:12:41] ----- Server started -----
+[20:12:41] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[20:12:41] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:12:41] Lua: Adding function 'onJoin' to hook 'join'
+[20:12:41] Lua: Adding function 'onSpawn' to hook 'spawn'
+[20:12:41] Lua: Adding function 'onStartround' to hook 'startround'
+[20:12:41] Lua: Adding function 'onEndround' to hook 'endround'
+[20:12:42] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[20:12:42] Lua: Adding function 'onMenu' to hook 'menu'
+[20:12:43] Player joins the Terrorist Forces
+[20:12:46] nkok
+[20:12:47] LUA ERROR: sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:41: attempt to index global 'aPlayerList' (a nil value)
+[20:12:47]  -> sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:41: in function '?'
+[20:12:47]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[20:12:47]  -> in Lua hook 'menu', params: 1, 'Create Mix - Rounds', 2
+[20:13:14] Server Shutdown
+[20:13:14] ----- Disconnected -----
+[20:13:17] starting server...
+[20:13:17] load map 'de_dust'
+[20:13:17] ----- Server started -----
+[20:13:17] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[20:13:17] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:13:17] Lua: Adding function 'onJoin' to hook 'join'
+[20:13:17] Lua: Adding function 'onSpawn' to hook 'spawn'
+[20:13:17] Lua: Adding function 'onStartround' to hook 'startround'
+[20:13:17] Lua: Adding function 'onEndround' to hook 'endround'
+[20:13:17] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[20:13:17] Lua: Adding function 'onMenu' to hook 'menu'
+[20:13:18] Player joins the Terrorist Forces
+[20:13:20] nkok
+[20:13:21] LUA ERROR: sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:42: attempt to index global 'aPlayerList' (a nil value)
+[20:13:21]  -> sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:42: in function '?'
+[20:13:21]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[20:13:21]  -> in Lua hook 'menu', params: 1, 'Create Mix - Rounds', 2
+[20:13:25] Server Shutdown
+[20:13:25] ----- Disconnected -----
+[20:13:58] starting server...
+[20:13:58] load map 'de_dust'
+[20:13:58] ----- Server started -----
+[20:13:58] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[20:13:58] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:13:58] Lua: Adding function 'onJoin' to hook 'join'
+[20:13:58] Lua: Adding function 'onSpawn' to hook 'spawn'
+[20:13:58] Lua: Adding function 'onStartround' to hook 'startround'
+[20:13:58] Lua: Adding function 'onEndround' to hook 'endround'
+[20:13:58] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[20:13:58] Lua: Adding function 'onMenu' to hook 'menu'
+[20:14:00] Player joins the Terrorist Forces
+[20:14:02] tt
+[20:14:02] ct
+[20:14:02] table: 08603780
+[20:14:02] table: 08603528
+[20:14:02] 123table: 0870D738
+[20:14:02] KNIFE ROUND
+[20:14:02] nkok
+[20:14:04] "  (1x)
+[20:14:04] LUA ERROR: sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:35: attempt to call method 'Get' (a nil value)
+[20:14:04]  -> sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:35: in function '?'
+[20:14:04]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[20:14:04]  -> in Lua hook 'menu', params: 1, 'Create Mix - Rounds', 2
+[20:14:51] Server Shutdown
+[20:14:51] ----- Disconnected -----
+[20:14:53] starting server...
+[20:14:53] load map 'de_dust'
+[20:14:53] ----- Server started -----
+[20:14:54] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[20:14:54] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:14:54] Lua: Adding function 'onJoin' to hook 'join'
+[20:14:54] Lua: Adding function 'onSpawn' to hook 'spawn'
+[20:14:54] Lua: Adding function 'onStartround' to hook 'startround'
+[20:14:54] Lua: Adding function 'onEndround' to hook 'endround'
+[20:14:54] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[20:14:54] Lua: Adding function 'onMenu' to hook 'menu'
+[20:14:55] Player joins the Terrorist Forces
+[20:14:57] tt
+[20:14:57] ct
+[20:14:57] table: 08824010
+[20:14:57] table: 08707A78
+[20:14:57] 123table: 0E44E4D0
+[20:14:57] KNIFE ROUND
+[20:14:57] nkok
+[20:14:58] "  (1x)
+[20:14:59] LUA ERROR: sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:36: attempt to call method 'Get' (a nil value)
+[20:14:59]  -> sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:36: in function '?'
+[20:14:59]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[20:14:59]  -> in Lua hook 'menu', params: 1, 'Create Mix - Rounds', 2
+[20:15:06] Server Shutdown
+[20:15:06] ----- Disconnected -----
+[20:15:57] starting server...
+[20:15:57] load map 'de_dust'
+[20:15:57] ----- Server started -----
+[20:15:57] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[20:15:57] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:15:57] Lua: Adding function 'onJoin' to hook 'join'
+[20:15:57] Lua: Adding function 'onSpawn' to hook 'spawn'
+[20:15:57] Lua: Adding function 'onStartround' to hook 'startround'
+[20:15:57] Lua: Adding function 'onEndround' to hook 'endround'
+[20:15:58] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[20:15:58] Lua: Adding function 'onMenu' to hook 'menu'
+[20:16:00] Player joins the Terrorist Forces
+[20:16:01] tt
+[20:16:01] ct
+[20:16:01] table: 0E2F6E00
+[20:16:01] table: 0E2F7FF8
+[20:16:01] 123table: 0E2A0CE0
+[20:16:01] KNIFE ROUND
+[20:16:01] nkok
+[20:16:02] "  (1x)
+[20:16:03] LUA ERROR: sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:42: attempt to index global 'aPlayerList' (a nil value)
+[20:16:03]  -> sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:42: in function '?'
+[20:16:03]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[20:16:03]  -> in Lua hook 'menu', params: 1, 'Create Mix - Rounds', 2
+[20:16:21] Server Shutdown
+[20:16:21] ----- Disconnected -----
+[20:16:23] starting server...
+[20:16:23] load map 'de_dust'
+[20:16:23] ----- Server started -----
+[20:16:23] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[20:16:23] parsing Lua server script (mp_luaserver = 'server.lua')
+[20:16:23] Lua: Adding function 'onJoin' to hook 'join'
+[20:16:23] Lua: Adding function 'onSpawn' to hook 'spawn'
+[20:16:23] Lua: Adding function 'onStartround' to hook 'startround'
+[20:16:23] Lua: Adding function 'onEndround' to hook 'endround'
+[20:16:24] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[20:16:24] Lua: Adding function 'onMenu' to hook 'menu'
+[20:16:26] Player joins the Terrorist Forces
+[20:16:27] tt
+[20:16:27] ct
+[20:16:27] table: 0E2A1398
+[20:16:27] table: 0E2A1078
+[20:16:27] 123table: 0DFC3FC0
+[20:16:27] KNIFE ROUND
+[20:16:27] nkok
+[20:16:28] ERROR: Unknown command 'msg123' (msg123)
+[20:16:28] Use quotation marks for parameters with blanks. e.g.: mp_unbuyable "Tactical Shield"
+[20:16:28] Visit CS2D.com/help for a command reference
+[20:16:28] 1 2
+[20:16:28] nkok
+[20:16:28] ERROR: Unknown command 'msg123' (msg123)
+[20:16:28] Use quotation marks for parameters with blanks. e.g.: mp_unbuyable "Tactical Shield"
+[20:16:28] Visit CS2D.com/help for a command reference
+[20:16:28] 1 2
+[20:16:28] nkok
+[20:16:38] Server Shutdown
+[20:16:38] ----- Disconnected -----

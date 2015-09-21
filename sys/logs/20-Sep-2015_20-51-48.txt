@@ -1,0 +1,6 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 20 Sep 2015, 20:51:48
+
+[20:51:48] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[20:51:48] ERROR: U.S.G.N. password file seems to be corrupted!
+[20:51:48] UDP socket initialized using port 62926
+[20:51:49] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
