@@ -17,13 +17,17 @@ function onListMixes(id)
         theMenuList:addMenu(menu_action1);
     end
     local aMixList    = MixList(0);
-    for i=1,aMixList:NumbersMixs() do
-	    --new Bouton	
-	    local bouton     = Bouton(1,"("..aMixList:getMixList():Get(i):showString().." | "..aMixList:getMixList():Get(i):getNumberRegist().."/"..aMixList:getMixList():Get(i):getNomberPlayers()..")","","")
-	    menu_action1:addBouton(bouton)
-	end
+    
+    if (aMixList:NumbersMixs() == 0)then 
+        parse("msg Error : No mixes found")
+    else
+        for i=1,aMixList:NumbersMixs() do
+    	    --new Bouton	
+    	    local bouton     = Bouton(1,"("..aMixList:getMixList():Get(i):showString().." | "..aMixList:getMixList():Get(i):getNumberRegist().."/"..aMixList:getMixList():Get(i):getNomberPlayers()..")","","")
+    	    menu_action1:addBouton(bouton)
+    	end
 	menu(id,menu_action1:Show())
-	
+	end
 		
 	
 end

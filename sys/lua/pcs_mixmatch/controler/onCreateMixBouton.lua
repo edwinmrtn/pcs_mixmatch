@@ -269,5 +269,16 @@ function CreateTheMix(id,button,object)
 	--new mix
 	local aMix = Mix(aMixList:NumbersMixs()+1,choicePlayer.rounds,choicePlayer.nombersplayers,choicePlayer.map,choicePlayer.tillend,choicePlayer.kniferound);
 	aMix:addRegistPlayer(Player)
+
+  --[[A RECHANGER 
+  ----DEBUG :
+            local thePlayerList = PlayerList(0)
+             parse("msg "..thePlayerList:NumbersPlayers())
+            for i=1, thePlayerList:NumbersPlayers() do 
+                aMix:addRegistPlayer(thePlayerList:getPlayerList():Get(i))
+            end 
+  aMix:start()
+  ------DEBUGFIN ]]--
+  
   aMixList:addMix(aMix)
 end
