@@ -1,0 +1,34 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 22 Sep 2015, 11:52:41
+
+[11:52:41] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[11:52:41] ERROR: U.S.G.N. password file seems to be corrupted!
+[11:52:42] UDP socket initialized using port 59273
+[11:52:42] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[11:52:45] starting server...
+[11:52:45] UDP socket initialized using port 36963
+[11:52:45] load map 'de_dust'
+[11:52:45] ----- Server started -----
+[11:52:45] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[11:52:45] parsing Lua server script (mp_luaserver = 'server.lua')
+[11:52:45] Lua: Adding function 'onJoin' to hook 'join'
+[11:52:45] Lua: Adding function 'onSpawn' to hook 'spawn'
+[11:52:45] Lua: Adding function 'onStartround' to hook 'startround'
+[11:52:45] Lua: Adding function 'onEndround' to hook 'endround'
+[11:52:45] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[11:52:45] Lua: Adding function 'onMenu' to hook 'menu'
+[11:52:47] Player joins the Terrorist Forces
+[11:52:48] okok 1
+[11:52:48] KNIFE ROUND
+[11:52:49] okok 1
+[11:52:51] okok 2
+[11:52:55] "  (1x)
+[11:52:55] okok 3
+[11:52:56] okok 4
+[11:52:57] okok 5
+[11:52:57] okok 6
+[11:52:58] okok 7
+[11:52:59] okok 8
+[11:53:00] "  (1x)
+[11:53:02] "  (1x)
+[11:53:07] Server Shutdown
+[11:53:07] ----- Disconnected -----

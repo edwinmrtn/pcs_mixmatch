@@ -1,0 +1,49 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 22 Sep 2015, 11:42:07
+
+[11:42:07] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[11:42:07] ERROR: U.S.G.N. password file seems to be corrupted!
+[11:42:08] UDP socket initialized using port 50981
+[11:42:08] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[11:42:10] starting server...
+[11:42:10] UDP socket initialized using port 36963
+[11:42:10] load map 'de_dust'
+[11:42:10] ----- Server started -----
+[11:42:10] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[11:42:10] parsing Lua server script (mp_luaserver = 'server.lua')
+[11:42:10] Lua: Adding function 'onJoin' to hook 'join'
+[11:42:10] Lua: Adding function 'onSpawn' to hook 'spawn'
+[11:42:10] Lua: Adding function 'onStartround' to hook 'startround'
+[11:42:10] Lua: Adding function 'onEndround' to hook 'endround'
+[11:42:10] LUA ERROR: sys/lua/pcs_mixmatch/controler/onListMixes.lua:22: ')' expected near '|'
+[11:42:10]  -> [C]: in function 'dofile'
+[11:42:10]  -> sys/lua/pcs_mixmatch/controler/onServeraction.lua:8: in main chunk
+[11:42:10]  -> [C]: in function 'dofile'
+[11:42:10]  -> sys/lua/pcs_mixmatch/controler/main.lua:7: in main chunk
+[11:42:10]  -> [C]: in function 'dofile'
+[11:42:10]  -> sys/lua/server.lua:1: in main chunk
+[11:42:12] Player joins the Terrorist Forces
+[11:42:21] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[11:42:21] ERROR: U.S.G.N. password file seems to be corrupted!
+[11:42:24] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[11:42:24] ERROR: U.S.G.N. password file seems to be corrupted!
+[11:42:28] Server Shutdown
+[11:42:28] ----- Disconnected -----
+[11:43:07] starting server...
+[11:43:07] load map 'de_dust'
+[11:43:07] ----- Server started -----
+[11:43:07] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[11:43:07] parsing Lua server script (mp_luaserver = 'server.lua')
+[11:43:07] Lua: Adding function 'onJoin' to hook 'join'
+[11:43:07] Lua: Adding function 'onSpawn' to hook 'spawn'
+[11:43:07] Lua: Adding function 'onStartround' to hook 'startround'
+[11:43:07] Lua: Adding function 'onEndround' to hook 'endround'
+[11:43:07] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[11:43:07] Lua: Adding function 'onMenu' to hook 'menu'
+[11:43:09] Player joins the Terrorist Forces
+[11:43:11] okok 1
+[11:43:11] okok 2
+[11:43:11] KNIFE ROUND
+[11:43:12] okok 2
+[11:43:16] "  (1x)
+[11:43:17] Server Shutdown
+[11:43:17] ----- Disconnected -----

@@ -223,3 +223,33 @@ Counter-Strike 2D b 0.1.2.7 Logfile - 21 Sep 2015, 22:42:25
 [23:17:13] 2 24 8 de_office false false
 [23:17:32] Server Shutdown
 [23:17:32] ----- Disconnected -----
+[23:29:55] starting server...
+[23:29:55] load map 'de_dust'
+[23:29:55] ----- Server started -----
+[23:29:55] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[23:29:55] parsing Lua server script (mp_luaserver = 'server.lua')
+[23:29:55] Lua: Adding function 'onJoin' to hook 'join'
+[23:29:55] Lua: Adding function 'onSpawn' to hook 'spawn'
+[23:29:56] Lua: Adding function 'onStartround' to hook 'startround'
+[23:29:56] Lua: Adding function 'onEndround' to hook 'endround'
+[23:29:56] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[23:29:56] Lua: Adding function 'onMenu' to hook 'menu'
+[23:29:58] Player joins the Terrorist Forces
+[23:30:00] okok 1
+[23:30:00] KNIFE ROUND
+[23:30:03] okok 1
+[23:30:03] 0 2 4 de_dust false true
+[23:30:07] okok 1
+[23:30:08] okok 2
+[23:30:08] okok 3
+[23:30:08] okok 4
+[23:30:09] okok 5
+[23:30:09] okok 6
+[23:30:12] okok 7
+[23:30:14] "  (1x)
+[23:30:14] 0 2 4 de_dust false true
+[23:30:14] 2 30 10 de_dust true true
+[23:30:24] generating stats...
+[23:30:24] stats generated in 1 ms!
+[23:31:12] Server Shutdown
+[23:31:12] ----- Disconnected -----

@@ -17,6 +17,7 @@ self.NomberPlayers = NomberPlayers
 self.Map           = Map
 self.TillEnd       = TillEnd
 self.KnifeRound    = KnifeRound
+self.RegistPlayers = ArrayList.Create()
 self.State         = "preparation"
 self.Teams         = ArrayList.Create()
 self.ObKniferound  = Kniferound("Kniferound");
@@ -32,6 +33,15 @@ end
 function Mix:getState()
     return self.State
 end
+function Mix:getRegistPlayers()
+    return self.RegistPlayers
+end
+function Mix:getNumberRegist()
+    return self:getRegistPlayers():Size()
+end
+function Mix:addRegistPlayer(Player)
+    self:getRegistPlayers():Add(Player)
+end 
 function Mix:getObjectKniferound()
     return self.ObKniferound
 end
