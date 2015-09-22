@@ -9,8 +9,10 @@ function onStartround(mode)
 		    		aMixList:getMixList():Get(i):getObjectChooseside():start(mode)
 		    end
 			if (aMixList:getMixList():Get(i):getState() == "side1") then
+					msg("\169100255100SIDE 1@C")
 					if(aMixList:getMixList():Get(i):getRoundsRemain() == 0)then
 						 aMixList:getMixList():Get(i):setState("side2")
+						 msg("\169100255100SIDE 2@C")
 						 aMixList:getMixList():Get(i):setcptRounds(0)
 						 aMixList:getMixList():Get(i):SwitchTeams()
 
@@ -22,7 +24,7 @@ function onStartround(mode)
 
 			if (aMixList:getMixList():Get(i):getState() == "side2") then
 					if(aMixList:getMixList():Get(i):getRoundsRemain() == 0)then
-						 parse("msg gg well played")
+						 msg("\169100255100END@C")
 					end 
 			end 
 	end

@@ -112,3 +112,386 @@ Counter-Strike 2D b 0.1.2.7 Logfile - 22 Sep 2015, 12:32:59
 [12:36:03] "  (1x)
 [12:36:09] Server Shutdown
 [12:36:09] ----- Disconnected -----
+[12:42:41] starting server...
+[12:42:41] load map 'de_dust'
+[12:42:41] ----- Server started -----
+[12:42:41] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[12:42:41] parsing Lua server script (mp_luaserver = 'server.lua')
+[12:42:41] Lua: Adding function 'onJoin' to hook 'join'
+[12:42:41] Lua: Adding function 'onSpawn' to hook 'spawn'
+[12:42:41] Lua: Adding function 'onStartround' to hook 'startround'
+[12:42:41] Lua: Adding function 'onEndround' to hook 'endround'
+[12:42:41] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[12:42:41] Lua: Adding function 'onMenu' to hook 'menu'
+[12:42:43] Player joins the Terrorist Forces
+[12:42:53] okok 1
+[12:43:06] okok 2
+[12:43:10] "  (1x)
+[12:43:12] okok 3
+[12:43:13] okok 4
+[12:43:16] "  (1x)
+[12:43:25] Server Shutdown
+[12:43:25] ----- Disconnected -----
+[12:47:15] starting server...
+[12:47:15] load map 'de_dust'
+[12:47:15] ----- Server started -----
+[12:47:15] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[12:47:15] parsing Lua server script (mp_luaserver = 'server.lua')
+[12:47:15] Lua: Adding function 'onJoin' to hook 'join'
+[12:47:15] Lua: Adding function 'onSpawn' to hook 'spawn'
+[12:47:15] Lua: Adding function 'onStartround' to hook 'startround'
+[12:47:15] Lua: Adding function 'onEndround' to hook 'endround'
+[12:47:15] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[12:47:15] Lua: Adding function 'onMenu' to hook 'menu'
+[12:47:17] Player joins the Terrorist Forces
+[12:47:19] okok 1
+[12:47:19] Error : No mixes found
+[12:47:31] okok 2
+[12:47:31] okok 3
+[12:47:31] okok 4
+[12:47:32] okok 5
+[12:47:32] okok 6
+[12:47:32] okok 7
+[12:47:32] LUA ERROR: sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:236: attempt to index local 'choicePlayer' (a nil value)
+[12:47:32]  -> sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:236: in function '?'
+[12:47:32]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:15: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[12:47:32]  -> in Lua hook 'menu', params: 1, 'Create Mix - Knife round?', 2
+[12:47:39] okok 8
+[12:47:39] KNIFE ROUND
+[12:47:41] okok 8
+[12:47:43] "  (1x)
+[12:47:59] generating stats...
+[12:47:59] stats generated in 1 ms!
+[12:48:00] Server Shutdown
+[12:48:00] ----- Disconnected -----
+[12:55:57] starting server...
+[12:55:57] load map 'de_dust'
+[12:55:57] ----- Server started -----
+[12:55:57] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[12:55:57] parsing Lua server script (mp_luaserver = 'server.lua')
+[12:55:57] Lua: Adding function 'onJoin' to hook 'join'
+[12:55:57] Lua: Adding function 'onSpawn' to hook 'spawn'
+[12:55:57] Lua: Adding function 'onStartround' to hook 'startround'
+[12:55:57] Lua: Adding function 'onEndround' to hook 'endround'
+[12:55:57] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[12:55:57] Lua: Adding function 'onMenu' to hook 'menu'
+[12:55:58] Player joins the Terrorist Forces
+[12:56:01] okok 1
+[12:56:01] KNIFE ROUND
+[12:56:02] okok 1
+[12:56:05] okok 2
+[12:56:07] okok 3
+[12:56:09] "  (1x)
+[12:56:15] "  (1x)
+[12:56:15] okok 4
+[12:56:17] okok 5
+[12:56:17] okok 6
+[12:56:18] okok 7
+[12:56:19] "  (1x)
+[12:56:23] okok 8
+[12:56:24] "  (1x)
+[12:56:25] "  (1x)
+[12:56:26] "  (1x)
+[12:56:27] "  (1x)
+[12:56:39] "  (1x)
+[12:56:41] "  (1x)
+[12:56:44] "  (1x)
+[12:56:45] "  (1x)
+[12:56:46] "  (1x)
+[12:56:47] "  (1x)
+[12:56:48] "  (1x)
+[12:56:51] Server Shutdown
+[12:56:51] ----- Disconnected -----
+[12:57:24] starting server...
+[12:57:24] load map 'de_dust'
+[12:57:24] ----- Server started -----
+[12:57:24] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[12:57:24] parsing Lua server script (mp_luaserver = 'server.lua')
+[12:57:24] Lua: Adding function 'onJoin' to hook 'join'
+[12:57:24] Lua: Adding function 'onSpawn' to hook 'spawn'
+[12:57:24] Lua: Adding function 'onStartround' to hook 'startround'
+[12:57:24] Lua: Adding function 'onEndround' to hook 'endround'
+[12:57:24] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[12:57:24] Lua: Adding function 'onMenu' to hook 'menu'
+[12:57:26] Player joins the Terrorist Forces
+[12:57:28] okok 1
+[12:57:28] KNIFE ROUND
+[12:57:29] okok 1
+[12:57:30] okok 2
+[12:57:31] okok 3
+[12:57:32] okok 4
+[12:57:32] okok 5
+[12:57:33] okok 6
+[12:57:34] okok 7
+[12:57:37] okok 8
+[12:57:38] "  (1x)
+[12:57:39] "  (1x)
+[12:57:40] "  (1x)
+[12:57:41] "  (1x)
+[12:57:45] "  (1x)
+[12:57:48] "  (1x)
+[12:59:24] Server Shutdown
+[12:59:24] ----- Disconnected -----
+[12:59:26] starting server...
+[12:59:26] load map 'de_dust'
+[12:59:26] ----- Server started -----
+[12:59:26] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[12:59:26] parsing Lua server script (mp_luaserver = 'server.lua')
+[12:59:26] Lua: Adding function 'onJoin' to hook 'join'
+[12:59:26] Lua: Adding function 'onSpawn' to hook 'spawn'
+[12:59:26] Lua: Adding function 'onStartround' to hook 'startround'
+[12:59:26] Lua: Adding function 'onEndround' to hook 'endround'
+[12:59:26] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[12:59:26] Lua: Adding function 'onMenu' to hook 'menu'
+[12:59:27] Player joins the Terrorist Forces
+[12:59:30] okok 1
+[12:59:30] KNIFE ROUND
+[12:59:31] okok 1
+[12:59:31] okok 2
+[12:59:32] okok 3
+[12:59:33] okok 4
+[12:59:33] okok 5
+[12:59:34] okok 6
+[12:59:34] okok 7
+[12:59:35] "  (1x)
+[12:59:37] okok 8
+[12:59:37] nbrplayer:4
+[12:59:37] nbrresgister:2
+[12:59:42] okok 8
+[12:59:43] "  (1x)
+[12:59:43] nbrplayer:4
+[12:59:43] nbrresgister:3
+[12:59:44] okok 8
+[12:59:46] "  (1x)
+[12:59:46] nbrplayer:4
+[12:59:46] nbrresgister:4
+[12:59:49] okok 8
+[13:00:15] Server Shutdown
+[13:00:15] ----- Disconnected -----
+[13:00:19] starting server...
+[13:00:19] load map 'de_dust'
+[13:00:19] ----- Server started -----
+[13:00:19] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[13:00:19] parsing Lua server script (mp_luaserver = 'server.lua')
+[13:00:19] Lua: Adding function 'onJoin' to hook 'join'
+[13:00:19] Lua: Adding function 'onSpawn' to hook 'spawn'
+[13:00:19] Lua: Adding function 'onStartround' to hook 'startround'
+[13:00:19] Lua: Adding function 'onEndround' to hook 'endround'
+[13:00:19] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[13:00:19] Lua: Adding function 'onMenu' to hook 'menu'
+[13:00:21] Player joins the Terrorist Forces
+[13:00:22] okok 1
+[13:00:22] KNIFE ROUND
+[13:00:23] okok 1
+[13:00:25] okok 2
+[13:00:26] okok 3
+[13:00:27] okok 4
+[13:00:27] okok 5
+[13:00:27] okok 6
+[13:00:27] okok 7
+[13:00:28] okok 8
+[13:00:29] "  (1x)
+[13:00:30] okok 9
+[13:00:30] nbrplayer:4
+[13:00:30] nbrresgister:2
+[13:00:31] okok 9
+[13:00:31] nbrplayer:4
+[13:00:31] nbrresgister:3
+[13:00:33] okok 9
+[13:00:33] nbrplayer:4
+[13:00:33] nbrresgister:4
+[13:00:51] okok 9
+[13:00:53] "  (1x)
+[13:00:53] nbrplayer:4
+[13:00:53] nbrresgister:5
+[13:00:59] generating stats...
+[13:00:59] stats generated in 1 ms!
+[13:02:40] Server Shutdown
+[13:02:40] ----- Disconnected -----
+[13:02:43] starting server...
+[13:02:43] load map 'de_dust'
+[13:02:43] ----- Server started -----
+[13:02:43] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[13:02:43] parsing Lua server script (mp_luaserver = 'server.lua')
+[13:02:43] Lua: Adding function 'onJoin' to hook 'join'
+[13:02:43] Lua: Adding function 'onSpawn' to hook 'spawn'
+[13:02:43] Lua: Adding function 'onStartround' to hook 'startround'
+[13:02:43] Lua: Adding function 'onEndround' to hook 'endround'
+[13:02:43] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[13:02:43] Lua: Adding function 'onMenu' to hook 'menu'
+[13:02:44] Player joins the Terrorist Forces
+[13:02:46] okok 1
+[13:02:46] KNIFE ROUND
+[13:02:47] okok 1
+[13:02:49] okok 2
+[13:02:49] okok 3
+[13:02:50] okok 4
+[13:02:51] okok 5
+[13:02:51] okok 6
+[13:02:51] okok 7
+[13:02:52] okok 8
+[13:02:53] "  (1x)
+[13:02:53] okok 9
+[13:02:53] nbrplayer:4
+[13:02:53] nbrresgister:2
+[13:02:53] false
+[13:02:55] okok 9
+[13:02:55] nbrplayer:4
+[13:02:55] nbrresgister:3
+[13:02:55] false
+[13:02:56] okok 9
+[13:02:57] "  (1x)
+[13:02:57] nbrplayer:4
+[13:02:57] nbrresgister:4
+[13:02:57] false
+[13:03:00] okok 9
+[13:03:01] "  (1x)
+[13:03:01] nbrplayer:4
+[13:03:01] nbrresgister:5
+[13:03:01] false
+[13:04:01] Server Shutdown
+[13:04:01] ----- Disconnected -----
+[13:04:04] starting server...
+[13:04:04] load map 'de_dust'
+[13:04:04] ----- Server started -----
+[13:04:04] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[13:04:04] parsing Lua server script (mp_luaserver = 'server.lua')
+[13:04:04] Lua: Adding function 'onJoin' to hook 'join'
+[13:04:04] Lua: Adding function 'onSpawn' to hook 'spawn'
+[13:04:04] Lua: Adding function 'onStartround' to hook 'startround'
+[13:04:04] Lua: Adding function 'onEndround' to hook 'endround'
+[13:04:04] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[13:04:04] Lua: Adding function 'onMenu' to hook 'menu'
+[13:04:05] Player joins the Terrorist Forces
+[13:04:06] okok 1
+[13:04:06] KNIFE ROUND
+[13:04:08] okok 1
+[13:04:08] okok 2
+[13:04:09] okok 3
+[13:04:09] okok 4
+[13:04:11] okok 5
+[13:04:11] okok 6
+[13:04:13] okok 7
+[13:04:14] "  (1x)
+[13:04:15] okok 8
+[13:04:15] nbrplayer:8
+[13:04:15] nbrresgister:2
+[13:04:15] false
+[13:04:17] okok 8
+[13:04:17] nbrplayer:8
+[13:04:17] nbrresgister:3
+[13:04:17] false
+[13:04:18] okok 8
+[13:04:18] nbrplayer:8
+[13:04:19] nbrresgister:4
+[13:04:19] false
+[13:04:19] okok 8
+[13:04:20] "  (1x)
+[13:04:21] "  (1x)
+[13:04:21] nbrplayer:8
+[13:04:21] nbrresgister:5
+[13:04:21] false
+[13:04:22] okok 8
+[13:04:23] "  (1x)
+[13:04:23] nbrplayer:8
+[13:04:23] nbrresgister:6
+[13:04:23] false
+[13:04:23] okok 8
+[13:04:24] "  (1x)
+[13:04:24] nbrplayer:8
+[13:04:24] nbrresgister:7
+[13:04:24] false
+[13:04:25] okok 8
+[13:04:27] "  (1x)
+[13:04:27] nbrplayer:8
+[13:04:27] nbrresgister:8
+[13:04:27] true
+[13:04:29] Server Shutdown
+[13:04:29] ----- Disconnected -----
+[13:05:15] starting server...
+[13:05:15] load map 'de_dust'
+[13:05:15] ----- Server started -----
+[13:05:15] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[13:05:15] parsing Lua server script (mp_luaserver = 'server.lua')
+[13:05:15] Lua: Adding function 'onJoin' to hook 'join'
+[13:05:15] Lua: Adding function 'onSpawn' to hook 'spawn'
+[13:05:15] Lua: Adding function 'onStartround' to hook 'startround'
+[13:05:15] Lua: Adding function 'onEndround' to hook 'endround'
+[13:05:15] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[13:05:15] Lua: Adding function 'onMenu' to hook 'menu'
+[13:05:16] Player joins the Terrorist Forces
+[13:05:18] okok 1
+[13:05:18] KNIFE ROUND
+[13:05:19] okok 1
+[13:05:21] okok 2
+[13:05:21] okok 3
+[13:05:22] "  (1x)
+[13:05:23] "  (1x)
+[13:05:24] "  (1x)
+[13:05:26] "  (2x)
+[13:05:26] oui
+[13:05:26] KNIFE ROUND
+[13:05:51] Server Shutdown
+[13:05:51] ----- Disconnected -----
+[13:06:11] starting server...
+[13:06:11] load map 'de_dust'
+[13:06:11] ----- Server started -----
+[13:06:11] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[13:06:11] parsing Lua server script (mp_luaserver = 'server.lua')
+[13:06:11] Lua: Adding function 'onJoin' to hook 'join'
+[13:06:11] Lua: Adding function 'onSpawn' to hook 'spawn'
+[13:06:11] Lua: Adding function 'onStartround' to hook 'startround'
+[13:06:11] Lua: Adding function 'onEndround' to hook 'endround'
+[13:06:11] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[13:06:12] Lua: Adding function 'onMenu' to hook 'menu'
+[13:06:13] Player joins the Terrorist Forces
+[13:06:23] Round Restart in 5 sec
+[13:07:59] generating stats...
+[13:07:59] stats generated in 0 ms!
+[13:08:05] okok 1
+[13:08:34] "  (1x)
+[13:08:34] KNIFE ROUND
+[13:08:36] okok 1
+[13:08:37] okok 2
+[13:08:38] okok 3
+[13:08:39] okok 4
+[13:08:39] okok 5
+[13:08:40] okok 6
+[13:08:41] okok 7
+[13:08:46] "  (1x)
+[13:08:48] okok 8
+[13:08:50] "  (1x)
+[13:08:51] okok 9
+[13:08:53] "  (1x)
+[13:08:54] "  (1x)
+[13:08:55] "  (1x)
+[13:08:56] "  (1x)
+[13:08:57] "  (1x)
+[13:08:58] "  (1x)
+[13:08:59] "  (1x)
+[13:09:00] "  (1x)
+[13:09:00] KNIFE ROUND
+[13:10:36] okok 9
+[13:10:37] "  (1x)
+[13:10:42] "  (1x)
+[13:10:43] "  (1x)
+[13:10:52] ----- Mapchange -----
+[13:10:52] starting server...
+[13:10:52] load map 'de_cs2d'
+[13:10:52] ----- Server started -----
+[13:10:52] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[13:10:52] parsing Lua server script (mp_luaserver = 'server.lua')
+[13:10:52] Lua: Adding function 'onJoin' to hook 'join'
+[13:10:52] Lua: Adding function 'onSpawn' to hook 'spawn'
+[13:10:52] Lua: Adding function 'onStartround' to hook 'startround'
+[13:10:52] Lua: Adding function 'onEndround' to hook 'endround'
+[13:10:52] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[13:10:52] Lua: Adding function 'onMenu' to hook 'menu'
+[13:10:54] Player joins the Terrorist Forces
+[13:10:55] okok 1
+[13:10:55] Error : No mixes found
+[13:10:57] okok 2
+[13:12:59] generating stats...
+[13:12:59] stats generated in 1 ms!
+[13:13:20] Server Shutdown
+[13:13:20] ----- Disconnected -----

@@ -1,0 +1,38 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 22 Sep 2015, 15:06:50
+
+[15:06:50] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[15:06:50] ERROR: U.S.G.N. password file seems to be corrupted!
+[15:06:51] UDP socket initialized using port 58249
+[15:06:51] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[15:06:53] starting server...
+[15:06:53] UDP socket initialized using port 36963
+[15:06:53] load map 'de_cs2d'
+[15:06:54] ----- Server started -----
+[15:06:54] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[15:06:54] parsing Lua server script (mp_luaserver = 'server.lua')
+[15:06:54] Lua: Adding function 'onJoin' to hook 'join'
+[15:06:54] Lua: Adding function 'onSpawn' to hook 'spawn'
+[15:06:54] Lua: Adding function 'onStartround' to hook 'startround'
+[15:06:54] Lua: Adding function 'onEndround' to hook 'endround'
+[15:06:54] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[15:06:54] Lua: Adding function 'onMenu' to hook 'menu'
+[15:06:55] Player joins the Terrorist Forces
+[15:07:01] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[15:07:01] ERROR: U.S.G.N. password file seems to be corrupted!
+[15:07:05] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[15:07:05] ERROR: U.S.G.N. password file seems to be corrupted!
+[15:07:30] okok 1
+[15:07:30] Error : No mixes found
+[15:08:06] okok 2
+[15:08:12] "  (1x)
+[15:08:14] okok 3
+[15:08:15] okok 4
+[15:08:16] okok 5
+[15:08:17] okok 6
+[15:08:17] okok 7
+[15:08:17] LUA ERROR: sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:236: attempt to index local 'choicePlayer' (a nil value)
+[15:08:17]  -> sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:236: in function '?'
+[15:08:17]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:15: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[15:08:17]  -> in Lua hook 'menu', params: 1, 'Create Mix - Knife round?', 1
+[15:08:37] Server Shutdown
+[15:08:37] ----- Disconnected -----

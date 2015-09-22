@@ -40,7 +40,11 @@ end
 function Team:NumbersPlayers()
 	return self:getPlayers():Size()
 end
-
+function Team:putinTeam()
+	for i=1, self:NumbersPlayers() do 
+	
+	end
+end
 
 function Team:__tostring()
     return "I am a team"

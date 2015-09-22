@@ -28,15 +28,17 @@ function onServeraction(id, action)
         end
         
     	    --new Bouton	
-    	  local bouton_startmix      = Bouton(1,"Start mix","","onStartMixBouton")
-    	  local bouton_createmix     = Bouton(2,"Create","","onCreateMixBouton")
-        local bouton_listmix       = Bouton(3,"list all mixes","","onListMixes")
-        local bouton_registermix   = Bouton(4,"Register mixes","","onRegisterMixes")
-         
-          menu_action1:addBouton(bouton_startmix)
+    	 -- local bouton_startmix      = Bouton(4,"Start mix","","onStartMixBouton")
+    	  local bouton_createmix     = Bouton(1,"Create","","onCreateMixBouton")
+        local bouton_listmix       = Bouton(2,"list all mixes","","onListMixes")
+        local bouton_registermix   = Bouton(3,"Register mixes","","onRegisterMixes")
+        local bouton_switchteams   = Bouton(4,"Switch Team","","onSwitchTeam") --sur onStartMixBouton
+        
+         -- menu_action1:addBouton(bouton_startmix)
           menu_action1:addBouton(bouton_createmix)
           menu_action1:addBouton(bouton_listmix)
           menu_action1:addBouton(bouton_registermix)
+          menu_action1:addBouton(bouton_switchteams)
     	  menu(id,menu_action1:Show())
      end
 end

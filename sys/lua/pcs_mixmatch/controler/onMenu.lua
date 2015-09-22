@@ -4,7 +4,6 @@ dofile("sys/lua/pcs_mixmatch/model/menuList.lua")
 addhook("menu","onMenu")
 function onMenu(id,title,button)
 	local theMenuList = MenuList(0)
-	parse("msg okok "..theMenuList:NumbersMenus())
 	for i=1,theMenuList:NumbersMenus() do
 			 if(title == theMenuList:getMenuList():Get(i):getTitre())then 
 			 	for j=1,theMenuList:getMenuList():Get(i):NumbersBoutons() do
