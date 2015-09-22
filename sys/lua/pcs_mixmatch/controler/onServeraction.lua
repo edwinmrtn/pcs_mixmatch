@@ -6,6 +6,7 @@ dofile("sys/lua/pcs_mixmatch/model/menuList.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onStartMixBouton.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onListMixes.lua")
+dofile("sys/lua/pcs_mixmatch/controler/onRegisterMixes.lua")
 
 addhook("serveraction", "onServeraction")
 function onServeraction(id, action)
@@ -27,13 +28,15 @@ function onServeraction(id, action)
         end
         
     	    --new Bouton	
-    	  local bouton_startmix  = Bouton(1,"Start mix","","onStartMixBouton")
-    	  local bouton_createmix = Bouton(2,"Create","","onCreateMixBouton")
-        local bouton_listmix   = Bouton(3,"list all mixes","","onListMixes")
-          
+    	  local bouton_startmix      = Bouton(1,"Start mix","","onStartMixBouton")
+    	  local bouton_createmix     = Bouton(2,"Create","","onCreateMixBouton")
+        local bouton_listmix       = Bouton(3,"list all mixes","","onListMixes")
+        local bouton_registermix   = Bouton(4,"Register mixes","","onRegisterMixes")
+         
           menu_action1:addBouton(bouton_startmix)
           menu_action1:addBouton(bouton_createmix)
           menu_action1:addBouton(bouton_listmix)
+          menu_action1:addBouton(bouton_registermix)
     	  menu(id,menu_action1:Show())
      end
 end
