@@ -252,12 +252,14 @@ end
 
 function CreateTheMix(id,button,object)
 	local choicePlayer
+  local Player
 		for j=1,object:NumbersBoutons() do
 			if button == object:getBoutons():Get(j):getId() then
 				 --parse("msg "..object:getBoutons():Get(j):getNom())
 				 local aPlayerList = PlayerList(0);
 				 for i=1,aPlayerList:NumbersPlayers() do
 				 	if id == aPlayerList:getPlayerList():Get(i):getId() then
+            Player       = aPlayerList:getPlayerList():Get(i)
 				 		choicePlayer = aPlayerList:getPlayerList():Get(i):getCreateMixArray()
 				 	end
 				 end
@@ -266,5 +268,6 @@ function CreateTheMix(id,button,object)
 	local aMixList = MixList(0);
 	--new mix
 	local aMix = Mix(aMixList:NumbersMixs()+1,choicePlayer.rounds,choicePlayer.nombersplayers,choicePlayer.map,choicePlayer.tillend,choicePlayer.kniferound);
-	aMixList:addMix(aMix)
+	aMix:addRegistPlayer(Player)
+  aMixList:addMix(aMix)
 end
