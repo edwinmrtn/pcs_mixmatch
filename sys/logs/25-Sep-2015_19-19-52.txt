@@ -1,0 +1,62 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 25 Sep 2015, 19:19:52
+
+[19:19:52] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[19:19:52] ERROR: U.S.G.N. password file seems to be corrupted!
+[19:19:55] UDP socket initialized using port 58676
+[19:19:55] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[19:19:58] starting server...
+[19:19:58] UDP socket initialized using port 36963
+[19:19:59] load map 'cs_office'
+[19:19:59] ----- Server started -----
+[19:19:59] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[19:19:59] parsing Lua server script (mp_luaserver = 'server.lua')
+[19:19:59] Lua: Adding function 'onJoin' to hook 'join'
+[19:19:59] Lua: Adding function 'onSpawn' to hook 'spawn'
+[19:19:59] Lua: Adding function 'onStartround' to hook 'startround'
+[19:20:00] Lua: Adding function 'onEndround' to hook 'endround'
+[19:20:00] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[19:20:00] Lua: Adding function 'onMenu' to hook 'menu'
+[19:20:05] Player joins the Terrorist Forces
+[19:21:25] 1
+[19:21:25] Round Restart in 5 sec
+[19:21:25] LUA ERROR: sys/lua/pcs_mixmatch/model/mix.lua:160: attempt to index a nil value
+[19:21:25]  -> sys/lua/pcs_mixmatch/model/mix.lua:160: in function 'makeTeams'
+[19:21:25]  -> sys/lua/pcs_mixmatch/model/mix.lua:135: in function 'start'
+[19:21:25]  -> sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:277: in function '?'
+[19:21:25]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[19:21:25]  -> in Lua hook 'menu', params: 1, 'Create Mix - Summary', 6
+[19:21:45] Server Shutdown
+[19:21:45] ----- Disconnected -----
+[21:07:33] starting server...
+[21:07:33] load map 'cs_office'
+[21:07:34] ----- Server started -----
+[21:07:34] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[21:07:34] parsing Lua server script (mp_luaserver = 'server.lua')
+[21:07:34] Lua: Adding function 'onJoin' to hook 'join'
+[21:07:34] Lua: Adding function 'onSpawn' to hook 'spawn'
+[21:07:34] Lua: Adding function 'onStartround' to hook 'startround'
+[21:07:34] Lua: Adding function 'onEndround' to hook 'endround'
+[21:07:34] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[21:07:34] Lua: Adding function 'onMenu' to hook 'menu'
+[21:07:36] Player joins the Terrorist Forces
+[21:07:45] 1
+[21:07:45] Round Restart in 5 sec
+[21:07:45] LUA ERROR: sys/lua/pcs_mixmatch/model/mix.lua:160: attempt to index a nil value
+[21:07:45]  -> sys/lua/pcs_mixmatch/model/mix.lua:160: in function 'makeTeams'
+[21:07:45]  -> sys/lua/pcs_mixmatch/model/mix.lua:135: in function 'start'
+[21:07:45]  -> sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:277: in function '?'
+[21:07:45]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[21:07:45]  -> in Lua hook 'menu', params: 1, 'Create Mix - Summary', 6
+[21:08:13] Error : No mixes found
+[21:08:25] 1
+[21:08:25] Round Restart in 5 sec
+[21:08:25] LUA ERROR: sys/lua/pcs_mixmatch/model/mix.lua:160: attempt to index a nil value
+[21:08:25]  -> sys/lua/pcs_mixmatch/model/mix.lua:160: in function 'makeTeams'
+[21:08:25]  -> sys/lua/pcs_mixmatch/model/mix.lua:135: in function 'start'
+[21:08:25]  -> sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:277: in function '?'
+[21:08:25]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[21:08:25]  -> in Lua hook 'menu', params: 1, 'Create Mix - Summary', 6
+[21:10:52] generating stats...
+[21:10:52] stats generated in 1 ms!
+[21:14:57] Server Shutdown
+[21:14:57] ----- Disconnected -----

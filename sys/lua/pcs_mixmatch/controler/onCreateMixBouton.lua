@@ -272,13 +272,14 @@ function CreateTheMix(id,button,object)
 
   --[[A RECHANGER 
   ----DEBUG :
-            local thePlayerList = PlayerList(0)
+           local thePlayerList = PlayerList(0)
              parse("msg "..thePlayerList:NumbersPlayers())
             for i=1, thePlayerList:NumbersPlayers() do 
                 aMix:addRegistPlayer(thePlayerList:getPlayerList():Get(i))
             end 
-  aMix:start()
+  aMix:start() 
   ------DEBUGFIN ]]--
-  
-  aMixList:addMix(aMix)
+
+ aMixList:addMix(aMix)
+ aMixList:saveData()
 end

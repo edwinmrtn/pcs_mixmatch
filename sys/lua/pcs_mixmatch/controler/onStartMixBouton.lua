@@ -33,3 +33,7 @@ function onSwitchTeam(id)
 		aMixList:getMixList():Get(i):SwitchTeams()
 	end
 end 
+function onTestLoad(id)
+	local aMixList = MixList(0);
+	aMixList:loadData()
+end

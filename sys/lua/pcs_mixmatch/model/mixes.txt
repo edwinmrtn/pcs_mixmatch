@@ -1,0 +1,17 @@
+return {
+    [1] = {
+        [1] = {
+            ["usgn"] = 0,
+            ["name"] = "Player",
+            ["id"] = 1,
+            ["ip"] = "127.0.0.1",
+            ["rank"] = 84,
+        },
+        ["map"] = "de_dust",
+        ["rounds"] = "30",
+        ["nbrPlayers"] = "10",
+        ["KnifeRound"] = true,
+        ["tillEnd"] = true,
+        ["id"] = 1,
+    },
+}

@@ -1,0 +1,31 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 25 Sep 2015, 22:36:13
+
+[22:36:13] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[22:36:13] ERROR: U.S.G.N. password file seems to be corrupted!
+[22:36:14] UDP socket initialized using port 58320
+[22:36:14] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[22:36:17] starting server...
+[22:36:17] UDP socket initialized using port 36963
+[22:36:17] load map 'cs_office'
+[22:36:17] ----- Server started -----
+[22:36:17] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[22:36:17] parsing Lua server script (mp_luaserver = 'server.lua')
+[22:36:17] Lua: Adding function 'onJoin' to hook 'join'
+[22:36:17] Lua: Adding function 'onSpawn' to hook 'spawn'
+[22:36:17] Lua: Adding function 'onStartround' to hook 'startround'
+[22:36:17] Lua: Adding function 'onEndround' to hook 'endround'
+[22:36:17] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[22:36:17] Lua: Adding function 'onMenu' to hook 'menu'
+[22:36:18] Player joins the Terrorist Forces
+[22:36:23] LUA ERROR: sys/lua/pcs_mixmatch/model/mix.lua:90: attempt to index a nil value
+[22:36:23]  -> sys/lua/pcs_mixmatch/model/mix.lua:90: in function 'SwitchTeams'
+[22:36:23]  -> sys/lua/pcs_mixmatch/controler/onStartMixBouton.lua:33: in function '?'
+[22:36:23]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[22:36:23]  -> in Lua hook 'menu', params: 1, 'PCS Mix option', 4
+[22:36:25] LUA ERROR: sys/lua/pcs_mixmatch/model/mix.lua:90: attempt to index a nil value
+[22:36:25]  -> sys/lua/pcs_mixmatch/model/mix.lua:90: in function 'SwitchTeams'
+[22:36:25]  -> sys/lua/pcs_mixmatch/controler/onStartMixBouton.lua:33: in function '?'
+[22:36:25]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[22:36:25]  -> in Lua hook 'menu', params: 1, 'PCS Mix option', 4
+[22:36:40] Server Shutdown
+[22:36:40] ----- Disconnected -----
