@@ -2,6 +2,7 @@ dofile("sys/lua/pcs_mixmatch/model/object.lua")
 dofile("sys/lua/pcs_mixmatch/model/kniferound.lua")
 dofile("sys/lua/pcs_mixmatch/model/arrayList.lua")
 dofile("sys/lua/pcs_mixmatch/model/team.lua")
+dofile("sys/lua/pcs_mixmatch/model/salt.lua")
 
 
 
@@ -194,3 +195,7 @@ function getMaxRank(choosedPlayers)
     end
     return rankMax, rowMax
 end
+
+function Mix:saveData()
+    table.save(self,"sys/lua/pcs_mixmatch/model/mixes.txt")
+end 
