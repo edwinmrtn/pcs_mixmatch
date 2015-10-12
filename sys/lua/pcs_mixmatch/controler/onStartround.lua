@@ -1,5 +1,5 @@
-dofile("sys/lua/pcs_mixmatch/Model/mixList.lua")
-dofile("sys/lua/pcs_mixmatch/Model/mix.lua")
+-- dofile("sys/lua/pcs_mixmatch/Model/mixList.lua")
+-- dofile("sys/lua/pcs_mixmatch/Model/mix.lua")
 addhook("startround", "onStartround")
 function onStartround(mode)
 

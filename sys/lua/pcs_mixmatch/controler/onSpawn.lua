@@ -1,4 +1,3 @@
-dofile("sys/lua/pcs_mixmatch/Model/mixList.lua")
 addhook("spawn", "onSpawn")
 function onSpawn(id)
 	local aMixList = MixList(0);

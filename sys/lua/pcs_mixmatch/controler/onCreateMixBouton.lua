@@ -1,9 +1,3 @@
-dofile("sys/lua/pcs_mixmatch/model/player.lua")
-dofile("sys/lua/pcs_mixmatch/model/team.lua")
-dofile("sys/lua/pcs_mixmatch/model/mix.lua")
-dofile("sys/lua/pcs_mixmatch/model/mixList.lua")
-dofile("sys/lua/pcs_mixmatch/model/arrayList.lua")
-dofile("sys/lua/pcs_mixmatch/model/playerList.lua")
 function onCreateMixBouton(id)
 	menuUIRounds(id)
 end
@@ -12,7 +6,7 @@ function menuUIRounds(id)
 		--new menu
     	  local menu_action1 = Menu(1,"Create Mix - Rounds")
     	  	--new menuList
-    	  local theMenuList    = MenuList(0);
+    	  --local theMenuList    = MenuList(0);
         
         local bool = true
         for i=1,theMenuList:NumbersMenus() do
@@ -24,14 +18,14 @@ function menuUIRounds(id)
           theMenuList:addMenu(menu_action1);
         end
     	    --new Bouton	
-    	  local bouton_thirty     = Bouton(1,"15-15","30","menuUINumberPlayer")
-    	  local bouton_twentyfour = Bouton(2,"12-12","24","menuUINumberPlayer")
-    	  local bouton_twenty     = Bouton(3,"10-10","20","menuUINumberPlayer")
+    	  local bouton_thirty     = Bouton(1,"15-15","30","menuUINumberPlayer",nil,nil)
+    	  local bouton_twentyfour = Bouton(2,"12-12","24","menuUINumberPlayer",nil,nil)
+    	  local bouton_twenty     = Bouton(3,"10-10","20","menuUINumberPlayer",nil,nil)
           
           menu_action1:addBouton(bouton_thirty)
           menu_action1:addBouton(bouton_twentyfour)
           menu_action1:addBouton(bouton_twenty)
-    	  menu(id,menu_action1:Show())
+    	    menu_action1:Show(id)
 end
 function menuUINumberPlayer(id,button,object)
 		-- save result of past entry
@@ -53,7 +47,7 @@ function menuUINumberPlayer(id,button,object)
 		  --new menu
     	  local menu_action1 = Menu(1,"Create Mix - Nombers of player")
     	  		--new menuList
-    	  local theMenuList    = MenuList(0);
+    	  --local theMenuList    = MenuList(0);
         
         local bool = true
         for i=1,theMenuList:NumbersMenus() do
@@ -65,11 +59,11 @@ function menuUINumberPlayer(id,button,object)
           theMenuList:addMenu(menu_action1);
         end
     	    --new Bouton	
-    	  local bouton_ten     = Bouton(1,"5 vs 5","10","menuUIMap")
-    	  local bouton_eight   = Bouton(2,"4 vs 4","8","menuUIMap")
-    	  local bouton_six     = Bouton(3,"3 vs 3","6","menuUIMap")
-    	  local bouton_four    = Bouton(4,"2 vs 2","4","menuUIMap")
-    	  local bouton_two     = Bouton(5,"1 vs 1","2","menuUIMap")
+    	  local bouton_ten     = Bouton(1,"5 vs 5","10","menuUIMap",nil,nil)
+    	  local bouton_eight   = Bouton(2,"4 vs 4","8","menuUIMap",nil,nil)
+    	  local bouton_six     = Bouton(3,"3 vs 3","6","menuUIMap",nil,nil)
+    	  local bouton_four    = Bouton(4,"2 vs 2","4","menuUIMap",nil,nil)
+    	  local bouton_two     = Bouton(5,"1 vs 1","2","menuUIMap",nil,nil)
           
           menu_action1:addBouton(bouton_ten)
           menu_action1:addBouton(bouton_eight)
@@ -77,7 +71,7 @@ function menuUINumberPlayer(id,button,object)
           menu_action1:addBouton(bouton_four)
           menu_action1:addBouton(bouton_two)
 
-    	  menu(id,menu_action1:Show())
+    	 menu_action1:Show(id)
  		
 end
 function menuUIMap(id,button,object)
@@ -101,7 +95,7 @@ function menuUIMap(id,button,object)
 		  --new menu
     	  local menu_action1 = Menu(1,"Create Mix - Map")
     	  		--new menuList
-    	  local theMenuList    = MenuList(0);
+    	  --local theMenuList    = MenuList(0);
         
         local bool = true
         for i=1,theMenuList:NumbersMenus() do
@@ -113,13 +107,13 @@ function menuUIMap(id,button,object)
           theMenuList:addMenu(menu_action1);
         end
     	    --new Bouton	
-    	  local bouton_dust     = Bouton(1,"de_dust","de_dust","menuUITillEnd")
-    	  local bouton_office   = Bouton(2,"de_office","de_office","menuUITillEnd")
+    	  local bouton_dust     = Bouton(1,"de_dust","de_dust","menuUITillEnd",nil,nil)
+    	  local bouton_office   = Bouton(2,"de_office","de_office","menuUITillEnd",nil,nil)
           
           menu_action1:addBouton(bouton_dust)
           menu_action1:addBouton(bouton_office)
 
-    	  menu(id,menu_action1:Show())
+    	  menu_action1:Show(id)
 end
 function menuUITillEnd(id,button,object)
 	-- save result of past entry
@@ -141,7 +135,7 @@ function menuUITillEnd(id,button,object)
 		  --new menu
     	  local menu_action1 = Menu(1,"Create Mix - Till End?")
     	  		--new menuList
-    	  local theMenuList    = MenuList(0);
+    	  --local theMenuList    = MenuList(0);
         
         local bool = true
         for i=1,theMenuList:NumbersMenus() do
@@ -153,13 +147,13 @@ function menuUITillEnd(id,button,object)
           theMenuList:addMenu(menu_action1);
         end
     	    --new Bouton	
-    	  local bouton_yes     = Bouton(1,"Yes",true,"menuUIKnifeRound")
-    	  local bouton_no      = Bouton(2,"No",false,"menuUIKnifeRound")
+    	  local bouton_yes     = Bouton(1,"Yes",true,"menuUIKnifeRound",nil,nil)
+    	  local bouton_no      = Bouton(2,"No",false,"menuUIKnifeRound",nil,nil)
           
           menu_action1:addBouton(bouton_yes)
           menu_action1:addBouton(bouton_no)
 
-    	  menu(id,menu_action1:Show())
+    	  menu_action1:Show(id)
 end
 function menuUIKnifeRound(id,button,object)
 	-- save result of past entry
@@ -181,7 +175,7 @@ function menuUIKnifeRound(id,button,object)
 		  --new menu
     	  local menu_action1 = Menu(1,"Create Mix - Knife round?")
     	  		--new menuList
-    	  local theMenuList    = MenuList(0);
+    	  --local theMenuList    = MenuList(0);
         
         local bool = true
         for i=1,theMenuList:NumbersMenus() do
@@ -193,13 +187,13 @@ function menuUIKnifeRound(id,button,object)
           theMenuList:addMenu(menu_action1);
         end
     	    --new Bouton	
-    	  local bouton_yes     = Bouton(1,"Yes",true,"menuSummary")
-    	  local bouton_no      = Bouton(2,"No",false,"menuSummary")
+    	  local bouton_yes     = Bouton(1,"Yes",true,"menuSummary",nil,nil)
+    	  local bouton_no      = Bouton(2,"No",false,"menuSummary",nil,nil)
           
           menu_action1:addBouton(bouton_yes)
           menu_action1:addBouton(bouton_no)
 
-    	  menu(id,menu_action1:Show())
+    	  menu_action1:Show(id)
 end
 function menuSummary(id,button,object)
 	-- save result of past entry
@@ -221,7 +215,7 @@ function menuSummary(id,button,object)
 		  --new menu
     	  local menu_action1 = Menu(1,"Create Mix - Summary")
     	  		--new menuList
-    	  local theMenuList    = MenuList(0);
+    	  --local theMenuList    = MenuList(0);
         
         local bool = true
         for i=1,theMenuList:NumbersMenus() do
@@ -233,12 +227,12 @@ function menuSummary(id,button,object)
           theMenuList:addMenu(menu_action1);
         end
     	    --new Bouton	
-    	  local bouton_choiceRounds             = Bouton(1,"("..choicePlayer.roundsVIEW..")","","")
-    	  local bouton_choiceNomberPlayers      = Bouton(2,"("..choicePlayer.nombersplayersVIEW..")","","")
-    	  local bouton_choiceMap                = Bouton(3,"("..choicePlayer.mapVIEW..")","","")
-    	  local bouton_choiceTillEnd            = Bouton(4,"("..choicePlayer.tillendVIEW..")","","")
-    	  local bouton_choiceKnifeRound         = Bouton(5,"("..choicePlayer.kniferoundVIEW..")","","")
-          local bouton_validChoices             = Bouton(6,"Create The Mix","","CreateTheMix")
+    	  local bouton_choiceRounds             = Bouton(1,"("..choicePlayer.roundsVIEW..")","","",nil,nil)
+    	  local bouton_choiceNomberPlayers      = Bouton(2,"("..choicePlayer.nombersplayersVIEW..")","","",nil,nil)
+    	  local bouton_choiceMap                = Bouton(3,"("..choicePlayer.mapVIEW..")","","",nil,nil)
+    	  local bouton_choiceTillEnd            = Bouton(4,"("..choicePlayer.tillendVIEW..")","","",nil,nil)
+    	  local bouton_choiceKnifeRound         = Bouton(5,"("..choicePlayer.kniferoundVIEW..")","","",nil,nil)
+          local bouton_validChoices             = Bouton(6,"Create The Mix","","CreateTheMix",nil,nil)
           
           menu_action1:addBouton(bouton_choiceRounds)
           menu_action1:addBouton(bouton_choiceNomberPlayers)
@@ -247,7 +241,7 @@ function menuSummary(id,button,object)
           menu_action1:addBouton(bouton_choiceKnifeRound)
           menu_action1:addBouton(bouton_validChoices)
 
-    	  menu(id,menu_action1:Show())
+    	  menu_action1:Show(id)
 end
 
 function CreateTheMix(id,button,object)

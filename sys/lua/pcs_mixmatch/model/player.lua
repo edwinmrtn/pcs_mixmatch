@@ -53,21 +53,20 @@ function Player:chooseteam()
             --new menu
           local menu_chooseteam = Menu(2,"Choose your team")
             --new menuList
-          local themenuList    = MenuList(0);
+--          local themenuList    = MenuList(0);
            themenuList:addMenu(menu_chooseteam);
 
             --new Bouton    
-          local bouton_voteterro = Bouton(1,"Terrorists","voteforterro")
-          local bouton_votecounter = Bouton(2,"Counter-Terrorists","voteforcounter")
+          local bouton_voteterro = Bouton(1,"Terrorists","voteforterro",nil,nil)
+          local bouton_votecounter = Bouton(2,"Counter-Terrorists","voteforcounter",nil,nil)
 
-          local bouton_cancel = Bouton(0,"","")
+          local bouton_cancel = Bouton(0,"","",nil,nil)
 
           menu_chooseteam:addBouton(bouton_voteterro)
           menu_chooseteam:addBouton(bouton_votecounter)
-
           menu_chooseteam:addBouton(bouton_cancel)
 
-          menu(self:getId(),menu_chooseteam:Show())
+          menu_chooseteam:Show(self:getId())
 end
 
 function Player:getIP()
