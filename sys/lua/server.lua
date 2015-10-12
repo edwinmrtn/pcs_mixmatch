@@ -1,1 +1,0 @@
-dofile("sys/lua/pcs_mixmatch/controler/main.lua")
