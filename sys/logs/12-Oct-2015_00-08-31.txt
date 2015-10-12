@@ -1,0 +1,1805 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 12 Oct 2015, 00:08:31
+
+[00:08:31] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[00:08:31] ERROR: U.S.G.N. password file seems to be corrupted!
+[00:08:31] UDP socket initialized using port 59747
+[00:08:31] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[00:08:33] starting server...
+[00:08:33] UDP socket initialized using port 36963
+[00:08:33] load map 'cs_office'
+[00:08:33] ----- Server started -----
+[00:08:33] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:08:33] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:08:33] Lua: Adding function 'onJoin' to hook 'join'
+[00:08:34] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:08:34] Lua: Adding function 'onStartround' to hook 'startround'
+[00:08:34] Lua: Adding function 'onEndround' to hook 'endround'
+[00:08:34] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:08:34] Lua: Adding function 'onMenu' to hook 'menu'
+[00:08:36] Player joins the Terrorist Forces
+[00:08:41] Server Shutdown
+[00:08:41] ----- Disconnected -----
+[00:10:35] starting server...
+[00:10:35] load map 'cs_office'
+[00:10:36] ----- Server started -----
+[00:10:36] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:10:36] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:10:36] Lua: Adding function 'onJoin' to hook 'join'
+[00:10:36] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:10:36] Lua: Adding function 'onStartround' to hook 'startround'
+[00:10:36] Lua: Adding function 'onEndround' to hook 'endround'
+[00:10:36] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:10:36] Lua: Adding function 'onMenu' to hook 'menu'
+[00:10:39] Player joins the Terrorist Forces
+[00:10:43] Error : No mixes found
+[00:10:43] oko
+[00:10:43] LUA ERROR: sys/lua/pcs_mixmatch/controler/onMenu.lua:14: attempt to index a nil value
+[00:10:43]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[00:10:43]  -> in Lua hook 'menu', params: 1, 'PCS Mix option 1', 2
+[00:10:47] oko
+[00:10:47] LUA ERROR: sys/lua/pcs_mixmatch/controler/onMenu.lua:14: attempt to index a nil value
+[00:10:47]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[00:10:47]  -> in Lua hook 'menu', params: 1, 'PCS Mix option 1', 8
+[00:15:30] generating stats...
+[00:15:30] stats generated in 2 ms!
+[00:15:56] Server Shutdown
+[00:15:56] ----- Disconnected -----
+[00:15:59] starting server...
+[00:15:59] load map 'cs_office'
+[00:15:59] ----- Server started -----
+[00:15:59] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:15:59] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:15:59] Lua: Adding function 'onJoin' to hook 'join'
+[00:15:59] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:15:59] Lua: Adding function 'onStartround' to hook 'startround'
+[00:15:59] Lua: Adding function 'onEndround' to hook 'endround'
+[00:16:00] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:16:00] Lua: Adding function 'onMenu' to hook 'menu'
+[00:16:01] Player joins the Terrorist Forces
+[00:16:02] LUA ERROR: sys/lua/pcs_mixmatch/model/menu.lua:74: attempt to index global 'theMenuList' (a nil value)
+[00:16:02]  -> sys/lua/pcs_mixmatch/model/menu.lua:74: in function 'addBouton'
+[00:16:02]  -> sys/lua/pcs_mixmatch/controler/onServeraction.lua:45: in function <sys/lua/pcs_mixmatch/controler/onServeraction.lua:12>
+[00:16:02]  -> in Lua hook 'serveraction', params: 1, 1
+[00:16:03] LUA ERROR: sys/lua/pcs_mixmatch/model/menu.lua:74: attempt to index global 'theMenuList' (a nil value)
+[00:16:03]  -> sys/lua/pcs_mixmatch/model/menu.lua:74: in function 'addBouton'
+[00:16:03]  -> sys/lua/pcs_mixmatch/controler/onServeraction.lua:45: in function <sys/lua/pcs_mixmatch/controler/onServeraction.lua:12>
+[00:16:03]  -> in Lua hook 'serveraction', params: 1, 1
+[00:16:34] Server Shutdown
+[00:16:34] ----- Disconnected -----
+[00:16:36] starting server...
+[00:16:36] load map 'cs_office'
+[00:16:36] ----- Server started -----
+[00:16:36] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:16:36] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:16:37] Lua: Adding function 'onJoin' to hook 'join'
+[00:16:37] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:16:37] Lua: Adding function 'onStartround' to hook 'startround'
+[00:16:37] Lua: Adding function 'onEndround' to hook 'endround'
+[00:16:37] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:16:37] Lua: Adding function 'onMenu' to hook 'menu'
+[00:16:39] Player joins the Terrorist Forces
+[00:16:42] LUA ERROR: sys/lua/pcs_mixmatch/controler/onMenu.lua:24: attempt to call field '?' (a nil value)
+[00:16:42]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:24: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[00:16:42]  -> in Lua hook 'menu', params: 1, 'PCS Mix option 1', 1
+[00:16:47] Error : No mixes found
+[00:16:47] oko
+[00:16:47] Error : No mixes found
+[00:16:47] oko
+[00:16:53] "  (1x)
+[00:17:00] Server Shutdown
+[00:17:00] ----- Disconnected -----
+[00:17:24] starting server...
+[00:17:24] load map 'cs_office'
+[00:17:24] ----- Server started -----
+[00:17:24] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:17:24] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:17:24] Lua: Adding function 'onJoin' to hook 'join'
+[00:17:24] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:17:24] Lua: Adding function 'onStartround' to hook 'startround'
+[00:17:24] Lua: Adding function 'onEndround' to hook 'endround'
+[00:17:24] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:17:25] Lua: Adding function 'onMenu' to hook 'menu'
+[00:17:26] Player joins the Terrorist Forces
+[00:17:42] LUA ERROR: sys/lua/pcs_mixmatch/controler/onMenu.lua:23: attempt to call field '?' (a nil value)
+[00:17:42]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:23: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[00:17:42]  -> in Lua hook 'menu', params: 1, 'PCS Mix option 1', 1
+[00:18:27] LUA ERROR: sys/lua/pcs_mixmatch/model/mix.lua:91: attempt to index a nil value
+[00:18:27]  -> sys/lua/pcs_mixmatch/model/mix.lua:91: in function 'SwitchTeams'
+[00:18:27]  -> sys/lua/pcs_mixmatch/controler/onStartMixBouton.lua:33: in function '?'
+[00:18:27]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:23: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[00:18:27]  -> in Lua hook 'menu', params: 1, 'PCS Mix option 1', 4
+[00:19:17] Server Shutdown
+[00:19:17] ----- Disconnected -----
+[00:19:20] starting server...
+[00:19:20] load map 'cs_office'
+[00:19:20] ----- Server started -----
+[00:19:20] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:19:20] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:19:20] Lua: Adding function 'onJoin' to hook 'join'
+[00:19:20] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:19:20] Lua: Adding function 'onStartround' to hook 'startround'
+[00:19:20] Lua: Adding function 'onEndround' to hook 'endround'
+[00:19:20] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:19:21] Lua: Adding function 'onMenu' to hook 'menu'
+[00:19:23] Player joins the Terrorist Forces
+[00:19:24] oko123
+[00:20:17] Server Shutdown
+[00:20:17] ----- Disconnected -----
+[00:20:19] starting server...
+[00:20:19] load map 'cs_office'
+[00:20:19] ----- Server started -----
+[00:20:19] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:20:19] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:20:19] Lua: Adding function 'onJoin' to hook 'join'
+[00:20:19] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:20:19] Lua: Adding function 'onStartround' to hook 'startround'
+[00:20:19] Lua: Adding function 'onEndround' to hook 'endround'
+[00:20:20] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:20:20] Lua: Adding function 'onMenu' to hook 'menu'
+[00:20:22] Player joins the Terrorist Forces
+[00:20:23] oko123
+[00:20:23] LUA ERROR: sys/lua/pcs_mixmatch/controler/onMenu.lua:15: bad argument #1 to 'msg' (string expected, got nil)
+[00:20:23]  -> [C]: in function 'msg'
+[00:20:23]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:15: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[00:20:23]  -> in Lua hook 'menu', params: 1, 'PCS Mix option 1', 8
+[00:20:30] generating stats...
+[00:20:30] stats generated in 1 ms!
+[00:20:30] Server Shutdown
+[00:20:30] ----- Disconnected -----
+[00:21:28] starting server...
+[00:21:28] load map 'cs_office'
+[00:21:28] ----- Server started -----
+[00:21:28] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:21:28] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:21:28] Lua: Adding function 'onJoin' to hook 'join'
+[00:21:28] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:21:29] Lua: Adding function 'onStartround' to hook 'startround'
+[00:21:29] Lua: Adding function 'onEndround' to hook 'endround'
+[00:21:29] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:21:29] Lua: Adding function 'onMenu' to hook 'menu'
+[00:21:30] Player joins the Terrorist Forces
+[00:21:32] oko123
+[00:21:32] PCS Mix option 2
+[00:21:36] Server Shutdown
+[00:21:36] ----- Disconnected -----
+[00:22:10] starting server...
+[00:22:10] load map 'cs_office'
+[00:22:10] ----- Server started -----
+[00:22:10] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:22:10] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:22:10] Lua: Adding function 'onJoin' to hook 'join'
+[00:22:10] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:22:10] Lua: Adding function 'onStartround' to hook 'startround'
+[00:22:10] Lua: Adding function 'onEndround' to hook 'endround'
+[00:22:11] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:22:11] Lua: Adding function 'onMenu' to hook 'menu'
+[00:22:12] Player joins the Terrorist Forces
+[00:22:14] oko123
+[00:22:17] Server Shutdown
+[00:22:17] ----- Disconnected -----
+[00:23:35] starting server...
+[00:23:35] load map 'cs_office'
+[00:23:35] ----- Server started -----
+[00:23:35] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:23:35] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:23:35] Lua: Adding function 'onJoin' to hook 'join'
+[00:23:35] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:23:35] Lua: Adding function 'onStartround' to hook 'startround'
+[00:23:35] Lua: Adding function 'onEndround' to hook 'endround'
+[00:23:35] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:23:36] Lua: Adding function 'onMenu' to hook 'menu'
+[00:23:38] Player joins the Terrorist Forces
+[00:23:40] oko123
+[00:23:45] "  (1x)
+[00:23:47] "  (2x)
+[00:23:51] Server Shutdown
+[00:23:51] ----- Disconnected -----
+[00:24:15] starting server...
+[00:24:15] load map 'cs_office'
+[00:24:16] ----- Server started -----
+[00:24:16] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:24:16] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:24:16] Lua: Adding function 'onJoin' to hook 'join'
+[00:24:16] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:24:16] Lua: Adding function 'onStartround' to hook 'startround'
+[00:24:16] Lua: Adding function 'onEndround' to hook 'endround'
+[00:24:16] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:24:16] Lua: Adding function 'onMenu' to hook 'menu'
+[00:24:19] Player joins the Terrorist Forces
+[00:24:21] Server Shutdown
+[00:24:21] ----- Disconnected -----
+[00:25:15] starting server...
+[00:25:15] load map 'cs_office'
+[00:25:15] ----- Server started -----
+[00:25:15] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:25:15] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:25:15] Lua: Adding function 'onJoin' to hook 'join'
+[00:25:15] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:25:15] Lua: Adding function 'onStartround' to hook 'startround'
+[00:25:15] Lua: Adding function 'onEndround' to hook 'endround'
+[00:25:15] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:25:16] Lua: Adding function 'onMenu' to hook 'menu'
+[00:25:17] Player joins the Terrorist Forces
+[00:25:19] PCS Mix option 1
+[00:25:44] Server Shutdown
+[00:25:44] ----- Disconnected -----
+[00:26:01] starting server...
+[00:26:01] load map 'cs_office'
+[00:26:01] ----- Server started -----
+[00:26:01] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:26:01] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:26:01] Lua: Adding function 'onJoin' to hook 'join'
+[00:26:02] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:26:02] Lua: Adding function 'onStartround' to hook 'startround'
+[00:26:02] Lua: Adding function 'onEndround' to hook 'endround'
+[00:26:02] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:26:02] Lua: Adding function 'onMenu' to hook 'menu'
+[00:26:04] Player joins the Terrorist Forces
+[00:26:05] PCS Mix option 1
+[00:26:05] PCS Mix option 2
+[00:26:16] Server Shutdown
+[00:26:16] ----- Disconnected -----
+[00:26:19] starting server...
+[00:26:19] load map 'cs_office'
+[00:26:19] ----- Server started -----
+[00:26:19] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:26:19] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:26:19] Lua: Adding function 'onJoin' to hook 'join'
+[00:26:19] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:26:19] Lua: Adding function 'onStartround' to hook 'startround'
+[00:26:19] Lua: Adding function 'onEndround' to hook 'endround'
+[00:26:19] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:26:20] Lua: Adding function 'onMenu' to hook 'menu'
+[00:26:21] Player joins the Terrorist Forces
+[00:26:22] PCS Mix option 1
+[00:26:22] PCS Mix option 2
+[00:26:24] Server Shutdown
+[00:26:24] ----- Disconnected -----
+[00:26:55] starting server...
+[00:26:55] load map 'cs_office'
+[00:26:55] ----- Server started -----
+[00:26:55] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:26:55] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:26:55] Lua: Adding function 'onJoin' to hook 'join'
+[00:26:55] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:26:55] Lua: Adding function 'onStartround' to hook 'startround'
+[00:26:55] Lua: Adding function 'onEndround' to hook 'endround'
+[00:26:55] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:26:56] Lua: Adding function 'onMenu' to hook 'menu'
+[00:26:57] Player joins the Terrorist Forces
+[00:26:58] PCS Mix option 1
+[00:26:58] PCS Mix option 2
+[00:27:07] Server Shutdown
+[00:27:07] ----- Disconnected -----
+[00:27:09] starting server...
+[00:27:09] load map 'cs_office'
+[00:27:09] ----- Server started -----
+[00:27:09] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:27:09] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:27:09] Lua: Adding function 'onJoin' to hook 'join'
+[00:27:09] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:27:09] Lua: Adding function 'onStartround' to hook 'startround'
+[00:27:10] Lua: Adding function 'onEndround' to hook 'endround'
+[00:27:10] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:27:10] Lua: Adding function 'onMenu' to hook 'menu'
+[00:27:12] Player joins the Terrorist Forces
+[00:28:31] Server Shutdown
+[00:28:31] ----- Disconnected -----
+[00:28:33] starting server...
+[00:28:33] load map 'cs_office'
+[00:28:34] ----- Server started -----
+[00:28:34] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:28:34] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:28:34] Lua: Adding function 'onJoin' to hook 'join'
+[00:28:34] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:28:34] Lua: Adding function 'onStartround' to hook 'startround'
+[00:28:34] Lua: Adding function 'onEndround' to hook 'endround'
+[00:28:34] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:28:34] Lua: Adding function 'onMenu' to hook 'menu'
+[00:28:36] Player joins the Counter-Terrorist Forces
+[00:28:37] PCS Mix option 1
+[00:28:37] PCS Mix option 2
+[00:28:47] Server Shutdown
+[00:28:47] ----- Disconnected -----
+[00:29:06] starting server...
+[00:29:06] load map 'cs_office'
+[00:29:06] ----- Server started -----
+[00:29:06] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:29:06] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:29:06] Lua: Adding function 'onJoin' to hook 'join'
+[00:29:06] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:29:06] Lua: Adding function 'onStartround' to hook 'startround'
+[00:29:06] Lua: Adding function 'onEndround' to hook 'endround'
+[00:29:06] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:29:07] Lua: Adding function 'onMenu' to hook 'menu'
+[00:29:08] Player joins the Terrorist Forces
+[00:29:18] PCS Mix option 1
+[00:29:18] PCS Mix option 2
+[00:29:24] LUA ERROR: sys/lua/pcs_mixmatch/controler/onMenu.lua:30: attempt to call field '?' (a nil value)
+[00:29:24]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:30: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[00:29:24]  -> in Lua hook 'menu', params: 1, 'PCS Mix option 1', 1
+[00:29:29] PCS Mix option 1
+[00:29:29] PCS Mix option 2
+[00:29:29] PCS Mix option 1
+[00:29:29] PCS Mix option 2
+[00:29:29] Create Mix - Rounds
+[00:29:29] Create Mix - Nombers of player
+[00:29:29] Create Mix - Map
+[00:29:29] Create Mix - Till End?
+[00:29:29] Create Mix - Knife round?
+[00:29:29] Create Mix - Summary
+[00:29:29] PCS Mix option 1
+[00:29:29] PCS Mix option 2
+[00:29:29] PCS Mix option 1
+[00:29:29] PCS Mix option 2
+[00:29:29] PCS Mix option 1
+[00:29:29] PCS Mix option 2
+[00:29:29] Create Mix - Rounds
+[00:29:29] Create Mix - Nombers of player
+[00:29:29] Create Mix - Map
+[00:29:29] Create Mix - Till End?
+[00:29:29] Create Mix - Knife round?
+[00:29:29] Create Mix - Summary
+[00:29:29] PCS Mix option 1
+[00:29:29] PCS Mix option 2
+[00:29:29] PCS Mix option 1
+[00:29:29] PCS Mix option 2
+[00:29:29] PCS Mix option 1
+[00:29:29] PCS Mix option 2
+[00:29:29] Create Mix - Rounds
+[00:29:29] Create Mix - Nombers of player
+[00:29:29] Create Mix - Map
+[00:29:29] Create Mix - Till End?
+[00:29:29] Create Mix - Knife round?
+[00:29:29] Create Mix - Summary
+[00:29:29] PCS Mix option 1
+[00:29:29] PCS Mix option 2
+[00:29:30] generating stats...
+[00:29:30] stats generated in 1 ms!
+[00:29:52] Server Shutdown
+[00:29:52] ----- Disconnected -----
+[00:31:07] starting server...
+[00:31:07] load map 'cs_office'
+[00:31:07] ----- Server started -----
+[00:31:07] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:31:07] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:31:07] Lua: Adding function 'onJoin' to hook 'join'
+[00:31:07] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:31:07] Lua: Adding function 'onStartround' to hook 'startround'
+[00:31:07] Lua: Adding function 'onEndround' to hook 'endround'
+[00:31:07] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:31:08] Lua: Adding function 'onMenu' to hook 'menu'
+[00:31:09] Player joins the Counter-Terrorist Forces
+[00:31:11] PCS Mix option 1
+[00:31:11] PCS Mix option 2
+[00:31:17] Server Shutdown
+[00:31:17] ----- Disconnected -----
+[00:32:05] starting server...
+[00:32:05] load map 'cs_office'
+[00:32:05] ----- Server started -----
+[00:32:05] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:32:05] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:32:05] Lua: Adding function 'onJoin' to hook 'join'
+[00:32:05] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:32:05] Lua: Adding function 'onStartround' to hook 'startround'
+[00:32:05] Lua: Adding function 'onEndround' to hook 'endround'
+[00:32:05] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:32:06] Lua: Adding function 'onMenu' to hook 'menu'
+[00:32:07] Player joins the Terrorist Forces
+[00:32:08] LUA ERROR: sys/lua/pcs_mixmatch/controler/onMenu.lua:16: attempt to index a nil value
+[00:32:08]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:16: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
+[00:32:08]  -> in Lua hook 'menu', params: 1, 'PCS Mix option 1', 8
+[00:32:13] Server Shutdown
+[00:32:13] ----- Disconnected -----
+[00:33:18] starting server...
+[00:33:18] load map 'cs_office'
+[00:33:18] ----- Server started -----
+[00:33:18] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:33:18] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:33:18] Lua: Adding function 'onJoin' to hook 'join'
+[00:33:19] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:33:19] Lua: Adding function 'onStartround' to hook 'startround'
+[00:33:19] Lua: Adding function 'onEndround' to hook 'endround'
+[00:33:19] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:33:19] Lua: Adding function 'onMenu' to hook 'menu'
+[00:33:21] Player joins the Terrorist Forces
+[00:33:22] 2ici
+[00:33:22] PCS Mix option 1
+[00:33:22] PCS Mix option 2
+[00:37:08] 3ici
+[00:37:08] PCS Mix option 1
+[00:37:08] PCS Mix option 2
+[00:37:08] PCS Mix option 1
+[00:37:08] PCS Mix option 2
+[00:37:08] 3ici
+[00:37:08] PCS Mix option 1
+[00:37:08] PCS Mix option 2
+[00:37:08] PCS Mix option 1
+[00:37:08] PCS Mix option 2
+[00:37:15] 4ici
+[00:37:15] PCS Mix option 1
+[00:37:15] PCS Mix option 2
+[00:37:15] PCS Mix option 1
+[00:37:15] PCS Mix option 2
+[00:37:15] PCS Mix option 1
+[00:37:15] PCS Mix option 2
+[00:37:15] 4ici
+[00:37:15] PCS Mix option 1
+[00:37:15] PCS Mix option 2
+[00:37:15] PCS Mix option 1
+[00:37:15] PCS Mix option 2
+[00:37:15] PCS Mix option 1
+[00:37:15] PCS Mix option 2
+[00:37:15] 4ici
+[00:37:15] PCS Mix option 1
+[00:37:15] PCS Mix option 2
+[00:37:15] PCS Mix option 1
+[00:37:15] PCS Mix option 2
+[00:37:15] PCS Mix option 1
+[00:37:15] PCS Mix option 2
+[00:37:20] 5ici
+[00:37:20] PCS Mix option 1
+[00:37:20] PCS Mix option 2
+[00:37:20] PCS Mix option 1
+[00:37:20] PCS Mix option 2
+[00:37:20] PCS Mix option 1
+[00:37:20] PCS Mix option 2
+[00:37:20] PCS Mix option 1
+[00:37:20] PCS Mix option 2
+[00:37:20] 5ici
+[00:37:20] PCS Mix option 1
+[00:37:20] PCS Mix option 2
+[00:37:20] PCS Mix option 1
+[00:37:20] PCS Mix option 2
+[00:37:20] PCS Mix option 1
+[00:37:20] PCS Mix option 2
+[00:37:20] PCS Mix option 1
+[00:37:20] PCS Mix option 2
+[00:37:20] 5ici
+[00:37:20] PCS Mix option 1
+[00:37:20] PCS Mix option 2
+[00:37:20] PCS Mix option 1
+[00:37:20] PCS Mix option 2
+[00:37:20] PCS Mix option 1
+[00:37:20] PCS Mix option 2
+[00:37:20] PCS Mix option 1
+[00:37:20] PCS Mix option 2
+[00:37:20] 5ici
+[00:37:20] PCS Mix option 1
+[00:37:20] PCS Mix option 2
+[00:37:20] PCS Mix option 1
+[00:37:20] PCS Mix option 2
+[00:37:20] PCS Mix option 1
+[00:37:20] PCS Mix option 2
+[00:37:20] PCS Mix option 1
+[00:37:20] PCS Mix option 2
+[00:37:30] generating stats...
+[00:37:30] stats generated in 1 ms!
+[00:37:31] Server Shutdown
+[00:37:31] ----- Disconnected -----
+[00:54:16] starting server...
+[00:54:16] load map 'cs_office'
+[00:54:16] ----- Server started -----
+[00:54:16] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:54:16] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:54:16] Lua: Adding function 'onJoin' to hook 'join'
+[00:54:16] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:54:16] Lua: Adding function 'onStartround' to hook 'startround'
+[00:54:17] Lua: Adding function 'onEndround' to hook 'endround'
+[00:54:17] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:54:17] Lua: Adding function 'onMenu' to hook 'menu'
+[00:54:18] Player joins the Terrorist Forces
+[00:54:20] 2ici
+[00:54:20] PCS Mix option 1
+[00:54:20] PCS Mix option 2
+[00:55:23] Server Shutdown
+[00:55:23] ----- Disconnected -----
+[00:55:25] starting server...
+[00:55:25] load map 'cs_office'
+[00:55:25] ----- Server started -----
+[00:55:25] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:55:25] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:55:25] Lua: Adding function 'onJoin' to hook 'join'
+[00:55:25] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:55:25] Lua: Adding function 'onStartround' to hook 'startround'
+[00:55:25] Lua: Adding function 'onEndround' to hook 'endround'
+[00:55:26] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:55:26] Lua: Adding function 'onMenu' to hook 'menu'
+[00:55:28] Player joins the Terrorist Forces
+[00:55:29] 2ici
+[00:55:29] PCS Mix option 1
+[00:55:31] Server Shutdown
+[00:55:31] ----- Disconnected -----
+[00:55:42] starting server...
+[00:55:42] load map 'cs_office'
+[00:55:42] ----- Server started -----
+[00:55:42] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:55:42] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:55:42] Lua: Adding function 'onJoin' to hook 'join'
+[00:55:42] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:55:42] Lua: Adding function 'onStartround' to hook 'startround'
+[00:55:43] Lua: Adding function 'onEndround' to hook 'endround'
+[00:55:43] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:55:43] Lua: Adding function 'onMenu' to hook 'menu'
+[00:55:44] Player joins the Terrorist Forces
+[00:55:46] 2ici
+[00:55:46] 1
+[00:55:46] PCS Mix option 1
+[00:55:50] Server Shutdown
+[00:55:50] ----- Disconnected -----
+[00:57:05] starting server...
+[00:57:05] load map 'cs_office'
+[00:57:05] ----- Server started -----
+[00:57:05] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:57:05] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:57:05] Lua: Adding function 'onJoin' to hook 'join'
+[00:57:06] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:57:06] Lua: Adding function 'onStartround' to hook 'startround'
+[00:57:06] Lua: Adding function 'onEndround' to hook 'endround'
+[00:57:06] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:57:06] LUA ERROR: sys/lua/pcs_mixmatch/controler/onMenu.lua:28: 'end' expected (to close 'for' at line 9) near 'elseif'
+[00:57:06]  -> [C]: in function 'dofile'
+[00:57:06]  -> sys/lua/pcs_mixmatch/controler/main.lua:8: in main chunk
+[00:57:06]  -> [C]: in function 'dofile'
+[00:57:06]  -> sys/lua/server.lua:1: in main chunk
+[00:57:08] Player joins the Terrorist Forces
+[00:57:19] Server Shutdown
+[00:57:19] ----- Disconnected -----
+[00:57:21] starting server...
+[00:57:21] load map 'cs_office'
+[00:57:21] ----- Server started -----
+[00:57:21] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:57:21] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:57:21] Lua: Adding function 'onJoin' to hook 'join'
+[00:57:21] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:57:21] Lua: Adding function 'onStartround' to hook 'startround'
+[00:57:21] Lua: Adding function 'onEndround' to hook 'endround'
+[00:57:22] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:57:22] Lua: Adding function 'onMenu' to hook 'menu'
+[00:57:23] Player joins the Terrorist Forces
+[00:57:24] 2ici
+[00:57:24] 1
+[00:57:24] PCS Mix option 1
+[00:57:24] 1
+[00:57:24] PCS Mix option 1
+[00:57:24] 1
+[00:57:24] PCS Mix option 1
+[00:57:24] 1
+[00:57:24] PCS Mix option 1
+[00:57:24] 1
+[00:57:24] PCS Mix option 1
+[00:57:24] 1
+[00:57:24] PCS Mix option 1
+[00:57:24] 1
+[00:57:24] PCS Mix option 1
+[00:57:24] 1
+[00:57:24] PCS Mix option 1
+[00:57:24] 2
+[00:57:24] PCS Mix option 2
+[00:57:44] Server Shutdown
+[00:57:44] ----- Disconnected -----
+[00:57:58] starting server...
+[00:57:58] load map 'cs_office'
+[00:57:58] ----- Server started -----
+[00:57:58] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:57:58] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:57:58] Lua: Adding function 'onJoin' to hook 'join'
+[00:57:58] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:57:58] Lua: Adding function 'onStartround' to hook 'startround'
+[00:57:58] Lua: Adding function 'onEndround' to hook 'endround'
+[00:57:59] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:57:59] Lua: Adding function 'onMenu' to hook 'menu'
+[00:58:50] Server Shutdown
+[00:58:50] ----- Disconnected -----
+[00:59:32] starting server...
+[00:59:32] load map 'cs_office'
+[00:59:32] ----- Server started -----
+[00:59:32] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[00:59:32] parsing Lua server script (mp_luaserver = 'server.lua')
+[00:59:32] Lua: Adding function 'onJoin' to hook 'join'
+[00:59:32] Lua: Adding function 'onSpawn' to hook 'spawn'
+[00:59:32] Lua: Adding function 'onStartround' to hook 'startround'
+[00:59:32] Lua: Adding function 'onEndround' to hook 'endround'
+[00:59:33] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[00:59:33] Lua: Adding function 'onMenu' to hook 'menu'
+[00:59:34] Player joins the Terrorist Forces
+[00:59:37] 2ici
+[00:59:37] 1
+[00:59:37] PCS Mix option 1
+[00:59:37] 1
+[00:59:37] PCS Mix option 1
+[00:59:37] 1
+[00:59:37] PCS Mix option 1
+[00:59:37] 1
+[00:59:37] PCS Mix option 1
+[00:59:37] 1
+[00:59:37] PCS Mix option 1
+[00:59:37] 1
+[00:59:37] PCS Mix option 1
+[00:59:37] 1
+[00:59:37] PCS Mix option 1
+[00:59:37] 1
+[00:59:37] PCS Mix option 1
+[00:59:37] PCS Mix option 2
+[00:59:37] 2
+[00:59:37] PCS Mix option 2
+[01:00:30] generating stats...
+[01:00:30] stats generated in 1 ms!
+[01:04:48] Server Shutdown
+[01:04:48] ----- Disconnected -----
+[01:04:50] starting server...
+[01:04:50] load map 'cs_office'
+[01:04:50] ----- Server started -----
+[01:04:50] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[01:04:50] parsing Lua server script (mp_luaserver = 'server.lua')
+[01:04:50] Lua: Adding function 'onJoin' to hook 'join'
+[01:04:50] Lua: Adding function 'onSpawn' to hook 'spawn'
+[01:04:50] Lua: Adding function 'onStartround' to hook 'startround'
+[01:04:50] Lua: Adding function 'onEndround' to hook 'endround'
+[01:04:51] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[01:04:51] Lua: Adding function 'onMenu' to hook 'menu'
+[01:04:52] Player joins the Terrorist Forces
+[01:04:54] 2ici
+[01:04:54] 1
+[01:04:54] PCS Mix option 1
+[01:04:54] 1
+[01:04:54] PCS Mix option 1
+[01:04:54] 1
+[01:04:54] PCS Mix option 1
+[01:04:54] 1
+[01:04:54] PCS Mix option 1
+[01:04:54] 1
+[01:04:54] PCS Mix option 1
+[01:04:54] 1
+[01:04:54] PCS Mix option 1
+[01:04:54] 1
+[01:04:54] PCS Mix option 1
+[01:04:54] 1
+[01:04:54] PCS Mix option 1
+[01:04:54] PCS Mix option 2
+[01:04:54] 2
+[01:04:54] PCS Mix option 2
+[01:05:30] generating stats...
+[01:05:30] stats generated in 0 ms!
+[01:05:56] Server Shutdown
+[01:05:56] ----- Disconnected -----
+[01:05:58] starting server...
+[01:05:58] load map 'cs_office'
+[01:05:58] ----- Server started -----
+[01:05:58] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[01:05:58] parsing Lua server script (mp_luaserver = 'server.lua')
+[01:05:58] Lua: Adding function 'onJoin' to hook 'join'
+[01:05:58] Lua: Adding function 'onSpawn' to hook 'spawn'
+[01:05:58] Lua: Adding function 'onStartround' to hook 'startround'
+[01:05:58] Lua: Adding function 'onEndround' to hook 'endround'
+[01:05:59] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[01:05:59] Lua: Adding function 'onMenu' to hook 'menu'
+[01:06:00] Player joins the Terrorist Forces
+[01:06:02] 2ici
+[01:06:02] 1
+[01:06:02] m 1
+[01:06:02] PCS Mix option 1
+[01:06:02] m 2
+[01:06:02] PCS Mix option 1
+[01:06:02] m 3
+[01:06:02] PCS Mix option 1
+[01:06:02] m 4
+[01:06:02] PCS Mix option 1
+[01:06:02] m 5
+[01:06:02] PCS Mix option 1
+[01:06:02] m 6
+[01:06:02] PCS Mix option 1
+[01:06:02] m 7
+[01:06:02] PCS Mix option 1
+[01:06:02] m 8
+[01:06:02] PCS Mix option 1
+[01:06:02] PCS Mix option 2
+[01:06:02] 2
+[01:06:02] m 1
+[01:06:02] PCS Mix option 2
+[01:07:09] Server Shutdown
+[01:07:09] ----- Disconnected -----
+[01:07:11] starting server...
+[01:07:11] load map 'cs_office'
+[01:07:11] ----- Server started -----
+[01:07:11] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[01:07:11] parsing Lua server script (mp_luaserver = 'server.lua')
+[01:07:11] Lua: Adding function 'onJoin' to hook 'join'
+[01:07:11] Lua: Adding function 'onSpawn' to hook 'spawn'
+[01:07:11] Lua: Adding function 'onStartround' to hook 'startround'
+[01:07:11] Lua: Adding function 'onEndround' to hook 'endround'
+[01:07:12] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[01:07:12] Lua: Adding function 'onMenu' to hook 'menu'
+[01:07:13] Player joins the Terrorist Forces
+[01:07:14] 2ici
+[01:07:14] 1
+[01:07:14] m 1
+[01:07:14] m 2
+[01:07:14] m 3
+[01:07:14] m 4
+[01:07:14] m 5
+[01:07:14] m 6
+[01:07:14] m 7
+[01:07:14] m 8
+[01:07:14] PCS Mix option 2
+[01:07:14] 2
+[01:07:14] m 1
+[01:07:27] Server Shutdown
+[01:07:27] ----- Disconnected -----
+[01:07:47] starting server...
+[01:07:47] load map 'cs_office'
+[01:07:48] ----- Server started -----
+[01:07:48] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[01:07:48] parsing Lua server script (mp_luaserver = 'server.lua')
+[01:07:48] Lua: Adding function 'onJoin' to hook 'join'
+[01:07:48] Lua: Adding function 'onSpawn' to hook 'spawn'
+[01:07:48] Lua: Adding function 'onStartround' to hook 'startround'
+[01:07:48] Lua: Adding function 'onEndround' to hook 'endround'
+[01:07:48] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[01:07:48] Lua: Adding function 'onMenu' to hook 'menu'
+[01:07:50] Player joins the Terrorist Forces
+[01:07:51] 2ici
+[01:07:51] 1
+[01:07:51] m 1
+[01:07:51] PCS Mix option 1
+[01:07:51] m 2
+[01:07:51] PCS Mix option 1
+[01:07:51] m 3
+[01:07:51] PCS Mix option 1
+[01:07:51] m 4
+[01:07:51] PCS Mix option 1
+[01:07:51] m 5
+[01:07:51] PCS Mix option 1
+[01:07:51] m 6
+[01:07:51] PCS Mix option 1
+[01:07:51] m 7
+[01:07:51] PCS Mix option 1
+[01:07:51] m 8
+[01:07:51] PCS Mix option 1
+[01:07:51] PCS Mix option 2
+[01:07:51] 2
+[01:07:51] m 1
+[01:07:51] PCS Mix option 2
+[01:11:09] Server Shutdown
+[01:11:09] ----- Disconnected -----
+[01:11:11] starting server...
+[01:11:11] load map 'cs_office'
+[01:11:11] ----- Server started -----
+[01:11:11] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[01:11:11] parsing Lua server script (mp_luaserver = 'server.lua')
+[01:11:11] Lua: Adding function 'onJoin' to hook 'join'
+[01:11:11] Lua: Adding function 'onSpawn' to hook 'spawn'
+[01:11:11] Lua: Adding function 'onStartround' to hook 'startround'
+[01:11:12] Lua: Adding function 'onEndround' to hook 'endround'
+[01:11:12] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[01:11:12] Lua: Adding function 'onMenu' to hook 'menu'
+[01:11:14] Player joins the Terrorist Forces
+[01:11:17] 2ici
+[01:11:17] 1
+[01:11:17] m 1
+[01:11:17] PCS Mix option 1
+[01:11:17] m 2
+[01:11:17] PCS Mix option 1
+[01:11:17] m 3
+[01:11:17] PCS Mix option 1
+[01:11:17] m 4
+[01:11:17] PCS Mix option 1
+[01:11:17] m 5
+[01:11:17] PCS Mix option 1
+[01:11:17] m 6
+[01:11:17] PCS Mix option 1
+[01:11:17] m 7
+[01:11:17] PCS Mix option 1
+[01:11:17] m 8
+[01:11:17] PCS Mix option 1
+[01:11:17] 2
+[01:11:17] m 1
+[01:11:17] PCS Mix option 2
+[01:11:30] generating stats...
+[01:11:30] stats generated in 1 ms!
+[01:14:57] Server Shutdown
+[01:14:57] ----- Disconnected -----
+[01:15:00] starting server...
+[01:15:00] load map 'cs_office'
+[01:15:00] ----- Server started -----
+[01:15:00] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[01:15:00] parsing Lua server script (mp_luaserver = 'server.lua')
+[01:15:00] Lua: Adding function 'onJoin' to hook 'join'
+[01:15:00] Lua: Adding function 'onSpawn' to hook 'spawn'
+[01:15:00] Lua: Adding function 'onStartround' to hook 'startround'
+[01:15:00] Lua: Adding function 'onEndround' to hook 'endround'
+[01:15:01] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[01:15:01] Lua: Adding function 'onMenu' to hook 'menu'
+[01:15:02] Player joins the Terrorist Forces
+[01:15:04] 2ici
+[01:15:04] 1
+[01:15:04] m 1
+[01:15:04] PCS Mix option 1
+[01:15:04] m 2
+[01:15:04] PCS Mix option 1
+[01:15:04] m 3
+[01:15:04] PCS Mix option 1
+[01:15:04] m 4
+[01:15:04] PCS Mix option 1
+[01:15:04] m 5
+[01:15:04] PCS Mix option 1
+[01:15:04] m 6
+[01:15:04] PCS Mix option 1
+[01:15:04] m 7
+[01:15:04] PCS Mix option 1
+[01:15:04] m 8
+[01:15:04] PCS Mix option 1
+[01:15:04] oko123
+[01:15:04] 2
+[01:15:04] m 1
+[01:15:04] PCS Mix option 2
+[01:15:05] 2ici
+[01:15:05] 1
+[01:15:05] m 1
+[01:15:05] PCS Mix option 1
+[01:15:05] m 2
+[01:15:05] PCS Mix option 1
+[01:15:05] m 3
+[01:15:05] PCS Mix option 1
+[01:15:05] m 4
+[01:15:05] PCS Mix option 1
+[01:15:05] m 5
+[01:15:05] PCS Mix option 1
+[01:15:05] m 6
+[01:15:05] PCS Mix option 1
+[01:15:05] m 7
+[01:15:05] PCS Mix option 1
+[01:15:05] m 8
+[01:15:05] PCS Mix option 1
+[01:15:05] oko123
+[01:15:05] 2
+[01:15:05] m 1
+[01:15:05] PCS Mix option 2
+[01:15:07] 2ici
+[01:15:07] 1
+[01:15:07] m 1
+[01:15:07] PCS Mix option 1
+[01:15:07] m 2
+[01:15:07] PCS Mix option 1
+[01:15:07] m 3
+[01:15:07] PCS Mix option 1
+[01:15:07] m 4
+[01:15:07] PCS Mix option 1
+[01:15:07] m 5
+[01:15:07] PCS Mix option 1
+[01:15:07] m 6
+[01:15:07] PCS Mix option 1
+[01:15:07] m 7
+[01:15:07] PCS Mix option 1
+[01:15:07] m 8
+[01:15:07] PCS Mix option 1
+[01:15:07] oko123
+[01:15:07] 2
+[01:15:07] m 1
+[01:15:07] PCS Mix option 2
+[01:15:08] 2ici
+[01:15:08] 1
+[01:15:08] m 1
+[01:15:08] PCS Mix option 1
+[01:15:08] m 2
+[01:15:08] PCS Mix option 1
+[01:15:08] m 3
+[01:15:08] PCS Mix option 1
+[01:15:08] m 4
+[01:15:08] PCS Mix option 1
+[01:15:08] m 5
+[01:15:08] PCS Mix option 1
+[01:15:08] m 6
+[01:15:08] PCS Mix option 1
+[01:15:08] m 7
+[01:15:08] PCS Mix option 1
+[01:15:08] m 8
+[01:15:08] PCS Mix option 1
+[01:15:08] oko123
+[01:15:08] 2
+[01:15:08] m 1
+[01:15:08] PCS Mix option 2
+[01:15:09] 2ici
+[01:15:09] 1
+[01:15:09] m 1
+[01:15:09] PCS Mix option 1
+[01:15:09] m 2
+[01:15:09] PCS Mix option 1
+[01:15:09] m 3
+[01:15:09] PCS Mix option 1
+[01:15:09] m 4
+[01:15:09] PCS Mix option 1
+[01:15:09] m 5
+[01:15:09] PCS Mix option 1
+[01:15:09] m 6
+[01:15:09] PCS Mix option 1
+[01:15:09] m 7
+[01:15:09] PCS Mix option 1
+[01:15:09] m 8
+[01:15:09] PCS Mix option 1
+[01:15:09] oko123
+[01:15:09] 2
+[01:15:09] m 1
+[01:15:09] PCS Mix option 2
+[01:15:09] 2ici
+[01:15:09] 1
+[01:15:09] m 1
+[01:15:09] PCS Mix option 1
+[01:15:09] m 2
+[01:15:09] PCS Mix option 1
+[01:15:09] m 3
+[01:15:09] PCS Mix option 1
+[01:15:09] m 4
+[01:15:09] PCS Mix option 1
+[01:15:09] m 5
+[01:15:09] PCS Mix option 1
+[01:15:09] m 6
+[01:15:09] PCS Mix option 1
+[01:15:09] m 7
+[01:15:09] PCS Mix option 1
+[01:15:09] m 8
+[01:15:09] PCS Mix option 1
+[01:15:09] oko123
+[01:15:09] 2
+[01:15:09] m 1
+[01:15:09] PCS Mix option 2
+[01:15:09] 2ici
+[01:15:09] 1
+[01:15:09] m 1
+[01:15:09] PCS Mix option 1
+[01:15:09] m 2
+[01:15:09] PCS Mix option 1
+[01:15:09] m 3
+[01:15:09] PCS Mix option 1
+[01:15:09] m 4
+[01:15:09] PCS Mix option 1
+[01:15:09] m 5
+[01:15:09] PCS Mix option 1
+[01:15:09] m 6
+[01:15:09] PCS Mix option 1
+[01:15:09] m 7
+[01:15:09] PCS Mix option 1
+[01:15:09] m 8
+[01:15:09] PCS Mix option 1
+[01:15:09] oko123
+[01:15:09] 2
+[01:15:09] m 1
+[01:15:09] PCS Mix option 2
+[01:15:09] 2ici
+[01:15:09] 1
+[01:15:09] m 1
+[01:15:09] PCS Mix option 1
+[01:15:09] m 2
+[01:15:09] PCS Mix option 1
+[01:15:09] m 3
+[01:15:09] PCS Mix option 1
+[01:15:09] m 4
+[01:15:09] PCS Mix option 1
+[01:15:09] m 5
+[01:15:09] PCS Mix option 1
+[01:15:09] m 6
+[01:15:09] PCS Mix option 1
+[01:15:09] m 7
+[01:15:09] PCS Mix option 1
+[01:15:09] m 8
+[01:15:09] PCS Mix option 1
+[01:15:09] oko123
+[01:15:09] 2
+[01:15:09] m 1
+[01:15:09] PCS Mix option 2
+[01:15:10] 2ici
+[01:15:10] 1
+[01:15:10] m 1
+[01:15:10] PCS Mix option 1
+[01:15:10] m 2
+[01:15:10] PCS Mix option 1
+[01:15:10] m 3
+[01:15:10] PCS Mix option 1
+[01:15:10] m 4
+[01:15:10] PCS Mix option 1
+[01:15:10] m 5
+[01:15:10] PCS Mix option 1
+[01:15:10] m 6
+[01:15:10] PCS Mix option 1
+[01:15:10] m 7
+[01:15:10] PCS Mix option 1
+[01:15:10] m 8
+[01:15:10] PCS Mix option 1
+[01:15:10] oko123
+[01:15:10] 2
+[01:15:10] m 1
+[01:15:10] PCS Mix option 2
+[01:15:13] 3ici
+[01:15:13] 1
+[01:15:13] m 1
+[01:15:13] PCS Mix option 1
+[01:15:13] m 2
+[01:15:13] PCS Mix option 1
+[01:15:13] m 3
+[01:15:13] PCS Mix option 1
+[01:15:13] m 4
+[01:15:13] PCS Mix option 1
+[01:15:13] m 5
+[01:15:13] PCS Mix option 1
+[01:15:13] m 6
+[01:15:13] PCS Mix option 1
+[01:15:13] m 7
+[01:15:13] PCS Mix option 1
+[01:15:13] m 8
+[01:15:13] PCS Mix option 1
+[01:15:13] oko123
+[01:15:13] 2
+[01:15:13] m 1
+[01:15:13] PCS Mix option 2
+[01:15:13] 3
+[01:15:13] m 1
+[01:15:13] PCS Mix option 1
+[01:15:13] m 2
+[01:15:13] PCS Mix option 1
+[01:15:13] m 3
+[01:15:13] PCS Mix option 1
+[01:15:13] m 4
+[01:15:13] PCS Mix option 1
+[01:15:13] m 5
+[01:15:13] PCS Mix option 1
+[01:15:13] m 6
+[01:15:13] PCS Mix option 1
+[01:15:13] m 7
+[01:15:13] PCS Mix option 1
+[01:15:13] m 8
+[01:15:13] PCS Mix option 1
+[01:15:13] oko123
+[01:15:13] 3ici
+[01:15:13] 1
+[01:15:13] m 1
+[01:15:13] PCS Mix option 1
+[01:15:13] m 2
+[01:15:13] PCS Mix option 1
+[01:15:13] m 3
+[01:15:13] PCS Mix option 1
+[01:15:13] m 4
+[01:15:13] PCS Mix option 1
+[01:15:13] m 5
+[01:15:13] PCS Mix option 1
+[01:15:13] m 6
+[01:15:13] PCS Mix option 1
+[01:15:13] m 7
+[01:15:13] PCS Mix option 1
+[01:15:13] m 8
+[01:15:13] PCS Mix option 1
+[01:15:13] oko123
+[01:15:13] 2
+[01:15:13] m 1
+[01:15:13] PCS Mix option 2
+[01:15:13] 3
+[01:15:13] m 1
+[01:15:13] PCS Mix option 1
+[01:15:13] m 2
+[01:15:13] PCS Mix option 1
+[01:15:13] m 3
+[01:15:13] PCS Mix option 1
+[01:15:13] m 4
+[01:15:13] PCS Mix option 1
+[01:15:13] m 5
+[01:15:13] PCS Mix option 1
+[01:15:13] m 6
+[01:15:13] PCS Mix option 1
+[01:15:13] m 7
+[01:15:13] PCS Mix option 1
+[01:15:13] m 8
+[01:15:13] PCS Mix option 1
+[01:15:13] oko123
+[01:15:14] 3ici
+[01:15:14] 1
+[01:15:14] m 1
+[01:15:14] PCS Mix option 1
+[01:15:14] m 2
+[01:15:14] PCS Mix option 1
+[01:15:14] m 3
+[01:15:14] PCS Mix option 1
+[01:15:14] m 4
+[01:15:14] PCS Mix option 1
+[01:15:14] m 5
+[01:15:14] PCS Mix option 1
+[01:15:14] m 6
+[01:15:14] PCS Mix option 1
+[01:15:14] m 7
+[01:15:14] PCS Mix option 1
+[01:15:14] m 8
+[01:15:14] PCS Mix option 1
+[01:15:14] oko123
+[01:15:14] 2
+[01:15:14] m 1
+[01:15:14] PCS Mix option 2
+[01:15:14] 3
+[01:15:14] m 1
+[01:15:14] PCS Mix option 1
+[01:15:14] m 2
+[01:15:14] PCS Mix option 1
+[01:15:14] m 3
+[01:15:14] PCS Mix option 1
+[01:15:14] m 4
+[01:15:14] PCS Mix option 1
+[01:15:14] m 5
+[01:15:14] PCS Mix option 1
+[01:15:14] m 6
+[01:15:14] PCS Mix option 1
+[01:15:14] m 7
+[01:15:14] PCS Mix option 1
+[01:15:14] m 8
+[01:15:14] PCS Mix option 1
+[01:15:14] oko123
+[01:15:14] 3ici
+[01:15:14] 1
+[01:15:14] m 1
+[01:15:14] PCS Mix option 1
+[01:15:14] m 2
+[01:15:14] PCS Mix option 1
+[01:15:14] m 3
+[01:15:14] PCS Mix option 1
+[01:15:14] m 4
+[01:15:14] PCS Mix option 1
+[01:15:14] m 5
+[01:15:14] PCS Mix option 1
+[01:15:14] m 6
+[01:15:14] PCS Mix option 1
+[01:15:14] m 7
+[01:15:14] PCS Mix option 1
+[01:15:14] m 8
+[01:15:14] PCS Mix option 1
+[01:15:14] oko123
+[01:15:14] 2
+[01:15:14] m 1
+[01:15:14] PCS Mix option 2
+[01:15:14] 3
+[01:15:14] m 1
+[01:15:14] PCS Mix option 1
+[01:15:14] m 2
+[01:15:14] PCS Mix option 1
+[01:15:14] m 3
+[01:15:14] PCS Mix option 1
+[01:15:14] m 4
+[01:15:14] PCS Mix option 1
+[01:15:14] m 5
+[01:15:14] PCS Mix option 1
+[01:15:14] m 6
+[01:15:14] PCS Mix option 1
+[01:15:14] m 7
+[01:15:14] PCS Mix option 1
+[01:15:14] m 8
+[01:15:14] PCS Mix option 1
+[01:15:14] oko123
+[01:15:16] 3ici
+[01:15:16] 1
+[01:15:16] m 1
+[01:15:16] PCS Mix option 1
+[01:15:16] m 2
+[01:15:16] PCS Mix option 1
+[01:15:16] m 3
+[01:15:16] PCS Mix option 1
+[01:15:16] m 4
+[01:15:16] PCS Mix option 1
+[01:15:16] m 5
+[01:15:16] PCS Mix option 1
+[01:15:16] m 6
+[01:15:16] PCS Mix option 1
+[01:15:16] m 7
+[01:15:16] PCS Mix option 1
+[01:15:16] m 8
+[01:15:16] PCS Mix option 1
+[01:15:16] oko123
+[01:15:16] 2
+[01:15:16] m 1
+[01:15:16] PCS Mix option 2
+[01:15:16] 3
+[01:15:16] m 1
+[01:15:16] PCS Mix option 1
+[01:15:16] m 2
+[01:15:16] PCS Mix option 1
+[01:15:16] m 3
+[01:15:16] PCS Mix option 1
+[01:15:16] m 4
+[01:15:16] PCS Mix option 1
+[01:15:16] m 5
+[01:15:16] PCS Mix option 1
+[01:15:16] m 6
+[01:15:16] PCS Mix option 1
+[01:15:16] m 7
+[01:15:16] PCS Mix option 1
+[01:15:16] m 8
+[01:15:16] PCS Mix option 1
+[01:15:16] oko123
+[01:15:16] 3ici
+[01:15:16] 1
+[01:15:16] m 1
+[01:15:16] PCS Mix option 1
+[01:15:16] m 2
+[01:15:16] PCS Mix option 1
+[01:15:16] m 3
+[01:15:16] PCS Mix option 1
+[01:15:16] m 4
+[01:15:16] PCS Mix option 1
+[01:15:16] m 5
+[01:15:16] PCS Mix option 1
+[01:15:16] m 6
+[01:15:16] PCS Mix option 1
+[01:15:16] m 7
+[01:15:16] PCS Mix option 1
+[01:15:16] m 8
+[01:15:16] PCS Mix option 1
+[01:15:16] oko123
+[01:15:16] 2
+[01:15:16] m 1
+[01:15:16] PCS Mix option 2
+[01:15:16] 3
+[01:15:16] m 1
+[01:15:16] PCS Mix option 1
+[01:15:16] m 2
+[01:15:16] PCS Mix option 1
+[01:15:16] m 3
+[01:15:16] PCS Mix option 1
+[01:15:16] m 4
+[01:15:16] PCS Mix option 1
+[01:15:16] m 5
+[01:15:16] PCS Mix option 1
+[01:15:16] m 6
+[01:15:16] PCS Mix option 1
+[01:15:16] m 7
+[01:15:16] PCS Mix option 1
+[01:15:16] m 8
+[01:15:16] PCS Mix option 1
+[01:15:16] oko123
+[01:15:27] Server Shutdown
+[01:15:27] ----- Disconnected -----
+[01:15:30] starting server...
+[01:15:30] load map 'cs_office'
+[01:15:30] ----- Server started -----
+[01:15:30] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[01:15:30] parsing Lua server script (mp_luaserver = 'server.lua')
+[01:15:30] Lua: Adding function 'onJoin' to hook 'join'
+[01:15:30] Lua: Adding function 'onSpawn' to hook 'spawn'
+[01:15:30] Lua: Adding function 'onStartround' to hook 'startround'
+[01:15:30] Lua: Adding function 'onEndround' to hook 'endround'
+[01:15:31] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[01:15:31] Lua: Adding function 'onMenu' to hook 'menu'
+[01:15:32] Player joins the Terrorist Forces
+[01:15:34] 2ici
+[01:15:34] 1
+[01:15:34] m 1
+[01:15:34] PCS Mix option 1
+[01:15:34] m 2
+[01:15:34] PCS Mix option 1
+[01:15:34] m 3
+[01:15:34] PCS Mix option 1
+[01:15:34] m 4
+[01:15:34] PCS Mix option 1
+[01:15:34] m 5
+[01:15:34] PCS Mix option 1
+[01:15:34] m 6
+[01:15:34] PCS Mix option 1
+[01:15:34] m 7
+[01:15:34] PCS Mix option 1
+[01:15:34] m 8
+[01:15:34] PCS Mix option 1
+[01:15:34] oko123
+[01:15:34] 2
+[01:15:34] m 1
+[01:15:34] PCS Mix option 2
+[01:15:35] 2ici
+[01:15:35] 1
+[01:15:35] m 1
+[01:15:35] PCS Mix option 1
+[01:15:35] m 2
+[01:15:35] PCS Mix option 1
+[01:15:35] m 3
+[01:15:35] PCS Mix option 1
+[01:15:35] m 4
+[01:15:35] PCS Mix option 1
+[01:15:35] m 5
+[01:15:35] PCS Mix option 1
+[01:15:35] m 6
+[01:15:35] PCS Mix option 1
+[01:15:35] m 7
+[01:15:35] PCS Mix option 1
+[01:15:35] m 8
+[01:15:35] PCS Mix option 1
+[01:15:35] oko123
+[01:15:35] 2
+[01:15:35] m 1
+[01:15:35] PCS Mix option 2
+[01:15:36] 2ici
+[01:15:36] 1
+[01:15:36] m 1
+[01:15:36] PCS Mix option 1
+[01:15:36] m 2
+[01:15:36] PCS Mix option 1
+[01:15:36] m 3
+[01:15:36] PCS Mix option 1
+[01:15:36] m 4
+[01:15:36] PCS Mix option 1
+[01:15:36] m 5
+[01:15:36] PCS Mix option 1
+[01:15:36] m 6
+[01:15:36] PCS Mix option 1
+[01:15:36] m 7
+[01:15:36] PCS Mix option 1
+[01:15:36] m 8
+[01:15:36] PCS Mix option 1
+[01:15:36] oko123
+[01:15:36] 2
+[01:15:36] m 1
+[01:15:36] PCS Mix option 2
+[01:15:49] Server Shutdown
+[01:15:49] ----- Disconnected -----
+[01:16:30] starting server...
+[01:16:30] load map 'cs_office'
+[01:16:30] ----- Server started -----
+[01:16:30] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[01:16:30] parsing Lua server script (mp_luaserver = 'server.lua')
+[01:16:30] Lua: Adding function 'onJoin' to hook 'join'
+[01:16:30] Lua: Adding function 'onSpawn' to hook 'spawn'
+[01:16:30] Lua: Adding function 'onStartround' to hook 'startround'
+[01:16:30] Lua: Adding function 'onEndround' to hook 'endround'
+[01:16:30] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[01:16:31] Lua: Adding function 'onMenu' to hook 'menu'
+[01:16:31] generating stats...
+[01:16:31] stats generated in 1 ms!
+[01:16:32] Player joins the Terrorist Forces
+[01:16:33] 2ici
+[01:16:33] 1
+[01:16:33] m 1
+[01:16:33] PCS Mix option 1
+[01:16:33] m 2
+[01:16:33] PCS Mix option 1
+[01:16:33] m 3
+[01:16:33] PCS Mix option 1
+[01:16:33] m 4
+[01:16:33] PCS Mix option 1
+[01:16:33] m 5
+[01:16:33] PCS Mix option 1
+[01:16:33] m 6
+[01:16:33] PCS Mix option 1
+[01:16:33] m 7
+[01:16:33] PCS Mix option 1
+[01:16:33] m 8
+[01:16:33] PCS Mix option 1
+[01:16:33] oko123
+[01:16:33] 2
+[01:16:33] m 1
+[01:16:33] PCS Mix option 2
+[01:16:38] 2ici
+[01:16:38] 1
+[01:16:38] m 1
+[01:16:38] PCS Mix option 1
+[01:16:38] m 2
+[01:16:38] PCS Mix option 1
+[01:16:38] m 3
+[01:16:38] PCS Mix option 1
+[01:16:38] m 4
+[01:16:38] PCS Mix option 1
+[01:16:38] m 5
+[01:16:38] PCS Mix option 1
+[01:16:38] m 6
+[01:16:38] PCS Mix option 1
+[01:16:38] m 7
+[01:16:38] PCS Mix option 1
+[01:16:38] m 8
+[01:16:38] PCS Mix option 1
+[01:16:38] oko123
+[01:16:38] 2
+[01:16:38] m 1
+[01:16:38] PCS Mix option 2
+[01:16:40] Server Shutdown
+[01:16:40] ----- Disconnected -----
+[01:16:45] starting server...
+[01:16:45] load map 'cs_office'
+[01:16:45] ----- Server started -----
+[01:16:45] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[01:16:45] parsing Lua server script (mp_luaserver = 'server.lua')
+[01:16:45] Lua: Adding function 'onJoin' to hook 'join'
+[01:16:45] Lua: Adding function 'onSpawn' to hook 'spawn'
+[01:16:45] Lua: Adding function 'onStartround' to hook 'startround'
+[01:16:45] Lua: Adding function 'onEndround' to hook 'endround'
+[01:16:45] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[01:16:46] Lua: Adding function 'onMenu' to hook 'menu'
+[01:16:47] Player joins the Terrorist Forces
+[01:16:48] 2ici
+[01:16:48] 1
+[01:16:48] m 1
+[01:16:48] PCS Mix option 1
+[01:16:48] m 2
+[01:16:48] PCS Mix option 1
+[01:16:48] m 3
+[01:16:48] PCS Mix option 1
+[01:16:48] m 4
+[01:16:48] PCS Mix option 1
+[01:16:48] m 5
+[01:16:48] PCS Mix option 1
+[01:16:48] m 6
+[01:16:48] PCS Mix option 1
+[01:16:48] m 7
+[01:16:48] PCS Mix option 1
+[01:16:48] m 8
+[01:16:48] PCS Mix option 1
+[01:16:48] oko123
+[01:16:48] 2
+[01:16:48] m 1
+[01:16:48] PCS Mix option 2
+[01:16:53] Server Shutdown
+[01:16:53] ----- Disconnected -----
+[01:17:41] starting server...
+[01:17:41] load map 'cs_office'
+[01:17:42] ----- Server started -----
+[01:17:42] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[01:17:42] parsing Lua server script (mp_luaserver = 'server.lua')
+[01:17:42] Lua: Adding function 'onJoin' to hook 'join'
+[01:17:42] Lua: Adding function 'onSpawn' to hook 'spawn'
+[01:17:42] Lua: Adding function 'onStartround' to hook 'startround'
+[01:17:42] Lua: Adding function 'onEndround' to hook 'endround'
+[01:17:42] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[01:17:42] Lua: Adding function 'onMenu' to hook 'menu'
+[01:17:44] Player joins the Terrorist Forces
+[01:17:46] 2ici
+[01:17:46] 1
+[01:17:46] m 1
+[01:17:46] PCS Mix option 1
+[01:17:46] m 2
+[01:17:46] PCS Mix option 1
+[01:17:46] m 3
+[01:17:46] PCS Mix option 1
+[01:17:46] m 4
+[01:17:46] PCS Mix option 1
+[01:17:46] m 5
+[01:17:46] PCS Mix option 1
+[01:17:46] m 6
+[01:17:46] PCS Mix option 1
+[01:17:46] m 7
+[01:17:46] PCS Mix option 1
+[01:17:46] m 8
+[01:17:46] PCS Mix option 1
+[01:17:46] oko123
+[01:17:46] 2
+[01:17:46] m 1
+[01:17:46] PCS Mix option 2
+[01:17:55] 3ici
+[01:17:55] 1
+[01:17:55] m 1
+[01:17:55] PCS Mix option 1
+[01:17:55] m 2
+[01:17:55] PCS Mix option 1
+[01:17:55] m 3
+[01:17:55] PCS Mix option 1
+[01:17:55] m 4
+[01:17:55] PCS Mix option 1
+[01:17:55] m 5
+[01:17:55] PCS Mix option 1
+[01:17:55] m 6
+[01:17:55] PCS Mix option 1
+[01:17:55] m 7
+[01:17:55] PCS Mix option 1
+[01:17:55] m 8
+[01:17:55] PCS Mix option 1
+[01:17:55] oko123
+[01:17:55] 2
+[01:17:55] m 1
+[01:17:55] PCS Mix option 2
+[01:17:55] 3
+[01:17:55] m 1
+[01:17:55] PCS Mix option 1
+[01:17:55] m 2
+[01:17:55] PCS Mix option 1
+[01:17:55] m 3
+[01:17:55] PCS Mix option 1
+[01:17:55] m 4
+[01:17:55] PCS Mix option 1
+[01:17:55] m 5
+[01:17:55] PCS Mix option 1
+[01:17:55] m 6
+[01:17:55] PCS Mix option 1
+[01:17:55] m 7
+[01:17:55] PCS Mix option 1
+[01:17:55] m 8
+[01:17:55] PCS Mix option 1
+[01:17:55] oko123
+[01:17:55] 3ici
+[01:17:55] 1
+[01:17:55] m 1
+[01:17:55] PCS Mix option 1
+[01:17:55] m 2
+[01:17:55] PCS Mix option 1
+[01:17:55] m 3
+[01:17:55] PCS Mix option 1
+[01:17:55] m 4
+[01:17:55] PCS Mix option 1
+[01:17:55] m 5
+[01:17:55] PCS Mix option 1
+[01:17:55] m 6
+[01:17:55] PCS Mix option 1
+[01:17:55] m 7
+[01:17:55] PCS Mix option 1
+[01:17:55] m 8
+[01:17:55] PCS Mix option 1
+[01:17:55] oko123
+[01:17:55] 2
+[01:17:55] m 1
+[01:17:55] PCS Mix option 2
+[01:17:55] 3
+[01:17:55] m 1
+[01:17:55] PCS Mix option 1
+[01:17:55] m 2
+[01:17:55] PCS Mix option 1
+[01:17:55] m 3
+[01:17:55] PCS Mix option 1
+[01:17:55] m 4
+[01:17:55] PCS Mix option 1
+[01:17:55] m 5
+[01:17:55] PCS Mix option 1
+[01:17:55] m 6
+[01:17:55] PCS Mix option 1
+[01:17:55] m 7
+[01:17:55] PCS Mix option 1
+[01:17:55] m 8
+[01:17:55] PCS Mix option 1
+[01:17:55] oko123
+[01:17:58] 4ici
+[01:17:58] 1
+[01:17:58] m 1
+[01:17:58] PCS Mix option 1
+[01:17:58] m 2
+[01:17:58] PCS Mix option 1
+[01:17:58] m 3
+[01:17:58] PCS Mix option 1
+[01:17:58] m 4
+[01:17:58] PCS Mix option 1
+[01:17:58] m 5
+[01:17:58] PCS Mix option 1
+[01:17:58] m 6
+[01:17:58] PCS Mix option 1
+[01:17:58] m 7
+[01:17:58] PCS Mix option 1
+[01:17:58] m 8
+[01:17:58] PCS Mix option 1
+[01:17:58] oko123
+[01:17:58] 2
+[01:17:58] m 1
+[01:17:58] PCS Mix option 2
+[01:17:58] 3
+[01:17:58] m 1
+[01:17:58] PCS Mix option 1
+[01:17:58] m 2
+[01:17:58] PCS Mix option 1
+[01:17:58] m 3
+[01:17:58] PCS Mix option 1
+[01:17:58] m 4
+[01:17:58] PCS Mix option 1
+[01:17:58] m 5
+[01:17:58] PCS Mix option 1
+[01:17:58] m 6
+[01:17:58] PCS Mix option 1
+[01:17:58] m 7
+[01:17:58] PCS Mix option 1
+[01:17:58] m 8
+[01:17:58] PCS Mix option 1
+[01:17:58] oko123
+[01:17:58] 4
+[01:17:58] m 1
+[01:17:58] PCS Mix option 1
+[01:17:58] m 2
+[01:17:58] PCS Mix option 1
+[01:17:58] m 3
+[01:17:58] PCS Mix option 1
+[01:17:58] m 4
+[01:17:58] PCS Mix option 1
+[01:17:58] m 5
+[01:17:58] PCS Mix option 1
+[01:17:58] m 6
+[01:17:58] PCS Mix option 1
+[01:17:58] m 7
+[01:17:58] PCS Mix option 1
+[01:17:58] m 8
+[01:17:58] PCS Mix option 1
+[01:17:58] oko123
+[01:17:58] 4ici
+[01:17:58] 1
+[01:17:58] m 1
+[01:17:58] PCS Mix option 1
+[01:17:58] m 2
+[01:17:58] PCS Mix option 1
+[01:17:58] m 3
+[01:17:58] PCS Mix option 1
+[01:17:58] m 4
+[01:17:58] PCS Mix option 1
+[01:17:58] m 5
+[01:17:58] PCS Mix option 1
+[01:17:58] m 6
+[01:17:58] PCS Mix option 1
+[01:17:58] m 7
+[01:17:58] PCS Mix option 1
+[01:17:58] m 8
+[01:17:58] PCS Mix option 1
+[01:17:58] oko123
+[01:17:58] 2
+[01:17:58] m 1
+[01:17:58] PCS Mix option 2
+[01:17:58] 3
+[01:17:58] m 1
+[01:17:58] PCS Mix option 1
+[01:17:58] m 2
+[01:17:58] PCS Mix option 1
+[01:17:58] m 3
+[01:17:58] PCS Mix option 1
+[01:17:58] m 4
+[01:17:58] PCS Mix option 1
+[01:17:58] m 5
+[01:17:58] PCS Mix option 1
+[01:17:58] m 6
+[01:17:58] PCS Mix option 1
+[01:17:58] m 7
+[01:17:58] PCS Mix option 1
+[01:17:58] m 8
+[01:17:58] PCS Mix option 1
+[01:17:58] oko123
+[01:17:58] 4
+[01:17:58] m 1
+[01:17:58] PCS Mix option 1
+[01:17:58] m 2
+[01:17:58] PCS Mix option 1
+[01:17:58] m 3
+[01:17:58] PCS Mix option 1
+[01:17:58] m 4
+[01:17:58] PCS Mix option 1
+[01:17:58] m 5
+[01:17:58] PCS Mix option 1
+[01:17:58] m 6
+[01:17:58] PCS Mix option 1
+[01:17:58] m 7
+[01:17:58] PCS Mix option 1
+[01:17:58] m 8
+[01:17:58] PCS Mix option 1
+[01:17:58] oko123
+[01:17:58] 4ici
+[01:17:58] 1
+[01:17:58] m 1
+[01:17:58] PCS Mix option 1
+[01:17:58] m 2
+[01:17:58] PCS Mix option 1
+[01:17:58] m 3
+[01:17:58] PCS Mix option 1
+[01:17:58] m 4
+[01:17:58] PCS Mix option 1
+[01:17:58] m 5
+[01:17:58] PCS Mix option 1
+[01:17:58] m 6
+[01:17:58] PCS Mix option 1
+[01:17:58] m 7
+[01:17:58] PCS Mix option 1
+[01:17:58] m 8
+[01:17:58] PCS Mix option 1
+[01:17:58] oko123
+[01:17:58] 2
+[01:17:58] m 1
+[01:17:58] PCS Mix option 2
+[01:17:58] 3
+[01:17:58] m 1
+[01:17:58] PCS Mix option 1
+[01:17:58] m 2
+[01:17:58] PCS Mix option 1
+[01:17:58] m 3
+[01:17:58] PCS Mix option 1
+[01:17:58] m 4
+[01:17:58] PCS Mix option 1
+[01:17:58] m 5
+[01:17:58] PCS Mix option 1
+[01:17:58] m 6
+[01:17:58] PCS Mix option 1
+[01:17:58] m 7
+[01:17:58] PCS Mix option 1
+[01:17:58] m 8
+[01:17:58] PCS Mix option 1
+[01:17:58] oko123
+[01:17:58] 4
+[01:17:58] m 1
+[01:17:58] PCS Mix option 1
+[01:17:58] m 2
+[01:17:58] PCS Mix option 1
+[01:17:58] m 3
+[01:17:58] PCS Mix option 1
+[01:17:58] m 4
+[01:17:58] PCS Mix option 1
+[01:17:58] m 5
+[01:17:58] PCS Mix option 1
+[01:17:58] m 6
+[01:17:58] PCS Mix option 1
+[01:17:58] m 7
+[01:17:58] PCS Mix option 1
+[01:17:58] m 8
+[01:17:58] PCS Mix option 1
+[01:17:58] oko123
+[01:18:02] Server Shutdown
+[01:18:02] ----- Disconnected -----
+[01:23:01] starting server...
+[01:23:01] load map 'cs_office'
+[01:23:01] ----- Server started -----
+[01:23:01] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[01:23:01] parsing Lua server script (mp_luaserver = 'server.lua')
+[01:23:01] Lua: Adding function 'onJoin' to hook 'join'
+[01:23:01] Lua: Adding function 'onSpawn' to hook 'spawn'
+[01:23:01] Lua: Adding function 'onStartround' to hook 'startround'
+[01:23:02] Lua: Adding function 'onEndround' to hook 'endround'
+[01:23:02] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[01:23:02] Lua: Adding function 'onMenu' to hook 'menu'
+[01:23:04] Player joins the Terrorist Forces
+[01:23:19] Server Shutdown
+[01:23:19] ----- Disconnected -----
+[01:23:52] starting server...
+[01:23:52] load map 'cs_office'
+[01:23:52] ----- Server started -----
+[01:23:52] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[01:23:52] parsing Lua server script (mp_luaserver = 'server.lua')
+[01:23:52] Lua: Adding function 'onJoin' to hook 'join'
+[01:23:52] Lua: Adding function 'onSpawn' to hook 'spawn'
+[01:23:52] Lua: Adding function 'onStartround' to hook 'startround'
+[01:23:52] Lua: Adding function 'onEndround' to hook 'endround'
+[01:23:53] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[01:23:53] Lua: Adding function 'onMenu' to hook 'menu'
+[01:23:54] Player joins the Terrorist Forces
+[01:24:03] Server Shutdown
+[01:24:03] ----- Disconnected -----
+[01:24:42] U.S.G.N.: Requesting serverlist...
+[01:24:44] starting server...
+[01:24:44] load map 'cs_office'
+[01:24:44] ----- Server started -----
+[01:24:44] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[01:24:44] parsing Lua server script (mp_luaserver = 'server.lua')
+[01:24:44] Lua: Adding function 'onJoin' to hook 'join'
+[01:24:44] Lua: Adding function 'onSpawn' to hook 'spawn'
+[01:24:44] Lua: Adding function 'onStartround' to hook 'startround'
+[01:24:44] Lua: Adding function 'onEndround' to hook 'endround'
+[01:24:45] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[01:24:45] Lua: Adding function 'onMenu' to hook 'menu'
+[01:24:46] Player joins the Terrorist Forces
+[01:25:01] Server Shutdown
+[01:25:01] ----- Disconnected -----
+[01:25:06] starting server...
+[01:25:06] load map 'cs_office'
+[01:25:06] ----- Server started -----
+[01:25:06] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[01:25:06] parsing Lua server script (mp_luaserver = 'server.lua')
+[01:25:06] Lua: Adding function 'onJoin' to hook 'join'
+[01:25:06] Lua: Adding function 'onSpawn' to hook 'spawn'
+[01:25:06] Lua: Adding function 'onStartround' to hook 'startround'
+[01:25:06] Lua: Adding function 'onEndround' to hook 'endround'
+[01:25:07] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[01:25:07] Lua: Adding function 'onMenu' to hook 'menu'
+[01:25:08] Player joins the Terrorist Forces
+[01:25:13] Server Shutdown
+[01:25:13] ----- Disconnected -----
+[01:25:17] U.S.G.N.: Requesting serverlist...
+[01:25:19] starting server...
+[01:25:19] load map 'cs_office'
+[01:25:19] ----- Server started -----
+[01:25:19] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[01:25:19] parsing Lua server script (mp_luaserver = 'server.lua')
+[01:25:19] Lua: Adding function 'onJoin' to hook 'join'
+[01:25:19] Lua: Adding function 'onSpawn' to hook 'spawn'
+[01:25:20] Lua: Adding function 'onStartround' to hook 'startround'
+[01:25:20] Lua: Adding function 'onEndround' to hook 'endround'
+[01:25:20] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[01:25:20] Lua: Adding function 'onMenu' to hook 'menu'
+[01:25:22] Player joins the Terrorist Forces
+[01:25:26] Server Shutdown
+[01:25:26] ----- Disconnected -----
+[01:25:36] starting server...
+[01:25:36] load map 'cs_office'
+[01:25:37] ----- Server started -----
+[01:25:37] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[01:25:37] parsing Lua server script (mp_luaserver = 'server.lua')
+[01:25:37] Lua: Adding function 'onJoin' to hook 'join'
+[01:25:37] Lua: Adding function 'onSpawn' to hook 'spawn'
+[01:25:37] Lua: Adding function 'onStartround' to hook 'startround'
+[01:25:37] Lua: Adding function 'onEndround' to hook 'endround'
+[01:25:37] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[01:25:37] Lua: Adding function 'onMenu' to hook 'menu'
+[01:25:39] Player joins the Terrorist Forces
+[01:28:20] Server Shutdown
+[01:28:20] ----- Disconnected -----

@@ -1,5 +1,4 @@
-dofile("sys/lua/pcs_mixmatch/Model/mixList.lua")
-dofile("sys/lua/pcs_mixmatch/Model/chooseside.lua")
+
 addhook("endround", "onEndround")
 function onEndround(mode)
    local aMixList = MixList(0);

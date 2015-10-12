@@ -1,9 +1,9 @@
-dofile("sys/lua/pcs_mixmatch/model/player.lua")
-dofile("sys/lua/pcs_mixmatch/model/team.lua")
-dofile("sys/lua/pcs_mixmatch/model/mix.lua")
-dofile("sys/lua/pcs_mixmatch/model/mixList.lua")
-dofile("sys/lua/pcs_mixmatch/model/playerList.lua")
-dofile("sys/lua/pcs_mixmatch/model/arrayList.lua")
+-- dofile("sys/lua/pcs_mixmatch/model/player.lua")
+-- dofile("sys/lua/pcs_mixmatch/model/team.lua")
+-- dofile("sys/lua/pcs_mixmatch/model/mix.lua")
+-- dofile("sys/lua/pcs_mixmatch/model/mixList.lua")
+-- dofile("sys/lua/pcs_mixmatch/model/playerList.lua")
+-- dofile("sys/lua/pcs_mixmatch/model/arrayList.lua")
 function onStartMixBouton(id)
 
 --new team

@@ -1,0 +1,178 @@
+Counter-Strike 2D b 0.1.2.7 Logfile - 12 Oct 2015, 17:13:35
+
+[17:13:35] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
+[17:13:35] ERROR: U.S.G.N. password file seems to be corrupted!
+[17:13:36] UDP socket initialized using port 52004
+[17:13:36] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
+[17:13:39] starting server...
+[17:13:39] UDP socket initialized using port 36963
+[17:13:39] load map 'cs_office'
+[17:13:39] ----- Server started -----
+[17:13:39] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[17:13:39] parsing Lua server script (mp_luaserver = 'server.lua')
+[17:13:39] 1
+[17:13:39] 4
+[17:13:39] Lua: Adding function 'ms' to hook 'ms100'
+[17:13:39] Lua: Adding function 'onJoin' to hook 'join'
+[17:13:39] Lua: Adding function 'onSpawn' to hook 'spawn'
+[17:13:39] Lua: Adding function 'onStartround' to hook 'startround'
+[17:13:39] Lua: Adding function 'onEndround' to hook 'endround'
+[17:13:39] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[17:13:40] Lua: Adding function 'onMenu' to hook 'menu'
+[17:13:40] 0
+[17:13:41] "  (10x)
+[17:13:41] Player joins the Terrorist Forces
+[17:13:41] 0
+[17:13:42] "  (3x)
+[17:13:42] Server Shutdown
+[17:13:42] ----- Disconnected -----
+[17:15:21] starting server...
+[17:15:21] load map 'cs_office'
+[17:15:21] ----- Server started -----
+[17:15:21] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[17:15:21] parsing Lua server script (mp_luaserver = 'server.lua')
+[17:15:21] 1
+[17:15:21] 4
+[17:15:21] Lua: Adding function 'ms' to hook 'ms100'
+[17:15:21] Lua: Adding function 'onJoin' to hook 'join'
+[17:15:21] Lua: Adding function 'onSpawn' to hook 'spawn'
+[17:15:21] Lua: Adding function 'onStartround' to hook 'startround'
+[17:15:21] Lua: Adding function 'onEndround' to hook 'endround'
+[17:15:21] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[17:15:22] Lua: Adding function 'onMenu' to hook 'menu'
+[17:15:22] 0
+[17:15:23] "  (9x)
+[17:15:24] "  (10x)
+[17:15:24] Server Shutdown
+[17:15:24] ----- Disconnected -----
+[17:17:32] starting server...
+[17:17:32] load map 'cs_office'
+[17:17:32] ----- Server started -----
+[17:17:32] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[17:17:32] parsing Lua server script (mp_luaserver = 'server.lua')
+[17:17:32] 1
+[17:17:32] 4
+[17:17:32] Lua: Adding function 'ms' to hook 'ms100'
+[17:17:32] Lua: Adding function 'onJoin' to hook 'join'
+[17:17:32] Lua: Adding function 'onSpawn' to hook 'spawn'
+[17:17:33] Lua: Adding function 'onStartround' to hook 'startround'
+[17:17:33] Lua: Adding function 'onEndround' to hook 'endround'
+[17:17:33] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[17:17:33] Lua: Adding function 'onMenu' to hook 'menu'
+[17:17:33] 0
+[17:17:34] "  (7x)
+[17:17:35] "  (10x)
+[17:17:36] "  (10x)
+[17:17:37] Server Shutdown
+[17:17:37] ----- Disconnected -----
+[17:19:17] starting server...
+[17:19:17] load map 'cs_office'
+[17:19:17] ----- Server started -----
+[17:19:17] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[17:19:17] parsing Lua server script (mp_luaserver = 'server.lua')
+[17:19:17] 1
+[17:19:17] 4
+[17:19:17] Lua: Adding function 'ms' to hook 'ms100'
+[17:19:17] Lua: Adding function 'onJoin' to hook 'join'
+[17:19:17] Lua: Adding function 'onSpawn' to hook 'spawn'
+[17:19:18] Lua: Adding function 'onStartround' to hook 'startround'
+[17:19:18] Lua: Adding function 'onEndround' to hook 'endround'
+[17:19:18] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[17:19:18] Lua: Adding function 'onMenu' to hook 'menu'
+[17:19:18] 0
+[17:19:19] "  (8x)
+[17:19:20] "  (10x)
+[17:19:21] "  (10x)
+[17:19:21] Server Shutdown
+[17:19:22] ----- Disconnected -----
+[17:20:02] starting server...
+[17:20:02] load map 'cs_office'
+[17:20:02] ----- Server started -----
+[17:20:02] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[17:20:02] parsing Lua server script (mp_luaserver = 'server.lua')
+[17:20:03] 1
+[17:20:03] 4
+[17:20:03] Lua: Adding function 'ms' to hook 'ms100'
+[17:20:03] Lua: Adding function 'onJoin' to hook 'join'
+[17:20:03] Lua: Adding function 'onSpawn' to hook 'spawn'
+[17:20:03] Lua: Adding function 'onStartround' to hook 'startround'
+[17:20:03] Lua: Adding function 'onEndround' to hook 'endround'
+[17:20:03] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[17:20:03] Lua: Adding function 'onMenu' to hook 'menu'
+[17:20:03] 0
+[17:20:04] "  (4x)
+[17:20:05] "  (10x)
+[17:20:06] "  (10x)
+[17:20:06] Server Shutdown
+[17:20:06] ----- Disconnected -----
+[17:22:40] starting server...
+[17:22:40] load map 'cs_office'
+[17:22:40] ----- Server started -----
+[17:22:40] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[17:22:40] parsing Lua server script (mp_luaserver = 'server.lua')
+[17:22:41] 1
+[17:22:41] 4
+[17:22:41] Lua: Adding function 'ms' to hook 'ms100'
+[17:22:41] Lua: Adding function 'onJoin' to hook 'join'
+[17:22:41] Lua: Adding function 'onSpawn' to hook 'spawn'
+[17:22:41] Lua: Adding function 'onStartround' to hook 'startround'
+[17:22:41] Lua: Adding function 'onEndround' to hook 'endround'
+[17:22:41] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[17:22:41] Lua: Adding function 'onMenu' to hook 'menu'
+[17:22:41] 0
+[17:22:42] "  (7x)
+[17:22:43] "  (10x)
+[17:22:43] Server Shutdown
+[17:22:43] ----- Disconnected -----
+[17:26:37] starting server...
+[17:26:37] load map 'cs_office'
+[17:26:38] ----- Server started -----
+[17:26:38] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[17:26:38] parsing Lua server script (mp_luaserver = 'server.lua')
+[17:26:38] 1
+[17:26:38] 4
+[17:26:38] Lua: Adding function 'ms' to hook 'ms100'
+[17:26:38] Lua: Adding function 'onJoin' to hook 'join'
+[17:26:38] Lua: Adding function 'onSpawn' to hook 'spawn'
+[17:26:38] Lua: Adding function 'onStartround' to hook 'startround'
+[17:26:38] Lua: Adding function 'onEndround' to hook 'endround'
+[17:26:38] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[17:26:38] Lua: Adding function 'onMenu' to hook 'menu'
+[17:26:38] 0
+[17:26:39] "  (9x)
+[17:26:40] "  (10x)
+[17:26:41] "  (10x)
+[17:26:41] Player joins the Terrorist Forces
+[17:26:41] 0
+[17:26:42] "  (4x)
+[17:26:43] "  (10x)
+[17:26:43] LUA ERROR: sys/lua/pcs_mixmatch/controler/onServeraction.lua:4: bad argument #1 to 'msg' (string expected, got nil)
+[17:26:43]  -> [C]: in function 'msg'
+[17:26:43]  -> sys/lua/pcs_mixmatch/controler/onServeraction.lua:4: in function <sys/lua/pcs_mixmatch/controler/onServeraction.lua:2>
+[17:26:43]  -> in Lua hook 'serveraction', params: 1, 1
+[17:26:43] 0
+[17:26:44] "  (1x)
+[17:26:45] "  (9x)
+[17:26:45] Server Shutdown
+[17:26:45] ----- Disconnected -----
+[17:31:17] starting server...
+[17:31:17] load map 'cs_office'
+[17:31:17] ----- Server started -----
+[17:31:17] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
+[17:31:17] parsing Lua server script (mp_luaserver = 'server.lua')
+[17:31:17] test 1
+[17:31:17] 1
+[17:31:17] 4
+[17:31:17] Lua: Adding function 'ms' to hook 'ms100'
+[17:31:17] Lua: Adding function 'onJoin' to hook 'join'
+[17:31:17] Lua: Adding function 'onSpawn' to hook 'spawn'
+[17:31:17] Lua: Adding function 'onStartround' to hook 'startround'
+[17:31:17] Lua: Adding function 'onEndround' to hook 'endround'
+[17:31:17] Lua: Adding function 'onServeraction' to hook 'serveraction'
+[17:31:17] Lua: Adding function 'onMenu' to hook 'menu'
+[17:31:17] 0
+[17:31:18] "  (5x)
+[17:31:19] "  (10x)
+[17:31:20] "  (10x)
+[17:31:20] Server Shutdown
+[17:31:20] ----- Disconnected -----

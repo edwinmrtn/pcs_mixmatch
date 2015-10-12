@@ -1,5 +1,3 @@
-dofile("sys/lua/pcs_mixmatch/model/object.lua")
-dofile("sys/lua/pcs_mixmatch/model/arrayList.lua")
 
 --Public class MenuList
 MenuList = newclass("MenuList")
@@ -25,7 +23,7 @@ function MenuList:NumbersMenus()
     return self:getMenuList():Size()
 end
 
-function Menu:__tostring()
+function MenuList:__tostring()
     return "I am a MenuList"
 end
 
