@@ -1,249 +1,0 @@
-Counter-Strike 2D b 0.1.2.7 Logfile - 20 Sep 2015, 01:08:08
-
-[01:08:08] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
-[01:08:08] ERROR: U.S.G.N. password file seems to be corrupted!
-[01:08:09] UDP socket initialized using port 52695
-[01:08:09] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
-[01:08:11] starting server...
-[01:08:11] UDP socket initialized using port 36963
-[01:08:11] load map 'de_dust'
-[01:08:11] ----- Server started -----
-[01:08:11] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
-[01:08:11] parsing Lua server script (mp_luaserver = 'server.lua')
-[01:08:11] Lua: Adding function 'onJoin' to hook 'join'
-[01:08:11] Lua: Adding function 'onSpawn' to hook 'spawn'
-[01:08:11] Lua: Adding function 'onStartround' to hook 'startround'
-[01:08:11] Lua: Adding function 'onEndround' to hook 'endround'
-[01:08:11] Lua: Adding function 'onServeraction' to hook 'serveraction'
-[01:08:11] Lua: Adding function 'onMenu' to hook 'menu'
-[01:08:13] Player joins the Terrorist Forces
-[01:08:15] [b]l0rl connected
-[01:08:15] [b]l0rl joins the Counter-Terrorist Forces
-[01:08:15] [b]m00h connected
-[01:08:15] [b]m00h joins the Counter-Terrorist Forces
-[01:08:19] tt
-[01:08:19] ct
-[01:08:19] table: 0886F0A0
-[01:08:19] table: 0886EFD8
-[01:08:19] 123table: 087CA068
-[01:08:19] KNIFE ROUND
-[01:08:21] Player died
-[01:08:26] CHOOSE SIDE
-[01:08:30] LUA ERROR: sys/lua/pcs_mixmatch/model/chooseside.lua:60: attempt to index global 'aMixList' (a nil value)
-[01:08:30]  -> sys/lua/pcs_mixmatch/model/chooseside.lua:60: in function '?'
-[01:08:30]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:13: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
-[01:08:30]  -> in Lua hook 'menu', params: 1, 'Choose your team', 2
-[01:08:57] Server Shutdown
-[01:08:57] ----- Disconnected -----
-[01:08:59] starting server...
-[01:08:59] load map 'de_dust'
-[01:08:59] ----- Server started -----
-[01:08:59] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
-[01:08:59] parsing Lua server script (mp_luaserver = 'server.lua')
-[01:08:59] Lua: Adding function 'onJoin' to hook 'join'
-[01:08:59] Lua: Adding function 'onSpawn' to hook 'spawn'
-[01:08:59] Lua: Adding function 'onStartround' to hook 'startround'
-[01:08:59] Lua: Adding function 'onEndround' to hook 'endround'
-[01:08:59] Lua: Adding function 'onServeraction' to hook 'serveraction'
-[01:08:59] Lua: Adding function 'onMenu' to hook 'menu'
-[01:09:01] Player joins the Terrorist Forces
-[01:09:02] [b]USGN.de connected
-[01:09:02] [b]USGN.de joins the Counter-Terrorist Forces
-[01:09:03] [b]fucktard connected
-[01:09:03] [b]fucktard joins the Counter-Terrorist Forces
-[01:09:06] tt
-[01:09:06] ct
-[01:09:06] table: 07ED25B0
-[01:09:06] table: 07ED2A88
-[01:09:06] 123table: 087C9A18
-[01:09:06] KNIFE ROUND
-[01:09:08] Player died
-[01:09:13] CHOOSE SIDE
-[01:09:15] 1 a vote ct
-[01:09:15] LUA ERROR: sys/lua/pcs_mixmatch/model/chooseside.lua:64: attempt to call method 'increvotect' (a nil value)
-[01:09:15]  -> sys/lua/pcs_mixmatch/model/chooseside.lua:64: in function '?'
-[01:09:15]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:13: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
-[01:09:15]  -> in Lua hook 'menu', params: 1, 'Choose your team', 2
-[01:09:37] [b]USGN.de killed Player with MP5
-[01:09:42] CHOOSE SIDE
-[01:10:29] Server Shutdown
-[01:10:29] ----- Disconnected -----
-[01:10:32] starting server...
-[01:10:32] load map 'de_dust'
-[01:10:32] ----- Server started -----
-[01:10:32] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
-[01:10:32] parsing Lua server script (mp_luaserver = 'server.lua')
-[01:10:32] Lua: Adding function 'onJoin' to hook 'join'
-[01:10:32] Lua: Adding function 'onSpawn' to hook 'spawn'
-[01:10:32] Lua: Adding function 'onStartround' to hook 'startround'
-[01:10:32] Lua: Adding function 'onEndround' to hook 'endround'
-[01:10:32] Lua: Adding function 'onServeraction' to hook 'serveraction'
-[01:10:32] Lua: Adding function 'onMenu' to hook 'menu'
-[01:10:34] Player joins the Terrorist Forces
-[01:10:35] tt
-[01:10:35] ct
-[01:10:35] table: 08871FA8
-[01:10:35] table: 08872750
-[01:10:35] 123table: 086C5E90
-[01:10:35] KNIFE ROUND
-[01:10:37] Player died
-[01:10:37] Player joins the Counter-Terrorist Forces
-[01:10:39] [b]AgainstCheaters connected
-[01:10:39] [b]AgainstCheaters joins the Terrorist Forces
-[01:10:39] [b]Trooper connected
-[01:10:39] [b]Trooper joins the Terrorist Forces
-[01:10:41] tt
-[01:10:41] ct
-[01:10:41] table: 0888D2C8
-[01:10:41] table: 087971E0
-[01:10:41] 123table: 086C5E90
-[01:10:41] KNIFE ROUND
-[01:10:41] tt
-[01:10:41] ct
-[01:10:41] table: 086C62C8
-[01:10:41] table: 086C66D8
-[01:10:41] 123table: 086C5E90
-[01:10:41] KNIFE ROUND
-[01:10:44] Player died
-[01:10:49] CHOOSE SIDE
-[01:10:50] 1 a vote tt
-[01:10:50] LUA ERROR: sys/lua/pcs_mixmatch/model/chooseside.lua:50: attempt to index global 'self' (a nil value)
-[01:10:50]  -> sys/lua/pcs_mixmatch/model/chooseside.lua:50: in function 'majorite'
-[01:10:50]  -> sys/lua/pcs_mixmatch/model/chooseside.lua:77: in function '?'
-[01:10:50]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:13: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
-[01:10:50]  -> in Lua hook 'menu', params: 1, 'Choose your team', 1
-[01:11:27] [b]AgainstCheaters killed Player with HE
-[01:11:32] CHOOSE SIDE
-[01:11:56] [b]Trooper killed Player with AK-47
-[01:12:01] CHOOSE SIDE
-[01:12:25] [b]Trooper killed Player with AK-47
-[01:12:30] CHOOSE SIDE
-[01:12:38] Server Shutdown
-[01:12:38] ----- Disconnected -----
-[01:12:41] starting server...
-[01:12:41] load map 'de_dust'
-[01:12:41] ----- Server started -----
-[01:12:41] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
-[01:12:41] parsing Lua server script (mp_luaserver = 'server.lua')
-[01:12:41] Lua: Adding function 'onJoin' to hook 'join'
-[01:12:41] Lua: Adding function 'onSpawn' to hook 'spawn'
-[01:12:41] Lua: Adding function 'onStartround' to hook 'startround'
-[01:12:41] Lua: Adding function 'onEndround' to hook 'endround'
-[01:12:41] Lua: Adding function 'onServeraction' to hook 'serveraction'
-[01:12:41] Lua: Adding function 'onMenu' to hook 'menu'
-[01:12:42] Player joins the Terrorist Forces
-[01:12:46] [b]pwn3d connected
-[01:12:46] [b]pwn3d joins the Counter-Terrorist Forces
-[01:12:46] [b]Starfish connected
-[01:12:46] [b]Starfish joins the Counter-Terrorist Forces
-[01:12:48] tt
-[01:12:48] ct
-[01:12:48] table: 07ED27B8
-[01:12:48] table: 07ED1458
-[01:12:48] 123table: 0DF1DD40
-[01:12:48] KNIFE ROUND
-[01:12:52] Player died
-[01:12:57] CHOOSE SIDE
-[01:12:58] 1 a vote ct
-[01:12:58] LUA ERROR: sys/lua/pcs_mixmatch/model/chooseside.lua:50: attempt to call method 'getvotett' (a nil value)
-[01:12:58]  -> sys/lua/pcs_mixmatch/model/chooseside.lua:50: in function 'majorite'
-[01:12:58]  -> sys/lua/pcs_mixmatch/model/chooseside.lua:65: in function '?'
-[01:12:58]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:13: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
-[01:12:58]  -> in Lua hook 'menu', params: 1, 'Choose your team', 2
-[01:13:07] generating stats...
-[01:13:07] stats generated in 0 ms!
-[01:13:48] [b]pwn3d killed Player with UMP45
-[01:13:53] CHOOSE SIDE
-[01:14:05] Server Shutdown
-[01:14:05] ----- Disconnected -----
-[01:14:08] starting server...
-[01:14:08] load map 'de_dust'
-[01:14:08] ----- Server started -----
-[01:14:08] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
-[01:14:08] parsing Lua server script (mp_luaserver = 'server.lua')
-[01:14:08] Lua: Adding function 'onJoin' to hook 'join'
-[01:14:08] Lua: Adding function 'onSpawn' to hook 'spawn'
-[01:14:08] Lua: Adding function 'onStartround' to hook 'startround'
-[01:14:08] Lua: Adding function 'onEndround' to hook 'endround'
-[01:14:08] Lua: Adding function 'onServeraction' to hook 'serveraction'
-[01:14:08] Lua: Adding function 'onMenu' to hook 'menu'
-[01:14:09] Player joins the Terrorist Forces
-[01:14:12] [b]Cheater_Little connected
-[01:14:12] [b]Cheater_Little joins the Counter-Terrorist Forces
-[01:14:12] [b]L0lz0r connected
-[01:14:12] [b]L0lz0r joins the Counter-Terrorist Forces
-[01:14:21] tt
-[01:14:21] ct
-[01:14:21] table: 0DF1EBF0
-[01:14:21] table: 0DF1E470
-[01:14:21] 123table: 0DF1D868
-[01:14:21] KNIFE ROUND
-[01:14:24] Player died
-[01:14:29] CHOOSE SIDE
-[01:14:30] 1 a vote ct
-[01:14:30] LUA ERROR: sys/lua/pcs_mixmatch/model/chooseside.lua:51: attempt to call method 'SetState' (a nil value)
-[01:14:30]  -> sys/lua/pcs_mixmatch/model/chooseside.lua:51: in function 'majorite'
-[01:14:30]  -> sys/lua/pcs_mixmatch/model/chooseside.lua:65: in function '?'
-[01:14:30]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:13: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
-[01:14:30]  -> in Lua hook 'menu', params: 1, 'Choose your team', 2
-[01:14:54] [b]L0lz0r killed Player with UMP45
-[01:14:59] CHOOSE SIDE
-[01:15:21] [b]Cheater_Little killed Player with HE
-[01:15:26] CHOOSE SIDE
-[01:15:49] [b]Cheater_Little killed Player with HE
-[01:15:54] CHOOSE SIDE
-[01:16:11] Server Shutdown
-[01:16:11] ----- Disconnected -----
-[01:16:13] starting server...
-[01:16:14] load map 'de_dust'
-[01:16:14] ----- Server started -----
-[01:16:14] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
-[01:16:14] parsing Lua server script (mp_luaserver = 'server.lua')
-[01:16:14] Lua: Adding function 'onJoin' to hook 'join'
-[01:16:14] Lua: Adding function 'onSpawn' to hook 'spawn'
-[01:16:14] Lua: Adding function 'onStartround' to hook 'startround'
-[01:16:14] Lua: Adding function 'onEndround' to hook 'endround'
-[01:16:14] Lua: Adding function 'onServeraction' to hook 'serveraction'
-[01:16:14] Lua: Adding function 'onMenu' to hook 'menu'
-[01:16:16] Player joins the Terrorist Forces
-[01:16:17] tt
-[01:16:17] ct
-[01:16:17] table: 07ED17C8
-[01:16:17] table: 07ED2A88
-[01:16:17] 123table: 07ED1EF8
-[01:16:17] KNIFE ROUND
-[01:16:21] [b]Circuit connected
-[01:16:21] [b]Circuit joins the Counter-Terrorist Forces
-[01:16:21] [b]Rob connected
-[01:16:21] [b]Rob joins the Counter-Terrorist Forces
-[01:16:25] tt
-[01:16:25] ct
-[01:16:25] table: 0DF1E790
-[01:16:25] table: 0DF1E268
-[01:16:25] 123table: 07ED1EF8
-[01:16:25] KNIFE ROUND
-[01:16:25] tt
-[01:16:25] ct
-[01:16:25] table: 086C6610
-[01:16:25] table: 086C6390
-[01:16:25] 123table: 07ED1EF8
-[01:16:25] KNIFE ROUND
-[01:16:27] Player died
-[01:16:32] CHOOSE SIDE
-[01:16:33] 1 a vote ct
-[01:16:33] Player died
-[01:16:33] Player joins the Terrorist Forces
-[01:16:33] Player joins the Counter-Terrorist Forces
-[01:16:33] 1 a vote ct
-[01:16:33] Player joins the Terrorist Forces
-[01:16:33] Player joins the Counter-Terrorist Forces
-[01:16:33] 1 a vote ct
-[01:16:33] Player joins the Terrorist Forces
-[01:16:33] Player joins the Counter-Terrorist Forces
-[01:16:38] * Auto Teambalance *
-[01:16:38] [b]Rob joins the Terrorist Forces
-[01:16:38] Player died
-[01:16:38] Player joins the Terrorist Forces
-[01:16:38] Player joins the Counter-Terrorist Forces
-[01:16:47] Server Shutdown
-[01:16:47] ----- Disconnected -----

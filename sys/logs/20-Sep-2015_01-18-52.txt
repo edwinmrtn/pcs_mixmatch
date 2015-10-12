@@ -1,101 +1,0 @@
-Counter-Strike 2D b 0.1.2.7 Logfile - 20 Sep 2015, 01:18:52
-
-[01:18:52] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
-[01:18:52] ERROR: U.S.G.N. password file seems to be corrupted!
-[01:18:52] UDP socket initialized using port 62391
-[01:18:52] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
-[01:18:54] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
-[01:18:54] ERROR: U.S.G.N. password file seems to be corrupted!
-[01:19:39] starting server...
-[01:19:39] UDP socket initialized using port 36963
-[01:19:39] load map 'de_dust'
-[01:19:40] ----- Server started -----
-[01:19:40] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
-[01:19:40] parsing Lua server script (mp_luaserver = 'server.lua')
-[01:19:40] Lua: Adding function 'onJoin' to hook 'join'
-[01:19:40] Lua: Adding function 'onSpawn' to hook 'spawn'
-[01:19:40] Lua: Adding function 'onStartround' to hook 'startround'
-[01:19:40] Lua: Adding function 'onEndround' to hook 'endround'
-[01:19:40] Lua: Adding function 'onServeraction' to hook 'serveraction'
-[01:19:40] Lua: Adding function 'onMenu' to hook 'menu'
-[01:19:44] Player joins the Terrorist Forces
-[01:20:54] [b]Tom connected
-[01:20:54] [b]Tom joins the Counter-Terrorist Forces
-[01:20:54] [b]Mac Man connected
-[01:20:54] [b]Mac Man joins the Terrorist Forces
-[01:20:54] [b]Executor connected
-[01:20:54] [b]Executor joins the Counter-Terrorist Forces
-[01:20:54] [b]HE Overkill connected
-[01:20:54] [b]HE Overkill joins the Terrorist Forces
-[01:20:55] [b]CS2D.com connected
-[01:20:55] [b]CS2D.com joins the Counter-Terrorist Forces
-[01:20:55] [b]Robo connected
-[01:20:55] [b]Robo joins the Counter-Terrorist Forces
-[01:20:55] [b]yeah connected
-[01:20:55] [b]yeah joins the Terrorist Forces
-[01:20:55] [b]0_o connected
-[01:20:55] [b]0_o joins the Terrorist Forces
-[01:20:56] [b]pwner0r connected
-[01:20:56] [b]pwner0r joins the Counter-Terrorist Forces
-[01:20:56] [b]Uber AI connected
-[01:20:56] [b]Uber AI joins the Counter-Terrorist Forces
-[01:20:56] [b]PlayWithJoystick connected
-[01:20:56] [b]PlayWithJoystick joins the Terrorist Forces
-[01:21:01] tt
-[01:21:01] ct
-[01:21:01] table: 0D843518
-[01:21:01] table: 0D842F00
-[01:21:01] 123table: 0D93A5F0
-[01:21:01] KNIFE ROUND
-[01:21:13] [b]HE Overkill killed [b]Executor with Knife
-[01:21:15] [b]Tom died
-[01:21:16] [b]Uber AI killed [b]HE Overkill with Knife
-[01:21:18] [b]Executor died
-[01:21:18] [b]CS2D.com killed [b]Mac Man with Knife
-[01:21:19] [b]CS2D.com died
-[01:21:20] [b]pwner0r killed [b]0_o with Knife
-[01:21:21] [b]yeah died
-[01:21:25] [b]PlayWithJoystick killed [b]pwner0r with Knife
-[01:21:32] [b]Uber AI died
-[01:21:34] [b]Robo died
-[01:21:39] CHOOSE SIDE
-[01:21:41] 1 a vote ct
-[01:21:41] Player died
-[01:21:41] Player joins the Terrorist Forces
-[01:21:41] Player joins the Counter-Terrorist Forces
-[01:21:55] [b]Tom killed [b]Mac Man with USP
-[01:21:56] [b]Robo killed [b]yeah with USP
-[01:21:56] tt
-[01:21:56] ct
-[01:21:56] table: 0D960620
-[01:21:56] table: 0D9607B0
-[01:21:56] 123table: 0D93A5F0
-[01:21:56] KNIFE ROUND
-[01:21:56] tt
-[01:21:56] ct
-[01:21:56] table: 0D898398
-[01:21:56] table: 0D898528
-[01:21:56] 123table: 0D93A5F0
-[01:21:56] KNIFE ROUND
-[01:21:56] Player died
-[01:21:56] Player joins the Terrorist Forces
-[01:21:56] Player joins the Counter-Terrorist Forces
-[01:22:02] ERROR: Unknown command '/restart' (/restart)
-[01:22:02] Use quotation marks for parameters with blanks. e.g.: mp_unbuyable "Tactical Shield"
-[01:22:02] Visit CS2D.com/help for a command reference
-[01:22:04] gg well played
-[01:22:16] [b]Executor killed [b]yeah with Knife
-[01:22:17] [b]0_o killed [b]pwner0r with Knife
-[01:22:19] [b]HE Overkill killed [b]Uber AI with Knife
-[01:22:19] Player killed [b]Mac Man with Knife
-[01:22:22] Player killed [b]0_o with Knife
-[01:22:29] [b]Robo killed [b]HE Overkill with Knife
-[01:22:34] [b]PlayWithJoystick killed [b]Robo with Knife
-[01:22:47] Player killed [b]PlayWithJoystick with Knife
-[01:22:52] CHOOSE SIDE
-[01:23:04] [b]HE Overkill killed [b]Tom with M3
-[01:23:05] [b]Uber AI killed [b]HE Overkill with MP5
-[01:23:06] [b]HE Overkill killed Player with HE
-[01:23:06] [b]HE Overkill killed [b]Uber AI with HE
-[01:23:07] Server Shutdown
-[01:23:07] ----- Disconnected -----

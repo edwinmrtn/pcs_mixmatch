@@ -1,29 +1,0 @@
-Counter-Strike 2D b 0.1.2.7 Logfile - 22 Sep 2015, 11:07:58
-
-[11:07:58] starting server...
-[11:08:01] load map 'de_dust'
-[11:08:04] ----- Server started -----
-[11:08:04] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
-[11:08:04] parsing Lua server script (mp_luaserver = 'server.lua')
-[11:08:05] Lua: Adding function 'onJoin' to hook 'join'
-[11:08:05] Lua: Adding function 'onSpawn' to hook 'spawn'
-[11:08:05] Lua: Adding function 'onStartround' to hook 'startround'
-[11:08:05] Lua: Adding function 'onEndround' to hook 'endround'
-[11:08:05] Lua: Adding function 'onServeraction' to hook 'serveraction'
-[11:08:05] Lua: Adding function 'onMenu' to hook 'menu'
-[11:08:11] Player joins the Terrorist Forces
-[11:08:37] [b]Gun connected
-[11:08:37] [b]Gun joins the Counter-Terrorist Forces
-[11:08:37] [b]Steve connected
-[11:08:37] [b]Steve joins the Terrorist Forces
-[11:09:00] Player killed [b]Gun with Glock
-[11:10:00] [b]Steve killed [b]Gun with Glock
-[11:10:03] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
-[11:10:03] ERROR: U.S.G.N. password file seems to be corrupted!
-[11:10:08] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
-[11:10:08] ERROR: U.S.G.N. password file seems to be corrupted!
-[11:10:18] [b]Steve killed [b]Gun with Galil
-[11:10:37] [b]Steve killed [b]Gun with AK-47
-[11:11:26] [b]Gun killed Player with AK-47
-[11:11:27] Server Shutdown
-[11:11:27] ----- Disconnected -----

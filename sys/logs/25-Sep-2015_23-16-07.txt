@@ -1,35 +1,0 @@
-Counter-Strike 2D b 0.1.2.7 Logfile - 25 Sep 2015, 23:16:07
-
-[23:16:07] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
-[23:16:07] ERROR: U.S.G.N. password file seems to be corrupted!
-[23:16:15] UDP socket initialized using port 64854
-[23:16:15] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
-[23:16:18] starting server...
-[23:16:18] UDP socket initialized using port 36963
-[23:16:18] load map 'cs_office'
-[23:16:18] ----- Server started -----
-[23:16:18] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
-[23:16:18] parsing Lua server script (mp_luaserver = 'server.lua')
-[23:16:18] Lua: Adding function 'onJoin' to hook 'join'
-[23:16:18] Lua: Adding function 'onSpawn' to hook 'spawn'
-[23:16:18] Lua: Adding function 'onStartround' to hook 'startround'
-[23:16:18] Lua: Adding function 'onEndround' to hook 'endround'
-[23:16:19] Lua: Adding function 'onServeraction' to hook 'serveraction'
-[23:16:19] Lua: Adding function 'onMenu' to hook 'menu'
-[23:16:21] Player joins the Terrorist Forces
-[23:16:44] [b]Circuit connected
-[23:16:44] [b]Circuit joins the Counter-Terrorist Forces
-[23:16:53] Server Shutdown
-[23:16:53] ----- Disconnected -----
-[23:59:48] starting server...
-[23:59:48] load map 'cs_office'
-[23:59:48] ----- Server started -----
-[23:59:48] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
-[23:59:48] parsing Lua server script (mp_luaserver = 'server.lua')
-[23:59:48] Lua: Adding function 'onJoin' to hook 'join'
-[23:59:48] Lua: Adding function 'onSpawn' to hook 'spawn'
-[23:59:48] Lua: Adding function 'onStartround' to hook 'startround'
-[23:59:48] Lua: Adding function 'onEndround' to hook 'endround'
-[23:59:48] Lua: Adding function 'onServeraction' to hook 'serveraction'
-[23:59:48] Lua: Adding function 'onMenu' to hook 'menu'
-[23:59:50] Player joins the Terrorist Forces

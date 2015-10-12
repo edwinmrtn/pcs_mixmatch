@@ -1,363 +1,0 @@
-Counter-Strike 2D b 0.1.2.7 Logfile - 22 Sep 2015, 20:02:23
-
-[20:02:23] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
-[20:02:23] ERROR: U.S.G.N. password file seems to be corrupted!
-[20:02:24] UDP socket initialized using port 63694
-[20:02:24] U.S.G.N.: Transmission cancelled by user. Unable to check version/news
-[20:02:27] starting server...
-[20:02:27] UDP socket initialized using port 36963
-[20:02:27] load map 'de_dust'
-[20:02:27] ----- Server started -----
-[20:02:27] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
-[20:02:27] parsing Lua server script (mp_luaserver = 'server.lua')
-[20:02:27] Lua: Adding function 'onJoin' to hook 'join'
-[20:02:27] Lua: Adding function 'onSpawn' to hook 'spawn'
-[20:02:27] Lua: Adding function 'onStartround' to hook 'startround'
-[20:02:27] Lua: Adding function 'onEndround' to hook 'endround'
-[20:02:27] Lua: Adding function 'onServeraction' to hook 'serveraction'
-[20:02:27] Lua: Adding function 'onMenu' to hook 'menu'
-[20:02:29] Player joins the Terrorist Forces
-[20:02:31] [b]fucktard connected
-[20:02:31] [b]fucktard joins the Counter-Terrorist Forces
-[20:02:31] [b]Blowball connected
-[20:02:31] [b]Blowball joins the Terrorist Forces
-[20:02:31] [b]Assassin connected
-[20:02:31] [b]Assassin joins the Counter-Terrorist Forces
-[20:02:31] [b]Uber Killer connected
-[20:02:31] [b]Uber Killer joins the Terrorist Forces
-[20:02:32] [b]Pete connected
-[20:02:32] [b]Pete joins the Terrorist Forces
-[20:02:32] [b]Linux Lover connected
-[20:02:32] [b]Linux Lover joins the Counter-Terrorist Forces
-[20:02:33] [b]ROFLCopter connected
-[20:02:33] [b]ROFLCopter joins the Counter-Terrorist Forces
-[20:02:33] [b]USGN.de connected
-[20:02:33] [b]USGN.de joins the Terrorist Forces
-[20:02:34] [b]pwner0r connected
-[20:02:34] [b]pwner0r joins the Counter-Terrorist Forces
-[20:02:38] 10
-[20:02:38] Round Restart in 5 sec
-[20:02:38] KNIFE ROUND
-[20:02:45] LUA ERROR: sys/lua/pcs_mixmatch/model/mix.lua:96: attempt to index a nil value
-[20:02:45]  -> sys/lua/pcs_mixmatch/model/mix.lua:96: in function 'SwitchTeams'
-[20:02:45]  -> sys/lua/pcs_mixmatch/controler/onStartMixBouton.lua:33: in function '?'
-[20:02:45]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
-[20:02:45]  -> in Lua hook 'menu', params: 1, 'PCS Mix option', 4
-[20:02:58] Server Shutdown
-[20:02:58] ----- Disconnected -----
-[20:05:59] starting server...
-[20:05:59] load map 'de_dust'
-[20:05:59] ----- Server started -----
-[20:05:59] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
-[20:05:59] parsing Lua server script (mp_luaserver = 'server.lua')
-[20:05:59] Lua: Adding function 'onJoin' to hook 'join'
-[20:05:59] Lua: Adding function 'onSpawn' to hook 'spawn'
-[20:05:59] Lua: Adding function 'onStartround' to hook 'startround'
-[20:05:59] Lua: Adding function 'onEndround' to hook 'endround'
-[20:05:59] Lua: Adding function 'onServeraction' to hook 'serveraction'
-[20:05:59] Lua: Adding function 'onMenu' to hook 'menu'
-[20:06:00] Player joins the Terrorist Forces
-[20:06:04] [b]ROFLCopter connected
-[20:06:04] [b]ROFLCopter joins the Terrorist Forces
-[20:06:05] [b]Executor connected
-[20:06:05] [b]Executor joins the Counter-Terrorist Forces
-[20:06:05] [b]Circuit connected
-[20:06:05] [b]Circuit joins the Terrorist Forces
-[20:06:05] [b]Supreme connected
-[20:06:05] [b]Supreme joins the Counter-Terrorist Forces
-[20:06:05] [b]The Bullet connected
-[20:06:05] [b]The Bullet joins the Terrorist Forces
-[20:06:05] [b]no0b connected
-[20:06:05] [b]no0b joins the Counter-Terrorist Forces
-[20:06:06] [b]-_- connected
-[20:06:06] [b]-_- joins the Terrorist Forces
-[20:06:06] [b]Master of Disaster connected
-[20:06:06] [b]Master of Disaster joins the Counter-Terrorist Forces
-[20:06:06] [b]Drone connected
-[20:06:06] [b]Drone joins the Counter-Terrorist Forces
-[20:06:11] 10
-[20:06:11] Round Restart in 5 sec
-[20:06:11] KNIFE ROUND
-[20:06:15] LUA ERROR: sys/lua/pcs_mixmatch/model/mix.lua:96: attempt to index local 'v' (a boolean value)
-[20:06:15]  -> sys/lua/pcs_mixmatch/model/mix.lua:96: in function 'SwitchTeams'
-[20:06:15]  -> sys/lua/pcs_mixmatch/controler/onStartMixBouton.lua:33: in function '?'
-[20:06:15]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
-[20:06:15]  -> in Lua hook 'menu', params: 1, 'PCS Mix option', 4
-[20:06:33] [b]Drone killed [b]The Bullet with Knife
-[20:06:34] [b]Master of Disaster killed [b]ROFLCopter with Knife
-[20:06:34] [b]Circuit killed [b]Drone with Knife
-[20:06:34] [b]Circuit killed [b]no0b with Knife
-[20:06:34] [b]Circuit killed [b]Master of Disaster with Knife
-[20:06:38] [b]Executor killed [b]Circuit with Knife
-[20:06:44] [b]Supreme killed Player with Knife
-[20:07:01] Server Shutdown
-[20:07:01] ----- Disconnected -----
-[20:07:03] U.S.G.N.: Requesting serverlist...
-[20:07:06] starting server...
-[20:07:06] load map 'de_dust'
-[20:07:06] ----- Server started -----
-[20:07:06] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
-[20:07:06] parsing Lua server script (mp_luaserver = 'server.lua')
-[20:07:06] Lua: Adding function 'onJoin' to hook 'join'
-[20:07:06] Lua: Adding function 'onSpawn' to hook 'spawn'
-[20:07:06] Lua: Adding function 'onStartround' to hook 'startround'
-[20:07:06] Lua: Adding function 'onEndround' to hook 'endround'
-[20:07:06] Lua: Adding function 'onServeraction' to hook 'serveraction'
-[20:07:06] Lua: Adding function 'onMenu' to hook 'menu'
-[20:07:07] Player joins the Terrorist Forces
-[20:07:11] [b]Mr Mafia connected
-[20:07:11] [b]Mr Mafia joins the Counter-Terrorist Forces
-[20:07:11] [b]Uber Killer connected
-[20:07:11] [b]Uber Killer joins the Terrorist Forces
-[20:07:11] [b]Blowball connected
-[20:07:11] [b]Blowball joins the Counter-Terrorist Forces
-[20:07:12] [b]Rogue connected
-[20:07:12] [b]Rogue joins the Terrorist Forces
-[20:07:12] [b]Infernal connected
-[20:07:12] [b]Infernal joins the Counter-Terrorist Forces
-[20:07:12] [b]Deagle Master connected
-[20:07:12] [b]Deagle Master joins the Terrorist Forces
-[20:07:12] [b]Hacker_Little connected
-[20:07:12] [b]Hacker_Little joins the Terrorist Forces
-[20:07:13] [b]Steve connected
-[20:07:13] [b]Steve joins the Counter-Terrorist Forces
-[20:07:13] [b]fucktard connected
-[20:07:13] [b]fucktard joins the Terrorist Forces
-[20:07:14] [b]LUL connected
-[20:07:14] [b]LUL joins the Counter-Terrorist Forces
-[20:07:15] [b]Uber Killer has left the game (kicked)
-[20:07:21] 11
-[20:07:21] Round Restart in 5 sec
-[20:07:21] KNIFE ROUND
-[20:07:22] LUA ERROR: sys/lua/pcs_mixmatch/model/mix.lua:92: attempt to concatenate local 'v' (a boolean value)
-[20:07:22]  -> sys/lua/pcs_mixmatch/model/mix.lua:92: in function 'SwitchTeams'
-[20:07:22]  -> sys/lua/pcs_mixmatch/controler/onStartMixBouton.lua:33: in function '?'
-[20:07:22]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
-[20:07:22]  -> in Lua hook 'menu', params: 1, 'PCS Mix option', 4
-[20:07:41] Server Shutdown
-[20:07:41] ----- Disconnected -----
-[20:07:46] starting server...
-[20:07:46] load map 'de_dust'
-[20:07:46] ----- Server started -----
-[20:07:46] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
-[20:07:46] parsing Lua server script (mp_luaserver = 'server.lua')
-[20:07:46] Lua: Adding function 'onJoin' to hook 'join'
-[20:07:46] Lua: Adding function 'onSpawn' to hook 'spawn'
-[20:07:46] Lua: Adding function 'onStartround' to hook 'startround'
-[20:07:46] Lua: Adding function 'onEndround' to hook 'endround'
-[20:07:46] Lua: Adding function 'onServeraction' to hook 'serveraction'
-[20:07:46] Lua: Adding function 'onMenu' to hook 'menu'
-[20:07:48] Player joins the Terrorist Forces
-[20:07:51] [b]Blowball connected
-[20:07:51] [b]Blowball joins the Terrorist Forces
-[20:07:51] [b]Carnage connected
-[20:07:51] [b]Carnage joins the Terrorist Forces
-[20:07:52] [b]Tom connected
-[20:07:52] [b]Tom joins the Terrorist Forces
-[20:07:52] [b]Gladiator connected
-[20:07:52] [b]Gladiator joins the Terrorist Forces
-[20:07:52] [b]WTF connected
-[20:07:52] [b]WTF joins the Counter-Terrorist Forces
-[20:07:53] [b]no0b connected
-[20:07:53] [b]no0b joins the Counter-Terrorist Forces
-[20:07:53] [b]CS2D.com connected
-[20:07:53] [b]CS2D.com joins the Counter-Terrorist Forces
-[20:07:53] [b]TheMachine connected
-[20:07:53] [b]TheMachine joins the Counter-Terrorist Forces
-[20:07:53] [b]Infernal connected
-[20:07:53] [b]Infernal joins the Counter-Terrorist Forces
-[20:07:57] 10
-[20:07:57] Round Restart in 5 sec
-[20:07:57] KNIFE ROUND
-[20:07:59] ERROR: Unknown command 'msgfalse' (msgfalse)
-[20:07:59] Use quotation marks for parameters with blanks. e.g.: mp_unbuyable "Tactical Shield"
-[20:07:59] Visit CS2D.com/help for a command reference
-[20:07:59] ERROR: Unknown command 'msgtable:' (msgtable: 0C8D2138)
-[20:07:59] Use quotation marks for parameters with blanks. e.g.: mp_unbuyable "Tactical Shield"
-[20:07:59] Visit CS2D.com/help for a command reference
-[20:07:59] LUA ERROR: sys/lua/pcs_mixmatch/model/mix.lua:97: attempt to index local 'v' (a boolean value)
-[20:07:59]  -> sys/lua/pcs_mixmatch/model/mix.lua:97: in function 'SwitchTeams'
-[20:07:59]  -> sys/lua/pcs_mixmatch/controler/onStartMixBouton.lua:33: in function '?'
-[20:07:59]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
-[20:07:59]  -> in Lua hook 'menu', params: 1, 'PCS Mix option', 4
-[20:08:04] ERROR: Unknown command 'msgfalse' (msgfalse)
-[20:08:04] Use quotation marks for parameters with blanks. e.g.: mp_unbuyable "Tactical Shield"
-[20:08:04] Visit CS2D.com/help for a command reference
-[20:08:04] ERROR: Unknown command 'msgtable:' (msgtable: 0C8D2138)
-[20:08:04] Use quotation marks for parameters with blanks. e.g.: mp_unbuyable "Tactical Shield"
-[20:08:04] Visit CS2D.com/help for a command reference
-[20:08:04] LUA ERROR: sys/lua/pcs_mixmatch/model/mix.lua:97: attempt to index local 'v' (a boolean value)
-[20:08:04]  -> sys/lua/pcs_mixmatch/model/mix.lua:97: in function 'SwitchTeams'
-[20:08:04]  -> sys/lua/pcs_mixmatch/controler/onStartMixBouton.lua:33: in function '?'
-[20:08:04]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
-[20:08:04]  -> in Lua hook 'menu', params: 1, 'PCS Mix option', 4
-[20:08:15] [b]Gladiator killed [b]WTF with Knife
-[20:08:15] [b]Tom killed [b]CS2D.com with Knife
-[20:08:15] Server Shutdown
-[20:08:15] ----- Disconnected -----
-[20:15:36] U.S.G.N.: Requesting serverlist...
-[20:15:40] starting server...
-[20:15:40] load map 'de_dust'
-[20:15:40] ----- Server started -----
-[20:15:40] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
-[20:15:40] parsing Lua server script (mp_luaserver = 'server.lua')
-[20:15:40] Lua: Adding function 'onJoin' to hook 'join'
-[20:15:40] Lua: Adding function 'onSpawn' to hook 'spawn'
-[20:15:40] Lua: Adding function 'onStartround' to hook 'startround'
-[20:15:40] Lua: Adding function 'onEndround' to hook 'endround'
-[20:15:40] Lua: Adding function 'onServeraction' to hook 'serveraction'
-[20:15:40] Lua: Adding function 'onMenu' to hook 'menu'
-[20:15:42] Player joins the Terrorist Forces
-[20:15:45] [b]0_o connected
-[20:15:45] [b]0_o joins the Counter-Terrorist Forces
-[20:15:45] [b]WTF connected
-[20:15:45] [b]WTF joins the Terrorist Forces
-[20:15:45] [b]USGN.de connected
-[20:15:45] [b]USGN.de joins the Counter-Terrorist Forces
-[20:15:46] [b]L0lz0r connected
-[20:15:46] [b]L0lz0r joins the Terrorist Forces
-[20:15:46] [b]CS2D.com connected
-[20:15:46] [b]CS2D.com joins the Counter-Terrorist Forces
-[20:15:46] [b]RadeonSuckz connected
-[20:15:46] [b]RadeonSuckz joins the Terrorist Forces
-[20:15:47] [b]CS2D rocks! connected
-[20:15:47] [b]CS2D rocks! joins the Counter-Terrorist Forces
-[20:15:47] [b]Robo connected
-[20:15:47] [b]Robo joins the Terrorist Forces
-[20:15:48] [b]Scrap connected
-[20:15:48] [b]Scrap joins the Counter-Terrorist Forces
-[20:15:55] 10
-[20:15:55] Round Restart in 5 sec
-[20:15:55] KNIFE ROUND
-[20:15:56] [b]Robo died
-[20:15:56] [b]Robo joins the Terrorist Forces
-[20:15:56] [b]WTF died
-[20:15:56] [b]WTF joins the Terrorist Forces
-[20:15:56] [b]CS2D rocks! died
-[20:15:56] [b]CS2D rocks! joins the Terrorist Forces
-[20:15:56] [b]Scrap died
-[20:15:56] [b]Scrap joins the Terrorist Forces
-[20:15:56] Player died
-[20:15:56] Player joins the Counter-Terrorist Forces
-[20:15:56] [b]0_o died
-[20:15:56] [b]0_o joins the Counter-Terrorist Forces
-[20:15:56] [b]L0lz0r died
-[20:15:56] [b]L0lz0r joins the Counter-Terrorist Forces
-[20:15:56] [b]USGN.de died
-[20:15:56] [b]USGN.de joins the Counter-Terrorist Forces
-[20:15:56] [b]CS2D.com died
-[20:15:56] [b]CS2D.com joins the Counter-Terrorist Forces
-[20:15:56] [b]RadeonSuckz died
-[20:15:56] [b]RadeonSuckz joins the Counter-Terrorist Forces
-[20:16:05] Player died
-[20:16:05] Player joins the Terrorist Forces
-[20:16:05] [b]0_o died
-[20:16:05] [b]0_o joins the Terrorist Forces
-[20:16:05] [b]L0lz0r died
-[20:16:05] [b]L0lz0r joins the Terrorist Forces
-[20:16:05] [b]USGN.de died
-[20:16:05] [b]USGN.de joins the Terrorist Forces
-[20:16:05] [b]CS2D.com died
-[20:16:05] [b]CS2D.com joins the Terrorist Forces
-[20:16:05] [b]RadeonSuckz died
-[20:16:05] [b]RadeonSuckz joins the Terrorist Forces
-[20:16:05] [b]Robo died
-[20:16:05] [b]Robo joins the Counter-Terrorist Forces
-[20:16:05] [b]WTF died
-[20:16:05] [b]WTF joins the Counter-Terrorist Forces
-[20:16:05] [b]CS2D rocks! died
-[20:16:05] [b]CS2D rocks! joins the Counter-Terrorist Forces
-[20:16:05] [b]Scrap died
-[20:16:05] [b]Scrap joins the Counter-Terrorist Forces
-[20:16:10] CHOOSE SIDE
-[20:16:12] [b]Robo died
-[20:16:12] [b]Robo joins the Terrorist Forces
-[20:16:12] [b]WTF died
-[20:16:12] [b]WTF joins the Terrorist Forces
-[20:16:12] [b]CS2D rocks! died
-[20:16:12] [b]CS2D rocks! joins the Terrorist Forces
-[20:16:12] [b]Scrap died
-[20:16:12] [b]Scrap joins the Terrorist Forces
-[20:16:12] Player died
-[20:16:12] Player joins the Counter-Terrorist Forces
-[20:16:12] [b]0_o died
-[20:16:12] [b]0_o joins the Counter-Terrorist Forces
-[20:16:12] [b]L0lz0r died
-[20:16:12] [b]L0lz0r joins the Counter-Terrorist Forces
-[20:16:12] [b]USGN.de died
-[20:16:12] [b]USGN.de joins the Counter-Terrorist Forces
-[20:16:12] [b]CS2D.com died
-[20:16:12] [b]CS2D.com joins the Counter-Terrorist Forces
-[20:16:12] [b]RadeonSuckz died
-[20:16:12] [b]RadeonSuckz joins the Counter-Terrorist Forces
-[20:16:17] SIDE 1
-[20:16:24] Server Shutdown
-[20:16:24] ----- Disconnected -----
-[20:16:26] starting server...
-[20:16:26] load map 'de_dust'
-[20:16:26] ----- Server started -----
-[20:16:26] Warning: 'Offline / LAN'-mode is ENABLED. Server will NOT be added to serverlist. Other players on the internet will NOT see this server on their serverlist. They will still be able to connect when they know your IP though. Enter 'sv_lan 0' in your console or disable the 'Offline / LAN'-checkbox to change this setting.
-[20:16:27] parsing Lua server script (mp_luaserver = 'server.lua')
-[20:16:27] Lua: Adding function 'onJoin' to hook 'join'
-[20:16:27] Lua: Adding function 'onSpawn' to hook 'spawn'
-[20:16:27] Lua: Adding function 'onStartround' to hook 'startround'
-[20:16:27] Lua: Adding function 'onEndround' to hook 'endround'
-[20:16:27] Lua: Adding function 'onServeraction' to hook 'serveraction'
-[20:16:27] Lua: Adding function 'onMenu' to hook 'menu'
-[20:16:28] Player joins the Terrorist Forces
-[20:16:34] 1
-[20:16:34] Round Restart in 5 sec
-[20:16:34] LUA ERROR: sys/lua/pcs_mixmatch/model/mix.lua:160: attempt to index a nil value
-[20:16:34]  -> sys/lua/pcs_mixmatch/model/mix.lua:160: in function 'makeTeams'
-[20:16:34]  -> sys/lua/pcs_mixmatch/model/mix.lua:135: in function 'start'
-[20:16:34]  -> sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua:277: in function '?'
-[20:16:34]  -> sys/lua/pcs_mixmatch/controler/onMenu.lua:14: in function <sys/lua/pcs_mixmatch/controler/onMenu.lua:5>
-[20:16:34]  -> in Lua hook 'menu', params: 1, 'Create Mix - Summary', 6
-[20:16:41] [b]Adon-is-gay connected
-[20:16:41] [b]Adon-is-gay joins the Counter-Terrorist Forces
-[20:16:41] [b]Uber Killer connected
-[20:16:41] [b]Uber Killer joins the Terrorist Forces
-[20:16:41] [b]I Killer connected
-[20:16:41] [b]I Killer joins the Counter-Terrorist Forces
-[20:16:41] [b]Chris connected
-[20:16:41] [b]Chris joins the Terrorist Forces
-[20:16:42] [b]LUL connected
-[20:16:42] [b]LUL joins the Terrorist Forces
-[20:16:42] [b]Jon connected
-[20:16:42] [b]Jon joins the Counter-Terrorist Forces
-[20:16:42] [b]Keksmeister connected
-[20:16:42] [b]Keksmeister joins the Terrorist Forces
-[20:16:43] [b]lawlz connected
-[20:16:43] [b]lawlz joins the Counter-Terrorist Forces
-[20:16:43] [b]PlayWithJoystick connected
-[20:16:43] [b]PlayWithJoystick joins the Terrorist Forces
-[20:16:43] [b]Blowball connected
-[20:16:43] [b]Blowball joins the Counter-Terrorist Forces
-[20:16:44] [b]Adon-is-gay has left the game (kicked)
-[20:16:46] [b]Uber Killer has left the game (kicked)
-[20:16:47] [b]Robo connected
-[20:16:47] [b]Robo joins the Counter-Terrorist Forces
-[20:16:51] 12
-[20:16:51] Round Restart in 5 sec
-[20:16:51] KNIFE ROUND
-[20:16:54] [b]LUL died
-[20:16:54] [b]LUL joins the Terrorist Forces
-[20:16:54] [b]I Killer died
-[20:16:54] [b]I Killer joins the Terrorist Forces
-[20:16:54] [b]Robo died
-[20:16:54] [b]Robo joins the Terrorist Forces
-[20:16:54] [b]PlayWithJoystick died
-[20:16:54] [b]PlayWithJoystick joins the Terrorist Forces
-[20:16:54] Player '3' not found.
-[20:16:54] [b]lawlz died
-[20:16:54] [b]lawlz joins the Counter-Terrorist Forces
-[20:16:54] Player died
-[20:16:54] Player joins the Counter-Terrorist Forces
-[20:16:54] [b]Jon died
-[20:16:54] [b]Jon joins the Counter-Terrorist Forces
-[20:16:54] [b]Chris died
-[20:16:54] [b]Chris joins the Counter-Terrorist Forces
-[20:16:54] [b]Keksmeister died
-[20:16:54] [b]Keksmeister joins the Counter-Terrorist Forces
-[20:17:04] Server Shutdown
-[20:17:04] ----- Disconnected -----

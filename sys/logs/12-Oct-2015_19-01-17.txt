@@ -1,6 +1,0 @@
-Counter-Strike 2D b 0.1.2.7 Logfile - 12 Oct 2015, 19:01:17
-
-[19:01:17] ERROR: U.S.G.N. password file seems to be corrupted. You can't use password files from other systems/users!
-[19:01:17] ERROR: U.S.G.N. password file seems to be corrupted!
-[19:01:18] UDP socket initialized using port 56430
-[19:01:18] U.S.G.N.: Your game version is up to date!
