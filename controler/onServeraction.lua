@@ -6,7 +6,7 @@ function onServeraction(id, action)
 
         --local theMenuList    = MenuList(0);
         for i=1,theMenuList:NumbersMenus() do
-          if("PCS Mix option 1" == theMenuList:getMenuList():Get(i):getTitre())then
+          if("PCS Mix option " == theMenuList:getMenuList():Get(i):getTitre())then
               theMenuList:getMenuList():Get(i):Show(id)
           end
         end
