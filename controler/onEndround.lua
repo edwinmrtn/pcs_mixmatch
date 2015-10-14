@@ -19,4 +19,24 @@ function onEndround(mode)
 
 			end  
 	end
+
+	local max_domage = aPlayerList:getPlayerList():Get(1):getDomage()
+	local max_player = aPlayerList:getPlayerList():Get(1):getName()
+	for i=2,aPlayerList:NumbersPlayers() do
+	    if aPlayerList:getPlayerList():Get(i):getDomage()>max_domage then
+	        max_domage = aPlayerList:getPlayerList():Get(i):getDomage()
+	        max_player = aPlayerList:getPlayerList():Get(i):getName()
+	    end
+	end
+	if max_domage>0 then
+	    msg("\169188319720[DAMAGE]:\169255255255 "..max_player.." is MVP "..max_domage.." HP")
+    end
+	for i=1,aPlayerList:NumbersPlayers() do
+	    aPlayerList:getPlayerList():Get(i):setTotalDomage(aPlayerList:getPlayerList():Get(i):getTotalDomage()+aPlayerList:getPlayerList():Get(i):getDomage())
+	    if aPlayerList:getPlayerList():Get(i):getTotalDomage()>0 then
+	      msg2(aPlayerList:getPlayerList():Get(i):getId(),"\169188319720[DAMAGE]:\169255255255 in this round "..aPlayerList:getPlayerList():Get(i):getDomage().." HP")
+	      msg2(aPlayerList:getPlayerList():Get(i):getId(),"\169188319720[DAMAGE]:\169255255255 in total "..aPlayerList:getPlayerList():Get(i):getTotalDomage().." HP")
+	    end
+	end
+
 end

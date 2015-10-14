@@ -15,7 +15,7 @@ dofile("sys/lua/pcs_mixmatch/Model/chooseside.lua")
 
 dofile("sys/lua/pcs_mixmatch/controler/onInit.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onMenu.lua")
-
+dofile("sys/lua/pcs_mixmatch/controler/onHit.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onJoin.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onSpawn.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onStartround.lua")

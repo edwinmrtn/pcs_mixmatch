@@ -13,6 +13,8 @@ function Player:init(Id,USGN,Rank,Name,IP)
 	self.Rank           = Rank
 	self.Name           = Name
 	self.IP             = IP
+  self.Domage         = 0
+  self.TotalDomage    = 0
   self.CreateMixArray = {}
 end
 
@@ -37,7 +39,18 @@ end
 function Player:getRank()
     return self.Rank
 end
-
+function Player:getDomage()
+    return self.Domage
+end
+function Player:setDomage(Domage)
+    self.Domage = Domage
+end
+function Player:getTotalDomage()
+    return self.TotalDomage
+end
+function Player:setTotalDomage(TotalDomage)
+    self.TotalDomage = TotalDomage
+end
 function Player:getName()
     return self.Name
 end

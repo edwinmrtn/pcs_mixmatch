@@ -35,7 +35,7 @@ end
 
 function registerMix(id,button,object) --very mindfuck -- object == menu, menu > bouton > bouton.value == Mix  
      --new playerList
-    local thePlayerList    = PlayerList(0);
+--    local thePlayerList    = PlayerList(0);
     local Player 
     for i=1,thePlayerList:NumbersPlayers() do
         if id == thePlayerList:getPlayerList():Get(i):getId() then

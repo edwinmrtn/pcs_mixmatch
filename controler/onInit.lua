@@ -8,6 +8,8 @@ dofile("sys/lua/pcs_mixmatch/controler/onRegisterMixes.lua")
         local menu_action1 = Menu(1,"PCS Mix option ")
           --new menuList
         theMenuList    = MenuList(0);
+        --new player list
+        aPlayerList = PlayerList(0);
 
         theMenuList:addMenu(menu_action1);
         
