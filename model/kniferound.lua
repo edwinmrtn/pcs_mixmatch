@@ -1,6 +1,4 @@
-dofile("sys/lua/pcs_mixmatch/model/object.lua")
-dofile("sys/lua/pcs_mixmatch/model/team.lua")
-dofile("sys/lua/pcs_mixmatch/model/arraylist.lua")
+
 
 --Public class Kniferound
 

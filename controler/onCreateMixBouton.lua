@@ -160,7 +160,7 @@ function CreateTheMix(id,button,object)
 				 end
 			end
 		end
-	local aMixList = MixList(0);
+--	local aMixList = MixList(0);
 	--new mix
 	local aMix = Mix(aMixList:NumbersMixs()+1,choicePlayer.rounds,choicePlayer.nombersplayers,choicePlayer.map,choicePlayer.tillend,choicePlayer.kniferound);
 	aMix:addRegistPlayer(Player)

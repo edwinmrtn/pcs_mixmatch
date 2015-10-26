@@ -1,5 +1,3 @@
-dofile("sys/lua/pcs_mixmatch/model/object.lua")
-dofile("sys/lua/pcs_mixmatch/model/arrayList.lua")
 
 --Public class PlayerList
 PlayerList = newclass("PlayerList")
@@ -25,7 +23,7 @@ function PlayerList:NumbersPlayers()
     return self:getPlayerList():Size()
 end
 
-function Menu:__tostring()
+function PlayerList:__tostring()
     return "I am a PlayerList"
 end
 

@@ -13,7 +13,7 @@ function onListMixes(id)
     if (bool) then
         theMenuList:addMenu(menu_action1);
     end
-    local aMixList    = MixList(0);
+--    local aMixList    = MixList(0);
     
     if (aMixList:NumbersMixs() == 0)then 
         parse("msg Error : No mixes found")

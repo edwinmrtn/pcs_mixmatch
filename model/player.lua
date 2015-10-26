@@ -1,7 +1,4 @@
-dofile("sys/lua/pcs_mixmatch/model/object.lua")
-dofile("sys/lua/pcs_mixmatch/model/menu.lua")
-dofile("sys/lua/pcs_mixmatch/model/bouton.lua")
-dofile("sys/lua/pcs_mixmatch/model/menuList.lua")
+
 
 --Public class Player
 Player = newclass("Player")
@@ -13,9 +10,10 @@ function Player:init(Id,USGN,Rank,Name,IP)
 	self.Rank           = Rank
 	self.Name           = Name
 	self.IP             = IP
-  self.Domage         = 0
-  self.TotalDomage    = 0
+  self.Domage         = 1
+  self.TotalDomage    = 1
   self.CreateMixArray = {}
+  self.RoundsPlayed   = 1
 end
 
 
@@ -39,6 +37,9 @@ end
 function Player:getRank()
     return self.Rank
 end
+function Player:setRank(nbr,rank)
+    self.Rank[tonumber(nbr)] = tonumber(rank)
+end
 function Player:getDomage()
     return self.Domage
 end
@@ -58,28 +59,26 @@ end
 function Player:getTeam()
     return self.Team
 end
-
+function Player:rankCalculation()
+  return math.floor(math.floor(self:getTotalDomage()/100)/self:getRoundsPlayed())
+end
+function Player:getRoundsPlayed()
+  return self.RoundsPlayed
+end
+function Player:setRoundsPlayed(RoundsPlayed)
+  self.RoundsPlayed = RoundsPlayed
+end  
 function Player:stripWeapon(weaponid)
 	 parse(" strip "..self:getId()..' '..weaponid)
 end
 function Player:chooseteam()
-            --new menu
-          local menu_chooseteam = Menu(2,"Choose your team")
-            --new menuList
---          local themenuList    = MenuList(0);
-           themenuList:addMenu(menu_chooseteam);
-
-            --new Bouton    
-          local bouton_voteterro = Bouton(1,"Terrorists","voteforterro",nil,nil)
-          local bouton_votecounter = Bouton(2,"Counter-Terrorists","voteforcounter",nil,nil)
-
-          local bouton_cancel = Bouton(0,"","",nil,nil)
-
-          menu_chooseteam:addBouton(bouton_voteterro)
-          menu_chooseteam:addBouton(bouton_votecounter)
-          menu_chooseteam:addBouton(bouton_cancel)
-
-          menu_chooseteam:Show(self:getId())
+  msg(self:getId())
+        for i=1,theMenuList:NumbersMenus() do
+          if("Choose your team" == theMenuList:getMenuList():Get(i):getTitre())then
+                
+                theMenuList:getMenuList():Get(i):Show(self:getId())
+          end
+        end
 end
 
 function Player:getIP()

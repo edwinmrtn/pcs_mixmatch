@@ -60,3 +60,7 @@ function table.load(file)
     if err then return nil,err else return data() end
 end
 
+function file_exists(name) -- thanks http://stackoverflow.com/questions/4990990/lua-check-if-a-file-exists
+   local f=io.open(name,"r")
+   if f~=nil then io.close(f) return true else return false end
+end

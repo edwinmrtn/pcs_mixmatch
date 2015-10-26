@@ -1,7 +1,4 @@
-dofile("sys/lua/pcs_mixmatch/model/object.lua")
-dofile("sys/lua/pcs_mixmatch/model/arrayList.lua")
-dofile("sys/lua/pcs_mixmatch/model/bouton.lua")
-dofile("sys/lua/pcs_mixmatch/model/menuList.lua")
+
 
 --Public class Menu
 Menu = newclass("Menu")

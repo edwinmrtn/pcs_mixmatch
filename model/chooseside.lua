@@ -1,7 +1,4 @@
-dofile("sys/lua/pcs_mixmatch/model/object.lua")
-dofile("sys/lua/pcs_mixmatch/model/team.lua")
-dofile("sys/lua/pcs_mixmatch/model/mixList.lua")
-dofile("sys/lua/pcs_mixmatch/model/arraylist.lua")
+
 
 --Public class Chooseside
 
@@ -31,7 +28,7 @@ function Chooseside:start(mode) --1 == terro win // 2== ct win
 				parse("mp_roundtime 1")
 				parse("mp_freezetime 0")
 				msg("\169100255100CHOOSE SIDE@C")
- 	local aMixList = MixList(0);
+-- 	local aMixList = MixList(0);
 	for i=1,aMixList:NumbersMixs() do
 			if aMixList:getMixList():Get(i):getState() == "chooseside" then
 				for j=1,aMixList:getMixList():Get(i):getTeams():Get(mode):NumbersPlayers()do --Team winner
@@ -44,7 +41,7 @@ function Chooseside:start(mode) --1 == terro win // 2== ct win
 end
 
 function majorite()
-		local aMixList = MixList(0);
+--		local aMixList = MixList(0);
 	for i=1,aMixList:NumbersMixs() do
 			if aMixList:getMixList():Get(i):getState() == "chooseside" then
 				if aMixList:getMixList():Get(i):getObjectChooseside():getvotett() >= aMixList:getMixList():Get(i):getNomberPlayers()/4 or aMixList:getMixList():Get(i):getObjectChooseside():getvotect() >= aMixList:getMixList():Get(i):getNomberPlayers()/4 then
@@ -57,7 +54,7 @@ function majorite()
 end
 
 function voteforcounter(id)
-		local aMixList = MixList(0);
+--		local aMixList = MixList(0);
 	for i=1,aMixList:NumbersMixs() do
 			if aMixList:getMixList():Get(i):getState() == "chooseside" then
 				parse("msg "..id.." a vote ct")
@@ -69,7 +66,7 @@ function voteforcounter(id)
 
 end
 function voteforterro(id)
-		local aMixList = MixList(0);
+--		local aMixList = MixList(0);
 		for i=1,aMixList:NumbersMixs() do
 			if aMixList:getMixList():Get(i):getState() == "chooseside" then
 				parse("msg "..id.." a vote tt")

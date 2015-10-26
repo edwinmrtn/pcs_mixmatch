@@ -16,7 +16,7 @@ Teamct:addPlayer(Player1)
 local aMix = Mix(0,2,4,"de_dust",false,true);
 
 --new mixList
-local aMixList = MixList(0);
+--local aMixList = MixList(0);
 aMixList:addMix(aMix);
 
 
@@ -28,12 +28,12 @@ aMix:start()
 end
 
 function onSwitchTeam(id)
-	local aMixList = MixList(0);
+--	local aMixList = MixList(0);
 	for i=1,aMixList:NumbersMixs() do
 		aMixList:getMixList():Get(i):SwitchTeams()
 	end
 end 
 function onTestLoad(id)
-	local aMixList = MixList(0);
+--	local aMixList = MixList(0);
 	aMixList:loadData()
 end

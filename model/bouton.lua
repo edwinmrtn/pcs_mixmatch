@@ -1,5 +1,4 @@
-dofile("sys/lua/pcs_mixmatch/model/object.lua")
-dofile("sys/lua/pcs_mixmatch/model/arrayList.lua")
+
 
 --Public class Bouton
 Bouton = newclass("Bouton")

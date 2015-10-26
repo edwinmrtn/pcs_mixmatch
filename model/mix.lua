@@ -1,8 +1,4 @@
-dofile("sys/lua/pcs_mixmatch/model/object.lua")
-dofile("sys/lua/pcs_mixmatch/model/kniferound.lua")
-dofile("sys/lua/pcs_mixmatch/model/arrayList.lua")
-dofile("sys/lua/pcs_mixmatch/model/team.lua")
-dofile("sys/lua/pcs_mixmatch/model/salt.lua")
+
 
 
 
@@ -130,8 +126,9 @@ function Mix:start()
     --new team
     local Teamtt = Team("t");
     local Teamct = Team("ct");
-    self:addTeam(Teamct)
     self:addTeam(Teamtt)
+    self:addTeam(Teamct)
+  
 
     self:makeTeams(Teamtt,Teamct)
     Teamtt:putinTeam()
@@ -151,44 +148,49 @@ function Mix:__tostring()
     return "I am a Mix"
 end
 function Mix:makeTeams(Teamtt,Teamct)
-
+    msg("jepass")
     local totalRank = 0
     local moyRank = 0
     local max = 0
     local choosedPlayers = ArrayList.Create()
     for i=1, self:getNomberPlayers() do
         choosedPlayers:Add(self:getRegistPlayers():Get(i))
-        totalRank      = totalRank + self:getRegistPlayers():Get(i):getRank()
+        totalRank      = totalRank + self:getRegistPlayers():Get(i):getRank()[self:getNomberPlayers()/2]
     end
-    moyRankct = totalRank/2 
-    moyRanktt = totalRank/2
-    for i=1, self:getNomberPlayers() do
-        if(moyRanktt >= moyRankct)then
-            local rank
-            local row
-            rank, row = getMaxRank(choosedPlayers)
-            Teamtt:addPlayer(choosedPlayers:Get(row))
-            moyRanktt = moyRanktt-rank
+    if totalRank > 0 then 
+        moyRankct = math.floor(totalRank/2) 
+        moyRanktt = math.floor(totalRank/2)
+    else
+        moyRankct = 0
+        moyRanktt = 0
+    end 
+    for i=1, self:getNomberPlayers() do 
+            if(Teamtt:NumbersPlayers() < Teamct:NumbersPlayers() and moyRanktt >= moyRankct)then
+                local rank
+                local row
+                rank, row = self:getMaxRank(choosedPlayers)
+                Teamtt:addPlayer(choosedPlayers:Get(row))
+                moyRanktt = moyRanktt-rank
 
-            choosedPlayers:Remove(row,true)--delete the max
-        else
-            local rank
-            local row
-            rank, row = getMaxRank(choosedPlayers)
-            Teamct:addPlayer(choosedPlayers:Get(row))
-            moyRankct = moyRankct-rank
+                choosedPlayers:Remove(row,true)--delete the max
+            else
+                local rank
+                local row
+                rank, row = self:getMaxRank(choosedPlayers)
+                Teamct:addPlayer(choosedPlayers:Get(row))
+                moyRankct = moyRankct-rank
 
-            choosedPlayers:Remove(row,true)--delete the max 
-        end
+                choosedPlayers:Remove(row,true)--delete the max 
+            end
     end
 end
-function getMaxRank(choosedPlayers)
+function Mix:getMaxRank(choosedPlayers)
     -- body
     local rankMax = 0
     local rowMax  = 1
     for i = 1, choosedPlayers:Size() do
-        if choosedPlayers:Get(i):getRank() > rankMax  then
-            rankMax = choosedPlayers:Get(i):getRank()
+        if choosedPlayers:Get(i):getRank()[self:getNomberPlayers()/2] > rankMax  then
+            rankMax = choosedPlayers:Get(i):getRank()[self:getNomberPlayers()/2]
             rowMax  = i
         end 
       

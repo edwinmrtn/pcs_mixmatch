@@ -1,6 +1,3 @@
-dofile("sys/lua/pcs_mixmatch/model/object.lua")
-dofile("sys/lua/pcs_mixmatch/model/arrayList.lua")
-dofile("sys/lua/pcs_mixmatch/model/player.lua")
 
 --Public class Team
 Team = newclass("Team")
@@ -41,9 +38,18 @@ function Team:NumbersPlayers()
 	return self:getPlayers():Size()
 end
 function Team:putinTeam()
-	for i=1, self:NumbersPlayers() do 
-	
+	if(self:getName() == "t") then
+		for i=1, self:NumbersPlayers() do
+				msg("maket "..self:getPlayers():Get(i):getId()) 
+				parse("maket "..self:getPlayers():Get(i):getId())
+		end
+	elseif(self:getName() == "ct")then
+		for i=1, self:NumbersPlayers() do
+				msg("makect "..self:getPlayers():Get(i):getId()) 
+				parse("makect "..self:getPlayers():Get(i):getId())
+		end
 	end
+
 end
 
 function Team:__tostring()

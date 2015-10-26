@@ -1,32 +1,31 @@
 
-dofile("sys/lua/pcs_mixmatch/controler/onStartMixBouton.lua")
-dofile("sys/lua/pcs_mixmatch/controler/onCreateMixBouton.lua")
-dofile("sys/lua/pcs_mixmatch/controler/onListMixes.lua")
-dofile("sys/lua/pcs_mixmatch/controler/onRegisterMixes.lua")
-
     --new menu
         local menu_action1 = Menu(1,"PCS Mix option ")
           --new menuList
         theMenuList    = MenuList(0);
         --new player list
         aPlayerList = PlayerList(0);
+        --new Mix List
+        aMixList = MixList(0);
 
         theMenuList:addMenu(menu_action1);
         
           --new Bouton  
-        --local bouton_startmix      = Bouton(4,"Start mix","","onStartMixBouton")
+       
         local bouton_createmix     = Bouton(1,"Create","","onCreateMixBouton",nil,nil)
         local bouton_listmix       = Bouton(2,"list all mixes","","onListMixes",nil,nil)
         local bouton_registermix   = Bouton(3,"Register mixes","","onRegisterMixes",nil,nil)
         local bouton_switchteams   = Bouton(4,"Switch Team","","onSwitchTeam",nil,nil) --sur onStartMixBouton
+        --local bouton_startmix      = Bouton(5,"Start mix","","onStartMixBouton",nil,nil)
         -- local bouton_testload      = Bouton(5,"Test Load","","onTestLoad",nil,nil) --sur onStartMixBouton
         -- local bouton_retour        = Bouton(5,"Retour","","Show",menu_action1,"PCS Mix option ") --sur onStartMixBouton
       
-          --menu_action1:addBouton(bouton_startmix)
+          
           menu_action1:addBouton(bouton_createmix)
           menu_action1:addBouton(bouton_listmix)
           menu_action1:addBouton(bouton_registermix)
           menu_action1:addBouton(bouton_switchteams)
+          --menu_action1:addBouton(bouton_startmix)
           -- menu_action1:addBouton(bouton_retour)
 -------------------------------------------------------------
         -- body
@@ -48,10 +47,12 @@ dofile("sys/lua/pcs_mixmatch/controler/onRegisterMixes.lua")
         local bouton_thirty     = Bouton(1,"15-15","30","menuUINumberPlayer",nil,nil)
         local bouton_twentyfour = Bouton(2,"12-12","24","menuUINumberPlayer",nil,nil)
         local bouton_twenty     = Bouton(3,"10-10","20","menuUINumberPlayer",nil,nil)
+        local bouton_for     = Bouton(4,"2-2","4","menuUINumberPlayer",nil,nil)
           
           menu_action1:addBouton(bouton_thirty)
           menu_action1:addBouton(bouton_twentyfour)
           menu_action1:addBouton(bouton_twenty)
+          menu_action1:addBouton(bouton_for)
 -----------------------------------------------------------------------
 
 
@@ -139,8 +140,10 @@ dofile("sys/lua/pcs_mixmatch/controler/onRegisterMixes.lua")
             menu_action1:addBouton(bouton_retour)
 
         elseif BinaryFormat == "so" then --linux
+          msg("jepass")
             local cptmap = 1
-            for maps in io.popen('ls "./maps/*map"'):lines() do
+            for maps in io.popen('ls ./maps/*.map | xargs -n 1 basename'):lines() do
+              msg(tostring(maps))
               if cptmap%6 == 0 then
                  bouton_map     = Bouton(6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUITillEnd",nil,nil)
               else  
@@ -216,7 +219,21 @@ dofile("sys/lua/pcs_mixmatch/controler/onRegisterMixes.lua")
 
 --------------------------------------------------------------------------------
  
-  
+    --new menu
+          local menu_chooseteam = Menu(2,"Choose your team")
+            --new menuList
+--          local themenuList    = MenuList(0);
+           theMenuList:addMenu(menu_chooseteam);
+
+            --new Bouton    
+          local bouton_voteterro = Bouton(1,"Terrorists","Terrorists","voteforterro",nil,nil)
+          local bouton_votecounter = Bouton(2,"Counter-Terrorists","Counter-Terrorists","voteforcounter",nil,nil)
+
+          local bouton_cancel = Bouton(0,"","","",nil,nil)
+
+          menu_chooseteam:addBouton(bouton_voteterro)
+          menu_chooseteam:addBouton(bouton_votecounter)
+          menu_chooseteam:addBouton(bouton_cancel)
 
 ------------------------------------------------------------------------------------------------------
     

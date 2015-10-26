@@ -1,6 +1,3 @@
-dofile("sys/lua/pcs_mixmatch/model/object.lua")
-dofile("sys/lua/pcs_mixmatch/model/arrayList.lua")
-dofile("sys/lua/pcs_mixmatch/model/mix.lua")
 
 
 
