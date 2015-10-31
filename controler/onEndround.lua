@@ -43,10 +43,15 @@ function onEndround(mode)
 	end
 
 
-
-
-	local max_domage = aPlayerList:getPlayerList():Get(1):getDomage()
-	local max_player = aPlayerList:getPlayerList():Get(1):getName()
+	local max_domage
+	local max_player
+	if (aPlayerList:getPlayerList():Get(1)) then 
+		max_domage = aPlayerList:getPlayerList():Get(1):getDomage()
+		max_player = aPlayerList:getPlayerList():Get(1):getName()
+	else
+		max_domage = 0
+		max_player = 0
+	end 
 	for i=2,aPlayerList:NumbersPlayers() do
 	    if aPlayerList:getPlayerList():Get(i):getDomage()>max_domage then
 	        max_domage = aPlayerList:getPlayerList():Get(i):getDomage()

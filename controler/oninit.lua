@@ -1,5 +1,7 @@
+     
 
-    --new menu
+
+        --new menu
         local menu_action1 = Menu(1,"PCS Mix option ")
           --new menuList
         theMenuList    = MenuList(0);
@@ -7,6 +9,35 @@
         aPlayerList = PlayerList(0);
         --new Mix List
         aMixList = MixList(0);
+
+
+        --load all mixs
+        aMixList:loadData()
+        for i=1,aMixList:NumbersMixs() do
+          if (aMixList:getMixList():Get(i):getState() == "mapchanged") then
+            
+              --new team
+              parse("restart 5")
+              local Teamtt = Team("t");
+              local Teamct = Team("ct");
+              aMixList:getMixList():Get(i):addTeam(Teamtt)
+              aMixList:getMixList():Get(i):addTeam(Teamct)
+
+              aMixList:getMixList():Get(i):makeTeams(Teamtt,Teamct)
+              Teamtt:putinTeam()
+              Teamct:putinTeam()
+
+            if(aMixList:getMixList():Get(i):getKnifeRound()) then
+                  aMixList:getMixList():Get(i):setState("kniferound")
+              else 
+                  aMixList:getMixList():Get(i):setState("side1")
+                  msg("\169100255100SIDE 1@C")
+                  parse("mp_startmoney 800")
+                  parse("mp_roundtime 2")
+                
+            end
+          end
+        end
 
         theMenuList:addMenu(menu_action1);
         
@@ -119,7 +150,9 @@
             for maps in io.popen([[dir ".\maps\*map" /b ]]):lines() do
               if cptmap%6 == 0 then
                  bouton_map     = Bouton(6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUITillEnd",nil,nil)
-              else  
+
+              else 
+      
                  bouton_map     = Bouton(cptmap%6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUITillEnd",nil,nil)
               end 
               menu_action1:addBouton(bouton_map)
@@ -140,7 +173,7 @@
             menu_action1:addBouton(bouton_retour)
 
         elseif BinaryFormat == "so" then --linux
-          msg("jepass")
+          --msg("jepass")
             local cptmap = 1
             for maps in io.popen('ls ./maps/*.map | xargs -n 1 basename'):lines() do
               msg(tostring(maps))

@@ -62,6 +62,20 @@ function menuUITillEnd(id,button,object)
 --         local aPlayerList = PlayerList(0);
          for i=1,aPlayerList:NumbersPlayers() do
           if id == aPlayerList:getPlayerList():Get(i):getId() then
+            
+
+
+
+
+
+
+
+
+
+
+
+
+            msg(object:getBoutons():Get(j):getNom())
             aPlayerList:getPlayerList():Get(i):getCreateMixArray().map     = object:getBoutons():Get(j):getValue()
             aPlayerList:getPlayerList():Get(i):getCreateMixArray().mapVIEW = object:getBoutons():Get(j):getNom()
         
@@ -128,6 +142,7 @@ function menuSummary(id,button,object)
         if (bool) then
           theMenuList:addMenu(menu_action1);
         end
+        msg(choicePlayer.mapVIEW)
           --new Bouton  
         local bouton_choiceRounds             = Bouton(1,"("..choicePlayer.roundsVIEW..")","","",nil,nil)
         local bouton_choiceNomberPlayers      = Bouton(2,"("..choicePlayer.nombersplayersVIEW..")","","",nil,nil)
@@ -176,5 +191,5 @@ function CreateTheMix(id,button,object)
   ------DEBUGFIN ]]--
 
  aMixList:addMix(aMix)
- aMixList:saveData()
+
 end

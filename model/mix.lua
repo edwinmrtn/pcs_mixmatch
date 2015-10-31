@@ -122,23 +122,33 @@ function Mix:getRoundsRemain()
     end 
 end
 function Mix:start()
-    parse("restart 5")
-    --new team
-    local Teamtt = Team("t");
-    local Teamct = Team("ct");
-    self:addTeam(Teamtt)
-    self:addTeam(Teamct)
-  
 
-    self:makeTeams(Teamtt,Teamct)
-    Teamtt:putinTeam()
-    Teamct:putinTeam()
+    if(map("name") ~= self:getMap()) then
+        self:setState("mapchanged") 
+        parse("map "..self:getMap())
+    else 
+        parse("restart 5")
+        --new team
+        local Teamtt = Team("t");
+        local Teamct = Team("ct");
+        self:addTeam(Teamtt)
+        self:addTeam(Teamct)
+      
 
-	if(self:getKnifeRound()) then
-		--new knifeRound
-        self:setState("kniferound")
-        self:getObjectKniferound():start();
-	end
+        self:makeTeams(Teamtt,Teamct)
+        Teamtt:putinTeam()
+        Teamct:putinTeam()
+
+    	if(self:getKnifeRound()) then
+            self:setState("kniferound")
+        else 
+            self:setState("side1")
+            msg("\169100255100SIDE 1@C")
+            parse("mp_startmoney 800")
+            parse("mp_roundtime 2")
+          
+    	end
+    end
 end
 function Mix:showString()
     local string = tostring(self:getId()).." "..tostring(self:getRounds()).." "..tostring(self:getNomberPlayers()).." "..tostring(self:getMap()).." "..tostring(self:getTillEnd()).." "..tostring(self:getKnifeRound())
@@ -197,7 +207,3 @@ function Mix:getMaxRank(choosedPlayers)
     end
     return rankMax, rowMax
 end
-
-function Mix:saveData()
-    table.save(self,"sys/lua/pcs_mixmatch/model/mixes.txt")
-end 

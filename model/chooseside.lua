@@ -47,6 +47,8 @@ function majorite()
 				if aMixList:getMixList():Get(i):getObjectChooseside():getvotett() >= aMixList:getMixList():Get(i):getNomberPlayers()/4 or aMixList:getMixList():Get(i):getObjectChooseside():getvotect() >= aMixList:getMixList():Get(i):getNomberPlayers()/4 then
 					aMixList:getMixList():Get(i):setState("side1")
 					aMixList:getMixList():Get(i):SwitchTeams()
+				else 
+					aMixList:getMixList():Get(i):setState("side1")
 				end
 			end
 			

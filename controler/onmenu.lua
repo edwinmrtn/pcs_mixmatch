@@ -16,6 +16,7 @@ function onMenu(id,title,button)
 							
 						else
 				 			local fonctionName = theMenuList:getMenuList():Get(i):getBoutons():Get(j):getFonction()
+				 				
 				 				_G[fonctionName](id,button,theMenuList:getMenuList():Get(i)) --thanks http://stackoverflow.com/questions/1791234/lua-call-function-from-a-string-with-function-name 
 			 			end
 			 		end

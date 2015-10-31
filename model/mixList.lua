@@ -27,17 +27,23 @@ function MixList:NumbersMixs()
 end
 
 function MixList:saveData()
-	local tempTable = {{{}}}
-	for i=1, self:NumbersMixs() do 
+	local tempTable = {}
+	for i=1, self:NumbersMixs() do
+		tempTable[i] = {}
 		tempTable[i]["id"]=self:getMixList():Get(i):getId()
 		tempTable[i]["rounds"]=self:getMixList():Get(i):getRounds()
 		tempTable[i]["nbrPlayers"]=self:getMixList():Get(i):getNomberPlayers()
 		tempTable[i]["map"]=self:getMixList():Get(i):getMap()
 		tempTable[i]["tillEnd"]=self:getMixList():Get(i):getTillEnd()
 		tempTable[i]["KnifeRound"]=self:getMixList():Get(i):getKnifeRound()
+		tempTable[i]["State"]=self:getMixList():Get(i):getState()
 		
 		for j=1, self:getMixList():Get(i):getNumberRegist() do
+			tempTable[i][j] = {}
+			msg(self:getMixList():Get(i):getNumberRegist())
+			msg(self:getMixList():Get(i):getRegistPlayers():Get(j):getId())
 			tempTable[i][j]["id"]=self:getMixList():Get(i):getRegistPlayers():Get(j):getId()
+			msg(tempTable[i][j]["id"])
 			tempTable[i][j]["usgn"]=self:getMixList():Get(i):getRegistPlayers():Get(j):getUSGN()
 			tempTable[i][j]["rank"]=self:getMixList():Get(i):getRegistPlayers():Get(j):getRank()
 			tempTable[i][j]["name"]=self:getMixList():Get(i):getRegistPlayers():Get(j):getName()
@@ -49,15 +55,18 @@ end
 
 function MixList:loadData()
 	local tempTable = table.load("sys/lua/pcs_mixmatch/model/mixes.txt")
-	for i=1, #tempTable do
-		local aMix = Mix(tempTable[i]["id"],tempTable[i]["rounds"],tempTable[i]["nbrPlayers"],tempTable[i]["map"],tempTable[i]["tillEnd"],tempTable[i]["KnifeRound"])
-		for j=1,#tempTable[i] do
-			if(tempTable[i][j] ~= nil) then
-				local aPlayer = Player(tempTable[i][j]["id"],tempTable[i][j]["usgn"],tempTable[i][j]["rank"],tempTable[i][j]["name"],tempTable[i][j]["ip"])
-				aMix:addRegistPlayer(aPlayer)
+	if tempTable ~= nil then
+		for i=1, #tempTable do
+			local aMix = Mix(tempTable[i]["id"],tempTable[i]["rounds"],tempTable[i]["nbrPlayers"],tempTable[i]["map"],tempTable[i]["tillEnd"],tempTable[i]["KnifeRound"])
+			aMix:setState(tempTable[i]["State"])
+			for j=1,#tempTable[i] do
+				if(tempTable[i][j] ~= nil) then
+					local aPlayer = Player(tempTable[i][j]["id"],tempTable[i][j]["usgn"],tempTable[i][j]["rank"],tempTable[i][j]["name"],tempTable[i][j]["ip"])
+					aMix:addRegistPlayer(aPlayer)
+				end
 			end
+			self:addMix(aMix) 
 		end
-		self:addMix(aMix) 
 	end
 end  
 

@@ -41,6 +41,7 @@ function Menu:setBoutons(Boutons)
 end 
 
 function Menu:addBouton(unBouton)
+	--msg(tostring(unBouton:getValue()))
 	
  		if self:NumbersBoutons() == 6 then
  			--msg("je passe ==5")
@@ -59,7 +60,7 @@ function Menu:addBouton(unBouton)
  			menu_multiple:setNumero(self:getNumero()+1)
  			menu_multiple:addBouton(unBouton)
 
- 			local bouton_menuSaut   = Bouton(1,"","","",nil,nil)
+ 			local bouton_menuSaut   = Bouton(7,"","","",nil,nil)
  			local bouton_menuNext   = Bouton(8,"Next","","m",menu_multiple,titre.."123"..self:getNumero()+1)
 			self:getBoutons():Add(bouton_menuSaut)
 			self:getBoutons():Add(bouton_menuNext)
@@ -113,9 +114,9 @@ function Menu:addBouton(unBouton)
 	    	  	end 
 	    	end
  		else
-			
+			--msg(tostring(unBouton:getValue()))
 			self:getBoutons():Add(unBouton)
-			--msg('else')
+			
 			--msg(self:getTitre())
 		end  
 end 

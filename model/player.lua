@@ -10,10 +10,10 @@ function Player:init(Id,USGN,Rank,Name,IP)
 	self.Rank           = Rank
 	self.Name           = Name
 	self.IP             = IP
-  self.Domage         = 1
-  self.TotalDomage    = 1
+  self.Domage         = 0
+  self.TotalDomage    = 0
   self.CreateMixArray = {}
-  self.RoundsPlayed   = 1
+  self.RoundsPlayed   = 0
 end
 
 
