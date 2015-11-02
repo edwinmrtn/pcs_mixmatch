@@ -143,13 +143,12 @@ function menuSummary(id,button,object)
           theMenuList:addMenu(menu_action1);
         end
         msg(choicePlayer.mapVIEW)
-          --new Bouton  
-        local bouton_choiceRounds             = Bouton(1,"("..choicePlayer.roundsVIEW..")","","",nil,nil)
-        local bouton_choiceNomberPlayers      = Bouton(2,"("..choicePlayer.nombersplayersVIEW..")","","",nil,nil)
-        local bouton_choiceMap                = Bouton(3,"("..choicePlayer.mapVIEW..")","","",nil,nil)
-        local bouton_choiceTillEnd            = Bouton(4,"("..choicePlayer.tillendVIEW..")","","",nil,nil)
-        local bouton_choiceKnifeRound         = Bouton(5,"("..choicePlayer.kniferoundVIEW..")","","",nil,nil)
-          local bouton_validChoices             = Bouton(6,"Create The Mix","","CreateTheMix",nil,nil)
+        local bouton_choiceRounds             = Bouton(1,"("..choicePlayer.roundsVIEW..")","",nil,nil,nil,nil)
+        local bouton_choiceNomberPlayers      = Bouton(2,"("..choicePlayer.nombersplayersVIEW..")","",nil,nil,nil,nil)
+        local bouton_choiceMap                = Bouton(3,"("..choicePlayer.mapVIEW..")","",nil,nil,nil,nil)
+        local bouton_choiceTillEnd            = Bouton(4,"("..choicePlayer.tillendVIEW..")","",nil,nil,nil,nil)
+        local bouton_choiceKnifeRound         = Bouton(5,"("..choicePlayer.kniferoundVIEW..")","",nil,nil,nil,nil)
+        local bouton_validChoices             = Bouton(6,"Create The Mix","","CreateTheMix",nil,nil,nil)
           
           menu_action1:addBouton(bouton_choiceRounds)
           menu_action1:addBouton(bouton_choiceNomberPlayers)

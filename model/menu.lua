@@ -29,7 +29,9 @@ end
 function Menu:ClearBoutons()
 	self:getBoutons():Clear()
 end
-
+function Menu:Refresh()
+	self:ClearBoutons()
+end
 function Menu:getBoutons()
     return self.Boutons
 end
@@ -60,8 +62,8 @@ function Menu:addBouton(unBouton)
  			menu_multiple:setNumero(self:getNumero()+1)
  			menu_multiple:addBouton(unBouton)
 
- 			local bouton_menuSaut   = Bouton(7,"","","",nil,nil)
- 			local bouton_menuNext   = Bouton(8,"Next","","m",menu_multiple,titre.."123"..self:getNumero()+1)
+ 			local bouton_menuSaut   = Bouton(7,"","",nil,nil,nil)
+ 			local bouton_menuNext   = Bouton(8,"Next","",nil,menu_multiple,":Show","id")
 			self:getBoutons():Add(bouton_menuSaut)
 			self:getBoutons():Add(bouton_menuNext)
 
@@ -85,7 +87,7 @@ function Menu:addBouton(unBouton)
 	    	         	preMenuObject = theMenuList:getMenuList():Get(i)
 	          		end
 	        	end
-				local bouton_menuPrev   = Bouton(9,"Previous","","Show",preMenuObject,titre..""..self:getNumero()-1)
+				local bouton_menuPrev   = Bouton(9,"Previous","",nil,preMenuObject,":Show","id")
 			    self:getBoutons():Add(bouton_menuPrev)
 			end 
 			--msg("num:" ..self:getNumero()+1)

@@ -21,7 +21,10 @@ function MixList:getMixList()
 end
 function MixList:addMix(Mix)
     self:getMixList():Add(Mix)
-end 
+end
+function MixList:removeMix(Mix)
+    self:getMixList():Remove(Mix)
+end  
 function MixList:NumbersMixs()
     return self:getMixList():Size()
 end

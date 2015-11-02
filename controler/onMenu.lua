@@ -9,15 +9,23 @@ function onMenu(id,title,button)
 			 		if(button == 0 and button == theMenuList:getMenuList():Get(i):getBoutons():Get(j):getId()) then
 			 			timer(0,"atimer",id)
 			 		elseif(button == theMenuList:getMenuList():Get(i):getBoutons():Get(j):getId()) then
-			 			--msg("okok :"..tostring(theMenuList:getMenuList():Get(i):getBoutons():Get(j):getObject()))
-			 			if (theMenuList:getMenuList():Get(i):getBoutons():Get(j):getObject() ~= nil and theMenuList:getMenuList():Get(i):getBoutons():Get(j):getNomObject() ~= nil) then 
-			 				
-			 				theMenuList:getMenuList():Get(i):getBoutons():Get(j):getObject():Show(id)
-							
-						else
-				 			local fonctionName = theMenuList:getMenuList():Get(i):getBoutons():Get(j):getFonction()
-				 				
-				 				_G[fonctionName](id,button,theMenuList:getMenuList():Get(i)) --thanks http://stackoverflow.com/questions/1791234/lua-call-function-from-a-string-with-function-name 
+			 			if (theMenuList:getMenuList():Get(i):getBoutons():Get(j):getObject() ~= nil and theMenuList:getMenuList():Get(i):getBoutons():Get(j):getFoncObject() ~= nil) then
+			 				ob     = theMenuList:getMenuList():Get(i):getBoutons():Get(j):getObject()
+			 				meth   = theMenuList:getMenuList():Get(i):getBoutons():Get(j):getFoncObject()
+			 				param  = theMenuList:getMenuList():Get(i):getBoutons():Get(j):getParamObject()
+			 				lid    = id
+			 				if(param == "id") then
+								loadstring("ob"..meth.."(lid)")()
+			 				elseif (param ~= nil) then
+			 					loadstring("ob"..meth.."(param)")()
+							else
+								loadstring("ob"..meth.."()")()
+							end
+						end 	
+						if (theMenuList:getMenuList():Get(i):getBoutons():Get(j):getFonction() ~= nil) then
+				 			msg("father") 
+				 			local fonctionName = theMenuList:getMenuList():Get(i):getBoutons():Get(j):getFonction()	
+				 			_G[fonctionName](id,button,theMenuList:getMenuList():Get(i)) --thanks http://stackoverflow.com/questions/1791234/lua-call-function-from-a-string-with-function-name 
 			 			end
 			 		end
 			 	end

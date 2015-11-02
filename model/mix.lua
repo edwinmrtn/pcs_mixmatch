@@ -1,8 +1,3 @@
-
-
-
-
-
 --Public class Mix
 Mix = newclass("Mix")
 
@@ -38,7 +33,13 @@ function Mix:getNumberRegist()
 end
 function Mix:addRegistPlayer(Player)
     self:getRegistPlayers():Add(Player)
-end 
+    if (tonumber(self:getNomberPlayers()) == tonumber(self:getNumberRegist())) then
+        self:start()
+    end 
+end
+function Mix:removeRegistPlayer(Player)
+    self:getRegistPlayers():Remove(Player)
+end  
 function Mix:getObjectKniferound()
     return self.ObKniferound
 end
@@ -207,3 +208,23 @@ function Mix:getMaxRank(choosedPlayers)
     end
     return rankMax, rowMax
 end
+function Mix:playerLeave(id)
+    local i = 1
+    while i <= self:getNumberRegist() do
+        if (id == self:getRegistPlayers():Get(i):getId()) then
+            self:removeRegistPlayer(self:getRegistPlayers():Get(i))
+            i=i-1
+        end
+        i=i+1
+    end
+    return self:testEmply()
+end
+function Mix:testEmply()
+    if(self:getNumberRegist() == 0) then
+        aMixList:removeMix(self)
+        return true
+    else 
+        return false
+    end
+
+end 

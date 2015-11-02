@@ -18,7 +18,10 @@ function PlayerList:getPlayerList()
 end
 function PlayerList:addplayer(Player)
     self:getPlayerList():Add(Player)
-end 
+end
+function PlayerList:removePlayer(Player)
+    self:getPlayerList():Remove(Player)
+end   
 function PlayerList:NumbersPlayers()
     return self:getPlayerList():Size()
 end
