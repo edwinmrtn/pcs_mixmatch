@@ -40,12 +40,10 @@ end
 function Team:putinTeam()
 	if(self:getName() == "t") then
 		for i=1, self:NumbersPlayers() do
-				msg("maket "..self:getPlayers():Get(i):getId()) 
 				parse("maket "..self:getPlayers():Get(i):getId())
 		end
 	elseif(self:getName() == "ct")then
 		for i=1, self:NumbersPlayers() do
-				msg("makect "..self:getPlayers():Get(i):getId()) 
 				parse("makect "..self:getPlayers():Get(i):getId())
 		end
 	end

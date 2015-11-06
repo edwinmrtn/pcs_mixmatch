@@ -14,8 +14,6 @@ function menuUINumberPlayer(id,button,object)
 
     for j=1,object:NumbersBoutons() do
       if button == object:getBoutons():Get(j):getId() then
-         --parse("msg "..object:getBoutons():Get(j):getNom())
---         local aPlayerList = PlayerList(0);
          for i=1,aPlayerList:NumbersPlayers() do
           if id == aPlayerList:getPlayerList():Get(i):getId() then
             aPlayerList:getPlayerList():Get(i):getCreateMixArray().rounds     = object:getBoutons():Get(j):getValue()
@@ -36,8 +34,6 @@ function menuUIMap(id,button,object)
 
     for j=1,object:NumbersBoutons() do
       if button == object:getBoutons():Get(j):getId() then
-         --parse("msg "..object:getBoutons():Get(j):getNom())
---         local aPlayerList = PlayerList(0);
          for i=1,aPlayerList:NumbersPlayers() do
           if id == aPlayerList:getPlayerList():Get(i):getId() then
             aPlayerList:getPlayerList():Get(i):getCreateMixArray().nombersplayers     = object:getBoutons():Get(j):getValue()
@@ -58,8 +54,6 @@ function menuUITillEnd(id,button,object)
 
     for j=1,object:NumbersBoutons() do
       if button == object:getBoutons():Get(j):getId() then
-         --parse("msg "..object:getBoutons():Get(j):getNom())
---         local aPlayerList = PlayerList(0);
          for i=1,aPlayerList:NumbersPlayers() do
           if id == aPlayerList:getPlayerList():Get(i):getId() then
             
@@ -94,8 +88,6 @@ function menuUIKnifeRound(id,button,object)
 
     for j=1,object:NumbersBoutons() do
       if button == object:getBoutons():Get(j):getId() then
-         --parse("msg "..object:getBoutons():Get(j):getNom())
-   --      local aPlayerList = PlayerList(0);
          for i=1,aPlayerList:NumbersPlayers() do
           if id == aPlayerList:getPlayerList():Get(i):getId() then
             aPlayerList:getPlayerList():Get(i):getCreateMixArray().tillend     = object:getBoutons():Get(j):getValue()
@@ -116,8 +108,6 @@ function menuSummary(id,button,object)
     local choicePlayer
     for j=1,object:NumbersBoutons() do
       if button == object:getBoutons():Get(j):getId() then
-         --parse("msg "..object:getBoutons():Get(j):getNom())
-     --    local aPlayerList = PlayerList(0);
          for i=1,aPlayerList:NumbersPlayers() do
           if id == aPlayerList:getPlayerList():Get(i):getId() then
             choicePlayer = aPlayerList:getPlayerList():Get(i):getCreateMixArray()
@@ -142,7 +132,6 @@ function menuSummary(id,button,object)
         if (bool) then
           theMenuList:addMenu(menu_action1);
         end
-        msg(choicePlayer.mapVIEW)
         local bouton_choiceRounds             = Bouton(1,"("..choicePlayer.roundsVIEW..")","",nil,nil,nil,nil)
         local bouton_choiceNomberPlayers      = Bouton(2,"("..choicePlayer.nombersplayersVIEW..")","",nil,nil,nil,nil)
         local bouton_choiceMap                = Bouton(3,"("..choicePlayer.mapVIEW..")","",nil,nil,nil,nil)
@@ -164,7 +153,6 @@ function CreateTheMix(id,button,object)
   local Player
 		for j=1,object:NumbersBoutons() do
 			if button == object:getBoutons():Get(j):getId() then
-				 --parse("msg "..object:getBoutons():Get(j):getNom())
 			--	 local aPlayerList = PlayerList(0);
 				 for i=1,aPlayerList:NumbersPlayers() do
 				 	if id == aPlayerList:getPlayerList():Get(i):getId() then
@@ -182,7 +170,6 @@ function CreateTheMix(id,button,object)
   --[[A RECHANGER 
   ----DEBUG :
            --local thePlayerList = PlayerList(0)
-             parse("msg "..thePlayerList:NumbersPlayers())
             for i=1, thePlayerList:NumbersPlayers() do 
                 aMix:addRegistPlayer(thePlayerList:getPlayerList():Get(i))
             end 

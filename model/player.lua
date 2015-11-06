@@ -38,7 +38,7 @@ function Player:getRank()
     return self.Rank
 end
 function Player:setRank(nbr,rank)
-    self.Rank[tonumber(nbr)] = tonumber(rank)
+    self.Rank[tonumber(nbr)] = self:getRank()[tonumber(nbr)] + tonumber(rank)
 end
 function Player:getDomage()
     return self.Domage
@@ -59,9 +59,36 @@ end
 function Player:getTeam()
     return self.Team
 end
-function Player:rankCalculation()
-  return math.floor(math.floor(self:getTotalDomage()/100)/self:getRoundsPlayed())
+function Player:rankCalculation(nbrPlayers)
+  local moyKill
+  msg("nbr player: "..nbrPlayers)
+  --particular case for 1v1
+  if(tonumber(nbrPlayers) == 2 )then
+    moyKill = 50
+    local totalmoyKill = moyKill * self:getRoundsPlayed()
+    local x=(self:getTotalDomage()-totalmoyKill)
+
+    msg("nbr roundPlayed : "..self:getRoundsPlayed())
+    msg("totalmoykill: "..totalmoyKill)
+    msg("totaldommage : "..self:getTotalDomage())
+    msg("rank :"..x)
+    return math.floor(x)
+  else 
+    moyKill = 100
+    local totalmoyKill = moyKill * self:getRoundsPlayed()
+    local x=(self:getTotalDomage()-totalmoyKill)
+
+    msg("nbr roundPlayed : "..self:getRoundsPlayed())
+    msg("totalmoykill: "..totalmoyKill)
+    msg("totaldommage : "..self:getTotalDomage())
+    msg("rank :"..x)
+    return math.floor(x/10)
+  end 
+  
 end
+function Player:dontmove()
+  parse("speedmod "..self:getId().." ".."-100")
+end 
 function Player:getRoundsPlayed()
   return self.RoundsPlayed
 end
@@ -72,10 +99,8 @@ function Player:stripWeapon(weaponid)
 	 parse(" strip "..self:getId()..' '..weaponid)
 end
 function Player:chooseteam()
-  msg(self:getId())
         for i=1,theMenuList:NumbersMenus() do
           if("Choose your team" == theMenuList:getMenuList():Get(i):getTitre())then
-                
                 theMenuList:getMenuList():Get(i):Show(self:getId())
           end
         end

@@ -1,8 +1,7 @@
      
 
 
-        --new menu
-        local menu_action1 = Menu(1,"PCS Mix option ")
+       
           --new menuList
         theMenuList    = MenuList(0);
         --new player list
@@ -10,13 +9,15 @@
         --new Mix List
         aMixList = MixList(0);
 
-
+----------------------------------------------------------------------------
         --load all mixs
         aMixList:loadData()
-        for i=1,aMixList:NumbersMixs() do
+        table.save({},"sys/lua/pcs_mixmatch/model/mixes.txt")
+----------------------------------------------------------------------------
+function changeMapInit()
+  msg("jepassavant samere")
+  for i=1,aMixList:NumbersMixs() do
           if (aMixList:getMixList():Get(i):getState() == "mapchanged") then
-            
-              --new team
               parse("restart 5")
               local Teamtt = Team("t");
               local Teamct = Team("ct");
@@ -37,27 +38,44 @@
                 
             end
           end
+  end
+end
+-------------------------------------------------------------------
+function changeMapCheckPlayer()
+  msg("jechangeMapCheckPlayer")
+    for i=1,aMixList:NumbersMixs() do
+          if (aMixList:getMixList():Get(i):getState() == "mapchanged") then
+              local j = 1
+              while j=1 <= aMixList:getMixList():Get(i):getNumberRegist() do
+                if(aPlayerList:exist(aMixList:getMixList():Get(i):getRegistPlayers():Get(j))) then 
+                 msg("player exist")
+                else
+                  aMixList:getMixList():Get(i):removeRegistPlayer(aMixList:getMixList():Get(i):getRegistPlayers():Get(j))
+                  msg("player nexiste pas")
+                end
+                j = j + 1  
+              end
+              if(tonumber(aMixList:getMixList():Get(i):getNumberRegist())>=tonumber(aMixList:getMixList():Get(i):getNomberPlayers()))then
+                changeMapInit()
+              end
+          end
+    end 
+                 
+end 
+-------------------------------------------------------------------
+        for i=1,aMixList:NumbersMixs() do
+          msg("k : "..aMixList:getMixList():Get(i):getState())
+          if (aMixList:getMixList():Get(i):getState() == "mapchanged") then
+               msg("jeTIMER")
+              timer(20000,"changeMapCheckPlayer")
+          end
         end
+
+-------------------------------------------------------------------
+        local menu_action1 = Menu(1,"PCS Mix option ")
         theMenuList:addMenu(menu_action1);
-        
-          --new Bouton  
        
-        local bouton_createmix     = Bouton(1,"Create","","onCreateMixBouton",nil,nil,nil)
-        local bouton_registermix   = Bouton(2,"Register mixes","","onRegisterMixes",nil,nil,nil)
-        local bouton_listmix       = Bouton(3,"List mixes","","onListMixes",nil,nil,nil)
-        local bouton_leavemix      = Bouton(4,"Leave mixes","","onLeaveMixes",nil,nil,nil)
-        local bouton_switchteams   = Bouton(5,"Switch Team","","onSwitchTeam",nil,nil,nil)
-        --local bouton_startmix      = Bouton(5,"Start mix","","onStartMixBouton",nil,nil)
-        -- local bouton_testload      = Bouton(5,"Test Load","","onTestLoad",nil,nil) --sur onStartMixBouton
-      
-          
-          menu_action1:addBouton(bouton_createmix)
-          menu_action1:addBouton(bouton_registermix)
-          menu_action1:addBouton(bouton_listmix)
-          menu_action1:addBouton(bouton_leavemix)
-          menu_action1:addBouton(bouton_switchteams)
-          --menu_action1:addBouton(bouton_startmix)
-          -- menu_action1:addBouton(bouton_retour)
+        
 -------------------------------------------------------------
         -- body
         --new menu
@@ -169,7 +187,6 @@
           --msg("jepass")
             local cptmap = 1
             for maps in io.popen('ls ./maps/*.map | xargs -n 1 basename'):lines() do
-              msg(tostring(maps))
               if cptmap%6 == 0 then
                  bouton_map     = Bouton(6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUITillEnd",nil,nil,nil)
               else  
@@ -245,15 +262,12 @@
 
 --------------------------------------------------------------------------------
  
-    --new menu
           local menu_chooseteam = Menu(2,"Choose your team")
-            --new menuList
---          local themenuList    = MenuList(0);
            theMenuList:addMenu(menu_chooseteam);
 
             --new Bouton    
           local bouton_voteterro = Bouton(1,"Terrorists","Terrorists","voteforterro",nil,nil,nil)
-          local bouton_votecounter = Bouton(2,"Counter-Terrorists","Counter-Terrorists","voteforcounter",nil,nil)
+          local bouton_votecounter = Bouton(2,"Counter-Terrorists","Counter-Terrorists","voteforcounter",nil,nil,nil)
 
           local bouton_cancel = Bouton(0,"","",nil,nil,nil,nil)
 
@@ -270,3 +284,8 @@
 ------------------------------------------------------------------------------------------------------
       local menu_action1 = Menu(1,"Register Mix")
       theMenuList:addMenu(menu_action1);
+------------------------------------------------------------------------------------------------------
+      local menu_action1 = Menu(1,"My mix")
+      theMenuList:addMenu(menu_action1);
+      local bouton_info  = Bouton(1,"Info","","menuSummary",nil,nil,nil)
+      menu_action1:addBouton(bouton_info)

@@ -21,9 +21,11 @@ function onMenu(id,title,button)
 							else
 								loadstring("ob"..meth.."()")()
 							end
+							if tostring(ob) == "I am a Mix" and meth == ":addRegistPlayer" then
+								ob:checkStartMix()
+							end 	
 						end 	
 						if (theMenuList:getMenuList():Get(i):getBoutons():Get(j):getFonction() ~= nil) then
-				 			msg("father") 
 				 			local fonctionName = theMenuList:getMenuList():Get(i):getBoutons():Get(j):getFonction()	
 				 			_G[fonctionName](id,button,theMenuList:getMenuList():Get(i)) --thanks http://stackoverflow.com/questions/1791234/lua-call-function-from-a-string-with-function-name 
 			 			end

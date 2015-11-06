@@ -33,6 +33,32 @@ function Mix:getNumberRegist()
 end
 function Mix:addRegistPlayer(Player)
     self:getRegistPlayers():Add(Player)
+end
+function Mix:existPlayerRegist(Player)
+    local bool = false
+    for i=1, self:getNumberRegist() do
+        if (Player:getUSGN() == self:getRegistPlayers():Get(i):getUSGN()) then
+            bool = true
+            if bool then
+                return bool
+            end 
+        end
+    end
+    return bool
+end
+function Mix:getPlayerRegist(Player)
+    if self:existPlayerRegist(Player) then
+        for i=1, self:getNumberRegist() do
+            if (Player:getUSGN() == self:getRegistPlayers():Get(i):getUSGN()) then
+                return self:getRegistPlayers():Get(i)
+            end
+        end
+    else
+        return nil
+    end 
+end
+
+function Mix:checkStartMix()
     if (tonumber(self:getNomberPlayers()) == tonumber(self:getNumberRegist())) then
         self:start()
     end 
@@ -83,20 +109,14 @@ function Mix:NumbersTeams()
     return self:getTeams():Size()
 end
 function Mix:SwitchTeams()
+    parse("restart")
+    removeRoundPlayed()
          local Teamtmp = Team("tmp");
         --temp Team get Teamct players
         for i=1,self:getTeams():Get(1):NumbersPlayers() do
             Teamtmp:addPlayer(self:getTeams():Get(1):getPlayers():Get(i))
         end
        
-        --in game switch 
-       for i=1,self:getTeams():Get(1):NumbersPlayers() do
-            parse("maket "..self:getTeams():Get(1):getPlayers():Get(i):getId())
-       end
-        --in game switch
-       for i=1,self:getTeams():Get(2):NumbersPlayers() do
-            parse("makect "..self:getTeams():Get(2):getPlayers():Get(i):getId())
-       end
         --clear Teamct 
         self:getTeams():Get(1):ClearTeam()
 
@@ -110,16 +130,27 @@ function Mix:SwitchTeams()
         for i=1,Teamtmp:NumbersPlayers() do
             self:getTeams():Get(2):addPlayer(Teamtmp:getPlayers():Get(i))
         end
+        
+        --in game switch 
+       for i=1,self:getTeams():Get(1):NumbersPlayers() do
+            parse("maket "..self:getTeams():Get(1):getPlayers():Get(i):getId())
+       end
+        --in game switch
+       for i=1,self:getTeams():Get(2):NumbersPlayers() do
+            parse("makect "..self:getTeams():Get(2):getPlayers():Get(i):getId())
+       end
    
 end
 
 function Mix:getRoundsRemain()
-    if (self:getState() == "kniferound") then 
+    if (self:getState() == "kniferound") then
+        return 0
+    elseif (self:getState() == "chooseside") then
         return 0
     elseif (self:getState() == "side1") then
-        return self:getRounds()/2 - self.cptRounds
+        return self:getRounds()/2 - self:getcptRounds()
     elseif (self:getState() == "side2") then
-        return self:getRounds()/2 - self.cptRounds
+        return self:getRounds()/2 - self:getcptRounds()
     end 
 end
 function Mix:start()
@@ -145,6 +176,7 @@ function Mix:start()
         else 
             self:setState("side1")
             msg("\169100255100SIDE 1@C")
+            parse("mp_freezetime 7")
             parse("mp_startmoney 800")
             parse("mp_roundtime 2")
           
@@ -159,7 +191,6 @@ function Mix:__tostring()
     return "I am a Mix"
 end
 function Mix:makeTeams(Teamtt,Teamct)
-    msg("jepass")
     local totalRank = 0
     local moyRank = 0
     local max = 0
