@@ -6,7 +6,7 @@
 --  A really simple module to allow the creation of Java like ArrayLists
 --
 --=============================================================================--
-dofile("sys/lua/pcs_mixmatch/model/table.lua")
+
 local table 	= table
 local setmetatable 	= setmetatable
 local type = type

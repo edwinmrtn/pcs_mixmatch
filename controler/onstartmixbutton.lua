@@ -4,7 +4,7 @@
 -- dofile("sys/lua/pcs_mixmatch/model/mixList.lua")
 -- dofile("sys/lua/pcs_mixmatch/model/playerList.lua")
 -- dofile("sys/lua/pcs_mixmatch/model/arrayList.lua")
-function onStartMixBouton(id)
+function onstartmixbutton(id)
 
 --new team
 local Teamtt = Team("t");

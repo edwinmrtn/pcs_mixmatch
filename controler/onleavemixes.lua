@@ -12,8 +12,9 @@ function onLeaveMixes(id)
                         if (id == aMixList:getMixList():Get(j):getRegistPlayers():Get(k):getId()) then
                             cptMixPlayerIn=cptMixPlayerIn+1
                             local mix = aMixList:getMixList():Get(j)
-                            local bouton     = Bouton(cptMixPlayerIn,""..aMixList:getMixList():Get(j):showString().." | "..aMixList:getMixList():Get(j):getNumberRegist().."/"..aMixList:getMixList():Get(j):getNomberPlayers().."","","onLeaveMixes",mix,":playerLeave",id)
-                            theMenuList:getMenuList():Get(i):addBouton(bouton)
+                            local arrayOb = {{mix,":playerLeave",id}}
+                            local button     = button(cptMixPlayerIn,""..aMixList:getMixList():Get(j):showString().." | "..aMixList:getMixList():Get(j):getNumberRegist().."/"..aMixList:getMixList():Get(j):getNomberPlayers().."","","onLeaveMixes",arrayOb)
+                            theMenuList:getMenuList():Get(i):addButton(button)
                         end
                     end 
                 end

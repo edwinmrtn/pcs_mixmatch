@@ -7,8 +7,8 @@ function onListMixes(id)
                  parse("msg Error : No mixes found")
             else
                 for j=1,aMixList:NumbersMixs() do
-                    local bouton     = Bouton(1,"("..aMixList:getMixList():Get(j):showString().." | "..aMixList:getMixList():Get(j):getNumberRegist().."/"..aMixList:getMixList():Get(j):getNomberPlayers()..")","",nil,nil,nil)
-                    theMenuList:getMenuList():Get(i):addBouton(bouton)
+                    local button     = button(1,"("..aMixList:getMixList():Get(j):showString().." | "..aMixList:getMixList():Get(j):getNumberRegist().."/"..aMixList:getMixList():Get(j):getNomberPlayers()..")","",nil)
+                    theMenuList:getMenuList():Get(i):addButton(button)
                 end
                 theMenuList:getMenuList():Get(i):Show(id)
             end

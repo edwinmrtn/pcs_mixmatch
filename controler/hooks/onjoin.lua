@@ -13,6 +13,10 @@ local Player = Player(id,player(id,"usgn"),rank,player(id,"name"),'127.0.0.1');
 msg("Added Player : "..Player:getName())
 --add all players
 aPlayerList:addplayer(Player)
+
+
+
+
 end 
 
 

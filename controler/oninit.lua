@@ -8,7 +8,22 @@
         aPlayerList = PlayerList(0);
         --new Mix List
         aMixList = MixList(0);
-
+        --new HeadContainerList
+        aHeadContainerList = HeadContainerList(0);
+        
+-------------MENU---------------------------------------------------------
+function callTimer(id)
+  timer(0,"atimer",id)
+end
+function atimer(id)
+--  local theMenuList = MenuList(0)
+  for i=1,theMenuList:NumbersMenus() do
+     if("Choose your team" == theMenuList:getMenuList():Get(i):getTitre())then 
+      theMenuList:getMenuList():Get(i):Show(tonumber(id))
+     end
+  end
+  
+end
 ----------------------------------------------------------------------------
         --load all mixs
         aMixList:loadData()
@@ -46,7 +61,7 @@ function changeMapCheckPlayer()
     for i=1,aMixList:NumbersMixs() do
           if (aMixList:getMixList():Get(i):getState() == "mapchanged") then
               local j = 1
-              while j=1 <= aMixList:getMixList():Get(i):getNumberRegist() do
+              while j <= aMixList:getMixList():Get(i):getNumberRegist() do
                 if(aPlayerList:exist(aMixList:getMixList():Get(i):getRegistPlayers():Get(j))) then 
                  msg("player exist")
                 else
@@ -91,17 +106,16 @@ end
         end
         if (bool) then
           theMenuList:addMenu(menu_action1);
-        end
-          --new Bouton  
-        local bouton_thirty     = Bouton(1,"15-15","30","menuUINumberPlayer",nil,nil,nil)
-        local bouton_twentyfour = Bouton(2,"12-12","24","menuUINumberPlayer",nil,nil,nil)
-        local bouton_twenty     = Bouton(3,"10-10","20","menuUINumberPlayer",nil,nil,nil)
-        local bouton_for        = Bouton(4,"2-2","4","menuUINumberPlayer",nil,nil,nil)
+        end 
+        local bouton_thirty     = button(1,"15-15","30","menuUINumberPlayer",nil)
+        local bouton_twentyfour = button(2,"12-12","24","menuUINumberPlayer",nil)
+        local bouton_twenty     = button(3,"10-10","20","menuUINumberPlayer",nil)
+        local bouton_for        = button(4,"2-2","4","menuUINumberPlayer",nil)
           
-          menu_action1:addBouton(bouton_thirty)
-          menu_action1:addBouton(bouton_twentyfour)
-          menu_action1:addBouton(bouton_twenty)
-          menu_action1:addBouton(bouton_for)
+          menu_action1:addButton(bouton_thirty)
+          menu_action1:addButton(bouton_twentyfour)
+          menu_action1:addButton(bouton_twenty)
+          menu_action1:addButton(bouton_for)
 -----------------------------------------------------------------------
 
 
@@ -121,17 +135,17 @@ end
         if (bool) then
           theMenuList:addMenu(menu_action1);
         end
-        local bouton_ten     = Bouton(1,"5 vs 5","10","menuUIMap",nil,nil,nil)
-        local bouton_eight   = Bouton(2,"4 vs 4","8","menuUIMap",nil,nil,nil)
-        local bouton_six     = Bouton(3,"3 vs 3","6","menuUIMap",nil,nil,nil)
-        local bouton_four    = Bouton(4,"2 vs 2","4","menuUIMap",nil,nil,nil)
-        local bouton_two     = Bouton(5,"1 vs 1","2","menuUIMap",nil,nil,nil)
+        local bouton_ten     = button(1,"5 vs 5","10","menuUIMap",nil)
+        local bouton_eight   = button(2,"4 vs 4","8","menuUIMap",nil)
+        local bouton_six     = button(3,"3 vs 3","6","menuUIMap",nil)
+        local bouton_four    = button(4,"2 vs 2","4","menuUIMap",nil)
+        local bouton_two     = button(5,"1 vs 1","2","menuUIMap",nil)
           
-          menu_action1:addBouton(bouton_ten)
-          menu_action1:addBouton(bouton_eight)
-          menu_action1:addBouton(bouton_six)
-          menu_action1:addBouton(bouton_four)
-          menu_action1:addBouton(bouton_two)
+          menu_action1:addButton(bouton_ten)
+          menu_action1:addButton(bouton_eight)
+          menu_action1:addButton(bouton_six)
+          menu_action1:addButton(bouton_four)
+          menu_action1:addButton(bouton_two)
 -----------------------------------------------------------------------------
 
 
@@ -160,54 +174,58 @@ end
 
             for maps in io.popen([[dir ".\maps\*map" /b ]]):lines() do
               if cptmap%6 == 0 then
-                 bouton_map     = Bouton(6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUITillEnd",nil,nil,nil)
+                 bouton_map     = button(6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUITillEnd",nil)
 
               else 
       
-                 bouton_map     = Bouton(cptmap%6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUITillEnd",nil,nil,nil)
+                 bouton_map     = button(cptmap%6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUITillEnd",nil)
               end 
-              menu_action1:addBouton(bouton_map)
+              menu_action1:addButton(bouton_map)
               cptmap = cptmap + 1 
             end
             if cptmap%6 == 0 then
-              bouton_espace    = Bouton(6,"","",nil,nil,nil) --sur onStartMixBouton
+              bouton_espace    = button(6,"","",nil,nil) --sur onstartmixbutton
             else
-              bouton_espace    = Bouton(cptmap%6,"","",nil,nil,nil) --sur onStartMixBouton
+              bouton_espace    = button(cptmap%6,"","",nil,nil) --sur onstartmixbutton
             end 
               cptmap = cptmap + 1
             if cptmap%6 == 0 then
-               bouton_retour    = Bouton(6,"Back","",nil,menu_action1,":Show","id") --sur onStartMixBouton
+              local arrayOb={{menu_action1,":Show","id"}}
+               bouton_retour    = button(6,"Back","",nil,arrayOb) --sur onstartmixbutton
             else
-               bouton_retour    = Bouton(cptmap%6,"Back","",nil,menu_action1,":Show","id")
+              local arrayOb={{menu_action1,":Show","id"}}
+               bouton_retour    = button(cptmap%6,"Back","",nil,arrayOb)
             end
-            menu_action1:addBouton(bouton_espace)
-            menu_action1:addBouton(bouton_retour)
+            menu_action1:addButton(bouton_espace)
+            menu_action1:addButton(bouton_retour)
 
         elseif BinaryFormat == "so" then --linux
           --msg("jepass")
             local cptmap = 1
             for maps in io.popen('ls ./maps/*.map | xargs -n 1 basename'):lines() do
               if cptmap%6 == 0 then
-                 bouton_map     = Bouton(6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUITillEnd",nil,nil,nil)
+                 bouton_map     = button(6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUITillEnd",nil)
               else  
-                 bouton_map     = Bouton(cptmap%6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUITillEnd",nil,nil,nil)
+                 bouton_map     = button(cptmap%6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUITillEnd",nil)
               end 
-              menu_action1:addBouton(bouton_map)
+              menu_action1:addButton(bouton_map)
               cptmap = cptmap + 1 
             end
             if cptmap%6 == 0 then
-              bouton_espace    = Bouton(6,"","",nil,nil,nil) --sur onStartMixBouton
+              bouton_espace    = button(6,"","",nil,nil) --sur onstartmixbutton
             else
-              bouton_espace    = Bouton(cptmap%6,"","",nil,nil,nil) --sur onStartMixBouton
+              bouton_espace    = button(cptmap%6,"","",nil,nil) --sur onstartmixbutton
             end 
               cptmap = cptmap + 1
             if cptmap%6 == 0 then
-               bouton_retour    = Bouton(6,"Back","",nil,menu_action1,":Show","id") --sur onStartMixBouton
+               local arrayOb={{menu_action1,":Show","id"}}
+               bouton_retour    = button(6,"Back","",nil,arrayOb) --sur onstartmixbutton
             else
-               bouton_retour    = Bouton(cptmap%6,"Back","",nil,menu_action1,":Show","id")
+               local arrayOb={{menu_action1,":Show","id"}}
+               bouton_retour    = button(cptmap%6,"Back","",nil,arrayOb)
             end
-            menu_action1:addBouton(bouton_espace)
-            menu_action1:addBouton(bouton_retour)
+            menu_action1:addButton(bouton_espace)
+            menu_action1:addButton(bouton_retour)
         end
         BinaryFormat = nil
 
@@ -229,12 +247,12 @@ end
         if (bool) then
           theMenuList:addMenu(menu_action1);
         end
-          --new Bouton  
-        local bouton_yes     = Bouton(1,"Yes",true,"menuUIKnifeRound",nil,nil,nil)
-        local bouton_no      = Bouton(2,"No",false,"menuUIKnifeRound",nil,nil,nil)
+          --new button  
+        local bouton_yes     = button(1,"Yes",true,"menuUIKnifeRound",nil)
+        local bouton_no      = button(2,"No",false,"menuUIKnifeRound",nil)
           
-          menu_action1:addBouton(bouton_yes)
-          menu_action1:addBouton(bouton_no)
+          menu_action1:addButton(bouton_yes)
+          menu_action1:addButton(bouton_no)
 
 --------------------------------------------------------------------------------
    
@@ -253,27 +271,27 @@ end
         if (bool) then
           theMenuList:addMenu(menu_action1);
         end
-          --new Bouton  
-        local bouton_yes     = Bouton(1,"Yes",true,"menuSummary",nil,nil,nil)
-        local bouton_no      = Bouton(2,"No",false,"menuSummary",nil,nil,nil)
+          --new button  
+        local bouton_yes     = button(1,"Yes",true,"menuSummary",nil)
+        local bouton_no      = button(2,"No",false,"menuSummary",nil)
           
-          menu_action1:addBouton(bouton_yes)
-          menu_action1:addBouton(bouton_no)
+          menu_action1:addButton(bouton_yes)
+          menu_action1:addButton(bouton_no)
 
 --------------------------------------------------------------------------------
  
           local menu_chooseteam = Menu(2,"Choose your team")
            theMenuList:addMenu(menu_chooseteam);
 
-            --new Bouton    
-          local bouton_voteterro = Bouton(1,"Terrorists","Terrorists","voteforterro",nil,nil,nil)
-          local bouton_votecounter = Bouton(2,"Counter-Terrorists","Counter-Terrorists","voteforcounter",nil,nil,nil)
+            --new button    
+          local bouton_voteterro = button(1,"Terrorists","Terrorists","voteforterro",nil)
+          local bouton_votecounter = button(2,"Counter-Terrorists","Counter-Terrorists","voteforcounter",nil)
 
-          local bouton_cancel = Bouton(0,"","",nil,nil,nil,nil)
+          local bouton_cancel = button(0,"","","callTimer",nil,nil,nil)
 
-          menu_chooseteam:addBouton(bouton_voteterro)
-          menu_chooseteam:addBouton(bouton_votecounter)
-          menu_chooseteam:addBouton(bouton_cancel)
+          menu_chooseteam:addButton(bouton_voteterro)
+          menu_chooseteam:addButton(bouton_votecounter)
+          menu_chooseteam:addButton(bouton_cancel)
 
 ------------------------------------------------------------------------------------------------------
       local menu_action1 = Menu(1,"Leave Mixes")
@@ -287,5 +305,7 @@ end
 ------------------------------------------------------------------------------------------------------
       local menu_action1 = Menu(1,"My mix")
       theMenuList:addMenu(menu_action1);
-      local bouton_info  = Bouton(1,"Info","","menuSummary",nil,nil,nil)
-      menu_action1:addBouton(bouton_info)
+      local bouton_info  = button(1,"Info","","menuSummary",nil)
+      menu_action1:addButton(bouton_info)
+------------------------------------------------------------------------------------------------------
+

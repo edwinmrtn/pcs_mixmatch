@@ -5,15 +5,17 @@ Menu = newclass("Menu")
 
 
 --Constructors
-
 function Menu:init(Id,Titre)
 	self.Id      = Id 
 	self.Titre   = Titre
 	self.Numero  = 1
-	self.Boutons = ArrayList.Create()
+	self.buttons = ArrayList.Create()
 end
 
 --Methods
+--[[
+	Getters - Setters 
+]]
 function Menu:getId()
     return self.Id
 end
@@ -26,28 +28,30 @@ end
 function Menu:setNumero(Numero)
     self.Numero = Numero
 end
-function Menu:ClearBoutons()
-	self:getBoutons():Clear()
+function Menu:ClearButtons()
+	self:getButtons():Clear()
 end
 function Menu:Refresh()
-	self:ClearBoutons()
+	self:ClearButtons()
 end
-function Menu:getBoutons()
-    return self.Boutons
+function Menu:getButtons()
+    return self.buttons
 end
 function Menu:setTitre(Titre)
 		  self.Titre = Titre
 end
-function Menu:setBoutons(Boutons)
-		  self.Boutons = Boutons
+function Menu:setButtons(buttons)
+		  self.buttons = buttons
 end 
-
-function Menu:addBouton(unBouton)
-	--msg(tostring(unBouton:getValue()))
+--[[
+	addButton(button unButton)
+		id is the id of player
+		
+		This Show the menu to the id player. 
+]]
+function Menu:addButton(unButton)
 	
- 		if self:NumbersBoutons() == 6 then
- 			--msg("je passe ==5")
- 			--msg(self:getTitre())
+ 		if self:NumbersButtons() == 6 then
  			local number = string.match(self:getTitre(), "%d+")
  			local titre
  			if number ~= "" and number ~= nil then
@@ -60,16 +64,14 @@ function Menu:addBouton(unBouton)
 
  			local menu_multiple = Menu(1,titre..""..self:getNumero()+1)
  			menu_multiple:setNumero(self:getNumero()+1)
- 			menu_multiple:addBouton(unBouton)
+ 			menu_multiple:addButton(unButton)
 
- 			local bouton_menuSaut   = Bouton(7,"","",nil,nil,nil)
- 			local bouton_menuNext   = Bouton(8,"Next","",nil,menu_multiple,":Show","id")
-			self:getBoutons():Add(bouton_menuSaut)
-			self:getBoutons():Add(bouton_menuNext)
+ 			local bouton_menuSaut   = button(7,"","",nil,nil)
+ 			local arrayOb ={{menu_multiple,":Show","id"}}
+ 			local bouton_menuNext   = button(8,"Next","",nil,arrayOb)
+			self:getButtons():Add(bouton_menuSaut)
+			self:getButtons():Add(bouton_menuNext)
 
-
-				--new menuList
---    	    local theMenuList    = MenuList(0);
 	 		local bool = true
 	        for i=1,theMenuList:NumbersMenus() do
 	          if(titre..""..self:getNumero()+1 == theMenuList:getMenuList():Get(i):getTitre())then
@@ -87,55 +89,59 @@ function Menu:addBouton(unBouton)
 	    	         	preMenuObject = theMenuList:getMenuList():Get(i)
 	          		end
 	        	end
-				local bouton_menuPrev   = Bouton(9,"Previous","",nil,preMenuObject,":Show","id")
-			    self:getBoutons():Add(bouton_menuPrev)
+	        	local arrayOb = {{preMenuObject,":Show","id"}}
+				local bouton_menuPrev   = button(9,"Previous","",nil,arrayOb)
+			    self:getButtons():Add(bouton_menuPrev)
 			end 
-			--msg("num:" ..self:getNumero()+1)
  			
-
- 			
-	    elseif self:NumbersBoutons() > 6 then
-	    	--msg("je passe >5")
-	    	--msg(self:getTitre())
+	    elseif self:NumbersButtons() > 6 then
 	    	local number = string.match(self:getTitre(), "%d+")
  			local titre
- 			--msg(number)
  			if number ~= "" then
  				titre = string.gsub(self:getTitre(),number,"")
  			else 
  				titre = self:getTitre()
  			end
--- 			local theMenuList    = MenuList(0);
  			
 	    	for i=1,theMenuList:NumbersMenus() do
-	    		--msg(titre..self:getNumero()+1)
-	    		--msg(theMenuList:getMenuList():Get(i):getTitre())
-	    		if(titre..self:getNumero()+1 == theMenuList:getMenuList():Get(i):getTitre())then
-	    	  		theMenuList:getMenuList():Get(i):addBouton(unBouton)	
+	       		if(titre..self:getNumero()+1 == theMenuList:getMenuList():Get(i):getTitre())then
+	    	  		theMenuList:getMenuList():Get(i):addButton(unButton)	
 	    	  	
 	    	  	end 
 	    	end
  		else
-			--msg(tostring(unBouton:getValue()))
-			self:getBoutons():Add(unBouton)
-			
-			--msg(self:getTitre())
+			self:getButtons():Add(unButton)
 		end  
 end 
 
-
-function Menu:NumbersBoutons()
-	return self:getBoutons():Size()
+--[[
+	NumbersButtons(void)
+		Return the number of button this menu have.
+		>>used in "for" iterration 
+]]
+function Menu:NumbersButtons()
+	return self:getButtons():Size()
 end
+
+--[[
+	Show(int id)
+		id is the id of player
+		
+		This Show the menu to the id player. 
+]]
 function Menu:Show(id)
 	local command = ""
-		for i=1,self:NumbersBoutons() do
-	           command = command..','..self:getBoutons():Get(i):getNom()
+		for i=1,self:NumbersButtons() do
+	           command = command..','..self:getButtons():Get(i):getNom()
 	    end
 	    	command = self:getTitre()..command
 	    	menu(id,command)
 end
 
+--[[
+	tostring(void)
+		Name of the object
+]]
 function Menu:__tostring()
     return "I am a Menu"
 end
