@@ -1,0 +1,9 @@
+TODO LIST : 
+
+Functionnality : 
+-Substitute
+-GUI for all menu
+
+Bug fix : 
+-bug interface
+-bug mix in a row
