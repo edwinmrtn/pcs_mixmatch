@@ -3,6 +3,7 @@
 --print the view for the list mix
 --
 		function VIEWlistmix(id)
+			msg("je passe stp")
 					cpt = 0
 					local aimage = Image(1,"gfx/pcsmix/menu12.png",295,331,false) 
 					local aimage2 = Image(1,"gfx/pcsmix/bebemenu123.png",277,331,true)

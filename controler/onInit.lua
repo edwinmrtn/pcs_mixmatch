@@ -317,7 +317,15 @@ end
 ------------------------------------------------------------------------------------------------------
       local menu_action1 = Menu(1,"My mix")
       theMenuList:addMenu(menu_action1);
-      local bouton_info  = button(1,"Info","","menuSummary",nil)
+      local bouton_substitute  = button(1,"Substitute","","onCheckSubstitute",nil)
+      menu_action1:addButton(bouton_substitute)
+      local bouton_info  = button(2,"Info","","menuSummary",nil)
       menu_action1:addButton(bouton_info)
+
+
+      local menu_action1 = Menu(1,"Check Substitute")
+      theMenuList:addMenu(menu_action1);
+      local bouton_yes  = button(1,"Yes","","Substitute",nil)
+      menu_action1:addButton(bouton_yes)
 ------------------------------------------------------------------------------------------------------
 

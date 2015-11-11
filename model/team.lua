@@ -22,6 +22,11 @@ function Team:getName()
 end
 
 ---Getters - Setters 
+function Team:removePlayer(Player)
+    self:getPlayers():Remove(Player)
+end
+
+---Getters - Setters 
 function Team:ClearTeam()
 	self:getPlayers():Clear()
 end

@@ -53,6 +53,8 @@ dofile("sys/lua/pcs_mixmatch/controler/onleavemixes.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onlistmixes.lua")
 dofile("sys/lua/pcs_mixmatch/controler/oncreatemixbutton.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onmymix.lua")
+dofile("sys/lua/pcs_mixmatch/controler/onchecksubstitute.lua")
+dofile("sys/lua/pcs_mixmatch/controler/onsubstitute.lua")
 
 
 

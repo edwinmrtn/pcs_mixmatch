@@ -2,6 +2,16 @@ TODO LIST :
 
 Functionnality : 
 -Substitute
+---edit the main menu -> mymix -> add substitute
+---confirmation
+
+--onsubstitute
+--setspec- 
+--parse listenrengistré and add to choosedlist
+--search team in need of player
+--add player to the team 
+
+
 -GUI for all menu
 
 Bug fix : 

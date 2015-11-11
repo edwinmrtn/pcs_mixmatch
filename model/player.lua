@@ -20,6 +20,7 @@ function Player:init(Id,USGN,Rank,Name,IP)
   self.TotalDomage    = 0
   self.CreateMixArray = {}
   self.RoundsPlayed   = 0
+  self.ImageListid    = ArrayList.Create()
 end
 
 
@@ -85,6 +86,26 @@ end
 function Player:getTeam()
     return self.Team
 end
+
+---Getters - Setters 
+function Player:getImageListId()
+    return self.ImageListid
+end
+
+---Getters - Setters 
+function Player:NumberImageListid()
+    return self:getImageListId():Size()
+end
+
+---Getters - Setters 
+function Player:addImageListid(imageid)
+    self:getImageListId():Add(imageid)
+end
+
+---Getters - Setters 
+function Player:ClearImageListid()
+    self:getImageListId():Clear()
+end  
 
 ---rankCalculation
 --@param nbrPlayers nomber of player in the mix

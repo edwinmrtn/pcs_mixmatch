@@ -22,7 +22,6 @@ function Container:init(Id,image,dimx,dimy,x,y)
     self.x           = x
     self.y           = y
     self.Containers  = ArrayList.Create()
-    self.idImage     = nil
     self.idText      = nil
 end
 
@@ -55,19 +54,6 @@ function Container:setIdText(idText)
     self.idText = idText
 end
 
----getIdImage
--- get the id of the element image if exist
---@return idImage id of the element image if exist
-function Container:getIdImage()
-    return self.idImage
-end
-
----setIdImage
---set the idimage to save it
---@param idimage id returned when the image cs2d function is called
-function Container:setIdImage(idimage)
-    self.idImage = idimage
-end
 
 ---getId
 -- get the id of the container 
@@ -146,10 +132,18 @@ function Container:addElement(id,Element,cpt)
             local coefscaleX= self:getDimX()/Element:getDimX()
             local coefscaleY= self:getDimY()/Element:getDimY()
             imagescale(idimage,coefscaleX,coefscaleY)
-            self:setIdImage(idimage)
+            for i=1, aPlayerList:NumbersPlayers() do
+                if(aPlayerList:getPlayerList():Get(i):getId() == id )then
+                    aPlayerList:getPlayerList():Get(i):addImageListid(idimage)
+                end
+            end
         else
             idimage = image(Element:getPathImage(),self:getX(),self:getY(),2,id) 
-            self:setIdImage(idimage)
+            for i=1, aPlayerList:NumbersPlayers() do
+                if(aPlayerList:getPlayerList():Get(i):getId() == id )then
+                    aPlayerList:getPlayerList():Get(i):addImageListid(idimage)
+                end
+            end
         end
     else
         parse('hudtxt2 '..id..' '..cpt..' "©255255255'..Element..'" '..self:getX()..' '..self:getY()..' 0')
@@ -201,10 +195,18 @@ function Container:createLayout(id,Layout,cpt)
             local coefscaleX= self:getDimX()/self:getImage():getDimX()
             local coefscaleY= self:getDimY()/self:getImage():getDimY()
             imagescale(idimage,coefscaleX,coefscaleY)
-            self:setIdImage(idimage)
+            for i=1, aPlayerList:NumbersPlayers() do
+                if(aPlayerList:getPlayerList():Get(i):getId() == id )then
+                    aPlayerList:getPlayerList():Get(i):addImageListid(idimage)
+                end
+            end
         else
             idimage = image(self:getImage():getPathImage(),self:getX(),self:getY(),2,id)
-            self:setIdImage(idimage)
+            for i=1, aPlayerList:NumbersPlayers() do
+                if(aPlayerList:getPlayerList():Get(i):getId() == id )then
+                    aPlayerList:getPlayerList():Get(i):addImageListid(idimage)
+                end
+            end
         end
     end
     return cpte
@@ -215,21 +217,23 @@ end
 --self delete if the container is the main container 
 --@param id id of the player
 function Container:off(id)
-
+    for i=1, aPlayerList:NumbersPlayers() do
+        if(aPlayerList:getPlayerList():Get(i):getId() == id )then
+         for j=1, aPlayerList:getPlayerList():Get(i):NumberImageListid() do
+            freeimage(aPlayerList:getPlayerList():Get(i):getImageListId():Get(j))
+         end 
+          aPlayerList:getPlayerList():Get(i):ClearImageListid()
+        end
+    end
     if(self:getTitre() ~= nil)then
         aHeadContainerList:removeHeadContainer(self)
     end
     if(self:NumbersContainers()==0)then
-        if(self:getIdImage() ~= nil)then         
-            freeimage(self:getIdImage())
-        elseif(self:getIdText() ~= nil)then
+        if(self:getIdText() ~= nil)then
             parse('hudtxt2 '..id..' '..self:getIdText())
         end
     end
     for i=1, self:NumbersContainers() do
-        if(self:getIdImage() ~= nil)then 
-            freeimage(self:getIdImage())
-        end
         if(self:getIdText() ~= nil)then
             parse('hudtxt2 '..id..' '..self:getIdText())
         end

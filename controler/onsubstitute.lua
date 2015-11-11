@@ -1,0 +1,4 @@
+
+function onSubstitute(id)
+
+end
