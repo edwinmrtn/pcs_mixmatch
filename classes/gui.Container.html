@@ -1,0 +1,717 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>pcs mixmatch</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>PCS MIXMATCH</h1>
+<a href="http://cs2d.net ">
+<img src="pcslogo.png" alt="pcs logo" style="width:220px;height:120px;">
+</a>
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Methods">Methods</a></li>
+<li><a href="#Metamethods">Metamethods</a></li>
+</ul>
+
+
+<h2>Classes</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../classes/Chooseside.html">Chooseside</a></li>
+  <li><strong>GUI.Container</strong></li>
+  <li><a href="../classes/GUI.GridLayout.html">GUI.GridLayout</a></li>
+  <li><a href="../classes/GUI.HeadContainerList.html">GUI.HeadContainerList</a></li>
+  <li><a href="../classes/GUI.LinearHoriLayout.html">GUI.LinearHoriLayout</a></li>
+  <li><a href="../classes/GUI.LinearVertiLayout.html">GUI.LinearVertiLayout</a></li>
+  <li><a href="../classes/GUI.SeparateHoriLayout.html">GUI.SeparateHoriLayout</a></li>
+  <li><a href="../classes/GUI.SeparateHoriLayoutbis.html">GUI.SeparateHoriLayoutbis</a></li>
+  <li><a href="../classes/GUI.SeparateVertiLayout.html">GUI.SeparateVertiLayout</a></li>
+  <li><a href="../classes/GUI.SeparateVertiLayoutbis.html">GUI.SeparateVertiLayoutbis</a></li>
+  <li><a href="../classes/GUI.WindowsLayout.html">GUI.WindowsLayout</a></li>
+  <li><a href="../classes/Kniferound.html">Kniferound</a></li>
+  <li><a href="../classes/Button.html">Button</a></li>
+  <li><a href="../classes/Menu.html">Menu</a></li>
+  <li><a href="../classes/MenuList.html">MenuList</a></li>
+  <li><a href="../classes/Mix.html">Mix</a></li>
+  <li><a href="../classes/MixList.html">MixList</a></li>
+  <li><a href="../classes/Player.html">Player</a></li>
+  <li><a href="../classes/MixList.html">MixList</a></li>
+  <li><a href="../classes/Team.html">Team</a></li>
+</ul>
+<h2>Modules</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../modules/hooks.onEndround.html">hooks.onEndround</a></li>
+  <li><a href="../modules/hooks.onHit.html">hooks.onHit</a></li>
+  <li><a href="../modules/hooks.onJoin.html">hooks.onJoin</a></li>
+  <li><a href="../modules/hooks.onLeave.html">hooks.onLeave</a></li>
+  <li><a href="../modules/hooks.onMapchange.html">hooks.onMapchange</a></li>
+  <li><a href="../modules/hooks.onMenu.html">hooks.onMenu</a></li>
+  <li><a href="../modules/hooks.onServeraction.html">hooks.onServeraction</a></li>
+  <li><a href="../modules/hooks.onSpawn.html">hooks.onSpawn</a></li>
+  <li><a href="../modules/hooks.onStartround.html">hooks.onStartround</a></li>
+  <li><a href="../modules/controler.main.html">controler.main</a></li>
+  <li><a href="../modules/controler.oncreatemixbutton.html">controler.oncreatemixbutton</a></li>
+  <li><a href="../modules/controler.oninit.html">controler.oninit</a></li>
+  <li><a href="../modules/controler.onleavemixes.html">controler.onleavemixes</a></li>
+  <li><a href="../modules/controler.onlistmixes.html">controler.onlistmixes</a></li>
+  <li><a href="../modules/controler.onmymix.html">controler.onmymix</a></li>
+  <li><a href="../modules/controler.onregistermixes.html">controler.onregistermixes</a></li>
+  <li><a href="../modules/model.libraries.object.html">model.libraries.object</a></li>
+  <li><a href="../modules/model.libraries.table.html">model.libraries.table</a></li>
+  <li><a href="../modules/VIEW.listmix.html">VIEW.listmix</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Class <code>GUI.Container</code></h1>
+<p></p>
+<p></p>
+
+
+<h2><a href="#Methods">Methods</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:init">GUI.Container:init (id, image, dimx, diny, x, y)</a></td>
+	<td class="summary">Constructors</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:getTitre">GUI.Container:getTitre ()</a></td>
+	<td class="summary">getTitre
+ a container have a title only if it's the main container</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:setTitre">GUI.Container:setTitre (titre)</a></td>
+	<td class="summary">setTitre
+set the title of the container</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:getIdText">GUI.Container:getIdText ()</a></td>
+	<td class="summary">getIdText
+ get the id of the element text if exist</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:setIdText">GUI.Container:setIdText (idText)</a></td>
+	<td class="summary">setIdText
+ set the id of the used text in the container</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:getIdImage">GUI.Container:getIdImage ()</a></td>
+	<td class="summary">getIdImage
+ get the id of the element image if exist</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:setIdImage">GUI.Container:setIdImage (idimage)</a></td>
+	<td class="summary">setIdImage
+set the idimage to save it</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:getId">GUI.Container:getId ()</a></td>
+	<td class="summary">getId
+ get the id of the container</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:getImage">GUI.Container:getImage ()</a></td>
+	<td class="summary">getImage
+ get the image of the container - can be nil</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:getDimX">GUI.Container:getDimX ()</a></td>
+	<td class="summary">getDimX
+ get the width of the container</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:getDimY">GUI.Container:getDimY ()</a></td>
+	<td class="summary">getDimY
+get the height of the container</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:getX">GUI.Container:getX ()</a></td>
+	<td class="summary">getX
+get the horizontal position of cursor</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:getY">GUI.Container:getY ()</a></td>
+	<td class="summary">getY
+get the vertical position of cursor</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:getContainers">GUI.Container:getContainers ()</a></td>
+	<td class="summary">getContainers
+get the list of all container inside this container</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:setContainers">GUI.Container:setContainers (Container)</a></td>
+	<td class="summary">setContainers
+get a list of containers inside this container</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:NumbersContainers">GUI.Container:NumbersContainers ()</a></td>
+	<td class="summary">NumbersContainers
+get the the number of contrainers this container have</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:addElement">GUI.Container:addElement (id, Element, cpt)</a></td>
+	<td class="summary">addElement
+add an element inside the container, this element can be an image or a text</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:coorYtitle">GUI.Container:coorYtitle ()</a></td>
+	<td class="summary">coorYtitle
+calcul the coordonate Y of the title - if there are a title</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:coorXtitle">GUI.Container:coorXtitle ()</a></td>
+	<td class="summary">coorXtitle
+calcul the coordonate X of the title - if there are a title</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:NumbersElements">GUI.Container:NumbersElements ()</a></td>
+	<td class="summary">NumbersElements
+get the number of elements this container have - note- should/must be == 1</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:createLayout">GUI.Container:createLayout (id, Layout, cpt)</a></td>
+	<td class="summary">createLayout
+create containers from layout passed in parametters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:off">GUI.Container:off (id)</a></td>
+	<td class="summary">off
+recursively delete all the elements from the differents container
+self delete if the container is the main container</td>
+	</tr>
+</table>
+<h2><a href="#Metamethods">Metamethods</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#GUI.Container:__tostring">GUI.Container:__tostring ()</a></td>
+	<td class="summary">__tostring
+simple basic to string function</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2><a name="Methods"></a>Methods</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "GUI.Container:init"></a>
+    <strong>GUI.Container:init (id, image, dimx, diny, x, y)</strong>
+    </dt>
+    <dd>
+    Constructors
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">id</span>
+         id of the container
+        </li>
+        <li><span class="parameter">image</span>
+         object image
+        </li>
+        <li><span class="parameter">dimx</span>
+          width of the container
+        </li>
+        <li><span class="parameter">diny</span>
+          height of the container
+        </li>
+        <li><span class="parameter">x</span>
+         horizontal position in pixel of the corner up left of the contaier
+        </li>
+        <li><span class="parameter">y</span>
+         vertical position in pixel of the corner up left of the contaier
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:getTitre"></a>
+    <strong>GUI.Container:getTitre ()</strong>
+    </dt>
+    <dd>
+    getTitre
+ a container have a title only if it's the main container
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        Titre title of the container - can be nil
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:setTitre"></a>
+    <strong>GUI.Container:setTitre (titre)</strong>
+    </dt>
+    <dd>
+    setTitre
+set the title of the container
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">titre</span>
+         the title of the container
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:getIdText"></a>
+    <strong>GUI.Container:getIdText ()</strong>
+    </dt>
+    <dd>
+    getIdText
+ get the id of the element text if exist
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        idText id of the element text if exist
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:setIdText"></a>
+    <strong>GUI.Container:setIdText (idText)</strong>
+    </dt>
+    <dd>
+    setIdText
+ set the id of the used text in the container
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">idText</span>
+         the id of the used text in the container
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:getIdImage"></a>
+    <strong>GUI.Container:getIdImage ()</strong>
+    </dt>
+    <dd>
+    getIdImage
+ get the id of the element image if exist
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        idImage id of the element image if exist
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:setIdImage"></a>
+    <strong>GUI.Container:setIdImage (idimage)</strong>
+    </dt>
+    <dd>
+    setIdImage
+set the idimage to save it
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">idimage</span>
+         id returned when the image cs2d function is called
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:getId"></a>
+    <strong>GUI.Container:getId ()</strong>
+    </dt>
+    <dd>
+    getId
+ get the id of the container
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        Id id of the container
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:getImage"></a>
+    <strong>GUI.Container:getImage ()</strong>
+    </dt>
+    <dd>
+    getImage
+ get the image of the container - can be nil
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        Image Image object
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:getDimX"></a>
+    <strong>GUI.Container:getDimX ()</strong>
+    </dt>
+    <dd>
+    getDimX
+ get the width of the container
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        dimx width of the container
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:getDimY"></a>
+    <strong>GUI.Container:getDimY ()</strong>
+    </dt>
+    <dd>
+    getDimY
+get the height of the container
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        dimy height container
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:getX"></a>
+    <strong>GUI.Container:getX ()</strong>
+    </dt>
+    <dd>
+    getX
+get the horizontal position of cursor
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        x position of cursor x
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:getY"></a>
+    <strong>GUI.Container:getY ()</strong>
+    </dt>
+    <dd>
+    getY
+get the vertical position of cursor
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        y position of cursor y
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:getContainers"></a>
+    <strong>GUI.Container:getContainers ()</strong>
+    </dt>
+    <dd>
+    getContainers
+get the list of all container inside this container
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        Containers
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:setContainers"></a>
+    <strong>GUI.Container:setContainers (Container)</strong>
+    </dt>
+    <dd>
+    setContainers
+get a list of containers inside this container
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">Container</span>
+
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:NumbersContainers"></a>
+    <strong>GUI.Container:NumbersContainers ()</strong>
+    </dt>
+    <dd>
+    NumbersContainers
+get the the number of contrainers this container have
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        the number of contrainers this container have
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:addElement"></a>
+    <strong>GUI.Container:addElement (id, Element, cpt)</strong>
+    </dt>
+    <dd>
+    addElement
+add an element inside the container, this element can be an image or a text
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">id</span>
+         id of the player
+        </li>
+        <li><span class="parameter">Element</span>
+
+        </li>
+        <li><span class="parameter">cpt</span>
+
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:coorYtitle"></a>
+    <strong>GUI.Container:coorYtitle ()</strong>
+    </dt>
+    <dd>
+    coorYtitle
+calcul the coordonate Y of the title - if there are a title
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:coorXtitle"></a>
+    <strong>GUI.Container:coorXtitle ()</strong>
+    </dt>
+    <dd>
+    coorXtitle
+calcul the coordonate X of the title - if there are a title
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:NumbersElements"></a>
+    <strong>GUI.Container:NumbersElements ()</strong>
+    </dt>
+    <dd>
+    NumbersElements
+get the number of elements this container have - note- should/must be == 1
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:createLayout"></a>
+    <strong>GUI.Container:createLayout (id, Layout, cpt)</strong>
+    </dt>
+    <dd>
+    createLayout
+create containers from layout passed in parametters
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">id</span>
+         id of the player
+        </li>
+        <li><span class="parameter">Layout</span>
+         object layout
+        </li>
+        <li><span class="parameter">cpt</span>
+         cpt is idtext
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.Container:off"></a>
+    <strong>GUI.Container:off (id)</strong>
+    </dt>
+    <dd>
+    off
+recursively delete all the elements from the differents container
+self delete if the container is the main container
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">id</span>
+         id of the player
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+</dl>
+    <h2><a name="Metamethods"></a>Metamethods</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "GUI.Container:__tostring"></a>
+    <strong>GUI.Container:__tostring ()</strong>
+    </dt>
+    <dd>
+    __tostring
+simple basic to string function
+
+
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.3</a></i>
+<i style="float:right;">Last updated 2015-11-11 13:48:25 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

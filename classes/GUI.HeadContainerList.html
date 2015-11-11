@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>pcs mixmatch</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>PCS MIXMATCH</h1>
+<a href="http://cs2d.net ">
+<img src="pcslogo.png" alt="pcs logo" style="width:220px;height:120px;">
+</a>
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Methods">Methods</a></li>
+</ul>
+
+
+<h2>Classes</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../classes/Chooseside.html">Chooseside</a></li>
+  <li><a href="../classes/GUI.Container.html">GUI.Container</a></li>
+  <li><a href="../classes/GUI.GridLayout.html">GUI.GridLayout</a></li>
+  <li><strong>GUI.HeadContainerList</strong></li>
+  <li><a href="../classes/GUI.LinearHoriLayout.html">GUI.LinearHoriLayout</a></li>
+  <li><a href="../classes/GUI.LinearVertiLayout.html">GUI.LinearVertiLayout</a></li>
+  <li><a href="../classes/GUI.SeparateHoriLayout.html">GUI.SeparateHoriLayout</a></li>
+  <li><a href="../classes/GUI.SeparateHoriLayoutbis.html">GUI.SeparateHoriLayoutbis</a></li>
+  <li><a href="../classes/GUI.SeparateVertiLayout.html">GUI.SeparateVertiLayout</a></li>
+  <li><a href="../classes/GUI.SeparateVertiLayoutbis.html">GUI.SeparateVertiLayoutbis</a></li>
+  <li><a href="../classes/GUI.WindowsLayout.html">GUI.WindowsLayout</a></li>
+  <li><a href="../classes/Kniferound.html">Kniferound</a></li>
+  <li><a href="../classes/Button.html">Button</a></li>
+  <li><a href="../classes/Menu.html">Menu</a></li>
+  <li><a href="../classes/MenuList.html">MenuList</a></li>
+  <li><a href="../classes/Mix.html">Mix</a></li>
+  <li><a href="../classes/MixList.html">MixList</a></li>
+  <li><a href="../classes/Player.html">Player</a></li>
+  <li><a href="../classes/MixList.html">MixList</a></li>
+  <li><a href="../classes/Team.html">Team</a></li>
+</ul>
+<h2>Modules</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../modules/hooks.onEndround.html">hooks.onEndround</a></li>
+  <li><a href="../modules/hooks.onHit.html">hooks.onHit</a></li>
+  <li><a href="../modules/hooks.onJoin.html">hooks.onJoin</a></li>
+  <li><a href="../modules/hooks.onLeave.html">hooks.onLeave</a></li>
+  <li><a href="../modules/hooks.onMapchange.html">hooks.onMapchange</a></li>
+  <li><a href="../modules/hooks.onMenu.html">hooks.onMenu</a></li>
+  <li><a href="../modules/hooks.onServeraction.html">hooks.onServeraction</a></li>
+  <li><a href="../modules/hooks.onSpawn.html">hooks.onSpawn</a></li>
+  <li><a href="../modules/hooks.onStartround.html">hooks.onStartround</a></li>
+  <li><a href="../modules/controler.main.html">controler.main</a></li>
+  <li><a href="../modules/controler.oncreatemixbutton.html">controler.oncreatemixbutton</a></li>
+  <li><a href="../modules/controler.oninit.html">controler.oninit</a></li>
+  <li><a href="../modules/controler.onleavemixes.html">controler.onleavemixes</a></li>
+  <li><a href="../modules/controler.onlistmixes.html">controler.onlistmixes</a></li>
+  <li><a href="../modules/controler.onmymix.html">controler.onmymix</a></li>
+  <li><a href="../modules/controler.onregistermixes.html">controler.onregistermixes</a></li>
+  <li><a href="../modules/model.libraries.object.html">model.libraries.object</a></li>
+  <li><a href="../modules/model.libraries.table.html">model.libraries.table</a></li>
+  <li><a href="../modules/VIEW.listmix.html">VIEW.listmix</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Class <code>GUI.HeadContainerList</code></h1>
+<p></p>
+<p></p>
+
+
+<h2><a href="#Methods">Methods</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#GUI.HeadContainerList:init">GUI.HeadContainerList:init (id)</a></td>
+	<td class="summary">Constructors</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.HeadContainerList:getId">GUI.HeadContainerList:getId ()</a></td>
+	<td class="summary">getId
+ get id of the list</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.HeadContainerList:getHeadContainerList">GUI.HeadContainerList:getHeadContainerList ()</a></td>
+	<td class="summary">getHeadContainerList
+ get the global list</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.HeadContainerList:addHeadContainer">GUI.HeadContainerList:addHeadContainer (HeadContainer)</a></td>
+	<td class="summary">addHeadContainer
+ add a main container to the list</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.HeadContainerList:removeHeadContainer">GUI.HeadContainerList:removeHeadContainer (HeadContainer)</a></td>
+	<td class="summary">removeHeadContainer
+ remove a main container to the list</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.HeadContainerList:NumbersHeadContainers">GUI.HeadContainerList:NumbersHeadContainers ()</a></td>
+	<td class="summary">NumbersHeadContainers
+ get the number of headcontainer the list contains</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GUI.HeadContainerList:exist">GUI.HeadContainerList:exist (title)</a></td>
+	<td class="summary">exist</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2><a name="Methods"></a>Methods</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "GUI.HeadContainerList:init"></a>
+    <strong>GUI.HeadContainerList:init (id)</strong>
+    </dt>
+    <dd>
+    Constructors
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">id</span>
+         id of the list container
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.HeadContainerList:getId"></a>
+    <strong>GUI.HeadContainerList:getId ()</strong>
+    </dt>
+    <dd>
+    getId
+ get id of the list
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        id of the list
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.HeadContainerList:getHeadContainerList"></a>
+    <strong>GUI.HeadContainerList:getHeadContainerList ()</strong>
+    </dt>
+    <dd>
+    getHeadContainerList
+ get the global list
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        the global list
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.HeadContainerList:addHeadContainer"></a>
+    <strong>GUI.HeadContainerList:addHeadContainer (HeadContainer)</strong>
+    </dt>
+    <dd>
+    addHeadContainer
+ add a main container to the list
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">HeadContainer</span>
+         add a main container to the list
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.HeadContainerList:removeHeadContainer"></a>
+    <strong>GUI.HeadContainerList:removeHeadContainer (HeadContainer)</strong>
+    </dt>
+    <dd>
+    removeHeadContainer
+ remove a main container to the list
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">HeadContainer</span>
+         remove a main container to the list
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.HeadContainerList:NumbersHeadContainers"></a>
+    <strong>GUI.HeadContainerList:NumbersHeadContainers ()</strong>
+    </dt>
+    <dd>
+    NumbersHeadContainers
+ get the number of headcontainer the list contains
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        the number of headcontainer the list contains
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GUI.HeadContainerList:exist"></a>
+    <strong>GUI.HeadContainerList:exist (title)</strong>
+    </dt>
+    <dd>
+    exist
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">title</span>
+
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.3</a></i>
+<i style="float:right;">Last updated 2015-11-11 13:48:25 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

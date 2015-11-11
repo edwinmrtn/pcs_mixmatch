@@ -1,0 +1,391 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>pcs mixmatch</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>PCS MIXMATCH</h1>
+<a href="http://cs2d.net ">
+<img src="pcslogo.png" alt="pcs logo" style="width:220px;height:120px;">
+</a>
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+</ul>
+
+
+<h2>Modules</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../modules/hooks.onEndround.html">hooks.onEndround</a></li>
+  <li><a href="../modules/hooks.onHit.html">hooks.onHit</a></li>
+  <li><a href="../modules/hooks.onJoin.html">hooks.onJoin</a></li>
+  <li><a href="../modules/hooks.onLeave.html">hooks.onLeave</a></li>
+  <li><a href="../modules/hooks.onMapchange.html">hooks.onMapchange</a></li>
+  <li><a href="../modules/hooks.onMenu.html">hooks.onMenu</a></li>
+  <li><a href="../modules/hooks.onServeraction.html">hooks.onServeraction</a></li>
+  <li><a href="../modules/hooks.onSpawn.html">hooks.onSpawn</a></li>
+  <li><a href="../modules/hooks.onStartround.html">hooks.onStartround</a></li>
+  <li><a href="../modules/controler.main.html">controler.main</a></li>
+  <li><strong>controler.oncreatemixbutton</strong></li>
+  <li><a href="../modules/controler.oninit.html">controler.oninit</a></li>
+  <li><a href="../modules/controler.onleavemixes.html">controler.onleavemixes</a></li>
+  <li><a href="../modules/controler.onlistmixes.html">controler.onlistmixes</a></li>
+  <li><a href="../modules/controler.onmymix.html">controler.onmymix</a></li>
+  <li><a href="../modules/controler.onregistermixes.html">controler.onregistermixes</a></li>
+  <li><a href="../modules/model.libraries.object.html">model.libraries.object</a></li>
+  <li><a href="../modules/model.libraries.table.html">model.libraries.table</a></li>
+  <li><a href="../modules/VIEW.listmix.html">VIEW.listmix</a></li>
+</ul>
+<h2>Classes</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../classes/Chooseside.html">Chooseside</a></li>
+  <li><a href="../classes/GUI.Container.html">GUI.Container</a></li>
+  <li><a href="../classes/GUI.GridLayout.html">GUI.GridLayout</a></li>
+  <li><a href="../classes/GUI.HeadContainerList.html">GUI.HeadContainerList</a></li>
+  <li><a href="../classes/GUI.LinearHoriLayout.html">GUI.LinearHoriLayout</a></li>
+  <li><a href="../classes/GUI.LinearVertiLayout.html">GUI.LinearVertiLayout</a></li>
+  <li><a href="../classes/GUI.SeparateHoriLayout.html">GUI.SeparateHoriLayout</a></li>
+  <li><a href="../classes/GUI.SeparateHoriLayoutbis.html">GUI.SeparateHoriLayoutbis</a></li>
+  <li><a href="../classes/GUI.SeparateVertiLayout.html">GUI.SeparateVertiLayout</a></li>
+  <li><a href="../classes/GUI.SeparateVertiLayoutbis.html">GUI.SeparateVertiLayoutbis</a></li>
+  <li><a href="../classes/GUI.WindowsLayout.html">GUI.WindowsLayout</a></li>
+  <li><a href="../classes/Kniferound.html">Kniferound</a></li>
+  <li><a href="../classes/Button.html">Button</a></li>
+  <li><a href="../classes/Menu.html">Menu</a></li>
+  <li><a href="../classes/MenuList.html">MenuList</a></li>
+  <li><a href="../classes/Mix.html">Mix</a></li>
+  <li><a href="../classes/MixList.html">MixList</a></li>
+  <li><a href="../classes/Player.html">Player</a></li>
+  <li><a href="../classes/MixList.html">MixList</a></li>
+  <li><a href="../classes/Team.html">Team</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Module <code>controler.oncreatemixbutton</code></h1>
+<p>Event on the "createmix" button from main menu</p>
+<p>Does print 5 differents menu to get different info
+ from the user about the mix he wants to create
+<p></p>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#onCreateMixButton">onCreateMixButton (id)</a></td>
+	<td class="summary">onCreateMixButton
+call the Menu rounds</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#menuUIRounds">menuUIRounds (id)</a></td>
+	<td class="summary">menuUIRounds
+show the Menu rounds
+call the menu number of player and send the info of the rounds</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#menuUINumberPlayer">menuUINumberPlayer (id, idbutton, object)</a></td>
+	<td class="summary">menuUINumberPlayer
+show the Menu Number Player
+save the info of rounds, get the info of the number of player
+and call the Menu Map</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#menuUIMap">menuUIMap (id, idbutton, object)</a></td>
+	<td class="summary">menuUIMap
+show the Menu Map
+save the info of Number of player, get the info of the Map
+and call the Menu Till end</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#menuUITillEnd">menuUITillEnd (id, idbutton, object)</a></td>
+	<td class="summary">menuUITillEnd
+show the Menu till end
+save the info of Map, get the info for a till end mix
+and call the Menu Knife round</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#menuUIKnifeRound">menuUIKnifeRound (id, idbutton, object)</a></td>
+	<td class="summary">menuUIKnifeRound
+show the Menu Knife round
+save the info for till end, get the info for the kniferound
+and call the Menu Summary</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#menuSummary">menuSummary (id, idbutton, object)</a></td>
+	<td class="summary">menuSummary
+show the Menu Summary
+save the info for kniferound, wait the user approve his choices
+call the function to create the mix</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#CreateTheMix">CreateTheMix (id, idbutton, object)</a></td>
+	<td class="summary">CreateTheMix
+create the mix
+get all the different info setted by the user about the mix
+and create the mix</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2><a name="Functions"></a>Functions</h2>
+    Methods
+    <dl class="function">
+    <dt>
+    <a name = "onCreateMixButton"></a>
+    <strong>onCreateMixButton (id)</strong>
+    </dt>
+    <dd>
+    onCreateMixButton
+call the Menu rounds
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">id</span>
+         of the player
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "menuUIRounds"></a>
+    <strong>menuUIRounds (id)</strong>
+    </dt>
+    <dd>
+    menuUIRounds
+show the Menu rounds
+call the menu number of player and send the info of the rounds
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">id</span>
+         of the player
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "menuUINumberPlayer"></a>
+    <strong>menuUINumberPlayer (id, idbutton, object)</strong>
+    </dt>
+    <dd>
+    menuUINumberPlayer
+show the Menu Number Player
+save the info of rounds, get the info of the number of player
+and call the Menu Map
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">id</span>
+         of the player
+        </li>
+        <li><span class="parameter">idbutton</span>
+         the button id pressed from the previus menu
+        </li>
+        <li><span class="parameter">object</span>
+         the previus menu
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "menuUIMap"></a>
+    <strong>menuUIMap (id, idbutton, object)</strong>
+    </dt>
+    <dd>
+    menuUIMap
+show the Menu Map
+save the info of Number of player, get the info of the Map
+and call the Menu Till end
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">id</span>
+         of the player
+        </li>
+        <li><span class="parameter">idbutton</span>
+         the button id pressed from the previus menu
+        </li>
+        <li><span class="parameter">object</span>
+         the previus menu
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "menuUITillEnd"></a>
+    <strong>menuUITillEnd (id, idbutton, object)</strong>
+    </dt>
+    <dd>
+    menuUITillEnd
+show the Menu till end
+save the info of Map, get the info for a till end mix
+and call the Menu Knife round
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">id</span>
+         of the player
+        </li>
+        <li><span class="parameter">idbutton</span>
+         the button id pressed from the previus menu
+        </li>
+        <li><span class="parameter">object</span>
+         the previus menu
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "menuUIKnifeRound"></a>
+    <strong>menuUIKnifeRound (id, idbutton, object)</strong>
+    </dt>
+    <dd>
+    menuUIKnifeRound
+show the Menu Knife round
+save the info for till end, get the info for the kniferound
+and call the Menu Summary
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">id</span>
+         of the player
+        </li>
+        <li><span class="parameter">idbutton</span>
+         the button id pressed from the previus menu
+        </li>
+        <li><span class="parameter">object</span>
+         the previus menu
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "menuSummary"></a>
+    <strong>menuSummary (id, idbutton, object)</strong>
+    </dt>
+    <dd>
+    menuSummary
+show the Menu Summary
+save the info for kniferound, wait the user approve his choices
+call the function to create the mix
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">id</span>
+         of the player
+        </li>
+        <li><span class="parameter">idbutton</span>
+         the button id pressed from the previus menu
+        </li>
+        <li><span class="parameter">object</span>
+         the previus menu
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "CreateTheMix"></a>
+    <strong>CreateTheMix (id, idbutton, object)</strong>
+    </dt>
+    <dd>
+    CreateTheMix
+create the mix
+get all the different info setted by the user about the mix
+and create the mix
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">id</span>
+         of the player
+        </li>
+        <li><span class="parameter">idbutton</span>
+         the button id pressed from the previus menu
+        </li>
+        <li><span class="parameter">object</span>
+         the previus menu
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.3</a></i>
+<i style="float:right;">Last updated 2015-11-11 13:48:25 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

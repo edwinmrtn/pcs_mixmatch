@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>pcs mixmatch</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>PCS MIXMATCH</h1>
+<a href="http://cs2d.net ">
+<img src="pcslogo.png" alt="pcs logo" style="width:220px;height:120px;">
+</a>
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+</ul>
+
+
+<h2>Modules</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><strong>hooks.onEndround</strong></li>
+  <li><a href="../modules/hooks.onHit.html">hooks.onHit</a></li>
+  <li><a href="../modules/hooks.onJoin.html">hooks.onJoin</a></li>
+  <li><a href="../modules/hooks.onLeave.html">hooks.onLeave</a></li>
+  <li><a href="../modules/hooks.onMapchange.html">hooks.onMapchange</a></li>
+  <li><a href="../modules/hooks.onMenu.html">hooks.onMenu</a></li>
+  <li><a href="../modules/hooks.onServeraction.html">hooks.onServeraction</a></li>
+  <li><a href="../modules/hooks.onSpawn.html">hooks.onSpawn</a></li>
+  <li><a href="../modules/hooks.onStartround.html">hooks.onStartround</a></li>
+  <li><a href="../modules/controler.main.html">controler.main</a></li>
+  <li><a href="../modules/controler.oncreatemixbutton.html">controler.oncreatemixbutton</a></li>
+  <li><a href="../modules/controler.oninit.html">controler.oninit</a></li>
+  <li><a href="../modules/controler.onleavemixes.html">controler.onleavemixes</a></li>
+  <li><a href="../modules/controler.onlistmixes.html">controler.onlistmixes</a></li>
+  <li><a href="../modules/controler.onmymix.html">controler.onmymix</a></li>
+  <li><a href="../modules/controler.onregistermixes.html">controler.onregistermixes</a></li>
+  <li><a href="../modules/model.libraries.object.html">model.libraries.object</a></li>
+  <li><a href="../modules/model.libraries.table.html">model.libraries.table</a></li>
+  <li><a href="../modules/VIEW.listmix.html">VIEW.listmix</a></li>
+</ul>
+<h2>Classes</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../classes/Chooseside.html">Chooseside</a></li>
+  <li><a href="../classes/GUI.Container.html">GUI.Container</a></li>
+  <li><a href="../classes/GUI.GridLayout.html">GUI.GridLayout</a></li>
+  <li><a href="../classes/GUI.HeadContainerList.html">GUI.HeadContainerList</a></li>
+  <li><a href="../classes/GUI.LinearHoriLayout.html">GUI.LinearHoriLayout</a></li>
+  <li><a href="../classes/GUI.LinearVertiLayout.html">GUI.LinearVertiLayout</a></li>
+  <li><a href="../classes/GUI.SeparateHoriLayout.html">GUI.SeparateHoriLayout</a></li>
+  <li><a href="../classes/GUI.SeparateHoriLayoutbis.html">GUI.SeparateHoriLayoutbis</a></li>
+  <li><a href="../classes/GUI.SeparateVertiLayout.html">GUI.SeparateVertiLayout</a></li>
+  <li><a href="../classes/GUI.SeparateVertiLayoutbis.html">GUI.SeparateVertiLayoutbis</a></li>
+  <li><a href="../classes/GUI.WindowsLayout.html">GUI.WindowsLayout</a></li>
+  <li><a href="../classes/Kniferound.html">Kniferound</a></li>
+  <li><a href="../classes/Button.html">Button</a></li>
+  <li><a href="../classes/Menu.html">Menu</a></li>
+  <li><a href="../classes/MenuList.html">MenuList</a></li>
+  <li><a href="../classes/Mix.html">Mix</a></li>
+  <li><a href="../classes/MixList.html">MixList</a></li>
+  <li><a href="../classes/Player.html">Player</a></li>
+  <li><a href="../classes/MixList.html">MixList</a></li>
+  <li><a href="../classes/Team.html">Team</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Module <code>hooks.onEndround</code></h1>
+<p>Executed script every endround</p>
+<p></p>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#initRoundPlayed">initRoundPlayed ()</a></td>
+	<td class="summary">initRoundPlayed
+set the nomber of round played for all player to 0</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#setRoundPlayed">setRoundPlayed (num)</a></td>
+	<td class="summary">setRoundPlayed
+set the nomber of round played for all player to num</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#addRoundPlayed">addRoundPlayed ()</a></td>
+	<td class="summary">addRoundPlayed
+add a round for all player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#removeRoundPlayed">removeRoundPlayed ()</a></td>
+	<td class="summary">removeRoundPlayed
+remove a round for all player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#onEndround">onEndround (mode)</a></td>
+	<td class="summary">onEndround
+main script called on end round</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#scoremvp">scoremvp (mode)</a></td>
+	<td class="summary">scoremvp
+print the number domage made from all player</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2><a name="Functions"></a>Functions</h2>
+    Methods
+    <dl class="function">
+    <dt>
+    <a name = "initRoundPlayed"></a>
+    <strong>initRoundPlayed ()</strong>
+    </dt>
+    <dd>
+    initRoundPlayed
+set the nomber of round played for all player to 0
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "setRoundPlayed"></a>
+    <strong>setRoundPlayed (num)</strong>
+    </dt>
+    <dd>
+    setRoundPlayed
+set the nomber of round played for all player to num
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">num</span>
+         nomber of round played
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "addRoundPlayed"></a>
+    <strong>addRoundPlayed ()</strong>
+    </dt>
+    <dd>
+    addRoundPlayed
+add a round for all player
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "removeRoundPlayed"></a>
+    <strong>removeRoundPlayed ()</strong>
+    </dt>
+    <dd>
+    removeRoundPlayed
+remove a round for all player
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "onEndround"></a>
+    <strong>onEndround (mode)</strong>
+    </dt>
+    <dd>
+    onEndround
+main script called on end round
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">mode</span>
+         defined how the previews rounds have been won.
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "scoremvp"></a>
+    <strong>scoremvp (mode)</strong>
+    </dt>
+    <dd>
+    scoremvp
+print the number domage made from all player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">mode</span>
+         defined how the previews rounds have been won.
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.3</a></i>
+<i style="float:right;">Last updated 2015-11-11 13:48:25 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

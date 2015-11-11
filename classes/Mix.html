@@ -1,0 +1,773 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>pcs mixmatch</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>PCS MIXMATCH</h1>
+<a href="http://cs2d.net ">
+<img src="pcslogo.png" alt="pcs logo" style="width:220px;height:120px;">
+</a>
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Methods">Methods</a></li>
+</ul>
+
+
+<h2>Classes</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../classes/Chooseside.html">Chooseside</a></li>
+  <li><a href="../classes/GUI.Container.html">GUI.Container</a></li>
+  <li><a href="../classes/GUI.GridLayout.html">GUI.GridLayout</a></li>
+  <li><a href="../classes/GUI.HeadContainerList.html">GUI.HeadContainerList</a></li>
+  <li><a href="../classes/GUI.LinearHoriLayout.html">GUI.LinearHoriLayout</a></li>
+  <li><a href="../classes/GUI.LinearVertiLayout.html">GUI.LinearVertiLayout</a></li>
+  <li><a href="../classes/GUI.SeparateHoriLayout.html">GUI.SeparateHoriLayout</a></li>
+  <li><a href="../classes/GUI.SeparateHoriLayoutbis.html">GUI.SeparateHoriLayoutbis</a></li>
+  <li><a href="../classes/GUI.SeparateVertiLayout.html">GUI.SeparateVertiLayout</a></li>
+  <li><a href="../classes/GUI.SeparateVertiLayoutbis.html">GUI.SeparateVertiLayoutbis</a></li>
+  <li><a href="../classes/GUI.WindowsLayout.html">GUI.WindowsLayout</a></li>
+  <li><a href="../classes/Kniferound.html">Kniferound</a></li>
+  <li><a href="../classes/Button.html">Button</a></li>
+  <li><a href="../classes/Menu.html">Menu</a></li>
+  <li><a href="../classes/MenuList.html">MenuList</a></li>
+  <li><strong>Mix</strong></li>
+  <li><a href="../classes/MixList.html">MixList</a></li>
+  <li><a href="../classes/Player.html">Player</a></li>
+  <li><a href="../classes/MixList.html">MixList</a></li>
+  <li><a href="../classes/Team.html">Team</a></li>
+</ul>
+<h2>Modules</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="../modules/hooks.onEndround.html">hooks.onEndround</a></li>
+  <li><a href="../modules/hooks.onHit.html">hooks.onHit</a></li>
+  <li><a href="../modules/hooks.onJoin.html">hooks.onJoin</a></li>
+  <li><a href="../modules/hooks.onLeave.html">hooks.onLeave</a></li>
+  <li><a href="../modules/hooks.onMapchange.html">hooks.onMapchange</a></li>
+  <li><a href="../modules/hooks.onMenu.html">hooks.onMenu</a></li>
+  <li><a href="../modules/hooks.onServeraction.html">hooks.onServeraction</a></li>
+  <li><a href="../modules/hooks.onSpawn.html">hooks.onSpawn</a></li>
+  <li><a href="../modules/hooks.onStartround.html">hooks.onStartround</a></li>
+  <li><a href="../modules/controler.main.html">controler.main</a></li>
+  <li><a href="../modules/controler.oncreatemixbutton.html">controler.oncreatemixbutton</a></li>
+  <li><a href="../modules/controler.oninit.html">controler.oninit</a></li>
+  <li><a href="../modules/controler.onleavemixes.html">controler.onleavemixes</a></li>
+  <li><a href="../modules/controler.onlistmixes.html">controler.onlistmixes</a></li>
+  <li><a href="../modules/controler.onmymix.html">controler.onmymix</a></li>
+  <li><a href="../modules/controler.onregistermixes.html">controler.onregistermixes</a></li>
+  <li><a href="../modules/model.libraries.object.html">model.libraries.object</a></li>
+  <li><a href="../modules/model.libraries.table.html">model.libraries.table</a></li>
+  <li><a href="../modules/VIEW.listmix.html">VIEW.listmix</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Class <code>Mix</code></h1>
+<p>Class Mix</p>
+<p></p>
+
+
+<h2><a href="#Methods">Methods</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#Mix:init">Mix:init (id, Rounds, NomberPlayers, Map, TillEnd, KnifeRound)</a></td>
+	<td class="summary">Constructors</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:getState">Mix:getState ()</a></td>
+	<td class="summary">Getters - Setters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:getRegistPlayers">Mix:getRegistPlayers ()</a></td>
+	<td class="summary">Getters - Setters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:getNumberRegist">Mix:getNumberRegist ()</a></td>
+	<td class="summary">Getters - Setters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:addRegistPlayer">Mix:addRegistPlayer (Player)</a></td>
+	<td class="summary">addRegistPlayer
+add a player to the registrated list</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:existPlayerRegist">Mix:existPlayerRegist (Player)</a></td>
+	<td class="summary">existPlayerRegist
+ check if the player is in the registrated list</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:getPlayerRegist">Mix:getPlayerRegist (Player)</a></td>
+	<td class="summary">getPlayerRegist
+get the player in the registrated list</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:checkStartMix">Mix:checkStartMix ()</a></td>
+	<td class="summary">checkStartMix
+check if the mix can be started</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:removeRegistPlayer">Mix:removeRegistPlayer (Player)</a></td>
+	<td class="summary">removeRegistPlayer
+remove the player in the registrated list</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:getObjectKniferound">Mix:getObjectKniferound ()</a></td>
+	<td class="summary">Getters - Setters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:getObjectChooseside">Mix:getObjectChooseside ()</a></td>
+	<td class="summary">Getters - Setters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:setState">Mix:setState (state)</a></td>
+	<td class="summary">Getters - Setters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:getcptRounds">Mix:getcptRounds ()</a></td>
+	<td class="summary">Getters - Setters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:setcptRounds">Mix:setcptRounds (cptRounds)</a></td>
+	<td class="summary">Getters - Setters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:getRounds">Mix:getRounds ()</a></td>
+	<td class="summary">Getters - Setters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:getNomberPlayers">Mix:getNomberPlayers ()</a></td>
+	<td class="summary">Getters - Setters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:getMap">Mix:getMap ()</a></td>
+	<td class="summary">Getters - Setters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:getTillEnd">Mix:getTillEnd ()</a></td>
+	<td class="summary">Getters - Setters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:getKnifeRound">Mix:getKnifeRound ()</a></td>
+	<td class="summary">Getters - Setters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:getTeams">Mix:getTeams ()</a></td>
+	<td class="summary">Getters - Setters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:addTeam">Mix:addTeam (Team)</a></td>
+	<td class="summary">Getters - Setters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:NumbersTeams">Mix:NumbersTeams ()</a></td>
+	<td class="summary">Getters - Setters</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:SwitchTeams">Mix:SwitchTeams ()</a></td>
+	<td class="summary">SwitchTeams
+switch teams</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:getRoundsRemain">Mix:getRoundsRemain ()</a></td>
+	<td class="summary">getRoundsRemain
+calculate the number of round remained before setting an other state to the mix
+ note : mix should have started</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:start">Mix:start ()</a></td>
+	<td class="summary">start
+start the mix; change in game settings</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:showString">Mix:showString ()</a></td>
+	<td class="summary">showString
+still used to concat all the info of a mix into a string
+note : should be devaluated to the GUI</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:makeTeams">Mix:makeTeams (Teamtt, Teamct)</a></td>
+	<td class="summary">makeTeams
+makes team regarding the ranks of registrated players</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:getMaxRank">Mix:getMaxRank (choosedPlayers)</a></td>
+	<td class="summary">getMaxRank
+get the max rank from this list</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:playerLeave">Mix:playerLeave (id)</a></td>
+	<td class="summary">playerLeave
+remove a player from the current mix when he leave the server</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Mix:testEmply">Mix:testEmply ()</a></td>
+	<td class="summary">testEmply
+remove a mix if this mix got no player</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2><a name="Methods"></a>Methods</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "Mix:init"></a>
+    <strong>Mix:init (id, Rounds, NomberPlayers, Map, TillEnd, KnifeRound)</strong>
+    </dt>
+    <dd>
+    Constructors
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">id</span>
+         id of the layout
+        </li>
+        <li><span class="parameter">Rounds</span>
+         number of round this mix have
+        </li>
+        <li><span class="parameter">NomberPlayers</span>
+          nnomber of player this mix have
+        </li>
+        <li><span class="parameter">Map</span>
+          name of the map
+        </li>
+        <li><span class="parameter">TillEnd</span>
+         boolean to play till the end
+        </li>
+        <li><span class="parameter">KnifeRound</span>
+         boolean for kniferound
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:getState"></a>
+    <strong>Mix:getState ()</strong>
+    </dt>
+    <dd>
+    Getters - Setters
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:getRegistPlayers"></a>
+    <strong>Mix:getRegistPlayers ()</strong>
+    </dt>
+    <dd>
+    Getters - Setters
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:getNumberRegist"></a>
+    <strong>Mix:getNumberRegist ()</strong>
+    </dt>
+    <dd>
+    Getters - Setters
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:addRegistPlayer"></a>
+    <strong>Mix:addRegistPlayer (Player)</strong>
+    </dt>
+    <dd>
+    addRegistPlayer
+add a player to the registrated list
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">Player</span>
+         add a player to the registrated list
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:existPlayerRegist"></a>
+    <strong>Mix:existPlayerRegist (Player)</strong>
+    </dt>
+    <dd>
+    existPlayerRegist
+ check if the player is in the registrated list
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">Player</span>
+         check if the player is in the registrated list
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:getPlayerRegist"></a>
+    <strong>Mix:getPlayerRegist (Player)</strong>
+    </dt>
+    <dd>
+    getPlayerRegist
+get the player in the registrated list
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">Player</span>
+         get the player in the registrated list
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:checkStartMix"></a>
+    <strong>Mix:checkStartMix ()</strong>
+    </dt>
+    <dd>
+    checkStartMix
+check if the mix can be started
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:removeRegistPlayer"></a>
+    <strong>Mix:removeRegistPlayer (Player)</strong>
+    </dt>
+    <dd>
+    removeRegistPlayer
+remove the player in the registrated list
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">Player</span>
+         remove the player in the registrated list
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:getObjectKniferound"></a>
+    <strong>Mix:getObjectKniferound ()</strong>
+    </dt>
+    <dd>
+    Getters - Setters
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:getObjectChooseside"></a>
+    <strong>Mix:getObjectChooseside ()</strong>
+    </dt>
+    <dd>
+    Getters - Setters
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:setState"></a>
+    <strong>Mix:setState (state)</strong>
+    </dt>
+    <dd>
+    Getters - Setters
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">state</span>
+
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:getcptRounds"></a>
+    <strong>Mix:getcptRounds ()</strong>
+    </dt>
+    <dd>
+    Getters - Setters
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:setcptRounds"></a>
+    <strong>Mix:setcptRounds (cptRounds)</strong>
+    </dt>
+    <dd>
+    Getters - Setters
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">cptRounds</span>
+
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:getRounds"></a>
+    <strong>Mix:getRounds ()</strong>
+    </dt>
+    <dd>
+    Getters - Setters
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:getNomberPlayers"></a>
+    <strong>Mix:getNomberPlayers ()</strong>
+    </dt>
+    <dd>
+    Getters - Setters
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:getMap"></a>
+    <strong>Mix:getMap ()</strong>
+    </dt>
+    <dd>
+    Getters - Setters
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:getTillEnd"></a>
+    <strong>Mix:getTillEnd ()</strong>
+    </dt>
+    <dd>
+    Getters - Setters
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:getKnifeRound"></a>
+    <strong>Mix:getKnifeRound ()</strong>
+    </dt>
+    <dd>
+    Getters - Setters
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:getTeams"></a>
+    <strong>Mix:getTeams ()</strong>
+    </dt>
+    <dd>
+    Getters - Setters
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:addTeam"></a>
+    <strong>Mix:addTeam (Team)</strong>
+    </dt>
+    <dd>
+    Getters - Setters
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">Team</span>
+
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:NumbersTeams"></a>
+    <strong>Mix:NumbersTeams ()</strong>
+    </dt>
+    <dd>
+    Getters - Setters
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:SwitchTeams"></a>
+    <strong>Mix:SwitchTeams ()</strong>
+    </dt>
+    <dd>
+    SwitchTeams
+switch teams
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:getRoundsRemain"></a>
+    <strong>Mix:getRoundsRemain ()</strong>
+    </dt>
+    <dd>
+    getRoundsRemain
+calculate the number of round remained before setting an other state to the mix
+ note : mix should have started
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:start"></a>
+    <strong>Mix:start ()</strong>
+    </dt>
+    <dd>
+    start
+start the mix; change in game settings
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:showString"></a>
+    <strong>Mix:showString ()</strong>
+    </dt>
+    <dd>
+    showString
+still used to concat all the info of a mix into a string
+note : should be devaluated to the GUI
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:makeTeams"></a>
+    <strong>Mix:makeTeams (Teamtt, Teamct)</strong>
+    </dt>
+    <dd>
+    makeTeams
+makes team regarding the ranks of registrated players
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">Teamtt</span>
+
+        </li>
+        <li><span class="parameter">Teamct</span>
+
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:getMaxRank"></a>
+    <strong>Mix:getMaxRank (choosedPlayers)</strong>
+    </dt>
+    <dd>
+    getMaxRank
+get the max rank from this list
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">choosedPlayers</span>
+         list of choosed played from the registrated player list
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:playerLeave"></a>
+    <strong>Mix:playerLeave (id)</strong>
+    </dt>
+    <dd>
+    playerLeave
+remove a player from the current mix when he leave the server
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">id</span>
+         id of the player
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Mix:testEmply"></a>
+    <strong>Mix:testEmply ()</strong>
+    </dt>
+    <dd>
+    testEmply
+remove a mix if this mix got no player
+
+
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.3</a></i>
+<i style="float:right;">Last updated 2015-11-11 13:48:25 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>
