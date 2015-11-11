@@ -1,4 +1,15 @@
+--------
+--Executed script every press on the serveraction keyboard touch
+--@module hooks.onServeraction
+--
+--
+
 addhook("serveraction", "onServeraction")
+
+---onServeraction
+--open the main mix menu
+--@param id of the player
+--@param action id of the keyboard touch
 function onServeraction(id, action)
     if (action == 1) then
     	local bool = true

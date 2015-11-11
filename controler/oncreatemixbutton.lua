@@ -1,6 +1,22 @@
+--------
+--Event on the "createmix" button from main menu 
+--
+--Does print 5 differents menu to get different info
+-- from the user about the mix he wants to create
+--
+--
+
+---onCreateMixButton
+--call the Menu rounds
+--@param id of the player
 function onCreateMixButton(id)
 	menuUIRounds(id)
 end
+
+---menuUIRounds
+--show the Menu rounds
+--call the menu number of player and send the info of the rounds 
+--@param id of the player
 function menuUIRounds(id)
 		
     	for i=1,theMenuList:NumbersMenus() do
@@ -9,6 +25,14 @@ function menuUIRounds(id)
         end
       end
 end
+
+---menuUINumberPlayer
+--show the Menu Number Player
+--save the info of rounds, get the info of the number of player
+--and call the Menu Map 
+--@param id of the player
+--@param idbutton the button id pressed from the previus menu
+--@param object the previus menu 
 function menuUINumberPlayer(id,idbutton,object)
   -- save result of past entry
 
@@ -29,6 +53,14 @@ function menuUINumberPlayer(id,idbutton,object)
       end
  		
 end
+
+---menuUIMap
+--show the Menu Map
+--save the info of Number of player, get the info of the Map
+--and call the Menu Till end
+--@param id of the player
+--@param idbutton the button id pressed from the previus menu
+--@param object the previus menu 
 function menuUIMap(id,idbutton,object)
   -- save result of past entry
 
@@ -49,6 +81,14 @@ function menuUIMap(id,idbutton,object)
         end
   end
 end
+
+---menuUITillEnd
+--show the Menu till end
+--save the info of Map, get the info for a till end mix 
+--and call the Menu Knife round
+--@param id of the player
+--@param idbutton the button id pressed from the previus menu
+--@param object the previus menu 
 function menuUITillEnd(id,idbutton,object)
    -- save result of past entry
 
@@ -70,6 +110,14 @@ function menuUITillEnd(id,idbutton,object)
         end
   end
 end
+
+---menuUIKnifeRound
+--show the Menu Knife round
+--save the info for till end, get the info for the kniferound 
+--and call the Menu Summary
+--@param id of the player
+--@param idbutton the button id pressed from the previus menu
+--@param object the previus menu
 function menuUIKnifeRound(id,idbutton,object)
    -- save result of past entry
 
@@ -90,6 +138,14 @@ function menuUIKnifeRound(id,idbutton,object)
         end
   end
 end
+
+---menuSummary
+--show the Menu Summary
+--save the info for kniferound, wait the user approve his choices 
+--call the function to create the mix
+--@param id of the player
+--@param idbutton the button id pressed from the previus menu
+--@param object the previus menu
 function menuSummary(id,idbutton,object)
    -- save result of past entry
     local choicePlayer
@@ -135,6 +191,13 @@ function menuSummary(id,idbutton,object)
           menu_action1:Show(id)
 end
 
+---CreateTheMix
+--create the mix 
+--get all the different info setted by the user about the mix  
+--and create the mix
+--@param id of the player
+--@param idbutton the button id pressed from the previus menu
+--@param object the previus menu
 function CreateTheMix(id,idbutton,object)
 	local choicePlayer
   local Player

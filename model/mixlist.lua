@@ -1,34 +1,45 @@
-
-
-
-
+-----------
+-- Class MixList
+-- @classmod MixList
 --Public class MixList
 MixList = newclass("MixList")
 MixList.MixList     = ArrayList.Create()
 
---Constructors
+
+---Constructors
+--@param id id of the MixList
 function MixList:init(Id)
 self.Id               = Id
 end
 
 --Methods
-
+---Getters - Setters 
 function MixList:getId()
     return self.Id
 end
+
+---Getters - Setters 
 function MixList:getMixList()
     return self.MixList
 end
+
+---Getters - Setters 
 function MixList:addMix(Mix)
     self:getMixList():Add(Mix)
 end
+
+---Getters - Setters 
 function MixList:removeMix(Mix)
     self:getMixList():Remove(Mix)
 end  
+
+---Getters - Setters 
 function MixList:NumbersMixs()
     return self:getMixList():Size()
 end
 
+---saveData
+--save the list mix in a .txt 
 function MixList:saveData()
 	local tempTable = {}
 	for i=1, self:NumbersMixs() do
@@ -56,6 +67,9 @@ function MixList:saveData()
     table.save(tempTable,"sys/lua/pcs_mixmatch/model/mixes.txt")
 end
 
+
+---loadData
+--load the .txt
 function MixList:loadData()
 	local tempTable = table.load("sys/lua/pcs_mixmatch/model/mixes.txt")
 	if tempTable ~= nil then

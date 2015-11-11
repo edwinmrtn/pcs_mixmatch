@@ -1,3 +1,8 @@
+--------
+--reference all the files needed for the mixscript
+--
+--
+
 dofile("sys/lua/pcs_mixmatch/model/libraries/table.lua")
 dofile("sys/lua/pcs_mixmatch/model/libraries/object.lua")
 dofile("sys/lua/pcs_mixmatch/model/libraries/table.lua")
@@ -47,7 +52,7 @@ dofile("sys/lua/pcs_mixmatch/controler/onregistermixes.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onleavemixes.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onlistmixes.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onstartmixbutton.lua")
-dofile("sys/lua/pcs_mixmatch/controler/onCreateMixButton.lua")
+dofile("sys/lua/pcs_mixmatch/controler/oncreatemixbutton.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onmymix.lua")
 
 

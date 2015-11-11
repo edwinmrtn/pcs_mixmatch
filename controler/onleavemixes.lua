@@ -1,4 +1,16 @@
+---------------------------------------------------
+--Event on the "Leavemix" Button from main menu 
+--
+--Does print a menu with the different mix the player is registered in
+--
+--Return a message if the player isn't registered in any mix or if these if 0 mixes
+--
+--
 
+---onLeaveMixes
+--Does print a menu with the different mix the player is registered in
+--Return a message if the player isn't registered in any mix or if these if 0 mixes
+--@param id of the player
 function onLeaveMixes(id)
     for i=1,theMenuList:NumbersMenus() do
         if("Leave Mixes" == theMenuList:getMenuList():Get(i):getTitre())then

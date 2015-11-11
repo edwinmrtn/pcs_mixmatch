@@ -1,4 +1,20 @@
+--------
+--Executed script every action on a menu
+--@module hooks.onMenu
+--
+
 addhook("menu","onMenu")
+
+
+
+---onMenu
+--
+--find the object menu and execute the funtion that the button contain
+--or the methods
+--
+--@param id of the player
+--@param title of the menu
+--@param button id of the button just pressed
 function onMenu(id,title,button)
 	for i=1,theMenuList:NumbersMenus() do
 			 if(title == theMenuList:getMenuList():Get(i):getTitre())then 

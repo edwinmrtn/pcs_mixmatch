@@ -1,4 +1,14 @@
+--------
+--Executed script everytime a player spawn
+--@module hooks.onSpawn
+--
+--
+
 addhook("spawn", "onSpawn")
+
+---onSpawn
+--check if it's the kniferound time and strip glock or usp
+--@param id of the player
 function onSpawn(id)
 --	local aMixList = MixList(0);
 	for i=1,aMixList:NumbersMixs() do

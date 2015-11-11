@@ -1,5 +1,17 @@
+--------
+--Executed script every endround
+--@module hooks.onEndround
+--
+--
+
+
+
 
 addhook("endround", "onEndround")
+
+---initRoundPlayed
+--set the nomber of round played for all player to 0
+--
 function initRoundPlayed()
 	for i=1,aPlayerList:NumbersPlayers() do
 		local playert=player(0,"team1")
@@ -16,6 +28,11 @@ function initRoundPlayed()
 		end  
 	end
 end
+
+---setRoundPlayed
+--set the nomber of round played for all player to num
+--
+--@param num nomber of round played 
 function setRoundPlayed(num)
 	for i=1,aPlayerList:NumbersPlayers() do
 		local playert=player(0,"team1")
@@ -32,6 +49,10 @@ function setRoundPlayed(num)
 		end  
 	end
 end 
+
+---addRoundPlayed
+--add a round for all player
+--
 function addRoundPlayed()
 	for i=1,aPlayerList:NumbersPlayers() do
 		local playert=player(0,"team1")
@@ -48,6 +69,10 @@ function addRoundPlayed()
 		end  
 	end
 end
+
+---removeRoundPlayed
+--remove a round for all player
+--
 function removeRoundPlayed()
 	for i=1,aPlayerList:NumbersPlayers() do
 		local playert=player(0,"team1")
@@ -64,9 +89,12 @@ function removeRoundPlayed()
 		end  
 	end
 end 
-function onEndround(mode)
 
---   local aMixList = MixList(0);
+---onEndround
+--main script called on end round
+--
+--@param mode defined how the previews rounds have been won.
+function onEndround(mode)
 	for i=1,aMixList:NumbersMixs() do
 			if (aMixList:getMixList():Get(i):getState() == "kniferound") then
 				initRoundPlayed()
@@ -92,10 +120,11 @@ function onEndround(mode)
 
 end
 
+---scoremvp
+--print the number domage made from all player
+--
+--@param mode defined how the previews rounds have been won.
 function scoremvp(mode) 
-
-	
-
 	local max_domage
 	local max_player
 	if (aPlayerList:getPlayerList():Get(1)) then 

@@ -1,5 +1,17 @@
+--------
+--Executed script on every leave
+--@module hooks.onLeave
+--
+--
+
+
 addhook("leave","onLeave");
 
+---onLeave
+--delete all the session a player have on the server
+--
+--the player is deleted from all mixes he is registered
+--@param id id of the player joinned
 function onLeave(id)
 	local i = 1
 	while i <= aPlayerList:NumbersPlayers() do

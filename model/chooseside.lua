@@ -1,34 +1,51 @@
-
-
+-----------
+-- Class Chooseside
+-- @classmod Chooseside
 --Public class Chooseside
-
 Chooseside = newclass("Chooseside")
 
---Constructor
+
+---Constructors
+--@param votett number of vote for tero
+--@param votect number of vote for counter
 function Chooseside:init(votett,votect)
 	self.votett = votett
 	self.votect = votect
 	self.mode   = 0
 end
+
+---Getters - Setters 
 function Chooseside:getMode()
 	return self.mode
 end
+
+---Getters - Setters 
 function Chooseside:setMode(mode)
 	self.mode = mode
 end 
+
+---Getters - Setters 
 function Chooseside:getvotett()
     return self.votett
 end
+
+---Getters - Setters 
 function Chooseside:increvotett()
 	self.votett = self:getvotett()+1
 end 
+
+---Getters - Setters 
 function Chooseside:increvotect() 
 	self.votect = self:getvotect()+1
 end 
+
+---Getters - Setters 
 function Chooseside:getvotect()
     return self.votect
 end
---Static Method start
+
+---start
+--start the round chooseside, set the different ingame settings
 function Chooseside:start(mode) --1 == terro win // 2== ct win
 				self:setMode(mode)
 				parse("mp_startmoney 0")
@@ -53,6 +70,8 @@ function Chooseside:start(mode) --1 == terro win // 2== ct win
 
 end
 
+---majorite
+--define which team have been choosed
 function Chooseside:majorite()
 --		local aMixList = MixList(0);
 	for i=1,aMixList:NumbersMixs() do
@@ -79,6 +98,8 @@ function Chooseside:majorite()
 	end
 end
 
+---voteforcounter
+--a vote for counter - isn't in the class
 function voteforcounter(id)
 --		local aMixList = MixList(0);
 	for i=1,aMixList:NumbersMixs() do
@@ -91,6 +112,9 @@ function voteforcounter(id)
 	end
 
 end
+
+---voteforterro
+--a vote for terro - isn't in the classs
 function voteforterro(id)
 --		local aMixList = MixList(0);
 		for i=1,aMixList:NumbersMixs() do

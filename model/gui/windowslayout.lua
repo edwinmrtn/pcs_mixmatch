@@ -1,17 +1,33 @@
-
---Public class Container
+--------
+--@classmod GUI.WindowsLayout
+--This is a WindowsLayout
+--
+--Public class WindowsLayout
 WindowsLayout = newclass("WindowsLayout")
 
---Constructors
+---Constructors
+--@param id id of the layout
+--@param titre title of the container
 function WindowsLayout:init(Id,titre)
 	self.Id           = Id
     self.titre        = titre
 end
 
---Methods
+---Constructors
+--get the title of the container
+--@return titre
 function WindowsLayout:getTitre()
     return self.titre
 end 
+
+---fabric
+--create and return containers
+--@param id id player
+--@param Containers not used ? 
+--@param dimx dimension x
+--@param dimy dimension y
+--@param compt idtext
+--@return create and return containers
 function WindowsLayout:fabric(id,Containers,dimx,dimy,x,y,compt)
 	local pointerX
 	local pointerY

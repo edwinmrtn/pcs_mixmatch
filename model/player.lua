@@ -1,9 +1,15 @@
-
-
+-----------
+-- Class Player
+-- @classmod Player
 --Public class Player
 Player = newclass("Player")
 
---Constructors
+---Constructors
+--@param id id of the Player
+--@param USGN usgn of the player
+--@param Rank  rank of the player
+--@param Name  name of the player 
+--@param IP IP of the player
 function Player:init(Id,USGN,Rank,Name,IP)
 	self.Id             = Id
 	self.USGN           = USGN
@@ -24,41 +30,65 @@ end
 --createMixArray.kniferound
 
 --Methods
+
+---Getters - Setters 
 function Player:getId()
     return self.Id
 end
+
+---Getters - Setters 
 function Player:getUSGN()
     return self.USGN
 end
+
+---Getters - Setters 
 function Player:getCreateMixArray()
   return self.CreateMixArray
 end
 
+---Getters - Setters 
 function Player:getRank()
     return self.Rank
 end
+
+---Getters - Setters 
 function Player:setRank(nbr,rank)
     self.Rank[tonumber(nbr)] = self:getRank()[tonumber(nbr)] + tonumber(rank)
 end
+
+---Getters - Setters 
 function Player:getDomage()
     return self.Domage
 end
+
+---Getters - Setters 
 function Player:setDomage(Domage)
     self.Domage = Domage
 end
+
+---Getters - Setters 
 function Player:getTotalDomage()
     return self.TotalDomage
 end
+
+---Getters - Setters 
 function Player:setTotalDomage(TotalDomage)
     self.TotalDomage = TotalDomage
 end
+
+---Getters - Setters 
 function Player:getName()
     return self.Name
 end
 
+---Getters - Setters 
 function Player:getTeam()
     return self.Team
 end
+
+---rankCalculation
+--@param nbrPlayers nomber of player in the mix
+--calculate the rank depending the number of round the player is playing
 function Player:rankCalculation(nbrPlayers)
   local moyKill
   msg("nbr player: "..nbrPlayers)
@@ -86,18 +116,28 @@ function Player:rankCalculation(nbrPlayers)
   end 
   
 end
+
+---dontmove
+--set ingame speedmod -100
 function Player:dontmove()
   parse("speedmod "..self:getId().." ".."-100")
 end 
+
+---Getters - Setter
 function Player:getRoundsPlayed()
   return self.RoundsPlayed
 end
+
+---Getters - Setter
 function Player:setRoundsPlayed(RoundsPlayed)
   self.RoundsPlayed = RoundsPlayed
-end  
+end
+
 function Player:stripWeapon(weaponid)
 	 parse(" strip "..self:getId()..' '..weaponid)
 end
+
+
 function Player:chooseteam()
         for i=1,theMenuList:NumbersMenus() do
           if("Choose your team" == theMenuList:getMenuList():Get(i):getTitre())then
@@ -106,6 +146,7 @@ function Player:chooseteam()
         end
 end
 
+---Getters - Setter
 function Player:getIP()
     return self.IP
 end

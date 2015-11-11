@@ -1,10 +1,13 @@
-
-
---Public class Menu
+-----------
+-- Class Menu
+-- @classmod Menu
+--This is a Menu
 Menu = newclass("Menu")
 
 
---Constructors
+---Constructors
+--@param id id of the menu
+--@param titre title of the menu
 function Menu:init(Id,Titre)
 	self.Id      = Id 
 	self.Titre   = Titre
@@ -12,28 +15,35 @@ function Menu:init(Id,Titre)
 	self.buttons = ArrayList.Create()
 end
 
---Methods
---[[
-	Getters - Setters 
-]]
+---	Getters - Setters 
 function Menu:getId()
     return self.Id
 end
+---	Getters - Setters 
 function Menu:getTitre()
     return self.Titre
 end
+---	Getters - Setters 
 function Menu:getNumero()
     return self.Numero
 end
+---	Getters - Setters 
 function Menu:setNumero(Numero)
     self.Numero = Numero
 end
+
+---ClearButtons
+--remove  all button contained in the menu
 function Menu:ClearButtons()
 	self:getButtons():Clear()
 end
+
+---Refresh
+--remove  all button contained in the menu
 function Menu:Refresh()
 	self:ClearButtons()
 end
+---	Getters - Setters 
 function Menu:getButtons()
     return self.buttons
 end
@@ -43,12 +53,10 @@ end
 function Menu:setButtons(buttons)
 		  self.buttons = buttons
 end 
---[[
-	addButton(button unButton)
-		id is the id of player
-		
-		This Show the menu to the id player. 
-]]
+
+---	addButton(button unButton)
+--@param id is the id of player
+--This Show the menu to the id player. 
 function Menu:addButton(unButton)
 	
  		if self:NumbersButtons() == 6 then
@@ -114,21 +122,17 @@ function Menu:addButton(unButton)
 		end  
 end 
 
---[[
-	NumbersButtons(void)
-		Return the number of button this menu have.
-		>>used in "for" iterration 
-]]
+
+---NumbersButtons(void)
+--used in "for" iterration 
+--@return the number of button this menu have.
 function Menu:NumbersButtons()
 	return self:getButtons():Size()
 end
 
---[[
-	Show(int id)
-		id is the id of player
-		
-		This Show the menu to the id player. 
-]]
+---Show(int id)
+--This Show the menu to the id player. 
+--@param id is the id of player
 function Menu:Show(id)
 	local command = ""
 		for i=1,self:NumbersButtons() do

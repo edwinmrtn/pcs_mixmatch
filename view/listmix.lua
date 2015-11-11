@@ -1,7 +1,11 @@
+--------
+--@module VIEW.listmix
+--print the view for the list mix
+--
 		function VIEWlistmix(id)
 					cpt = 0
-					local aimage = Image(1,"gfx/stats/menu12.png",295,331,false) 
-					local aimage2 = Image(1,"gfx/stats/bebemenu123.png",277,331,true)
+					local aimage = Image(1,"gfx/pcsmix/menu12.png",295,331,false) 
+					local aimage2 = Image(1,"gfx/pcsmix/bebemenu123.png",277,331,true)
 					local imagescale = Image(1,"gfx/gui_load.bmp",16,16,true)
 					local imageKnifeRound = Image(1,"gfx/gui_load.bmp",16,16,false)
 					local textNbrRoundsMixList = "Rounds"

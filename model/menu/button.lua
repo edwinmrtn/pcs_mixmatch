@@ -1,10 +1,12 @@
+-----------
+-- Class Button
+-- @classmod Button
 
-
---Public class button
+---Public class button
 button = newclass("button")
 
 
---Constructors
+---Constructors
 
 function button:init(Id,Nom,Value,Fonction,arrayObject)
 	self.Id            = Id 
@@ -14,7 +16,8 @@ function button:init(Id,Nom,Value,Fonction,arrayObject)
 	self.arrayObject   = arrayObject
 end
 
---Methods
+---Methods
+
 function button:getId()
     return self.Id
 end

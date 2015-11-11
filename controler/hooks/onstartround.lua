@@ -1,14 +1,18 @@
--- dofile("sys/lua/pcs_mixmatch/Model/mixList.lua")
--- dofile("sys/lua/pcs_mixmatch/Model/mix.lua")
+--------
+--Executed script every startround
+--@module hooks.onStartround
+--
+--
 addhook("startround", "onStartround")
+
+---onStartround
+--separate the different part of the mix
+--@param mode
 function onStartround(mode)
 	local j = 1
 	while j <= aMixList:NumbersMixs() do
 		if (aMixList:getMixList():Get(j):getState() ~= "preparation") then
 			for i=1,aPlayerList:NumbersPlayers() do
-				--msg("get round played  :" ..aPlayerList:getPlayerList():Get(i):getRoundsPlayed())
-				msg("player : "..aPlayerList:getPlayerList():Get(i):getName().." rank calcul : "..aPlayerList:getPlayerList():Get(i):rankCalculation(aMixList:getMixList():Get(j):getNomberPlayers()))
-				msg("__________________")
 				aPlayerList:getPlayerList():Get(i):setDomage(0)
 			end
 		end
@@ -16,8 +20,6 @@ function onStartround(mode)
 	end
    
 	for i=1,aMixList:NumbersMixs() do
-
-			msg("remiain: "..aMixList:getMixList():Get(i):getRoundsRemain())
 		  	
 		  	if (aMixList:getMixList():Get(i):getState() == "kniferound") then
 		    		aMixList:getMixList():Get(i):getObjectKniferound():start();
@@ -43,8 +45,6 @@ function onStartround(mode)
 							local playert=player(0,"team1")
 							for _,id in pairs(playert) do
 					   			if id == aPlayerList:getPlayerList():Get(j):getId() then
-					   			msg("player : "..aPlayerList:getPlayerList():Get(i):getName().." rank calcul : "..aPlayerList:getPlayerList():Get(i):rankCalculation(aMixList:getMixList():Get(i):getNomberPlayers()))
-								msg("__________________")
 					   				aPlayerList:getPlayerList():Get(j):setRank(aMixList:getMixList():Get(i):getNomberPlayers()/2,aPlayerList:getPlayerList():Get(j):rankCalculation(aMixList:getMixList():Get(i):getNomberPlayers()))
 					   				table.save(aPlayerList:getPlayerList():Get(j):getRank(),"sys/lua/pcs_mixmatch/rank/"..aPlayerList:getPlayerList():Get(j):getUSGN())
 					   			end 
@@ -52,8 +52,6 @@ function onStartround(mode)
 							local playerct=player(0,"team2")
 							for _,id in pairs(playerct) do
 					   			if id == aPlayerList:getPlayerList():Get(j):getId() then
-					   				msg("player : "..aPlayerList:getPlayerList():Get(i):getName().." rank calcul : "..aPlayerList:getPlayerList():Get(i):rankCalculation(aMixList:getMixList():Get(i):getNomberPlayers()))
-									msg("__________________")
 					   				aPlayerList:getPlayerList():Get(j):setRank(aMixList:getMixList():Get(i):getNomberPlayers()/2,aPlayerList:getPlayerList():Get(j):rankCalculation(aMixList:getMixList():Get(i):getNomberPlayers()))
 					   				table.save(aPlayerList:getPlayerList():Get(j):getRank(),"sys/lua/pcs_mixmatch/rank/"..aPlayerList:getPlayerList():Get(j):getUSGN())
 					   			end 

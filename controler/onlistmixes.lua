@@ -1,4 +1,15 @@
+--------
+--Event on the "Listmix" Button from main menu 
+--
+--Does print a menu with the different mix which exist
+--
+--Return a message if there is no mixes
+--
 
+---onListMixes
+--Does print a menu with the different mix which exist
+--Return a message if there is no mixes
+--@param id of the player
 function onListMixes(id)
 	for i=1,theMenuList:NumbersMenus() do
         if("List Mix" == theMenuList:getMenuList():Get(i):getTitre())then

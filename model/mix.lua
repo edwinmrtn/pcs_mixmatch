@@ -1,7 +1,16 @@
+-----------
+-- Class Mix
+-- @classmod Mix
 --Public class Mix
 Mix = newclass("Mix")
 
---Constructors
+---Constructors
+--@param id id of the layout
+--@param Rounds number of round this mix have 
+--@param NomberPlayers  nnomber of player this mix have
+--@param Map  name of the map 
+--@param TillEnd boolean to play till the end
+--@param KnifeRound boolean for kniferound
 function Mix:init(Id,Rounds,NomberPlayers,Map,TillEnd,KnifeRound)
 self.Id            = Id
 self.Rounds        = Rounds
@@ -18,22 +27,36 @@ self.cptRounds     = 0
 end
 
 --Methods
-
+---Getters - Setters 
 function Mix:getId()
     return self.Id
 end
+
+---Getters - Setters 
 function Mix:getState()
     return self.State
 end
+
+---Getters - Setters 
 function Mix:getRegistPlayers()
     return self.RegistPlayers
 end
+
+---Getters - Setters 
 function Mix:getNumberRegist()
     return self:getRegistPlayers():Size()
 end
+
+---addRegistPlayer
+--add a player to the registrated list 
+--@param Player add a player to the registrated list 
 function Mix:addRegistPlayer(Player)
     self:getRegistPlayers():Add(Player)
 end
+
+---existPlayerRegist
+-- check if the player is in the registrated list
+--@param Player check if the player is in the registrated list 
 function Mix:existPlayerRegist(Player)
     local bool = false
     for i=1, self:getNumberRegist() do
@@ -46,6 +69,10 @@ function Mix:existPlayerRegist(Player)
     end
     return bool
 end
+
+---getPlayerRegist
+--get the player in the registrated list 
+--@param Player get the player in the registrated list 
 function Mix:getPlayerRegist(Player)
     if self:existPlayerRegist(Player) then
         for i=1, self:getNumberRegist() do
@@ -58,56 +85,88 @@ function Mix:getPlayerRegist(Player)
     end 
 end
 
+---checkStartMix
+--check if the mix can be started
 function Mix:checkStartMix()
     if (tonumber(self:getNomberPlayers()) == tonumber(self:getNumberRegist())) then
         self:start()
     end 
 end
+
+---removeRegistPlayer
+--remove the player in the registrated list 
+--@param Player remove the player in the registrated list 
 function Mix:removeRegistPlayer(Player)
     self:getRegistPlayers():Remove(Player)
-end  
+end
+
+---Getters - Setters   
 function Mix:getObjectKniferound()
     return self.ObKniferound
 end
+
+---Getters - Setters 
 function Mix:getObjectChooseside()
     return self.Obchooseside
 end
+
+---Getters - Setters 
 function Mix:setState(state)
      self.State = state 
 end
+
+---Getters - Setters 
 function Mix:getcptRounds()
     return self.cptRounds
 end
+
+---Getters - Setters 
 function Mix:setcptRounds(cptRounds)
     self.cptRounds = cptRounds
 end
+
+---Getters - Setters 
 function Mix:getRounds()
     return self.Rounds
 end
 
+---Getters - Setters 
 function Mix:getNomberPlayers()
     return self.NomberPlayers
 end
 
+---Getters - Setters 
 function Mix:getMap()
     return self.Map
 end
 
+---Getters - Setters 
 function Mix:getTillEnd()
     return self.TillEnd
 end
+
+---Getters - Setters 
 function Mix:getKnifeRound()
     return self.KnifeRound
 end
+
+---Getters - Setters 
 function Mix:getTeams()
     return self.Teams
 end 
+
+---Getters - Setters 
 function Mix:addTeam(Team)
     self:getTeams():Add(Team)
-end 
+end
+
+---Getters - Setters  
 function Mix:NumbersTeams()
     return self:getTeams():Size()
 end
+
+---SwitchTeams 
+--switch teams
 function Mix:SwitchTeams()
     parse("restart")
     removeRoundPlayed()
@@ -142,6 +201,9 @@ function Mix:SwitchTeams()
    
 end
 
+---getRoundsRemain
+--calculate the number of round remained before setting an other state to the mix
+-- note : mix should have started
 function Mix:getRoundsRemain()
     if (self:getState() == "kniferound") then
         return 0
@@ -153,6 +215,9 @@ function Mix:getRoundsRemain()
         return self:getRounds()/2 - self:getcptRounds()
     end 
 end
+
+---start
+--start the mix; change in game settings
 function Mix:start()
 
     if(map("name") ~= self:getMap()) then
@@ -183,6 +248,10 @@ function Mix:start()
     	end
     end
 end
+
+---showString
+--still used to concat all the info of a mix into a string
+--note : should be devaluated to the GUI
 function Mix:showString()
     local string = tostring(self:getId()).." "..tostring(self:getRounds()).." "..tostring(self:getNomberPlayers()).." "..tostring(self:getMap()).." "..tostring(self:getTillEnd()).." "..tostring(self:getKnifeRound())
     return string 
@@ -190,6 +259,9 @@ end
 function Mix:__tostring()
     return "I am a Mix"
 end
+
+---makeTeams
+--makes team regarding the ranks of registrated players
 function Mix:makeTeams(Teamtt,Teamct)
     local totalRank = 0
     local moyRank = 0
@@ -226,6 +298,10 @@ function Mix:makeTeams(Teamtt,Teamct)
             end
     end
 end
+
+---getMaxRank
+--get the max rank from this list
+--@param choosedPlayers list of choosed played from the registrated player list
 function Mix:getMaxRank(choosedPlayers)
     -- body
     local rankMax = 0
@@ -239,6 +315,10 @@ function Mix:getMaxRank(choosedPlayers)
     end
     return rankMax, rowMax
 end
+
+---playerLeave
+--remove a player from the current mix when he leave the server
+--@param id id of the player
 function Mix:playerLeave(id)
     local i = 1
     while i <= self:getNumberRegist() do
@@ -250,6 +330,9 @@ function Mix:playerLeave(id)
     end
     return self:testEmply()
 end
+
+---testEmply
+--remove a mix if this mix got no player
 function Mix:testEmply()
     if(self:getNumberRegist() == 0) then
         aMixList:removeMix(self)

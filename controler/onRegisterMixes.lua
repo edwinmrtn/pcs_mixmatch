@@ -1,4 +1,17 @@
+--------
+--Event on the register mix button from main menu
+--
+--
+--
 
+---onRegisterMixes
+--show all the menu with a list of mix where the player isn't registered yet
+--
+--add the player to the selected mix
+--
+--@param id of the player
+--@param idbutton the button id pressed from the previus menu
+--@param menu the previus menu 
 function onRegisterMixes(id,unbutton,menu)
 local Player
 for i= 1, aPlayerList:NumbersPlayers() do

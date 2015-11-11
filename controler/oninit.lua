@@ -1,8 +1,12 @@
-     
-
-
-       
-          --new menuList
+---------------------------------------------------
+--All the action which are made when the server start
+--
+--create the 4 globals list 
+--
+--create the different static menu
+--
+--     
+        --new menuList
         theMenuList    = MenuList(0);
         --new player list
         aPlayerList = PlayerList(0);
@@ -11,7 +15,7 @@
         --new HeadContainerList
         aHeadContainerList = HeadContainerList(0);
         
--------------MENU---------------------------------------------------------
+----------------------------------------------------------------------
 function callTimer(id)
   timer(0,"atimer",id)
 end
@@ -29,8 +33,12 @@ end
         aMixList:loadData()
         table.save({},"sys/lua/pcs_mixmatch/model/mixes.txt")
 ----------------------------------------------------------------------------
+
+
+---changeMapInit
+--on changemap Load the mixes from the .txt
+--
 function changeMapInit()
-  msg("jepassavant samere")
   for i=1,aMixList:NumbersMixs() do
           if (aMixList:getMixList():Get(i):getState() == "mapchanged") then
               parse("restart 5")
@@ -56,6 +64,10 @@ function changeMapInit()
   end
 end
 -------------------------------------------------------------------
+
+---changeMapCheckPlayer
+--after a changemap check for each registered mix player if they are on the server
+--
 function changeMapCheckPlayer()
   msg("jechangeMapCheckPlayer")
     for i=1,aMixList:NumbersMixs() do

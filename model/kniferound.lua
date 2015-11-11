@@ -1,5 +1,6 @@
-
-
+-----------
+-- Class Kniferound
+-- @classmod Kniferound
 --Public class Kniferound
 
 Kniferound = newclass("Kniferound")
@@ -7,7 +8,9 @@ Kniferound = newclass("Kniferound")
 --Constructor
 function Kniferound:init()
 end
---Static Method start
+
+---start
+--start the round Kniferound, set the different ingame settings
 function Kniferound:start()
 				parse("mp_startmoney 0")
 				parse("mp_roundtime 100")
