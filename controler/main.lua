@@ -51,7 +51,6 @@ dofile("sys/lua/pcs_mixmatch/controler/oninit.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onregistermixes.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onleavemixes.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onlistmixes.lua")
-dofile("sys/lua/pcs_mixmatch/controler/onstartmixbutton.lua")
 dofile("sys/lua/pcs_mixmatch/controler/oncreatemixbutton.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onmymix.lua")
 
