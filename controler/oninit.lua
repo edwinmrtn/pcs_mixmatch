@@ -325,7 +325,7 @@ end
 
       local menu_action1 = Menu(1,"Check Substitute")
       theMenuList:addMenu(menu_action1);
-      local bouton_yes  = button(1,"Yes","","Substitute",nil)
+      local bouton_yes  = button(1,"Yes","","onSubstitute",nil)
       menu_action1:addButton(bouton_yes)
 ------------------------------------------------------------------------------------------------------
 

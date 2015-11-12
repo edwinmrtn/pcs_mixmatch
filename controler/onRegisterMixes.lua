@@ -59,9 +59,9 @@ for i=1,theMenuList:NumbersMenus() do
                     if(menu:getTitre()=="Register Mix" and mix ~= nil)then
                             if(bool == false)then
                                     if(4 == j) then
-                                    spacebutton       = button(5,"","","",nil) 
+                                    spacebutton       = button(5,"","",nil,nil) 
                                     local arrayOb = {{VIEWcontainer,":off",id},{mix,":addRegistPlayer",Player},{mix,":checkStartMix",id}}
-                                    aconfirbutton     = button(6,"confirmer","","onRegisterMixes",arrayOb)  
+                                    aconfirbutton     = button(6,"confirmer","",nil,arrayOb)  
                                     theMenuList:getMenuList():Get(i):addButton(spacebutton)
                                     theMenuList:getMenuList():Get(i):addButton(aconfirbutton)
                                     end
@@ -73,14 +73,16 @@ for i=1,theMenuList:NumbersMenus() do
                     if(menu:getTitre()=="Register Mix" and mix ~= nil)then
                         if(bool) then
                             local arrayOb = {{VIEWcontainer,":off",id},{mix,":addRegistPlayer",Player},{mix,":checkStartMix",id}}
-                            spacebutton       = button(aMixList:NumbersMixs()+1,"","","",nil)  
-                            aconfirbutton     = button(aMixList:NumbersMixs()+2,"confirmer","","onRegisterMixes",arrayOb)
+                            local idbutton1 = aMixList:NumbersMixs()+1
+                            local idbutton2 = aMixList:NumbersMixs()+2
+                            spacebutton       = button(idbutton1,"","",nil,nil)  
+                            aconfirbutton     = button(idbutton2,"confirmer","",nil,arrayOb)
                             theMenuList:getMenuList():Get(i):addButton(spacebutton)
                             theMenuList:getMenuList():Get(i):addButton(aconfirbutton)
                         end
                     end
                 local arrayOb = {{VIEWcontainer,":off",id}}
-                cancelbutton     = button(0,"","","",arrayOb)
+                cancelbutton     = button(0,"","",nil,arrayOb)
                 theMenuList:getMenuList():Get(i):addButton(cancelbutton)
                 theMenuList:getMenuList():Get(i):Show(id)
             end
