@@ -23,3 +23,18 @@ function setspec(id)
         end
     end 
 end
+
+function compareList(liste1, liste2)
+  for i = 1, liste1:Size() do
+    local found = false
+    for j = 1, liste2:Size() do
+      if(liste1:Get(i) == liste2:Get(j)) then
+        found = true
+        break
+      end
+    end
+    if(found ~= true) then
+      liste2:Add(liste1:Get(i))
+    end
+  end
+end
