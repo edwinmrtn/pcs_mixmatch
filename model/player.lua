@@ -27,8 +27,9 @@ end
 --createMixArray.rounds
 --createMixArray.nombersplayers
 --createMixArray.map
---createMixArray.tillend
 --createMixArray.kniferound
+--createMixArray.fire
+--createMixArray.sniper
 
 --Methods
 
@@ -45,6 +46,11 @@ end
 ---Getters - Setters 
 function Player:getCreateMixArray()
   return self.CreateMixArray
+end
+
+---Getters - Setters 
+function Player:ClearCreateMixArray()
+  self.CreateMixArray = {}
 end
 
 ---Getters - Setters 

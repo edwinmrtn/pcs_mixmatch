@@ -48,7 +48,7 @@ end
 ---calculDimX
 --calcul the dimention X of the container
 function LinearHoriLayout:calculDimX(dimx)
-    return dimx
+    return dimx-self:getSpace()
 end
 
 ---getSpace
@@ -72,7 +72,7 @@ function LinearHoriLayout:fabric(id,Containers,dimx,dimy,x,y,compt)
     local pointerY = y
     local containers = ArrayList.Create()
     for i= 1, self:getNbrContainer() do
-        acontainer = Container(i,self:getBg(),self:calculDimX(dimx),self:calculDimY(dimy),pointerX,pointerY,nil)
+        acontainer = Container(i,self:getBg(),self:calculDimX(dimx),self:calculDimY(dimy),pointerX,pointerY,mysetting[id].color)
         containers:Add(acontainer)
         pointerY = pointerY +self:calculDimY(dimy)+self:getSpace()  
     end 

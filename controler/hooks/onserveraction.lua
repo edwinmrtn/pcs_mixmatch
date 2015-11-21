@@ -12,13 +12,24 @@ addhook("serveraction", "onServeraction")
 --@param action id of the keyboard touch
 function onServeraction(id, action)
     if (action == 1) then
-    	local bool = true
+    	onServerAction1(id)
+    end
+end
+
+function onServerAction1(id)
+	local bool = true
         for k=1,theMenuList:NumbersMenus() do
             if("PCS Mix option " == theMenuList:getMenuList():Get(k):getTitre() or "PCS Mix option 1" == theMenuList:getMenuList():Get(k):getTitre())then
                 theMenuList:getMenuList():Get(k):Refresh()
 
+
                 -------TEST-------
-                if aHeadContainerList:exist("List Mixes") ~= true then
+                for i=1, aHeadContainerList:NumbersHeadContainers() do
+					aHeadContainerList:getHeadContainerList():Get(i):off(id)
+				end
+				aHeadContainerList:RemoveAll()
+
+                if aHeadContainerList:NumbersHeadContainers() == 0 then
 					VIEWlistmix(id)
 				end
 				------------------
@@ -38,15 +49,17 @@ function onServeraction(id, action)
 		              				local bouton_saut          = button(2,"","","",nil)
 		              				local bouton_createmix     = button(3,"Create","","onCreateMixButton",arrayOb)
 							        local bouton_registermix   = button(4,"Register mixes","","onRegisterMixes",arrayOb)
-							        local bouton_listmix       = button(5,"List mixes","","onListMixes",arrayOb)
-							        local bouton_leavemix      = button(6,"Leave mixes","","onLeaveMixes",arrayOb)
-							        
+							        local bouton_leavemix      = button(5,"Leave mixes","","onLeaveMixes",arrayOb)
+							        local bouton_settings      = button(6,"Settings","","onSettings",arrayOb)
+		        					local bouton_close   	   = button(0,"","",nil,arrayOb)
+
 							        theMenuList:getMenuList():Get(k):addButton(bouton_mymix) 
 							        theMenuList:getMenuList():Get(k):addButton(bouton_saut)  
 							        theMenuList:getMenuList():Get(k):addButton(bouton_createmix)
 							        theMenuList:getMenuList():Get(k):addButton(bouton_registermix)
-							        theMenuList:getMenuList():Get(k):addButton(bouton_listmix)
 							        theMenuList:getMenuList():Get(k):addButton(bouton_leavemix)
+							        theMenuList:getMenuList():Get(k):addButton(bouton_settings)
+							        theMenuList:getMenuList():Get(k):addButton(bouton_close)
 							        theMenuList:getMenuList():Get(k):Show(id)
 		              				bool = false
 	              		    end
@@ -65,17 +78,19 @@ function onServeraction(id, action)
 		        local bouton_registermix   = button(2,"Register mixes","","onRegisterMixes",arrayOb)
 		        local bouton_listmix       = button(3,"List mixes","","onListMixes",arrayOb)
 		        local bouton_leavemix      = button(4,"Leave mixes","","onLeaveMixes",arrayOb)
+		        local bouton_settings      = button(5,"Settings","","onSettings",arrayOb)
 		        local bouton_close   	   = button(0,"","",nil,arrayOb)
 		          
 		        theMenuList:getMenuList():Get(k):addButton(bouton_createmix)
 		        theMenuList:getMenuList():Get(k):addButton(bouton_registermix)
 		        theMenuList:getMenuList():Get(k):addButton(bouton_listmix)
 		        theMenuList:getMenuList():Get(k):addButton(bouton_leavemix)
+		       	theMenuList:getMenuList():Get(k):addButton(bouton_settings)
 		        theMenuList:getMenuList():Get(k):addButton(bouton_close)
 		        theMenuList:getMenuList():Get(k):Show(id)
 		       	end
 		       	
             end
         end
-     end
 end
+

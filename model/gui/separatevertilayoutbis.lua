@@ -80,10 +80,10 @@ function SeparateVertiLayoutbis:fabric(id,Containers,dimx,dimy,x,y,compt)
     local pointerY = y
     local containers = ArrayList.Create()
 
-        acontainer1 = Container(1,self:getBg(),self:calculDimX1(dimx),self:calculDimY(dimy),pointerX,pointerY,nil)
+        acontainer1 = Container(1,self:getBg(),self:calculDimX1(dimx),self:calculDimY(dimy),pointerX,pointerY,mysetting[id].color)
         containers:Add(acontainer1)
         pointerX = pointerX +self:getWidth()+self:getSpace() 
-        acontainer2 = Container(2,nil,self:calculDimX2(dimx),self:calculDimY(dimy),pointerX,pointerY,nil)
+        acontainer2 = Container(2,nil,self:calculDimX2(dimx),self:calculDimY(dimy),pointerX,pointerY,mysetting[id].color)
         containers:Add(acontainer2)
     return containers,compt
 end

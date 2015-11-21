@@ -142,6 +142,15 @@ function Menu:Show(id)
 	    	menu(id,command)
 end
 
+function Menu:ExistButton(name)
+	local bool = false
+	for i=1,self:NumbersButtons() do
+          if(name == self:getButtons():Get(i):getNom())then
+               bool = true
+          end
+    end
+    return bool 
+end 
 --[[
 	tostring(void)
 		Name of the object

@@ -9,14 +9,14 @@ Mix = newclass("Mix")
 --@param Rounds number of round this mix have 
 --@param NomberPlayers  nnomber of player this mix have
 --@param Map  name of the map 
---@param TillEnd boolean to play till the end
 --@param KnifeRound boolean for kniferound
-function Mix:init(Id,Rounds,NomberPlayers,Map,TillEnd,KnifeRound)
+function Mix:init(Id,Rounds,NomberPlayers,Map,KnifeRound,Fire,Sniper)
 self.Id            = Id
 self.Rounds        = Rounds
 self.NomberPlayers = NomberPlayers
 self.Map           = Map
-self.TillEnd       = TillEnd
+self.Fire          = Fire
+self.Sniper        = Sniper
 self.KnifeRound    = KnifeRound
 self.RegistPlayers = ArrayList.Create()
 self.State         = "preparation"
@@ -141,10 +141,14 @@ function Mix:getMap()
 end
 
 ---Getters - Setters 
-function Mix:getTillEnd()
-    return self.TillEnd
+function Mix:getFire()
+    return self.Fire
 end
 
+---Getters - Setters 
+function Mix:getSniper()
+    return self.Sniper
+end
 ---Getters - Setters 
 function Mix:getKnifeRound()
     return self.KnifeRound
@@ -253,7 +257,7 @@ end
 --still used to concat all the info of a mix into a string
 --note : should be devaluated to the GUI
 function Mix:showString()
-    local string = tostring(self:getId()).." "..tostring(self:getRounds()).." "..tostring(self:getNomberPlayers()).." "..tostring(self:getMap()).." "..tostring(self:getTillEnd()).." "..tostring(self:getKnifeRound())
+    local string = tostring(self:getId()).." "..tostring(self:getRounds()).." "..tostring(self:getNomberPlayers()).." "..tostring(self:getMap()).." "..tostring(self:getKnifeRound()).." "..tostring(self:getFire()).." "..tostring(self:getSniper())
     return string 
 end 
 function Mix:__tostring()

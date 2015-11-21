@@ -31,11 +31,11 @@ end
 function WindowsLayout:fabric(id,Containers,dimx,dimy,x,y,compt)
 	local pointerX
 	local pointerY
-    pointerX = x-(dimx/2)+10
+    pointerX = x-(dimx/2)+17
 	pointerY = y-(dimy/2)
-    parse('hudtxt2 '..id..' '..compt..' "©255255255'..self:getTitre()..'" '..pointerX..' '..pointerY..' 0')
-    compt = compt +1
-    local acontainer = Container(1,nil,dimx-10,dimy-30,pointerX,pointerY+30,nil)
+    --parse('hudtxt2 '..id..' '..compt..' "©255255255'..self:getTitre()..'" '..pointerX..' '..pointerY..' 0')
+    --compt = compt +1
+    local acontainer = Container(1,nil,dimx-17,dimy-17,pointerX,pointerY+17,mysetting[id].color)
     containers = ArrayList.Create()
     containers:Add(acontainer)
     return containers,compt,self:getTitre()

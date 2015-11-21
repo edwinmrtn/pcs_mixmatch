@@ -65,7 +65,7 @@ end
 ---calculDimX
 --calcul the dimention X of the container
 function GridLayout:calculDimX(dimx)
-    return math.floor(dimx/self:getDiv())
+    return math.floor(dimx/self:getDiv()-self:getSpace()*(self:getDiv()-1.5))
 end
 
 ---getSpace
@@ -88,8 +88,7 @@ function GridLayout:fabric(id,Containers,dimx,dimy,x,y,compt)
     local pointerY = y
     local containers = ArrayList.Create()
     for i= 1, self:getNbrContainer(dimx) do
-        msg("jemapel i "..i)
-        acontainer = Container(i,self:getBg(),self:calculDimX(dimx),self:calculDimY(),pointerX,pointerY,nil)
+        acontainer = Container(i,self:getBg(),self:calculDimX(dimx),self:calculDimY(),pointerX,pointerY,mysetting[id].color)
         containers:Add(acontainer)
         pointerX = pointerX +self:calculDimX(dimx)+self:getSpace()
         if(i%self:getDiv() == 0) then

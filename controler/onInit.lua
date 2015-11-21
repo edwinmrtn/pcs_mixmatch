@@ -14,6 +14,16 @@
         aMixList = MixList(0);
         --new HeadContainerList
         aHeadContainerList = HeadContainerList(0);
+        --global settings
+        mysetting = {}
+        cptview = {}
+        for id = 1, 32 do
+        cptview[id] = 0
+        mysetting[id] = {}
+        mysetting[id].color = Color.BLUE
+        end
+
+        
         
 ----------------------------------------------------------------------
 function callTimer(id)
@@ -186,11 +196,11 @@ end
 
             for maps in io.popen([[dir ".\maps\*map" /b ]]):lines() do
               if cptmap%6 == 0 then
-                 bouton_map     = button(6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUITillEnd",nil)
+                 bouton_map     = button(6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUIKnifeRound",nil)
 
               else 
       
-                 bouton_map     = button(cptmap%6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUITillEnd",nil)
+                 bouton_map     = button(cptmap%6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUIKnifeRound",nil)
               end 
               menu_action1:addButton(bouton_map)
               cptmap = cptmap + 1 
@@ -216,9 +226,9 @@ end
             local cptmap = 1
             for maps in io.popen('ls ./maps/*.map | xargs -n 1 basename'):lines() do
               if cptmap%6 == 0 then
-                 bouton_map     = button(6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUITillEnd",nil)
+                 bouton_map     = button(6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUIKnifeRound",nil)
               else  
-                 bouton_map     = button(cptmap%6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUITillEnd",nil)
+                 bouton_map     = button(cptmap%6,string.sub(maps,0,-5),string.sub(maps,0,-5),"menuUIKnifeRound",nil)
               end 
               menu_action1:addButton(bouton_map)
               cptmap = cptmap + 1 
@@ -240,19 +250,15 @@ end
             menu_action1:addButton(bouton_retour)
         end
         BinaryFormat = nil
-
-------------------------------------------------------------------------
-
+--------------------------------------------------------------------------------
    
   -- body
       --new menu
-        local menu_action1 = Menu(1,"Create Mix - Till End?")
-            --new menuList
-        --local theMenuList    = MenuList(0);
+        local menu_action1 = Menu(1,"Create Mix - Knife round")
         
         local bool = true
         for i=1,theMenuList:NumbersMenus() do
-          if("Create Mix - Till End?" == theMenuList:getMenuList():Get(i):getTitre())then
+          if("Create Mix - Knife round" == theMenuList:getMenuList():Get(i):getTitre())then
                bool = false
           end
         end
@@ -260,23 +266,49 @@ end
           theMenuList:addMenu(menu_action1);
         end
           --new button  
-        local bouton_yes     = button(1,"Yes",true,"menuUIKnifeRound",nil)
-        local bouton_no      = button(2,"No",false,"menuUIKnifeRound",nil)
+        local bouton_yes     = button(1,"Yes",true,"menuFriendlyFire",nil)
+        local bouton_no      = button(2,"No",false,"menuFriendlyFire",nil)
           
           menu_action1:addButton(bouton_yes)
           menu_action1:addButton(bouton_no)
+------------------------------------------------------------------------
 
---------------------------------------------------------------------------------
    
   -- body
       --new menu
-        local menu_action1 = Menu(1,"Create Mix - Knife round?")
+        local menu_action1 = Menu(1,"Create Mix - Friendly Fire")
             --new menuList
         --local theMenuList    = MenuList(0);
         
         local bool = true
         for i=1,theMenuList:NumbersMenus() do
-          if("Create Mix - Knife round?" == theMenuList:getMenuList():Get(i):getTitre())then
+          if("Create Mix - Friendly Fire" == theMenuList:getMenuList():Get(i):getTitre())then
+               bool = false
+          end
+        end
+        if (bool) then
+          theMenuList:addMenu(menu_action1);
+        end
+          --new button  
+        local bouton_yes     = button(1,"Yes",true,"menuSniper",nil)
+        local bouton_no      = button(2,"No",false,"menuSniper",nil)
+          
+          menu_action1:addButton(bouton_yes)
+          menu_action1:addButton(bouton_no)
+
+
+
+--------------------------------------------------------------------------------
+   
+  -- body
+      --new menu
+        local menu_action1 = Menu(1,"Create Mix - Sniper")
+            --new menuList
+        --local theMenuList    = MenuList(0);
+        
+        local bool = true
+        for i=1,theMenuList:NumbersMenus() do
+          if("Create Mix - Sniper" == theMenuList:getMenuList():Get(i):getTitre())then
                bool = false
           end
         end
@@ -289,6 +321,8 @@ end
           
           menu_action1:addButton(bouton_yes)
           menu_action1:addButton(bouton_no)
+
+
 
 --------------------------------------------------------------------------------
  
@@ -328,4 +362,10 @@ end
       local bouton_yes  = button(1,"Yes","","onSubstitute",nil)
       menu_action1:addButton(bouton_yes)
 ------------------------------------------------------------------------------------------------------
-
+       local menu_action1 = Menu(1,"Settings")
+      theMenuList:addMenu(menu_action1);
+      
+------------------------------------------------------------------------------------------------------
+      local menu_action1 = Menu(1,"Color UI")
+      theMenuList:addMenu(menu_action1);
+      

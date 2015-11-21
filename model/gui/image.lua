@@ -3,12 +3,13 @@
 Image = newclass("Image")
 
 --Constructors
-function Image:init(Id,pathImage,dimx,dimy,resize)
+function Image:init(Id,pathImage,dimx,dimy,resize,alpha)
 	self.Id          = Id
     self.pathImage   = pathImage
     self.dimx        = dimx
     self.dimy        = dimy
     self.Resize      = resize
+    self.Alpha       = alpha
 end
 
 --Methods
@@ -26,6 +27,9 @@ function Image:getDimY()
 end
 function Image:getResize()
     return self.Resize
+end
+function Image:getAlpha()
+    return self.Alpha
 end
 
 function Image:__tostring()

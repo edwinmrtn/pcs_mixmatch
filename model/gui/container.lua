@@ -13,7 +13,7 @@ Container = newclass("Container")
 --@param diny  height of the container
 --@param x horizontal position in pixel of the corner up left of the contaier
 --@param y vertical position in pixel of the corner up left of the contaier
-function Container:init(Id,image,dimx,dimy,x,y)
+function Container:init(Id,image,dimx,dimy,x,y,color)
 	self.Id          = Id
     self.titre       = nil
     self.Image       = image
@@ -21,6 +21,7 @@ function Container:init(Id,image,dimx,dimy,x,y)
     self.dimy        = dimy
     self.x           = x
     self.y           = y
+    self.color       = color
     self.Containers  = ArrayList.Create()
     self.idText      = nil
 end
@@ -111,7 +112,12 @@ end
 function Container:setContainers(Container)
     self.Containers = Container
 end
-
+function Container:getColor()
+    return self.color
+end
+function Container:setColor(color)
+    self.color = color
+end
 ---NumbersContainers
 --get the the number of contrainers this container have
 --@return the number of contrainers this container have
@@ -132,13 +138,15 @@ function Container:addElement(id,Element,cpt)
             local coefscaleX= self:getDimX()/Element:getDimX()
             local coefscaleY= self:getDimY()/Element:getDimY()
             imagescale(idimage,coefscaleX,coefscaleY)
+            imagealpha(idimage,Element:getAlpha())
             for i=1, aPlayerList:NumbersPlayers() do
                 if(aPlayerList:getPlayerList():Get(i):getId() == id )then
                     aPlayerList:getPlayerList():Get(i):addImageListid(idimage)
                 end
             end
         else
-            idimage = image(Element:getPathImage(),self:getX(),self:getY(),2,id) 
+            idimage = image(Element:getPathImage(),self:getX()+(self:getDimX()/Element:getDimX()*Element:getDimX()/2),self:getY()+(self:getDimY()/Element:getDimY()*Element:getDimY()/2),2,id) 
+            imagealpha(idimage,Element:getAlpha())
             for i=1, aPlayerList:NumbersPlayers() do
                 if(aPlayerList:getPlayerList():Get(i):getId() == id )then
                     aPlayerList:getPlayerList():Get(i):addImageListid(idimage)
@@ -146,7 +154,7 @@ function Container:addElement(id,Element,cpt)
             end
         end
     else
-        parse('hudtxt2 '..id..' '..cpt..' "©255255255'..Element..'" '..self:getX()..' '..self:getY()..' 0')
+        parse('hudtxt2 '..id..' '..cpt..' "'..Element..'" '..self:getX()..' '..self:getY()..' 0')
         self:setIdText(cpt)
     end 
    
@@ -187,11 +195,12 @@ function Container:createLayout(id,Layout,cpt)
     local cpte,titre
     containers,cpte,titre = Layout:fabric(id,self:getContainers(),self:getDimX(),self:getDimY(),self:getX(),self:getY(),cpt)
     self:setContainers(containers)
-    self:setIdText(cpte-1)
+    self:setIdText(cpte)
     self:setTitre(titre)
     if(self:getImage() ~= nil) then
         if(self:getImage():getResize())then 
             idimage = image(self:getImage():getPathImage(),self:getX()+(self:getDimX()/self:getImage():getDimX()*self:getImage():getDimX()/2),self:getY()+(self:getDimY()/self:getImage():getDimY()*self:getImage():getDimY()/2),2,id) 
+            imagecolor(idimage,self:getColor()[1],self:getColor()[2],self:getColor()[3])
             local coefscaleX= self:getDimX()/self:getImage():getDimX()
             local coefscaleY= self:getDimY()/self:getImage():getDimY()
             imagescale(idimage,coefscaleX,coefscaleY)
@@ -202,6 +211,7 @@ function Container:createLayout(id,Layout,cpt)
             end
         else
             idimage = image(self:getImage():getPathImage(),self:getX(),self:getY(),2,id)
+            imagecolor(idimage,self:getColor()[1],self:getColor()[2],self:getColor()[3])
             for i=1, aPlayerList:NumbersPlayers() do
                 if(aPlayerList:getPlayerList():Get(i):getId() == id )then
                     aPlayerList:getPlayerList():Get(i):addImageListid(idimage)
@@ -217,6 +227,7 @@ end
 --self delete if the container is the main container 
 --@param id id of the player
 function Container:off(id)
+    cptview[id]=0
     for i=1, aPlayerList:NumbersPlayers() do
         if(aPlayerList:getPlayerList():Get(i):getId() == id )then
          for j=1, aPlayerList:getPlayerList():Get(i):NumberImageListid() do

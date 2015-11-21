@@ -33,6 +33,7 @@ dofile("sys/lua/pcs_mixmatch/model/chooseside.lua")
 dofile("sys/lua/pcs_mixmatch/model/kniferound.lua")
 dofile("sys/lua/pcs_mixmatch/model/mix.lua")
 dofile("sys/lua/pcs_mixmatch/model/mixlist.lua")
+dofile("sys/lua/pcs_mixmatch/model/colors.lua")
 
 
 dofile("sys/lua/pcs_mixmatch/controler/hooks/onmenu.lua")
@@ -55,9 +56,13 @@ dofile("sys/lua/pcs_mixmatch/controler/oncreatemixbutton.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onmymix.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onchecksubstitute.lua")
 dofile("sys/lua/pcs_mixmatch/controler/onsubstitute.lua")
+dofile("sys/lua/pcs_mixmatch/controler/onsettings.lua")
+dofile("sys/lua/pcs_mixmatch/controler/oncolorui.lua")
 
 
 
 dofile("sys/lua/pcs_mixmatch/view/listmix.lua")
+dofile("sys/lua/pcs_mixmatch/view/create.lua")
+dofile("sys/lua/pcs_mixmatch/view/settings.lua")
 
 

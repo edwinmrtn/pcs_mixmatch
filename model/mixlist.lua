@@ -48,8 +48,9 @@ function MixList:saveData()
 		tempTable[i]["rounds"]=self:getMixList():Get(i):getRounds()
 		tempTable[i]["nbrPlayers"]=self:getMixList():Get(i):getNomberPlayers()
 		tempTable[i]["map"]=self:getMixList():Get(i):getMap()
-		tempTable[i]["tillEnd"]=self:getMixList():Get(i):getTillEnd()
 		tempTable[i]["KnifeRound"]=self:getMixList():Get(i):getKnifeRound()
+		tempTable[i]["Fire"]=self:getMixList():Get(i):getFire()
+		tempTable[i]["Sniper"]=self:getMixList():Get(i):getSniper()
 		tempTable[i]["State"]=self:getMixList():Get(i):getState()
 		
 		for j=1, self:getMixList():Get(i):getNumberRegist() do
@@ -74,7 +75,7 @@ function MixList:loadData()
 	local tempTable = table.load("sys/lua/pcs_mixmatch/model/mixes.txt")
 	if tempTable ~= nil then
 		for i=1, #tempTable do
-			local aMix = Mix(tempTable[i]["id"],tempTable[i]["rounds"],tempTable[i]["nbrPlayers"],tempTable[i]["map"],tempTable[i]["tillEnd"],tempTable[i]["KnifeRound"])
+			local aMix = Mix(tempTable[i]["id"],tempTable[i]["rounds"],tempTable[i]["nbrPlayers"],tempTable[i]["map"],tempTable[i]["KnifeRound"],tempTable[i]["Fire"],tempTable[i]["Sniper"])
 			aMix:setState(tempTable[i]["State"])
 			for j=1,#tempTable[i] do
 				if(tempTable[i][j] ~= nil) then

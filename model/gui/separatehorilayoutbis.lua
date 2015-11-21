@@ -78,10 +78,10 @@ function SeparateHoriLayoutbis:fabric(id,Containers,dimx,dimy,x,y,compt)
     local pointerX = x
     local pointerY = y
     local containers = ArrayList.Create()
-        acontainer1 = Container(1,self:getBg(),self:calculDimX(dimx),self:calculDimY1(dimy),pointerX,pointerY,nil)
+        acontainer1 = Container(1,self:getBg(),self:calculDimX(dimx),self:calculDimY1(dimy),pointerX,pointerY,mysetting[id].color)
         containers:Add(acontainer1)
         pointerY = pointerY +self:calculDimY1(dimy)+self:getSpace() 
-        acontainer2 = Container(2,nil,self:calculDimX(dimx),self:calculDimY2(dimy),pointerX,pointerY,nil)
+        acontainer2 = Container(2,nil,self:calculDimX(dimx),self:calculDimY2(dimy),pointerX,pointerY,mysetting[id].color)
         containers:Add(acontainer2)
          
     

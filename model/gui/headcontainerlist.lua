@@ -47,6 +47,10 @@ function HeadContainerList:NumbersHeadContainers()
     return self:getHeadContainerList():Size()
 end
 
+function HeadContainerList:RemoveAll()
+    return self:getHeadContainerList():Clear()
+end
+
 ---exist
 --@return boolean
 function HeadContainerList:exist(title)

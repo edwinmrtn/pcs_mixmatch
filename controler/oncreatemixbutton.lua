@@ -10,6 +10,11 @@
 --call the Menu rounds
 --@param id of the player
 function onCreateMixButton(id)
+  for i=1,aPlayerList:NumbersPlayers() do
+    if id == aPlayerList:getPlayerList():Get(i):getId() then
+       aPlayerList:getPlayerList():Get(i):ClearCreateMixArray()
+    end
+  end
 	menuUIRounds(id)
 end
 
@@ -18,9 +23,24 @@ end
 --call the menu number of player and send the info of the rounds 
 --@param id of the player
 function menuUIRounds(id)
-		
+  local PlayerChoices = {}
+		 -------VIEW-------
+        for i=1, aHeadContainerList:NumbersHeadContainers() do
+          aHeadContainerList:getHeadContainerList():Get(i):off(id)
+        end
+        aHeadContainerList:RemoveAll()
+
+        if aHeadContainerList:NumbersHeadContainers() == 0 then
+          VIEWcreate(id,PlayerChoices)
+        end
+    ------------------
     	for i=1,theMenuList:NumbersMenus() do
         if("Create Mix - Rounds" == theMenuList:getMenuList():Get(i):getTitre())then
+              if theMenuList:getMenuList():Get(i):ExistButton("") ~= true then
+                local arrayOb = {{getContainerCreate(),":off","id"}}
+                local bouton_close       = button(0,"","",nil,arrayOb)
+                theMenuList:getMenuList():Get(i):addButton(bouton_close)
+              end
               theMenuList:getMenuList():Get(i):Show(id)
         end
       end
@@ -35,22 +55,38 @@ end
 --@param object the previus menu 
 function menuUINumberPlayer(id,idbutton,object)
   -- save result of past entry
-
-    for j=1,object:NumbersButtons() do
+  local PlayerChoices
+  for j=1,object:NumbersButtons() do
       if idbutton == object:getButtons():Get(j):getId() then
          for i=1,aPlayerList:NumbersPlayers() do
           if id == aPlayerList:getPlayerList():Get(i):getId() then
             aPlayerList:getPlayerList():Get(i):getCreateMixArray().rounds     = object:getButtons():Get(j):getValue()
             aPlayerList:getPlayerList():Get(i):getCreateMixArray().roundsVIEW = object:getButtons():Get(j):getNom()
+            PlayerChoices = aPlayerList:getPlayerList():Get(i):getCreateMixArray()
           end
          end
       end
     end
 		for i=1,theMenuList:NumbersMenus() do
         if("Create Mix - Nombers of player" == theMenuList:getMenuList():Get(i):getTitre())then
-              theMenuList:getMenuList():Get(i):Show(id)
+              if theMenuList:getMenuList():Get(i):ExistButton("") ~= true then
+                local arrayOb = {{getContainerCreate(),":off","id"}}
+                local bouton_close       = button(0,"","",nil,arrayOb)
+                theMenuList:getMenuList():Get(i):addButton(bouton_close)
+              end
+            theMenuList:getMenuList():Get(i):Show(id)
         end
-      end
+    end
+    -------VIEW-------
+        for i=1, aHeadContainerList:NumbersHeadContainers() do
+          aHeadContainerList:getHeadContainerList():Get(i):off(id)
+        end
+        aHeadContainerList:RemoveAll()
+
+        if aHeadContainerList:NumbersHeadContainers() == 0 then
+          VIEWcreate(id,PlayerChoices)
+        end
+    ------------------
  		
 end
 
@@ -63,54 +99,39 @@ end
 --@param object the previus menu 
 function menuUIMap(id,idbutton,object)
   -- save result of past entry
-
+   
     for j=1,object:NumbersButtons() do
       if idbutton == object:getButtons():Get(j):getId() then
          for i=1,aPlayerList:NumbersPlayers() do
           if id == aPlayerList:getPlayerList():Get(i):getId() then
             aPlayerList:getPlayerList():Get(i):getCreateMixArray().nombersplayers     = object:getButtons():Get(j):getValue()
             aPlayerList:getPlayerList():Get(i):getCreateMixArray().nombersplayersVIEW = object:getButtons():Get(j):getNom()
-
+            PlayerChoices = aPlayerList:getPlayerList():Get(i):getCreateMixArray()
           end
          end
       end
     end
 	for i=1,theMenuList:NumbersMenus() do
         if("Create Mix - Map" == theMenuList:getMenuList():Get(i):getTitre() or "Create Mix - Map1" == theMenuList:getMenuList():Get(i):getTitre())then
+              if theMenuList:getMenuList():Get(i):ExistButton("") ~= true then
+                local arrayOb = {{getContainerCreate(),":off","id"}}
+                local bouton_close       = button(0,"","",nil,arrayOb)
+                theMenuList:getMenuList():Get(i):addButton(bouton_close)
+              end
               theMenuList:getMenuList():Get(i):Show(id)
         end
   end
-end
-
----menuUITillEnd
---show the Menu till end
---save the info of Map, get the info for a till end mix 
---and call the Menu Knife round
---@param id of the player
---@param idbutton the button id pressed from the previus menu
---@param object the previus menu 
-function menuUITillEnd(id,idbutton,object)
-   -- save result of past entry
-
-    for j=1,object:NumbersButtons() do
-      if idbutton == object:getButtons():Get(j):getId() then
-         for i=1,aPlayerList:NumbersPlayers() do
-          if id == aPlayerList:getPlayerList():Get(i):getId() then
-  
-            aPlayerList:getPlayerList():Get(i):getCreateMixArray().map     = object:getButtons():Get(j):getValue()
-            aPlayerList:getPlayerList():Get(i):getCreateMixArray().mapVIEW = object:getButtons():Get(j):getNom()
-        
-          end
-         end
-      end
-    end
-	for i=1,theMenuList:NumbersMenus() do
-        if("Create Mix - Till End?" == theMenuList:getMenuList():Get(i):getTitre())then
-              theMenuList:getMenuList():Get(i):Show(id)
+   -------VIEW-------
+        for i=1, aHeadContainerList:NumbersHeadContainers() do
+          aHeadContainerList:getHeadContainerList():Get(i):off(id)
         end
-  end
-end
+        aHeadContainerList:RemoveAll()
 
+        if aHeadContainerList:NumbersHeadContainers() == 0 then
+          VIEWcreate(id,PlayerChoices)
+        end
+    ------------------
+end
 ---menuUIKnifeRound
 --show the Menu Knife round
 --save the info for till end, get the info for the kniferound 
@@ -120,24 +141,119 @@ end
 --@param object the previus menu
 function menuUIKnifeRound(id,idbutton,object)
    -- save result of past entry
-
+ 
     for j=1,object:NumbersButtons() do
       if idbutton == object:getButtons():Get(j):getId() then
          for i=1,aPlayerList:NumbersPlayers() do
           if id == aPlayerList:getPlayerList():Get(i):getId() then
-            aPlayerList:getPlayerList():Get(i):getCreateMixArray().tillend     = object:getButtons():Get(j):getValue()
-            aPlayerList:getPlayerList():Get(i):getCreateMixArray().tillendVIEW = object:getButtons():Get(j):getNom()
+            aPlayerList:getPlayerList():Get(i):getCreateMixArray().map     = object:getButtons():Get(j):getValue()
+            aPlayerList:getPlayerList():Get(i):getCreateMixArray().mapVIEW = object:getButtons():Get(j):getNom()
+            PlayerChoices = aPlayerList:getPlayerList():Get(i):getCreateMixArray()
+          end
+         end
+      end
+    end
+  for i=1,theMenuList:NumbersMenus() do
+        if("Create Mix - Knife round" == theMenuList:getMenuList():Get(i):getTitre())then
+             if theMenuList:getMenuList():Get(i):ExistButton("") ~= true then
+                local arrayOb = {{getContainerCreate(),":off","id"}}
+                local bouton_close       = button(0,"","",nil,arrayOb)
+                theMenuList:getMenuList():Get(i):addButton(bouton_close)
+              end
+              theMenuList:getMenuList():Get(i):Show(id)
+        end
+  end
+    -------VIEW-------
+        for i=1, aHeadContainerList:NumbersHeadContainers() do
+          aHeadContainerList:getHeadContainerList():Get(i):off(id)
+        end
+        aHeadContainerList:RemoveAll()
+
+        if aHeadContainerList:NumbersHeadContainers() == 0 then
+          VIEWcreate(id,PlayerChoices)
+        end
+    ------------------
+end
+
+---menuFriendlyFire
+--@param id of the player
+--@param idbutton the button id pressed from the previus menu
+--@param object the previus menu 
+function menuFriendlyFire(id,idbutton,object)
+   -- save result of past entry
   
+    for j=1,object:NumbersButtons() do
+      if idbutton == object:getButtons():Get(j):getId() then
+         for i=1,aPlayerList:NumbersPlayers() do
+          if id == aPlayerList:getPlayerList():Get(i):getId() then
+  
+            aPlayerList:getPlayerList():Get(i):getCreateMixArray().kniferound     = object:getButtons():Get(j):getValue()
+            aPlayerList:getPlayerList():Get(i):getCreateMixArray().kniferoundVIEW = object:getButtons():Get(j):getNom()
+            PlayerChoices = aPlayerList:getPlayerList():Get(i):getCreateMixArray()
           end
          end
       end
     end
 	for i=1,theMenuList:NumbersMenus() do
-        if("Create Mix - Knife round?" == theMenuList:getMenuList():Get(i):getTitre())then
+        if("Create Mix - Friendly Fire" == theMenuList:getMenuList():Get(i):getTitre())then
+              if theMenuList:getMenuList():Get(i):ExistButton("") ~= true then
+                local arrayOb = {{getContainerCreate(),":off","id"}}
+                local bouton_close       = button(0,"","",nil,arrayOb)
+                theMenuList:getMenuList():Get(i):addButton(bouton_close)
+              end
               theMenuList:getMenuList():Get(i):Show(id)
         end
   end
+   -------VIEW-------
+        for i=1, aHeadContainerList:NumbersHeadContainers() do
+          aHeadContainerList:getHeadContainerList():Get(i):off(id)
+        end
+        aHeadContainerList:RemoveAll()
+
+        if aHeadContainerList:NumbersHeadContainers() == 0 then
+          VIEWcreate(id,PlayerChoices)
+        end
+    ------------------
 end
+
+function menuSniper(id,idbutton,object)
+   -- save result of past entry
+
+    for j=1,object:NumbersButtons() do
+      if idbutton == object:getButtons():Get(j):getId() then
+         for i=1,aPlayerList:NumbersPlayers() do
+          if id == aPlayerList:getPlayerList():Get(i):getId() then
+  
+            aPlayerList:getPlayerList():Get(i):getCreateMixArray().fire     = object:getButtons():Get(j):getValue()
+            aPlayerList:getPlayerList():Get(i):getCreateMixArray().fireVIEW = object:getButtons():Get(j):getNom()
+            PlayerChoices = aPlayerList:getPlayerList():Get(i):getCreateMixArray()
+          end
+         end
+      end
+    end
+  for i=1,theMenuList:NumbersMenus() do
+        if("Create Mix - Sniper" == theMenuList:getMenuList():Get(i):getTitre())then
+              if theMenuList:getMenuList():Get(i):ExistButton("") ~= true then
+                local arrayOb = {{getContainerCreate(),":off","id"}}
+                local bouton_close       = button(0,"","",nil,arrayOb)
+                theMenuList:getMenuList():Get(i):addButton(bouton_close)
+              end
+              theMenuList:getMenuList():Get(i):Show(id)
+        end
+  end
+   -------VIEW-------
+        for i=1, aHeadContainerList:NumbersHeadContainers() do
+          aHeadContainerList:getHeadContainerList():Get(i):off(id)
+        end
+        aHeadContainerList:RemoveAll()
+
+        if aHeadContainerList:NumbersHeadContainers() == 0 then
+          VIEWcreate(id,PlayerChoices)
+        end
+    ------------------
+end
+
+
 
 ---menuSummary
 --show the Menu Summary
@@ -153,9 +269,9 @@ function menuSummary(id,idbutton,object)
       if idbutton == object:getButtons():Get(j):getId() then
          for i=1,aPlayerList:NumbersPlayers() do
           if id == aPlayerList:getPlayerList():Get(i):getId() then
+            aPlayerList:getPlayerList():Get(i):getCreateMixArray().sniper     = object:getButtons():Get(j):getValue()
+            aPlayerList:getPlayerList():Get(i):getCreateMixArray().sniperVIEW = object:getButtons():Get(j):getNom()
             choicePlayer = aPlayerList:getPlayerList():Get(i):getCreateMixArray()
-            aPlayerList:getPlayerList():Get(i):getCreateMixArray().kniferound     = object:getButtons():Get(j):getValue()
-            aPlayerList:getPlayerList():Get(i):getCreateMixArray().kniferoundVIEW = object:getButtons():Get(j):getNom()
           end
          end
       end
@@ -175,20 +291,43 @@ function menuSummary(id,idbutton,object)
         if (bool) then
           theMenuList:addMenu(menu_action1);
         end
+--[[
         local bouton_choiceRounds             = button(1,"("..choicePlayer.roundsVIEW..")","",nil,nil)
         local bouton_choiceNomberPlayers      = button(2,"("..choicePlayer.nombersplayersVIEW..")","",nil,nil)
         local bouton_choiceMap                = button(3,"("..choicePlayer.mapVIEW..")","",nil,nil)
-        local bouton_choiceTillEnd            = button(4,"("..choicePlayer.tillendVIEW..")","",nil,nil)
-        local bouton_choiceKnifeRound         = button(5,"("..choicePlayer.kniferoundVIEW..")","",nil,nil)
-        local bouton_validChoices             = button(6,"Create The Mix","","CreateTheMix",nil)
+        local bouton_choiceKnifeRound         = button(4,"("..choicePlayer.kniferoundVIEW..")","",nil,nil)
+        --local bouton_choiceFire               = button(5,"("..choicePlayer.fireVIEW..")","",nil,nil)
+        local bouton_choiceSniper             = button(5,"("..choicePlayer.sniperVIEW..")","",nil,nil)
           
           menu_action1:addButton(bouton_choiceRounds)
           menu_action1:addButton(bouton_choiceNomberPlayers)
           menu_action1:addButton(bouton_choiceMap)
-          menu_action1:addButton(bouton_choiceTillEnd)
           menu_action1:addButton(bouton_choiceKnifeRound)
-          menu_action1:addButton(bouton_validChoices)
-          menu_action1:Show(id)
+          --menu_action1:addButton(bouton_choiceFire)
+          menu_action1:addButton(bouton_choiceSniper)
+          
+]]--
+
+local arrayOb = {{getContainerCreate(),":off","id"}}
+local bouton_validChoices             = button(1,"Create The Mix","","CreateTheMix",arrayOb)
+menu_action1:addButton(bouton_validChoices)
+if menu_action1:ExistButton("") ~= true then
+   local bouton_close       = button(0,"","",nil,arrayOb)
+  menu_action1:addButton(bouton_close)
+end
+
+
+menu_action1:Show(id)
+          -------VIEW-------
+        for i=1, aHeadContainerList:NumbersHeadContainers() do
+          aHeadContainerList:getHeadContainerList():Get(i):off(id)
+        end
+        aHeadContainerList:RemoveAll()
+
+        if aHeadContainerList:NumbersHeadContainers() == 0 then
+          VIEWcreate(id,PlayerChoices)
+        end
+    ------------------
 end
 
 ---CreateTheMix
@@ -214,7 +353,8 @@ function CreateTheMix(id,idbutton,object)
 		end
 --	local aMixList = MixList(0);
 	--new mix
-	local aMix = Mix(aMixList:NumbersMixs()+1,choicePlayer.rounds,choicePlayer.nombersplayers,choicePlayer.map,choicePlayer.tillend,choicePlayer.kniferound);
+  --msg(choicePlayer.rounds..tostring(choicePlayer.nombersplayers)..tostring(choicePlayer.map)..tostring(choicePlayer.kniferound)..tostring(choicePlayer.fire)..tostring(choicePlayer.sniper))
+ 	local aMix = Mix(aMixList:NumbersMixs()+1,choicePlayer.rounds,choicePlayer.nombersplayers,choicePlayer.map,choicePlayer.kniferound,choicePlayer.fire,choicePlayer.sniper);
 	aMix:addRegistPlayer(Player)
 
   --[[A RECHANGER 
@@ -227,5 +367,16 @@ function CreateTheMix(id,idbutton,object)
   ------DEBUGFIN ]]--
 
  aMixList:addMix(aMix)
+ onServerAction1(id)
 
 end
+
+function getContainerCreate()
+local container1
+for i=1, aHeadContainerList:NumbersHeadContainers() do
+  if(aHeadContainerList:getHeadContainerList():Get(i):getTitre()=="Create")then
+    container1=aHeadContainerList:getHeadContainerList():Get(i)
+  end
+end
+return container1
+end 

@@ -73,7 +73,7 @@ function LinearVertiLayout:fabric(id,Containers,dimx,dimy,x,y,compt)
     local pointerY = y
     local containers = ArrayList.Create()
     for i= 1, self:getNbrContainer() do
-        acontainer = Container(i,self:getBg(),self:calculDimX(dimx),self:calculDimY(dimy),pointerX,pointerY,nil)
+        acontainer = Container(i,self:getBg(),self:calculDimX(dimx),self:calculDimY(dimy),pointerX,pointerY,mysetting[id].color)
         containers:Add(acontainer)
         pointerX = pointerX +self:calculDimX(dimx)+self:getSpace()
       
